@@ -1,0 +1,25 @@
+Repeated GDSC gemcitabine real-data pilot
+Completed: 2026-11-03 05:53:09
+Base seed: 2932026
+Repeats x outer folds: 10 x 5
+Inner folds: 3
+Features: 1000
+Alpha grid: 0, 0.25, 0.5, 0.75, 1
+Lasso choice: lambda.1se
+
+      method repeats mean_mse    sd_mse  min_mse  max_mse mean_mae
+     Overall      10 5.530772 0.3717778 5.102361 6.046223 1.942819
+  Pretrained      10 5.538438 0.4336534 4.585142 6.157435 1.942275
+ Target mean      10 6.759219 0.2746746 6.335907 7.207739 2.156812
+  Individual      10 6.771033 0.3188804 6.236379 7.123535 2.158044
+ mean_correlation mean_r_squared
+        0.4208982     0.12049560
+        0.3834943     0.11927656
+       -0.3463111    -0.07485220
+       -0.2860639    -0.07673094
+
+Mean paired MSE differences:
+ individual_minus_pretrained     overall_minus_pretrained 
+                 1.232595078                 -0.007665974 
+target_mean_minus_pretrained     individual_minus_overall 
+                 1.220780599                  1.240261053 

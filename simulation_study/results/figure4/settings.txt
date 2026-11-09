@@ -1,0 +1,14 @@
+Figure 4 reproduction settings
+================================
+Requested replications: 100
+Base seed: 293400
+K = 9; n_k = 55; n = 495; p = 1000
+10 common coefficients = 2.5
+10 disjoint individual coefficients per group = 2.5
+Gaussian noise standard deviation = 10
+Independent test size = 4950
+Alpha values = 0, 0.5, 0.95
+CV folds = 3, 10
+Lambda rules = lambda.1se, lambda.min
+The selected lambda rule is used for the first-stage offset/support and
+for evaluating the overall, pretrained, and individual models.

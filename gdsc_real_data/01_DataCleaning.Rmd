@@ -1,0 +1,138 @@
+---
+title: "GDSC Gemcitabine Data Cleaning and Processing"
+author: "Sheng Yang"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+rmd_file <- normalizePath(
+  knitr::current_input(dir = TRUE), winslash = "/", mustWork = TRUE
+)
+realdata_root <- dirname(rmd_file)
+processed_dir <- file.path(realdata_root, "processed")
+
+required_files <- file.path(
+  processed_dir,
+  c(
+    "analysis_manifest.csv", "group_counts.csv", "full_matrix_audit.csv",
+    "excluded_missing_rnaseq.csv", "selected_features_top2000_annotated.csv"
+  )
+)
+if (!all(file.exists(required_files))) {
+  stop("Processed GDSC audit files are incomplete.")
+}
+
+manifest <- read.csv(file.path(processed_dir, "analysis_manifest.csv"))
+group_counts <- read.csv(file.path(processed_dir, "group_counts.csv"))
+matrix_audit <- read.csv(file.path(processed_dir, "full_matrix_audit.csv"))
+excluded <- read.csv(file.path(processed_dir, "excluded_missing_rnaseq.csv"))
+features <- read.csv(
+  file.path(processed_dir, "selected_features_top2000_annotated.csv")
+)
+```
+
+# Purpose
+
+This document records the cleaning and processing steps used to construct the
+GDSC2 gemcitabine dataset in the course report. The statistical unit is a
+cancer cell line. The prediction target is `LN_IC50` for gemcitabine, and the
+predictors are RNA-sequencing expression measurements from Cell Model
+Passports. Lower `LN_IC50` indicates greater drug sensitivity.
+
+# Source data
+
+The response file is the official GDSC2 fitted dose-response workbook dated
+27 October 2023. Cell-line identifiers, cancer labels, and RNA-seq download
+links come from Cell Model Passports. Unmodified source files are retained in
+`raw/gdsc/`, and the per-model expression archives are retained in
+`raw/rnaseq/`. File checksums and source URLs are documented alongside the
+raw data.
+
+# Cleaning workflow
+
+## 1. Construct the analysis manifest
+
+The manifest retains gemcitabine records from pancreatic cancer, colorectal
+cancer, gastric cancer, ovarian cancer, and non-small-cell lung cancer. Each
+GDSC record is joined one-to-one to a Cell Model Passports identifier. Records
+with missing outcomes, duplicate model identifiers, or discordant cancer labels
+cause the script to stop rather than being silently removed.
+
+```{bash manifest-command, eval=FALSE}
+python gdsc_real_data/scripts/01_prepare_manifest.py
+```
+
+## 2. Download and validate RNA-seq archives
+
+RNA-seq files are downloaded from the official Cell Model Passports endpoint.
+Every ZIP archive is opened and its expected CSV schema is checked. Download
+status is checkpointed after each model. Models without a valid harmonized
+RNA-seq archive are excluded before modeling, and the reason is retained in
+`processed/excluded_missing_rnaseq.csv`. No pancreatic target model is excluded.
+
+```{bash download-command, eval=FALSE}
+python gdsc_real_data/scripts/02_download_rnaseq.py
+```
+
+## 3. Build the modeling matrices without target leakage
+
+Expression is converted to `log2(TPM + 1)`. Genes must have TPM greater than 1
+in at least 20 percent of external models. Eligible genes are ranked by
+variance among external models only. The 1,000- and 2,000-gene matrices are
+then formed using that fixed ranking. Pancreatic outcomes and pancreatic
+expression measurements are not used to define the feature set.
+
+```{bash matrix-command, eval=FALSE}
+python gdsc_real_data/scripts/03_build_matrix.py
+python gdsc_real_data/scripts/09_build_full_matrix.py
+```
+
+# Audit summaries
+
+```{r group-count-table}
+knitr::kable(
+  group_counts,
+  caption = "Cancer groups before expression-file exclusions."
+)
+```
+
+```{r matrix-audit-table}
+knitr::kable(
+  matrix_audit,
+  caption = "Final 2,000-gene matrix audit."
+)
+```
+
+```{r exclusion-table}
+knitr::kable(
+  excluded[, c("model_id", "model_name", "cancer_group", "status", "message")],
+  caption = "Models excluded because a valid public RNA-seq archive was unavailable."
+)
+```
+
+The final matrix contains `r matrix_audit$value[matrix_audit$item == "models"]`
+models, including `r matrix_audit$value[matrix_audit$item == "target_models"]`
+pancreatic target models and
+`r matrix_audit$value[matrix_audit$item == "external_models"]` external models.
+The feature log contains `r nrow(features)` externally selected genes and
+retains the Ensembl identifier, gene symbol, external-sample variance,
+expression-frequency filter, and rank for every feature.
+
+# Modeling and reproducibility
+
+The model runners consume only the fixed processed matrices and saved fold
+assignments. The primary experiment, audit, refined target-domain alpha
+experiment, and report figures can be regenerated in this order:
+
+```{bash modeling-commands, eval=FALSE}
+Rscript gdsc_real_data/scripts/10_run_full_experiment.R
+python gdsc_real_data/scripts/11_audit_full_experiment.py
+Rscript gdsc_real_data/scripts/12_make_full_figures.R
+Rscript gdsc_real_data/scripts/15_run_conservative_alpha_experiment.R
+python gdsc_real_data/scripts/16_audit_conservative_alpha.py
+Rscript gdsc_real_data/scripts/17_make_conservative_figures.R
+```
+
+The experiment evaluates prediction of in-vitro cell-line sensitivity. It is
+not a clinical validation study and does not establish a treatment biomarker.

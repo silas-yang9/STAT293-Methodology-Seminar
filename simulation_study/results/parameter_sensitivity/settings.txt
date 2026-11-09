@@ -1,0 +1,16 @@
+Parameter sensitivity study settings
+====================================
+Requested replications: 100
+Base seed: 293700
+One-factor-at-a-time design around p=500, SNR=1.8, s=10
+Dimension p: 250, 500, 1000
+Target SNR: 0.8, 1.8, 3.0
+Active coefficients per shared/individual block s: 5, 10, 20
+D1: K=10 groups; n_k=100 per group
+D2: n=100 from target group 1
+Independent target-group test set: n=100
+rho=0.5; Gaussian predictors with within-block correlation
+Alpha grid=0,0.1,...,1; three-fold cross-validation
+Individual and Overall use lambda.min; Pretrained follows the paper's
+lambda.1se first-stage support/offset and lambda.min second stage.
+Metrics: test MSE, test MAE, TPR, FDP, support F1, selected size.

@@ -1,0 +1,234 @@
+model_id,model_name,gdsc_cell_line_name,cancer_group,cancer_type_detail,role,DRUG_ID,DRUG_NAME,LN_IC50,AUC,Z_SCORE,rnaseq_url
+SIDM00049,DiFi,DiFi,Colorectal Carcinoma,Colorectal Carcinoma,external,1190,Gemcitabine,-0.912614,0.709198,-0.048781,https://cog.sanger.ac.uk/cmp/download/SIDM00049_rnaseq.csv.zip
+SIDM00118,HCC2998,HCC2998,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-1.505993,0.666098,-0.245955,https://cog.sanger.ac.uk/cmp/download/SIDM00118_rnaseq.csv.zip
+SIDM00136,HT-29,HT-29,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-0.602348,0.72989,0.054318,https://cog.sanger.ac.uk/cmp/download/SIDM00136_rnaseq.csv.zip
+SIDM00150,KM12,KM12,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,-0.962353,0.705563,-0.065309,https://cog.sanger.ac.uk/cmp/download/SIDM00150_rnaseq.csv.zip
+SIDM00193,SNU-81,SNU-81,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,2.091924,0.877156,0.949598,https://cog.sanger.ac.uk/cmp/download/SIDM00193_rnaseq.csv.zip
+SIDM00194,SNU-61,SNU-61,Colorectal Carcinoma,Rectal Adenocarcinoma,external,1190,Gemcitabine,1.789817,0.961087,0.849211,https://cog.sanger.ac.uk/cmp/download/SIDM00194_rnaseq.csv.zip
+SIDM00214,SNU-407,SNU-407,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,1.141452,0.851941,0.633766,https://cog.sanger.ac.uk/cmp/download/SIDM00214_rnaseq.csv.zip
+SIDM00215,SNU-283,SNU-283,Colorectal Carcinoma,Rectal Adenocarcinoma,external,1190,Gemcitabine,-0.010963,0.642606,0.250829,https://cog.sanger.ac.uk/cmp/download/SIDM00215_rnaseq.csv.zip
+SIDM00216,SNU-175,SNU-175,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-1.580801,0.657942,-0.270813,https://cog.sanger.ac.uk/cmp/download/SIDM00216_rnaseq.csv.zip
+SIDM00282,CW-2,CW-2,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-0.531914,0.744164,0.077722,https://cog.sanger.ac.uk/cmp/download/SIDM00282_rnaseq.csv.zip
+SIDM00359,RCM-1,RCM-1,Colorectal Carcinoma,Rectal Adenocarcinoma,external,1190,Gemcitabine,1.849566,0.869694,0.869065,https://cog.sanger.ac.uk/cmp/download/SIDM00359_rnaseq.csv.zip
+SIDM00487,CCK-81,CCK-81,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-1.364587,0.676514,-0.198967,https://cog.sanger.ac.uk/cmp/download/SIDM00487_rnaseq.csv.zip
+SIDM00488,CaR-1,CaR-1,Colorectal Carcinoma,Rectal Adenocarcinoma,external,1190,Gemcitabine,-1.463384,0.665986,-0.231796,https://cog.sanger.ac.uk/cmp/download/SIDM00488_rnaseq.csv.zip
+SIDM00498,SNU-C5,SNU-C5,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,-2.904957,0.545157,-0.710817,https://cog.sanger.ac.uk/cmp/download/SIDM00498_rnaseq.csv.zip
+SIDM00527,MDST8,MDST8,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,-2.870109,0.549559,-0.699238,https://cog.sanger.ac.uk/cmp/download/SIDM00527_rnaseq.csv.zip
+SIDM00534,HT-115,HT-115,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,0.105427,0.660389,0.289504,https://cog.sanger.ac.uk/cmp/download/SIDM00534_rnaseq.csv.zip
+SIDM00537,GP5d,GP5d,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-3.563237,0.490614,-0.929557,https://cog.sanger.ac.uk/cmp/download/SIDM00537_rnaseq.csv.zip
+SIDM00541,HT55,HT55,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,0.384255,0.799473,0.382156,https://cog.sanger.ac.uk/cmp/download/SIDM00541_rnaseq.csv.zip
+SIDM00660,LS-411N,LS-411N,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,0.372975,0.797211,0.378408,https://cog.sanger.ac.uk/cmp/download/SIDM00660_rnaseq.csv.zip
+SIDM00677,LS-513,LS-513,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,-3.242431,0.406109,-0.822957,https://cog.sanger.ac.uk/cmp/download/SIDM00677_rnaseq.csv.zip
+SIDM00680,LS-180,LS-180,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-2.064599,0.613785,-0.431574,https://cog.sanger.ac.uk/cmp/download/SIDM00680_rnaseq.csv.zip
+SIDM00681,LS1034,LS-1034,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,0.721288,0.8352,0.494149,https://cog.sanger.ac.uk/cmp/download/SIDM00681_rnaseq.csv.zip
+SIDM00776,LS-123,LS-123,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,1.110331,0.812882,0.623424,https://cog.sanger.ac.uk/cmp/download/SIDM00776_rnaseq.csv.zip
+SIDM00777,NCI-H508,NCI-H508,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,-2.084116,0.389168,-0.438059,https://cog.sanger.ac.uk/cmp/download/SIDM00777_rnaseq.csv.zip
+SIDM00778,NCI-H747,NCI-H747,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,1.810777,0.861229,0.856176,https://cog.sanger.ac.uk/cmp/download/SIDM00778_rnaseq.csv.zip
+SIDM00779,NCI-H716,NCI-H716,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,3.868973,0.957188,1.540094,https://cog.sanger.ac.uk/cmp/download/SIDM00779_rnaseq.csv.zip
+SIDM00781,SNU-C2B,SNU-C2B,Colorectal Carcinoma,Cecum Adenocarcinoma,external,1190,Gemcitabine,-0.282011,0.73648,0.160762,https://cog.sanger.ac.uk/cmp/download/SIDM00781_rnaseq.csv.zip
+SIDM00782,T84,T84,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,0.983628,0.848198,0.581322,https://cog.sanger.ac.uk/cmp/download/SIDM00782_rnaseq.csv.zip
+SIDM00783,HCT-116,HCT-116,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,-2.15085,0.611024,-0.460235,https://cog.sanger.ac.uk/cmp/download/SIDM00783_rnaseq.csv.zip
+SIDM00789,HCT-15,HCT-15,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-2.274382,0.599723,-0.501283,https://cog.sanger.ac.uk/cmp/download/SIDM00789_rnaseq.csv.zip
+SIDM00812,SW1417,SW1417,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,2.934227,0.876312,1.229487,https://cog.sanger.ac.uk/cmp/download/SIDM00812_rnaseq.csv.zip
+SIDM00826,COLO-205,COLO-205,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,1.143741,0.853208,0.634526,https://cog.sanger.ac.uk/cmp/download/SIDM00826_rnaseq.csv.zip
+SIDM00832,SW948,SW948,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,3.936462,0.962372,1.56252,https://cog.sanger.ac.uk/cmp/download/SIDM00832_rnaseq.csv.zip
+SIDM00833,SW837,SW837,Colorectal Carcinoma,Rectal Adenocarcinoma,external,1190,Gemcitabine,0.361862,0.800102,0.374715,https://cog.sanger.ac.uk/cmp/download/SIDM00833_rnaseq.csv.zip
+SIDM00834,SW1463,SW1463,Colorectal Carcinoma,Rectal Adenocarcinoma,external,1190,Gemcitabine,3.515624,0.955041,1.42268,https://cog.sanger.ac.uk/cmp/download/SIDM00834_rnaseq.csv.zip
+SIDM00835,SW1116,SW1116,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,3.56943,0.953125,1.440559,https://cog.sanger.ac.uk/cmp/download/SIDM00835_rnaseq.csv.zip
+SIDM00837,SW48,SW48,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-1.903365,0.751514,-0.377998,https://cog.sanger.ac.uk/cmp/download/SIDM00837_rnaseq.csv.zip
+SIDM00839,LoVo,LoVo,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-2.81442,0.552114,-0.680732,https://cog.sanger.ac.uk/cmp/download/SIDM00839_rnaseq.csv.zip
+SIDM00841,SW620,SW620,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-1.582869,0.650565,-0.2715,https://cog.sanger.ac.uk/cmp/download/SIDM00841_rnaseq.csv.zip
+SIDM00842,COLO-320-HSR,COLO-320-HSR,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-2.013862,0.623827,-0.414715,https://cog.sanger.ac.uk/cmp/download/SIDM00842_rnaseq.csv.zip
+SIDM00944,CL-11,CL-11,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-2.044907,0.608183,-0.425031,https://cog.sanger.ac.uk/cmp/download/SIDM00944_rnaseq.csv.zip
+SIDM00957,COLO-678,COLO-678,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,4.986886,0.937924,1.911566,https://cog.sanger.ac.uk/cmp/download/SIDM00957_rnaseq.csv.zip
+SIDM01090,RKO,RKO,Colorectal Carcinoma,Colon Carcinoma,external,1190,Gemcitabine,-3.360928,0.50793,-0.862332,https://cog.sanger.ac.uk/cmp/download/SIDM01090_rnaseq.csv.zip
+SIDM01096,SK-CO-1,SK-CO-1,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,-3.43303,0.50173,-0.886291,https://cog.sanger.ac.uk/cmp/download/SIDM01096_rnaseq.csv.zip
+SIDM01168,SW626,SW626,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,1.788952,0.85657,0.848923,https://cog.sanger.ac.uk/cmp/download/SIDM01168_rnaseq.csv.zip
+SIDM01197,SNU-C1,SNU-C1,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,3.126214,0.932315,1.293283,https://cog.sanger.ac.uk/cmp/download/SIDM01197_rnaseq.csv.zip
+SIDM01233,C2BBe1,C2BBe1,Colorectal Carcinoma,Colon Adenocarcinoma,external,1190,Gemcitabine,1.560098,0.847048,0.772878,https://cog.sanger.ac.uk/cmp/download/SIDM01233_rnaseq.csv.zip
+SIDM00040,TMK-1,TMK-1,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,0.387463,0.686054,0.383222,https://cog.sanger.ac.uk/cmp/download/SIDM00040_rnaseq.csv.zip
+SIDM00041,STS-0421,STS-0421,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,-2.013938,0.391892,-0.41474,https://cog.sanger.ac.uk/cmp/download/SIDM00041_rnaseq.csv.zip
+SIDM00045,HSC-39,HSC-39,Gastric Carcinoma,Signet Ring Cell Gastric Adenocarcinoma,external,1190,Gemcitabine,-4.300855,0.426482,-1.174661,https://cog.sanger.ac.uk/cmp/download/SIDM00045_rnaseq.csv.zip
+SIDM00247,MKN45,MKN45,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,1.382462,0.85408,0.713851,https://cog.sanger.ac.uk/cmp/download/SIDM00247_rnaseq.csv.zip
+SIDM00251,TGBC11TKB,TGBC11TKB,Gastric Carcinoma,Gastric Carcinoma,external,1190,Gemcitabine,-2.523633,0.578066,-0.584107,https://cog.sanger.ac.uk/cmp/download/SIDM00251_rnaseq.csv.zip
+SIDM00260,MKN28,MKN28,Gastric Carcinoma,Gastric Tubular Adenocarcinoma,external,1190,Gemcitabine,2.071421,0.893304,0.942785,https://cog.sanger.ac.uk/cmp/download/SIDM00260_rnaseq.csv.zip
+SIDM00271,MKN1,MKN1,Gastric Carcinoma,Gastric Adenosquamous Carcinoma,external,1190,Gemcitabine,0.184638,0.780638,0.315826,https://cog.sanger.ac.uk/cmp/download/SIDM00271_rnaseq.csv.zip
+SIDM00274,GCIY,GCIY,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,-0.314302,0.742089,0.150032,https://cog.sanger.ac.uk/cmp/download/SIDM00274_rnaseq.csv.zip
+SIDM00279,ECC12,ECC12,Gastric Carcinoma,Gastric Small Cell Neuroendocrine Carcinoma,external,1190,Gemcitabine,2.902219,0.930147,1.218852,https://cog.sanger.ac.uk/cmp/download/SIDM00279_rnaseq.csv.zip
+SIDM00280,ECC10,ECC10,Gastric Carcinoma,Gastric Small Cell Neuroendocrine Carcinoma,external,1190,Gemcitabine,1.406454,0.890033,0.721823,https://cog.sanger.ac.uk/cmp/download/SIDM00280_rnaseq.csv.zip
+SIDM00290,HGC-27,HGC-27,Gastric Carcinoma,Gastric Carcinoma,external,1190,Gemcitabine,-1.794592,0.64219,-0.341854,https://cog.sanger.ac.uk/cmp/download/SIDM00290_rnaseq.csv.zip
+SIDM00358,RERF-GC-1B,RERF-GC-1B,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,0.558784,0.820175,0.44015,https://cog.sanger.ac.uk/cmp/download/SIDM00358_rnaseq.csv.zip
+SIDM00383,SCH,SCH,Gastric Carcinoma,Gastric Choriocarcinoma,external,1190,Gemcitabine,2.242005,0.863982,0.999469,https://cog.sanger.ac.uk/cmp/download/SIDM00383_rnaseq.csv.zip
+SIDM00393,SK-GT-2,SK-GT-2,Gastric Carcinoma,Gastric Fundus Carcinoma,external,1190,Gemcitabine,1.624883,0.888121,0.794405,https://cog.sanger.ac.uk/cmp/download/SIDM00393_rnaseq.csv.zip
+SIDM00503,FU97,FU97,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,4.171132,0.958052,1.640499,https://cog.sanger.ac.uk/cmp/download/SIDM00503_rnaseq.csv.zip
+SIDM00560,MKN7,MKN7,Gastric Carcinoma,Gastric Tubular Adenocarcinoma,external,1190,Gemcitabine,4.061866,0.951682,1.604191,https://cog.sanger.ac.uk/cmp/download/SIDM00560_rnaseq.csv.zip
+SIDM00568,OCUM-1,OCUM-1,Gastric Carcinoma,Signet Ring Cell Gastric Adenocarcinoma,external,1190,Gemcitabine,-1.212249,0.677915,-0.148347,https://cog.sanger.ac.uk/cmp/download/SIDM00568_rnaseq.csv.zip
+SIDM00570,NUGC-4,NUGC-4,Gastric Carcinoma,Signet Ring Cell Gastric Adenocarcinoma,external,1190,Gemcitabine,4.575802,0.9512,1.774967,https://cog.sanger.ac.uk/cmp/download/SIDM00570_rnaseq.csv.zip
+SIDM00572,NUGC-3,NUGC-3,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,-4.012882,0.453708,-1.07897,https://cog.sanger.ac.uk/cmp/download/SIDM00572_rnaseq.csv.zip
+SIDM00602,IM-95,IM-95,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,-0.047587,0.777866,0.238659,https://cog.sanger.ac.uk/cmp/download/SIDM00602_rnaseq.csv.zip
+SIDM00665,Hs-746T,Hs-746T,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,3.451994,0.937798,1.401536,https://cog.sanger.ac.uk/cmp/download/SIDM00665_rnaseq.csv.zip
+SIDM00687,KATOIII,KATOIII,Gastric Carcinoma,Signet Ring Cell Gastric Adenocarcinoma,external,1190,Gemcitabine,4.941904,0.960361,1.896619,https://cog.sanger.ac.uk/cmp/download/SIDM00687_rnaseq.csv.zip
+SIDM00850,AGS,AGS,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,-3.434424,0.501635,-0.886754,https://cog.sanger.ac.uk/cmp/download/SIDM00850_rnaseq.csv.zip
+SIDM00980,23132-87,23132-87,Gastric Carcinoma,Gastric Adenocarcinoma,external,1190,Gemcitabine,-2.098646,0.61452,-0.442888,https://cog.sanger.ac.uk/cmp/download/SIDM00980_rnaseq.csv.zip
+SIDM01144,SNU-5,SNU-5,Gastric Carcinoma,Gastric Carcinoma,external,1190,Gemcitabine,-3.657887,0.482533,-0.961008,https://cog.sanger.ac.uk/cmp/download/SIDM01144_rnaseq.csv.zip
+SIDM01145,SNU-16,SNU-16,Gastric Carcinoma,Gastric Carcinoma,external,1190,Gemcitabine,-3.85406,0.580326,-1.026195,https://cog.sanger.ac.uk/cmp/download/SIDM01145_rnaseq.csv.zip
+SIDM01146,SNU-1,SNU-1,Gastric Carcinoma,Gastric Carcinoma,external,1190,Gemcitabine,-1.968477,0.626717,-0.399634,https://cog.sanger.ac.uk/cmp/download/SIDM01146_rnaseq.csv.zip
+SIDM01147,NCI-N87,NCI-N87,Gastric Carcinoma,Gastric Tubular Adenocarcinoma,external,1190,Gemcitabine,1.034651,0.821836,0.598276,https://cog.sanger.ac.uk/cmp/download/SIDM01147_rnaseq.csv.zip
+SIDM00046,H3255,H3255,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.133611,0.799172,0.96345,https://cog.sanger.ac.uk/cmp/download/SIDM00046_rnaseq.csv.zip
+SIDM00047,EMC-BAC-2,EMC-BAC-2,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,-2.833023,0.551085,-0.686914,https://cog.sanger.ac.uk/cmp/download/SIDM00047_rnaseq.csv.zip
+SIDM00048,EMC-BAC-1,EMC-BAC-1,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,-0.398163,0.591008,0.122166,https://cog.sanger.ac.uk/cmp/download/SIDM00048_rnaseq.csv.zip
+SIDM00114,NCI-H513,NCI-H513,Non-Small Cell Lung Carcinoma,Adenosquamous Lung Carcinoma,external,1190,Gemcitabine,1.561017,0.85188,0.773183,https://cog.sanger.ac.uk/cmp/download/SIDM00114_rnaseq.csv.zip
+SIDM00116,NCI-H522,NCI-H522,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,0.282979,0.803735,0.348503,https://cog.sanger.ac.uk/cmp/download/SIDM00116_rnaseq.csv.zip
+SIDM00117,NCI-H322M,NCI-H322M,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma,external,1190,Gemcitabine,-1.294323,0.673667,-0.175619,https://cog.sanger.ac.uk/cmp/download/SIDM00117_rnaseq.csv.zip
+SIDM00119,EKVX,EKVX,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,3.899284,0.895086,1.550166,https://cog.sanger.ac.uk/cmp/download/SIDM00119_rnaseq.csv.zip
+SIDM00133,HOP-62,HOP-62,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.004775,0.69409,-0.079405,https://cog.sanger.ac.uk/cmp/download/SIDM00133_rnaseq.csv.zip
+SIDM00134,HOP-92,HOP-92,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,2.595928,0.916141,1.117074,https://cog.sanger.ac.uk/cmp/download/SIDM00134_rnaseq.csv.zip
+SIDM00137,NCI-H3122,NCI-H3122,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.678715,0.563804,-0.635639,https://cog.sanger.ac.uk/cmp/download/SIDM00137_rnaseq.csv.zip
+SIDM00138,NCI-H23,NCI-H23,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.642506,0.569491,-0.623607,https://cog.sanger.ac.uk/cmp/download/SIDM00138_rnaseq.csv.zip
+SIDM00144,NCI-H460,NCI-H460,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,-4.421996,0.137583,-1.214915,https://cog.sanger.ac.uk/cmp/download/SIDM00144_rnaseq.csv.zip
+SIDM00237,PC-14,PC-14,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.300925,0.677803,-0.177813,https://cog.sanger.ac.uk/cmp/download/SIDM00237_rnaseq.csv.zip
+SIDM00297,LC-2-ad,LC-2-ad,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-4.31711,0.137164,-1.180062,https://cog.sanger.ac.uk/cmp/download/SIDM00297_rnaseq.csv.zip
+SIDM00306,IA-LM,IA-LM,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,3.351706,0.953724,1.368212,https://cog.sanger.ac.uk/cmp/download/SIDM00306_rnaseq.csv.zip
+SIDM00320,VMRC-LCD,VMRC-LCD,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,3.051052,0.937337,1.268307,https://cog.sanger.ac.uk/cmp/download/SIDM00320_rnaseq.csv.zip
+SIDM00339,LXF-289,LXF-289,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-0.420679,0.75237,0.114684,https://cog.sanger.ac.uk/cmp/download/SIDM00339_rnaseq.csv.zip
+SIDM00344,LCLC-97TM1,LCLC-97TM1,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,0.013648,0.786539,0.259007,https://cog.sanger.ac.uk/cmp/download/SIDM00344_rnaseq.csv.zip
+SIDM00345,LCLC-103H,LCLC-103H,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,1.760837,0.881865,0.839581,https://cog.sanger.ac.uk/cmp/download/SIDM00345_rnaseq.csv.zip
+SIDM00355,RERF-LC-MS,RERF-LC-MS,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-3.452757,0.222928,-0.892846,https://cog.sanger.ac.uk/cmp/download/SIDM00355_rnaseq.csv.zip
+SIDM00356,RERF-LC-KJ,RERF-LC-KJ,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,4.811159,0.984821,1.853174,https://cog.sanger.ac.uk/cmp/download/SIDM00356_rnaseq.csv.zip
+SIDM00361,PC-3_[JPC-3],PC-3_[JPC-3],Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.26029,0.673235,-0.16431,https://cog.sanger.ac.uk/cmp/download/SIDM00361_rnaseq.csv.zip
+SIDM00494,ABC-1,ABC-1,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.620566,0.444658,-0.284026,https://cog.sanger.ac.uk/cmp/download/SIDM00494_rnaseq.csv.zip
+SIDM00512,COR-L23,COR-L23,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,1.858513,0.886327,0.872038,https://cog.sanger.ac.uk/cmp/download/SIDM00512_rnaseq.csv.zip
+SIDM00513,COR-L105,COR-L105,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-0.09608,0.752791,0.222546,https://cog.sanger.ac.uk/cmp/download/SIDM00513_rnaseq.csv.zip
+SIDM00547,LU-65,LU-65,Non-Small Cell Lung Carcinoma,Giant Cell Lung Carcinoma,external,1190,Gemcitabine,0.69294,0.811248,0.484729,https://cog.sanger.ac.uk/cmp/download/SIDM00547_rnaseq.csv.zip
+SIDM00645,NCI-H1355,NCI-H1355,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,0.64634,0.800826,0.469245,https://cog.sanger.ac.uk/cmp/download/SIDM00645_rnaseq.csv.zip
+SIDM00649,NCI-H1299,NCI-H1299,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,-0.043212,0.770451,0.240113,https://cog.sanger.ac.uk/cmp/download/SIDM00649_rnaseq.csv.zip
+SIDM00651,NCI-H1155,NCI-H1155,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,-2.859085,0.550963,-0.695574,https://cog.sanger.ac.uk/cmp/download/SIDM00651_rnaseq.csv.zip
+SIDM00658,NCI-H1435,NCI-H1435,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.45928,0.950995,1.071667,https://cog.sanger.ac.uk/cmp/download/SIDM00658_rnaseq.csv.zip
+SIDM00700,NCI-H2135,NCI-H2135,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,6.87931,0.967367,2.5404,https://cog.sanger.ac.uk/cmp/download/SIDM00700_rnaseq.csv.zip
+SIDM00702,NCI-H2122,NCI-H2122,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.634238,0.570356,-0.62086,https://cog.sanger.ac.uk/cmp/download/SIDM00702_rnaseq.csv.zip
+SIDM00703,NCI-H2110,NCI-H2110,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,-4.656746,0.113237,-1.29292,https://cog.sanger.ac.uk/cmp/download/SIDM00703_rnaseq.csv.zip
+SIDM00708,NCI-H2087,NCI-H2087,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-0.642437,0.722039,0.040996,https://cog.sanger.ac.uk/cmp/download/SIDM00708_rnaseq.csv.zip
+SIDM00709,NCI-H2085,NCI-H2085,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.885272,0.930051,1.21322,https://cog.sanger.ac.uk/cmp/download/SIDM00709_rnaseq.csv.zip
+SIDM00715,NCI-H2030,NCI-H2030,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,3.315708,0.899585,1.35625,https://cog.sanger.ac.uk/cmp/download/SIDM00715_rnaseq.csv.zip
+SIDM00718,NCI-H358,NCI-H358,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma,external,1190,Gemcitabine,0.83309,0.812229,0.5313,https://cog.sanger.ac.uk/cmp/download/SIDM00718_rnaseq.csv.zip
+SIDM00723,NCI-H2444,NCI-H2444,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,6.710755,0.9848,2.484391,https://cog.sanger.ac.uk/cmp/download/SIDM00723_rnaseq.csv.zip
+SIDM00724,NCI-H2405,NCI-H2405,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.619753,0.828604,0.7927,https://cog.sanger.ac.uk/cmp/download/SIDM00724_rnaseq.csv.zip
+SIDM00726,NCI-H2347,NCI-H2347,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,5.136898,0.954854,1.961414,https://cog.sanger.ac.uk/cmp/download/SIDM00726_rnaseq.csv.zip
+SIDM00727,NCI-H2342,NCI-H2342,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.815828,0.930658,1.190144,https://cog.sanger.ac.uk/cmp/download/SIDM00727_rnaseq.csv.zip
+SIDM00728,NCI-H2291,NCI-H2291,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.502293,0.814056,1.08596,https://cog.sanger.ac.uk/cmp/download/SIDM00728_rnaseq.csv.zip
+SIDM00729,NCI-H2228,NCI-H2228,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.372782,0.662362,-0.20169,https://cog.sanger.ac.uk/cmp/download/SIDM00729_rnaseq.csv.zip
+SIDM00734,NCI-H1437,NCI-H1437,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-0.712924,0.554877,0.017574,https://cog.sanger.ac.uk/cmp/download/SIDM00734_rnaseq.csv.zip
+SIDM00737,NCI-H1770,NCI-H1770,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,3.470218,0.961149,1.407592,https://cog.sanger.ac.uk/cmp/download/SIDM00737_rnaseq.csv.zip
+SIDM00738,NCI-H1755,NCI-H1755,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.613197,0.871469,0.790522,https://cog.sanger.ac.uk/cmp/download/SIDM00738_rnaseq.csv.zip
+SIDM00739,NCI-H1734,NCI-H1734,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-4.748423,0.088922,-1.323383,https://cog.sanger.ac.uk/cmp/download/SIDM00739_rnaseq.csv.zip
+SIDM00742,NCI-H1693,NCI-H1693,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.04209,0.859332,0.933039,https://cog.sanger.ac.uk/cmp/download/SIDM00742_rnaseq.csv.zip
+SIDM00743,NCI-H1666,NCI-H1666,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma,external,1190,Gemcitabine,0.244266,0.768192,0.335639,https://cog.sanger.ac.uk/cmp/download/SIDM00743_rnaseq.csv.zip
+SIDM00744,NCI-H1651,NCI-H1651,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.029471,0.703603,-0.087611,https://cog.sanger.ac.uk/cmp/download/SIDM00744_rnaseq.csv.zip
+SIDM00745,NCI-H1650,NCI-H1650,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma,external,1190,Gemcitabine,2.772292,0.906275,1.175678,https://cog.sanger.ac.uk/cmp/download/SIDM00745_rnaseq.csv.zip
+SIDM00746,NCI-H1648,NCI-H1648,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.711229,0.929484,1.155387,https://cog.sanger.ac.uk/cmp/download/SIDM00746_rnaseq.csv.zip
+SIDM00747,NCI-H1623,NCI-H1623,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.948538,0.542137,-0.725299,https://cog.sanger.ac.uk/cmp/download/SIDM00747_rnaseq.csv.zip
+SIDM00748,NCI-H1581,NCI-H1581,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,1.561039,0.892198,0.77319,https://cog.sanger.ac.uk/cmp/download/SIDM00748_rnaseq.csv.zip
+SIDM00749,NCI-H1573,NCI-H1573,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,5.490125,0.989699,2.078787,https://cog.sanger.ac.uk/cmp/download/SIDM00749_rnaseq.csv.zip
+SIDM00750,NCI-H1568,NCI-H1568,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.713275,0.864041,0.823777,https://cog.sanger.ac.uk/cmp/download/SIDM00750_rnaseq.csv.zip
+SIDM00751,NCI-H1563,NCI-H1563,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,4.497488,0.978215,1.748944,https://cog.sanger.ac.uk/cmp/download/SIDM00751_rnaseq.csv.zip
+SIDM00754,NCI-H1781,NCI-H1781,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma,external,1190,Gemcitabine,-3.459063,0.499547,-0.894941,https://cog.sanger.ac.uk/cmp/download/SIDM00754_rnaseq.csv.zip
+SIDM00755,NCI-H1793,NCI-H1793,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,0.475289,0.780247,0.412406,https://cog.sanger.ac.uk/cmp/download/SIDM00755_rnaseq.csv.zip
+SIDM00756,NCI-H2009,NCI-H2009,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,0.146285,0.786318,0.303081,https://cog.sanger.ac.uk/cmp/download/SIDM00756_rnaseq.csv.zip
+SIDM00758,NCI-H1993,NCI-H1993,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.324953,0.593482,-0.518087,https://cog.sanger.ac.uk/cmp/download/SIDM00758_rnaseq.csv.zip
+SIDM00759,NCI-H1975,NCI-H1975,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-0.979499,0.700461,-0.071006,https://cog.sanger.ac.uk/cmp/download/SIDM00759_rnaseq.csv.zip
+SIDM00762,NCI-H1944,NCI-H1944,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.456923,0.580871,-0.56194,https://cog.sanger.ac.uk/cmp/download/SIDM00762_rnaseq.csv.zip
+SIDM00763,NCI-H1915,NCI-H1915,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,2.46183,0.900735,1.072514,https://cog.sanger.ac.uk/cmp/download/SIDM00763_rnaseq.csv.zip
+SIDM00768,NCI-H1869,NCI-H1869,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,3.804342,0.952747,1.518618,https://cog.sanger.ac.uk/cmp/download/SIDM00768_rnaseq.csv.zip
+SIDM00769,NCI-H1838,NCI-H1838,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,4.790409,0.960845,1.846279,https://cog.sanger.ac.uk/cmp/download/SIDM00769_rnaseq.csv.zip
+SIDM00771,NCI-H1792,NCI-H1792,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-3.16223,0.524999,-0.796306,https://cog.sanger.ac.uk/cmp/download/SIDM00771_rnaseq.csv.zip
+SIDM00810,A427,A427,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-2.24137,0.35644,-0.490314,https://cog.sanger.ac.uk/cmp/download/SIDM00810_rnaseq.csv.zip
+SIDM00903,A549,A549,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-3.595637,0.488205,-0.940323,https://cog.sanger.ac.uk/cmp/download/SIDM00903_rnaseq.csv.zip
+SIDM00921,Calu-6,Calu-6,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.054217,0.831551,0.604778,https://cog.sanger.ac.uk/cmp/download/SIDM00921_rnaseq.csv.zip
+SIDM00922,Calu-3,Calu-3,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,0.144707,0.770092,0.302557,https://cog.sanger.ac.uk/cmp/download/SIDM00922_rnaseq.csv.zip
+SIDM00925,NCI-H441,NCI-H441,Non-Small Cell Lung Carcinoma,Papillary Lung Adenocarcinoma,external,1190,Gemcitabine,2.564545,0.865033,1.106646,https://cog.sanger.ac.uk/cmp/download/SIDM00925_rnaseq.csv.zip
+SIDM00926,NCI-H2172,NCI-H2172,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,3.365741,0.934331,1.372875,https://cog.sanger.ac.uk/cmp/download/SIDM00926_rnaseq.csv.zip
+SIDM00939,CAL-12T,CAL-12T,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,2.027833,0.845759,0.928301,https://cog.sanger.ac.uk/cmp/download/SIDM00939_rnaseq.csv.zip
+SIDM00990,BEN,BEN,Non-Small Cell Lung Carcinoma,Non-Small Cell Lung Carcinoma,external,1190,Gemcitabine,1.120799,0.736819,0.626903,https://cog.sanger.ac.uk/cmp/download/SIDM00990_rnaseq.csv.zip
+SIDM01067,HCC-827,HCC-827,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,2.490013,0.897392,1.081879,https://cog.sanger.ac.uk/cmp/download/SIDM01067_rnaseq.csv.zip
+SIDM01068,HCC-78,HCC-78,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-3.681265,0.481264,-0.968777,https://cog.sanger.ac.uk/cmp/download/SIDM01068_rnaseq.csv.zip
+SIDM01069,HCC-44,HCC-44,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.196009,0.687808,-0.14295,https://cog.sanger.ac.uk/cmp/download/SIDM01069_rnaseq.csv.zip
+SIDM01070,HCC-366,HCC-366,Non-Small Cell Lung Carcinoma,Adenosquamous Lung Carcinoma,external,1190,Gemcitabine,-1.904904,0.414454,-0.378509,https://cog.sanger.ac.uk/cmp/download/SIDM01070_rnaseq.csv.zip
+SIDM01108,SK-LU-1,SK-LU-1,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.786704,0.852457,0.848176,https://cog.sanger.ac.uk/cmp/download/SIDM01108_rnaseq.csv.zip
+SIDM01116,NCI-H810,NCI-H810,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,-0.51244,0.739488,0.084193,https://cog.sanger.ac.uk/cmp/download/SIDM01116_rnaseq.csv.zip
+SIDM01122,NCI-H661,NCI-H661,Non-Small Cell Lung Carcinoma,Large Cell Lung Carcinoma,external,1190,Gemcitabine,4.750678,0.980838,1.833076,https://cog.sanger.ac.uk/cmp/download/SIDM01122_rnaseq.csv.zip
+SIDM01124,NCI-H650,NCI-H650,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.068273,0.861906,0.609449,https://cog.sanger.ac.uk/cmp/download/SIDM01124_rnaseq.csv.zip
+SIDM01125,NCI-H647,NCI-H647,Non-Small Cell Lung Carcinoma,Adenosquamous Lung Carcinoma,external,1190,Gemcitabine,-1.481637,0.460641,-0.237862,https://cog.sanger.ac.uk/cmp/download/SIDM01125_rnaseq.csv.zip
+SIDM01127,NCI-H596,NCI-H596,Non-Small Cell Lung Carcinoma,Adenosquamous Lung Carcinoma,external,1190,Gemcitabine,3.774334,0.956805,1.508647,https://cog.sanger.ac.uk/cmp/download/SIDM01127_rnaseq.csv.zip
+SIDM01150,NCI-H838,NCI-H838,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.852138,0.412029,-0.360976,https://cog.sanger.ac.uk/cmp/download/SIDM01150_rnaseq.csv.zip
+SIDM01163,SW1573,SW1573,Non-Small Cell Lung Carcinoma,Bronchiolo-Alveolar Lung Carcinoma,external,1190,Gemcitabine,0.575826,0.795788,0.445813,https://cog.sanger.ac.uk/cmp/download/SIDM01163_rnaseq.csv.zip
+SIDM01219,LU-99A,LU-99A,Non-Small Cell Lung Carcinoma,Giant Cell Lung Carcinoma,external,1190,Gemcitabine,-1.718871,0.632418,-0.316692,https://cog.sanger.ac.uk/cmp/download/SIDM01219_rnaseq.csv.zip
+SIDM00079,SK-OV-3,SK-OV-3,Ovarian Carcinoma,Ovarian Serous Cystadenocarcinoma,external,1190,Gemcitabine,1.549487,0.847408,0.769352,https://cog.sanger.ac.uk/cmp/download/SIDM00079_rnaseq.csv.zip
+SIDM00090,OVCAR-8,OVCAR-8,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-4.181624,0.43736,-1.135041,https://cog.sanger.ac.uk/cmp/download/SIDM00090_rnaseq.csv.zip
+SIDM00091,OVCAR-5,OVCAR-5,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,1.258651,0.825256,0.67271,https://cog.sanger.ac.uk/cmp/download/SIDM00091_rnaseq.csv.zip
+SIDM00092,OVCAR-4,OVCAR-4,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,4.01383,0.965856,1.588229,https://cog.sanger.ac.uk/cmp/download/SIDM00092_rnaseq.csv.zip
+SIDM00105,OVCAR-3,OVCAR-3,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,0.289674,0.80412,0.350728,https://cog.sanger.ac.uk/cmp/download/SIDM00105_rnaseq.csv.zip
+SIDM00151,IGROV-1,IGROV-1,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma,external,1190,Gemcitabine,-1.010788,0.695512,-0.081403,https://cog.sanger.ac.uk/cmp/download/SIDM00151_rnaseq.csv.zip
+SIDM00210,A2780,A2780,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma,external,1190,Gemcitabine,-4.045816,0.450372,-1.089914,https://cog.sanger.ac.uk/cmp/download/SIDM00210_rnaseq.csv.zip
+SIDM00220,OC-314,OC-314,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-3.73483,0.475851,-0.986576,https://cog.sanger.ac.uk/cmp/download/SIDM00220_rnaseq.csv.zip
+SIDM00238,OVK-18,OVK-18,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma,external,1190,Gemcitabine,-2.390266,0.354458,-0.53979,https://cog.sanger.ac.uk/cmp/download/SIDM00238_rnaseq.csv.zip
+SIDM00303,JHOS-4,JHOS-4,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,1.445392,0.795052,0.734762,https://cog.sanger.ac.uk/cmp/download/SIDM00303_rnaseq.csv.zip
+SIDM00304,JHOS-3,JHOS-3,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-0.421614,0.580345,0.114374,https://cog.sanger.ac.uk/cmp/download/SIDM00304_rnaseq.csv.zip
+SIDM00305,JHOS-2,JHOS-2,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-1.537661,0.45374,-0.256478,https://cog.sanger.ac.uk/cmp/download/SIDM00305_rnaseq.csv.zip
+SIDM00321,TYK-nu,TYK-nu,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-2.277315,0.593291,-0.502258,https://cog.sanger.ac.uk/cmp/download/SIDM00321_rnaseq.csv.zip
+SIDM00352,RMG-I,RMG-I,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma,external,1190,Gemcitabine,4.068712,0.912495,1.606466,https://cog.sanger.ac.uk/cmp/download/SIDM00352_rnaseq.csv.zip
+SIDM00425,OVTOKO,OVTOKO,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma,external,1190,Gemcitabine,2.107736,0.890281,0.954852,https://cog.sanger.ac.uk/cmp/download/SIDM00425_rnaseq.csv.zip
+SIDM00465,OVMIU,OVMIU,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,1.77343,0.856504,0.843766,https://cog.sanger.ac.uk/cmp/download/SIDM00465_rnaseq.csv.zip
+SIDM00466,OVKATE,OVKATE,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,6.711783,0.970009,2.484733,https://cog.sanger.ac.uk/cmp/download/SIDM00466_rnaseq.csv.zip
+SIDM00472,PEO1,PEO1,Ovarian Carcinoma,Ovarian Cystadenocarcinoma,external,1190,Gemcitabine,-1.932101,0.62058,-0.387547,https://cog.sanger.ac.uk/cmp/download/SIDM00472_rnaseq.csv.zip
+SIDM00474,OV-7,OV-7,Ovarian Carcinoma,Ovarian Carcinoma,external,1190,Gemcitabine,-1.905191,0.405976,-0.378605,https://cog.sanger.ac.uk/cmp/download/SIDM00474_rnaseq.csv.zip
+SIDM00475,OV-56,OV-56,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-0.952177,0.704414,-0.061927,https://cog.sanger.ac.uk/cmp/download/SIDM00475_rnaseq.csv.zip
+SIDM00476,OV-17R,OV-17R,Ovarian Carcinoma,Ovarian Adenocarcinoma,external,1190,Gemcitabine,2.062634,0.84335,0.939865,https://cog.sanger.ac.uk/cmp/download/SIDM00476_rnaseq.csv.zip
+SIDM00480,OAW-42,OAW-42,Ovarian Carcinoma,Ovarian Serous Cystadenocarcinoma,external,1190,Gemcitabine,-2.966931,0.54028,-0.73141,https://cog.sanger.ac.uk/cmp/download/SIDM00480_rnaseq.csv.zip
+SIDM00481,OAW-28,OAW-28,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,0.722122,0.829328,0.494426,https://cog.sanger.ac.uk/cmp/download/SIDM00481_rnaseq.csv.zip
+SIDM00554,KURAMOCHI,KURAMOCHI,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,5.370494,0.976509,2.039035,https://cog.sanger.ac.uk/cmp/download/SIDM00554_rnaseq.csv.zip
+SIDM00564,OVISE,OVISE,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma,external,1190,Gemcitabine,0.430623,0.802971,0.397564,https://cog.sanger.ac.uk/cmp/download/SIDM00564_rnaseq.csv.zip
+SIDM00815,UWB1.289,UWB1.289,Ovarian Carcinoma,Ovarian Carcinoma,external,1190,Gemcitabine,-0.480618,0.57772,0.094767,https://cog.sanger.ac.uk/cmp/download/SIDM00815_rnaseq.csv.zip
+SIDM00861,ES-2,ES-2,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma,external,1190,Gemcitabine,-3.85905,0.465947,-1.027853,https://cog.sanger.ac.uk/cmp/download/SIDM00861_rnaseq.csv.zip
+SIDM00918,Caov-4,Caov-4,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-1.02343,0.694825,-0.085604,https://cog.sanger.ac.uk/cmp/download/SIDM00918_rnaseq.csv.zip
+SIDM00919,Caov-3,Caov-3,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-5.473842,0.089689,-1.564433,https://cog.sanger.ac.uk/cmp/download/SIDM00919_rnaseq.csv.zip
+SIDM00966,OVCA433,OVCA433,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-2.481272,0.350916,-0.570031,https://cog.sanger.ac.uk/cmp/download/SIDM00966_rnaseq.csv.zip
+SIDM00967,OVCA420,OVCA420,Ovarian Carcinoma,Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,1.80746,0.87746,0.855074,https://cog.sanger.ac.uk/cmp/download/SIDM00967_rnaseq.csv.zip
+SIDM00968,Hey,Hey,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,-2.777952,0.554997,-0.668615,https://cog.sanger.ac.uk/cmp/download/SIDM00968_rnaseq.csv.zip
+SIDM00969,DOV13,DOV13,Ovarian Carcinoma,Ovarian Adenocarcinoma,external,1190,Gemcitabine,-4.73914,0.390159,-1.320299,https://cog.sanger.ac.uk/cmp/download/SIDM00969_rnaseq.csv.zip
+SIDM01040,FU-OV-1,FU-OV-1,Ovarian Carcinoma,High Grade Ovarian Serous Adenocarcinoma,external,1190,Gemcitabine,6.921125,0.988953,2.554295,https://cog.sanger.ac.uk/cmp/download/SIDM01040_rnaseq.csv.zip
+SIDM01051,EFO-27,EFO-27,Ovarian Carcinoma,Ovarian Mucinous Adenocarcinoma,external,1190,Gemcitabine,2.552575,0.854149,1.102668,https://cog.sanger.ac.uk/cmp/download/SIDM01051_rnaseq.csv.zip
+SIDM01052,EFO-21,EFO-21,Ovarian Carcinoma,Ovarian Serous Cystadenocarcinoma,external,1190,Gemcitabine,0.680919,0.775325,0.480735,https://cog.sanger.ac.uk/cmp/download/SIDM01052_rnaseq.csv.zip
+SIDM01140,PA-1,PA-1,Ovarian Carcinoma,Ovarian Mixed Germ Cell Tumor,external,1190,Gemcitabine,-3.441291,0.501052,-0.889036,https://cog.sanger.ac.uk/cmp/download/SIDM01140_rnaseq.csv.zip
+SIDM01141,OV-90,OV-90,Ovarian Carcinoma,Ovarian Adenocarcinoma,external,1190,Gemcitabine,0.023667,0.758204,0.262336,https://cog.sanger.ac.uk/cmp/download/SIDM01141_rnaseq.csv.zip
+SIDM01169,TOV-21G,TOV-21G,Ovarian Carcinoma,Ovarian Clear Cell Adenocarcinoma,external,1190,Gemcitabine,0.185741,0.782868,0.316192,https://cog.sanger.ac.uk/cmp/download/SIDM01169_rnaseq.csv.zip
+SIDM01170,TOV-112D,TOV-112D,Ovarian Carcinoma,Ovarian Endometrioid Adenocarcinoma,external,1190,Gemcitabine,-4.186755,0.437179,-1.136746,https://cog.sanger.ac.uk/cmp/download/SIDM01170_rnaseq.csv.zip
+SIDM00042,PL4,PL4,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-0.517255,0.735914,0.082593,https://cog.sanger.ac.uk/cmp/download/SIDM00042_rnaseq.csv.zip
+SIDM00053,MZ1-PC,MZ1-PC,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,0.454287,0.772143,0.405427,https://cog.sanger.ac.uk/cmp/download/SIDM00053_rnaseq.csv.zip
+SIDM00130,CFPAC-1,CFPAC-1,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-3.444133,0.500766,-0.88998,https://cog.sanger.ac.uk/cmp/download/SIDM00130_rnaseq.csv.zip
+SIDM00132,BxPC-3,BxPC-3,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-0.677032,0.723957,0.029501,https://cog.sanger.ac.uk/cmp/download/SIDM00132_rnaseq.csv.zip
+SIDM00301,KP-4,KP-4,Pancreatic Carcinoma,Pancreatic Carcinoma,target,1190,Gemcitabine,-3.240813,0.518302,-0.822419,https://cog.sanger.ac.uk/cmp/download/SIDM00301_rnaseq.csv.zip
+SIDM00371,SUIT-2,SUIT-2,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-1.782267,0.633092,-0.337758,https://cog.sanger.ac.uk/cmp/download/SIDM00371_rnaseq.csv.zip
+SIDM00411,YAPC,YAPC,Pancreatic Carcinoma,Pancreatic Carcinoma,target,1190,Gemcitabine,-1.091093,0.679724,-0.108088,https://cog.sanger.ac.uk/cmp/download/SIDM00411_rnaseq.csv.zip
+SIDM00453,PA-TU-8988T,PA-TU-8988T,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,-1.388208,0.672933,-0.206816,https://cog.sanger.ac.uk/cmp/download/SIDM00453_rnaseq.csv.zip
+SIDM00455,PA-TU-8902,PA-TU-8902,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,1.487982,0.840365,0.748914,https://cog.sanger.ac.uk/cmp/download/SIDM00455_rnaseq.csv.zip
+SIDM00469,PSN1,PSN1,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,-3.830996,0.46882,-1.018531,https://cog.sanger.ac.uk/cmp/download/SIDM00469_rnaseq.csv.zip
+SIDM00505,MIA-PaCa-2,MIA-PaCa-2,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-1.731407,0.644925,-0.320858,https://cog.sanger.ac.uk/cmp/download/SIDM00505_rnaseq.csv.zip
+SIDM00531,HuP-T4,HuP-T4,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,-3.02061,0.536466,-0.749248,https://cog.sanger.ac.uk/cmp/download/SIDM00531_rnaseq.csv.zip
+SIDM00533,HuP-T3,HuP-T3,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,1.084742,0.825464,0.614921,https://cog.sanger.ac.uk/cmp/download/SIDM00533_rnaseq.csv.zip
+SIDM00571,KP-3,KP-3,Pancreatic Carcinoma,Pancreatic Adenosquamous Carcinoma,target,1190,Gemcitabine,4.491236,0.982218,1.746866,https://cog.sanger.ac.uk/cmp/download/SIDM00571_rnaseq.csv.zip
+SIDM00582,KP-2,KP-2,Pancreatic Carcinoma,Pancreatic Carcinoma,target,1190,Gemcitabine,2.615533,0.916367,1.123589,https://cog.sanger.ac.uk/cmp/download/SIDM00582_rnaseq.csv.zip
+SIDM00583,KP-1N,KP-1N,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-0.632883,0.730712,0.044171,https://cog.sanger.ac.uk/cmp/download/SIDM00583_rnaseq.csv.zip
+SIDM00664,Hs-766T,Hs-766T,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,3.528073,0.912137,1.426817,https://cog.sanger.ac.uk/cmp/download/SIDM00664_rnaseq.csv.zip
+SIDM00669,HPAF-II,HPAF-II,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,0.976248,0.830193,0.57887,https://cog.sanger.ac.uk/cmp/download/SIDM00669_rnaseq.csv.zip
+SIDM00670,HPAC,HPAC,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,0.099097,0.760171,0.287401,https://cog.sanger.ac.uk/cmp/download/SIDM00670_rnaseq.csv.zip
+SIDM00899,AsPC-1,AsPC-1,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,3.809457,0.898414,1.520318,https://cog.sanger.ac.uk/cmp/download/SIDM00899_rnaseq.csv.zip
+SIDM00934,CAPAN-1,CAPAN-1,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-1.649507,0.647955,-0.293643,https://cog.sanger.ac.uk/cmp/download/SIDM00934_rnaseq.csv.zip
+SIDM00943,CAPAN-2,CAPAN-2,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,5.49598,0.967036,2.080733,https://cog.sanger.ac.uk/cmp/download/SIDM00943_rnaseq.csv.zip
+SIDM00950,DAN-G,DAN-G,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,-2.543222,0.576651,-0.590616,https://cog.sanger.ac.uk/cmp/download/SIDM00950_rnaseq.csv.zip
+SIDM01135,PANC-10-05,PANC-10-05,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,-0.271417,0.716979,0.164283,https://cog.sanger.ac.uk/cmp/download/SIDM01135_rnaseq.csv.zip
+SIDM01136,PANC-08-13,PANC-08-13,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,4.170801,0.957868,1.640389,https://cog.sanger.ac.uk/cmp/download/SIDM01136_rnaseq.csv.zip
+SIDM01137,PANC-04-03,PANC-04-03,Pancreatic Carcinoma,Pancreatic Ductal Adenocarcinoma,target,1190,Gemcitabine,1.334767,0.792141,0.698002,https://cog.sanger.ac.uk/cmp/download/SIDM01137_rnaseq.csv.zip
+SIDM01138,PANC-03-27,PANC-03-27,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,-2.798807,0.554707,-0.675545,https://cog.sanger.ac.uk/cmp/download/SIDM01138_rnaseq.csv.zip
+SIDM01139,PANC-02-03,PANC-02-03,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,0.347126,0.777042,0.369819,https://cog.sanger.ac.uk/cmp/download/SIDM01139_rnaseq.csv.zip
+SIDM01165,SW1990,SW1990,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,1.494867,0.869354,0.751202,https://cog.sanger.ac.uk/cmp/download/SIDM01165_rnaseq.csv.zip
+SIDM01188,SU8686,SU8686,Pancreatic Carcinoma,Pancreatic Adenocarcinoma,target,1190,Gemcitabine,2.363157,0.895701,1.039726,https://cog.sanger.ac.uk/cmp/download/SIDM01188_rnaseq.csv.zip

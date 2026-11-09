@@ -1,0 +1,585 @@
+---
+title: "Pretrained Lasso for Grouped High-Dimensional Prediction"
+subtitle: "STAT 293 Course Project"
+author: "Sheng Yang"
+date: "November 4, 2026"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 1
+    number_sections: true
+    fig_caption: true
+    latex_engine: xelatex
+geometry: margin=1in
+fontsize: 11pt
+urlcolor: blue
+header-includes:
+  - \usepackage{float}
+  - \usepackage{tikz}
+  - \usetikzlibrary{arrows.meta,positioning}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  fig.width = 7,
+  fig.height = 4.5,
+  dpi = 300
+)
+
+report_file <- normalizePath(
+  knitr::current_input(dir = TRUE), winslash = "/", mustWork = TRUE
+)
+project_root <- normalizePath(
+  file.path(dirname(report_file), ".."), winslash = "/", mustWork = TRUE
+)
+simulation_root <- file.path(project_root, "simulation_study")
+figure4_dir <- file.path(simulation_root, "results", "figure4")
+figure6_dir <- file.path(simulation_root, "results", "figure6")
+parameter_dir <- file.path(simulation_root, "results", "parameter_sensitivity")
+simulation_files <- c(
+  file.path(figure4_dir, "figure4_raw.csv"),
+  file.path(figure4_dir, "figure4_summary.csv"),
+  file.path(figure4_dir, "figure4_cv_bias.png"),
+  file.path(figure6_dir, "figure6_raw.csv"),
+  file.path(figure6_dir, "figure6_summary.csv"),
+  file.path(figure6_dir, "figure6_alpha_selection.csv"),
+  file.path(figure6_dir, "figure6_pse_comparison.png"),
+  file.path(parameter_dir, "parameter_sensitivity_raw.csv"),
+  file.path(parameter_dir, "parameter_sensitivity_summary.csv"),
+  file.path(parameter_dir, "parameter_sensitivity_pairwise.csv"),
+  file.path(parameter_dir, "parameter_sensitivity_mse.png"),
+  file.path(parameter_dir, "parameter_sensitivity_f1.png")
+)
+if (!all(file.exists(simulation_files))) {
+  stop("The simulation outputs are incomplete.")
+}
+figure4_raw <- read.csv(file.path(figure4_dir, "figure4_raw.csv"))
+figure4_summary <- read.csv(file.path(figure4_dir, "figure4_summary.csv"))
+figure6_raw <- read.csv(file.path(figure6_dir, "figure6_raw.csv"))
+figure6_summary <- read.csv(file.path(figure6_dir, "figure6_summary.csv"))
+figure6_alpha <- read.csv(file.path(figure6_dir, "figure6_alpha_selection.csv"))
+parameter_raw <- read.csv(file.path(parameter_dir, "parameter_sensitivity_raw.csv"))
+parameter_summary <- read.csv(
+  file.path(parameter_dir, "parameter_sensitivity_summary.csv")
+)
+parameter_pairwise <- read.csv(
+  file.path(parameter_dir, "parameter_sensitivity_pairwise.csv")
+)
+
+realdata_root <- file.path(project_root, "gdsc_real_data")
+realdata_results <- file.path(realdata_root, "results", "full_experiment")
+primary_results <- file.path(realdata_results, "primary_1000_ln_ic50_1se")
+refined_results <- file.path(realdata_root, "results", "conservative_alpha_experiment")
+realdata_files <- c(
+  file.path(realdata_results, "method_summary_all.csv"),
+  file.path(realdata_results, "paired_differences_all.csv"),
+  file.path(realdata_results, "audit_checks.csv"),
+  file.path(primary_results, "coefficient_stability.csv"),
+  file.path(realdata_root, "processed", "selected_features_top2000_annotated.csv"),
+  file.path(realdata_results, "figures", "primary_mse_repeated_cv.png"),
+  file.path(realdata_results, "figures", "sensitivity_mse_reduction.png"),
+  file.path(realdata_results, "figures", "primary_pretrained_gene_stability.png"),
+  file.path(refined_results, "method_summary.csv"),
+  file.path(refined_results, "paired_differences.csv"),
+  file.path(refined_results, "audit_checks.csv"),
+  file.path(refined_results, "figures", "conservative_alpha_mse.png")
+)
+if (!all(file.exists(realdata_files))) {
+  stop("The GDSC real-data outputs are incomplete.")
+}
+realdata_summary <- read.csv(file.path(realdata_results, "method_summary_all.csv"))
+realdata_paired <- read.csv(file.path(realdata_results, "paired_differences_all.csv"))
+realdata_audit <- read.csv(file.path(realdata_results, "audit_checks.csv"))
+primary_stability <- read.csv(file.path(primary_results, "coefficient_stability.csv"))
+feature_annotation <- read.csv(
+  file.path(realdata_root, "processed", "selected_features_top2000_annotated.csv")
+)
+refined_summary <- read.csv(file.path(refined_results, "method_summary.csv"))
+refined_paired <- read.csv(file.path(refined_results, "paired_differences.csv"))
+refined_audit <- read.csv(file.path(refined_results, "audit_checks.csv"))
+```
+
+\newpage
+
+# Abstract
+
+\par\vspace{0.25em}
+
+High-dimensional data often contain related groups with unequal sample sizes. Fitting a single lasso to all observations can overlook group-specific effects, whereas fitting separate lasso models can be unstable for small groups. This project studies Pretrained Lasso, a two-stage method designed to share information across groups while retaining group-specific flexibility. In the first stage, an overall lasso is fit to the combined data to estimate features that are common across groups. In the second stage, a separate lasso is fit within each group. The first-stage prediction enters as an offset, and variables selected during pretraining receive smaller penalty factors. A tuning parameter \(\alpha\) controls the transition between reliance on the overall model and an ordinary group-specific lasso. We evaluate the method through simulation experiments and a grouped gemcitabine-sensitivity application, focusing on prediction error, support recovery, and the conditions under which information shared across groups improves prediction for a small target group.
+
+# Introduction
+
+The real-data problem in this project is to predict *in vitro* gemcitabine sensitivity from gene-expression profiles for related cancer types. The target group contains 30 pancreatic-cancer cell lines, while 199 cell lines from colorectal, gastric, non-small-cell lung, and ovarian cancers provide external information. Each sample has measurements on thousands of genes, making the pancreatic prediction problem both high-dimensional and small-sample. Some expression-response relationships may be shared across cancers, whereas others may be specific to pancreatic cancer. This combination of a common feature space, related groups, unequal sample sizes, and possible shared and group-specific effects matches the grouped-data setting studied by Pretrained Lasso.
+
+Two conventional lasso strategies represent opposite extremes. An Overall Lasso pools all cancer groups, which increases the effective sample size but imposes one coefficient vector and may hide pancreatic-specific relationships. An Individual Lasso uses only the pancreatic observations, which permits a target-specific model but estimates it from a very small sample. The paper was motivated by a similar pancancer survival study with ten cancer groups and roughly 2,000 features. In that study, the pooled model had a small predictive advantage for some of the smaller cancer groups, suggesting that information from related groups can help when a group-specific sample is limited.
+
+Pretrained Lasso is designed as a compromise between complete pooling and completely separate models. It first fits an overall lasso to learn a predictive structure shared across the combined data. It then fits a group-specific lasso using the first model's prediction and selected variables as information for the second stage. A tuning parameter controls how strongly the group-specific model relies on the overall fit. The potential benefit is therefore greater stability for a small target group without requiring its prediction rule to be identical to those of the external groups.
+
+Compared with Overall Lasso, Pretrained Lasso retains group-specific adjustment; compared with Individual Lasso, it uses information learned from related groups. Data Shared Lasso also estimates common and group-specific effects, but it fits them jointly and requires access to the combined observations. Pretrained Lasso can instead pass a fitted first-stage model to the second stage through its predictions and selected support. In this project, the numerical experiments evaluate whether this sharing improves prediction and variable selection, and when differences between groups limit the value of pretraining.
+
+# Methods
+
+## Model and assumptions
+
+For a Gaussian response with observations \((x_i,y_i)\), the usual lasso solves
+
+\[
+\underset{\beta_0,\beta}{\operatorname{argmin}}
+\left\{
+\frac{1}{2}\sum_{i=1}^{n}
+\left(y_i-\beta_0-\sum_{j=1}^{p}x_{ij}\beta_j\right)^2
++\lambda\sum_{j=1}^{p}|\beta_j|
+\right\}.
+\]
+
+The regularization parameter \(\lambda\) is normally chosen by cross-validation. The pretrained lasso uses two standard features of regularized generalized linear models. First, an **offset** is a specified predictor whose coefficient is fixed at one. Second, a **penalty factor** replaces the ordinary \(\ell_1\) penalty by \(\sum_j pf_j|\beta_j|\), allowing different features to receive different amounts of penalization.
+
+Suppose the rows of the data are divided into \(K\) prespecified groups, with feature matrices \(X_1,\ldots,X_K\) and outcomes \(y_1,\ldots,y_K\). The paper describes three types of features: common features predictive in most or all groups, individual features predictive in a particular group, and noise features. A common feature may still have different effect sizes across groups.
+
+For exposition, the paper first considers a Gaussian response and writes
+
+\[
+y_k=(\mu_0+\mu_k)\mathbf{1}
+    +X_k(\beta_0+\beta_k)+\varepsilon_k,
+\qquad k=1,\ldots,K.
+\]
+
+Here \(\beta_0\) denotes the component shared across groups and \(\beta_k\) denotes the group-specific component. The latter can add individual features and can adjust the coefficients of common features. The paper notes that the parameters in this expression are not identifiable without the penalized estimation procedure that follows.
+
+All groups use the same \(p\) predictors, although their sample sizes may differ. The setting is high-dimensional but sparse: \(p\) may exceed the number of observations within a group, while only a small subset of predictors is expected to have nonzero effects. The support-recovery theory formalizes this structure through a support set \(S\) of size \(s\), with \(s\) small relative to \(p\). It studies both a shared-support model, in which the groups have the same nonzero variables but may have different coefficient values, and a common-and-individual-support model, in which each group also has its own sparse component.
+
+In the Gaussian working model, \(\varepsilon_k\) represents additive unexplained variation. The computational procedure itself also applies to binomial, multinomial, and Cox models through the corresponding `glmnet` likelihood. The paper's random-design support-recovery guarantees impose stronger conditions than are required simply to fit the method: the covariates are independent sub-Gaussian random variables with bounded variance, the noise is sub-Gaussian with variance proxy \(\sigma^2\), and covariance, pretraining-irrepresentability, coefficient-bound, sample-size, and minimum-signal conditions hold. These are sufficient conditions for the theoretical guarantees rather than assumptions verified for every application.
+
+In the population model, the effective intercept and coefficient vector for group \(k\) are \(\mu_0+\mu_k\) and \(\beta_0+\beta_k\). Thus, \(\beta_0\) represents shared predictive effects, while \(\beta_k\) adds group-specific variables or adjusts the magnitudes of shared effects. The coefficients describe conditional predictive associations; they are not automatically causal effects.
+
+## Two-stage Pretrained Lasso
+
+**First stage: overall model.**
+
+The first stage fits an overall lasso using all training observations. In the notation of the article, the basic optimization problem is
+
+\[
+(\widehat\mu_0,\widehat\beta_0)
+=\underset{\mu_0,\beta_0}{\operatorname{argmin}}
+\left\{
+\frac{1}{2}\sum_{k=1}^{K}
+\left\|y_k-\mu_0\mathbf{1}-X_k\beta_0\right\|_2^2
++\lambda\|\beta_0\|_1
+\right\}.
+\]
+
+Let \(S(\widehat\beta_0)\) be the support of the fitted overall coefficient vector. In the implementation described by Algorithm 1 of the paper, an unpenalized intercept is included for each group. The authors recommend using `lambda.1se` and a small number of cross-validation folds, such as three, to limit overfitting in this stage.
+
+**Second stage: group-specific models.**
+
+For a fixed \(\alpha\in[0,1]\), a second model is fit separately in each group. The group-\(k\) optimization problem is
+
+\[
+\begin{aligned}
+(\widehat\mu_k,\widehat\beta_k)
+=\underset{\mu_k,\beta_k}{\operatorname{argmin}}
+\Bigg\{&\frac{1}{2}
+\left\|y_k-(1-\alpha)
+(\widehat\mu_0\mathbf{1}+X_k\widehat\beta_0)
+-(\mu_k\mathbf{1}+X_k\beta_k)\right\|_2^2 \\
+&+\lambda\sum_{j=1}^{p}
+\left[
+\mathbf{1}\{j\in S(\widehat\beta_0)\}
++\frac{1}{\alpha}\mathbf{1}\{j\notin S(\widehat\beta_0)\}
+\right]|\beta_{kj}|
+\Bigg\}.
+\end{aligned}
+\]
+
+The first-stage prediction enters through the offset
+
+\[
+(1-\alpha)(\widehat\mu_0\mathbf{1}+X_k\widehat\beta_0).
+\]
+
+For a Gaussian response, this is equivalent to fitting the second model to the residual remaining after subtracting the specified portion of the overall prediction. The penalty factor is one for variables selected by the overall model and \(1/\alpha\) for variables outside its support.
+
+At \(\alpha=0\), the second model is restricted to the overall support and is encouraged to remain close to the overall fit. At \(\alpha=1\), the offset vanishes, every feature has penalty factor one, and the procedure is equivalent to fitting a separate lasso in each group. Values between zero and one connect these endpoints. The article recommends selecting \(\alpha\) by cross-validation or with a validation set.
+
+The authors emphasize three points. First, both transmitted quantities matter: the offset carries the first-stage fitted model, while the penalty factor carries its support. Second, the particular mathematical forms were selected to recover the overall and individual models at the two endpoints; the paper does not claim that these forms are optimal. Third, the offset and penalty factor may be viewed as prior information passed from the first stage to the second.
+
+For group \(k\), the fitted effective coefficient vector is \((1-\alpha)\widehat\beta_0+\widehat\beta_k\), with the analogous effective intercept \((1-\alpha)\widehat\mu_0+\widehat\mu_k\). These combined quantities, rather than either stage alone, define the final group-specific prediction rule.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=5mm,
+  every node/.style={font=\small, align=center},
+  box/.style={draw, rounded corners=2pt, minimum height=13mm, text width=25mm, inner sep=4pt},
+  info/.style={box, text width=31mm, fill=blue!6},
+  fit/.style={box, fill=gray!8},
+  result/.style={box, text width=27mm, fill=green!8},
+  arrow/.style={-{Latex[length=2.2mm]}, thick}
+]
+\node[fit] (data) {Grouped data\\$\{(X_k,y_k)\}_{k=1}^K$};
+\node[fit, right=of data] (overall) {Overall Lasso\\on all groups};
+\node[info, right=of overall] (transfer) {First-stage information\\prediction offset\\selected support};
+\node[fit, right=of transfer] (second) {Group-specific Lasso\\for each $\alpha$};
+\node[result, right=of second] (output) {Cross-validation\\selects $\alpha$; final\\group prediction};
+\draw[arrow] (data) -- (overall);
+\draw[arrow] (overall) -- (transfer);
+\draw[arrow] (transfer) -- (second);
+\draw[arrow] (second) -- (output);
+\end{tikzpicture}
+\caption{Information flow in Pretrained Lasso. The first stage passes a fitted prediction and selected support to the group-specific second stage; it does not need to pass the original first-stage observations.}
+\end{figure}
+
+## Tuning and implementation
+
+\begin{figure}[H]
+\centering
+\fbox{%
+\begin{minipage}{0.92\textwidth}
+\small
+\textbf{Algorithm: Pretrained Lasso for grouped data}
+
+\textbf{Input:} grouped observations $\{(X_k,y_k)\}_{k=1}^K$, candidate grid $\mathcal A\subset[0,1]$, and cross-validation folds.
+
+\begin{enumerate}
+\setlength{\itemsep}{0.25em}
+\item Fit an Overall Lasso to all groups with unpenalized group intercepts. Select a conservative first-stage value of $\lambda$, such as \texttt{lambda.1se}.
+\item Record the overall support $S(\widehat\beta_0)$. For every training observation, compute a \emph{prevalidated} first-stage prediction from a fold that did not contain that observation.
+\item For each $\alpha\in\mathcal A$, form the offset $(1-\alpha)\widehat f_0(X_k)$ and assign penalty factor $1$ to variables in $S(\widehat\beta_0)$ and $1/\alpha$ to variables outside it. When $\alpha=0$, restrict the second stage to the overall support.
+\item Within each group $k$, fit the second-stage Lasso with the specified offset and penalty factors; choose its $\lambda$ by cross-validation.
+\item Compare validation errors across the candidate values of $\alpha$ and select $\widehat\alpha$.
+\item Return the selected group-specific predictor and its effective coefficient vector $(1-\widehat\alpha)\widehat\beta_0+\widehat\beta_k$.
+\end{enumerate}
+
+\textbf{Output:} one adapted prediction rule for each group, together with the selected $\widehat\alpha$ and effective coefficients.
+\end{minipage}}
+\caption{Operational form of Algorithm 1 in Craig et al. (2025).}
+\end{figure}
+
+The same framework can be used with Gaussian, binomial, multinomial, and Cox models supported by `glmnet`.
+
+The procedure applies cross-validation more than once: an outer comparison selects \(\alpha\), while `cv.glmnet` selects \(\lambda\) in both model stages. The authors explain that ordinary fold size can create upward bias in a cross-validation error estimate, whereas reusing the data across stages can create downward bias. Prevalidated first-stage predictions provide some protection, but a complete nested evaluation of the entire pipeline would be computationally expensive.
+
+## Theoretical guarantees and scope
+
+This subsection is not an additional fitting step. It summarizes two questions addressed by the paper: under what assumptions can Pretrained Lasso recover the relevant variables, and how broadly can the offset-and-penalty construction be used?
+
+The theoretical analysis studies two grouped Gaussian models. In the shared-support model, group coefficients may differ in value but share the same nonzero variables. In the common-and-individual-support model, each response contains a common component plus a group-specific component. Under pretraining irrepresentability, covariance, minimum-signal, and effect-size conditions, the pooled first stage can recover the shared support with high probability. The paper also derives an in-sample prediction-error bound for a simplified two-stage procedure. Here, support recovery means identifying the truly nonzero variables, while the prediction bound controls the fitted error. These are conditional guarantees: they do not claim that Pretrained Lasso always outperforms Overall or Individual Lasso, and they are not assumptions verified directly in the GDSC application. The results instead explain when pooled pretraining can retain common structure, while identifying cancellation and large group-specific effects as important failure cases.
+
+The offset-and-penalty-factor construction also extends beyond prespecified input groups. The article considers multinomial responses, multiple responses, time-ordered outcomes, and groups learned from scientifically meaningful variables. Across these settings, the first model supplies a fitted predictor and selected support, while the second model adapts the result to a response class, outcome, time point, or learned subgroup.
+
+# Numerical Experiments
+
+## Simulation studies
+
+This section reports results generated for the course project rather than values copied from the article. We conducted three simulation experiments based on the grouped settings studied in the paper: one evaluating the reliability of cross-validation error, one evaluating the value of external pretraining data, and one examining sensitivity to dimension, noise, and sparsity. Each experiment used 100 Monte Carlo repetitions. The code uses fixed random seeds, writes frequent checkpoints, retains every model-level result, and records the software environment. No repetition failed.
+
+### Experiment 1: reliability of cross-validation error
+
+The first experiment examines whether the cross-validation error reported by the final stage of Pretrained Lasso can be trusted after the data have been used in more than one model-fitting stage. We compare cross-validation error with error on a large independent test set. The reported metric is the relative bias \(100(\text{test error}-\text{CV error})/\text{test error}\), so a positive value means that cross-validation was optimistic.
+
+For each repetition, we generated nine groups with 55 observations per group and 1,000 independent standard-normal predictors. Ten coefficients equal to 2.5 were common to all groups, and every group had a disjoint block of ten additional coefficients equal to 2.5. Errors were Gaussian with standard deviation 10, and the independent test set contained 4,950 observations. We fit the Overall, Individual, and Pretrained models at \(\alpha=0,0.5,0.95\), using three or ten folds and either `lambda.1se` or `lambda.min`. This is the experiment displayed as Figure 4 in the article.
+
+```{r simulation-figure4, fig.cap="Cross-validation reliability experiment corresponding to Figure 4 in the article. Positive values mean that cross-validation underestimated test error.", out.width="100%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(figure4_dir, "figure4_cv_bias.png"), rel_path = FALSE
+)
+```
+
+```{r simulation-figure4-table, results='asis'}
+figure4_models <- c(
+  "Overall", "Pretrained (alpha = 0)", "Pretrained (alpha = 0.5)",
+  "Pretrained (alpha = 0.95)", "Individual"
+)
+figure4_table <- data.frame(Model = figure4_models, check.names = FALSE)
+figure4_settings <- list(
+  c(3, "lambda.1se", "3-fold, 1se"),
+  c(3, "lambda.min", "3-fold, min"),
+  c(10, "lambda.1se", "10-fold, 1se"),
+  c(10, "lambda.min", "10-fold, min")
+)
+for (setting in figure4_settings) {
+  rows <- figure4_summary[
+    figure4_summary$nfolds == as.numeric(setting[1]) &
+      figure4_summary$lambda_rule == setting[2],
+  ]
+  figure4_table[[setting[3]]] <- round(
+    rows$mean_relative_bias[match(figure4_models, rows$model)], 2
+  )
+}
+knitr::kable(
+  figure4_table,
+  booktabs = TRUE,
+  caption = "Mean relative cross-validation bias (%) across 100 repetitions."
+)
+```
+
+With three folds and `lambda.1se`, the absolute mean bias was at most 4.63% across the five models. In contrast, ten-fold cross-validation with `lambda.min` produced mean optimistic biases of 11.09% and 15.46% for the pretrained models at \(\alpha=0\) and \(\alpha=0.5\), respectively. This result supports the article's main practical conclusion that a conservative first-stage choice and a small number of folds provide useful protection against bias.
+
+One implementation detail requires qualification. The explicit coefficient and noise settings give a theoretical variance-ratio signal-to-noise value of 1.25; the empirical mean in our samples was `r round(mean(unique(figure4_raw[c("replication", "empirical_snr")])$empirical_snr), 2)`. The Figure 4 caption states a mean SNR of 1.8. We retained the article's stated coefficients and noise standard deviation rather than altering them to force the captioned SNR.
+
+### Experiment 2: value of external pretraining data
+
+The second experiment asks whether a model trained on a large external dataset \(D_1\) can improve prediction in a smaller target dataset \(D_2\) without requiring direct access to the observations in \(D_1\). It also asks how the answer changes as the source and target groups share more of the same predictive structure. We compare target-only Lasso, Pretrained Lasso, direct pooling with matching-group observations, and direct pooling with all external observations, using held-out prediction squared error.
+
+For each repetition, \(D_1\) contained ten groups with 100 observations per group and 500 predictors. The target dataset \(D_2\) and the independent target-group test set each contained 100 observations from group 1. The shared component and every group-specific component each had ten nonzero entries, with disjoint group-specific supports. Noise was scaled to mean SNR 1.8. We considered \(\rho=0,0.5,1\); for Pretrained Lasso, \(\alpha\in\{0,0.1,\ldots,1\}\) was selected by cross-validation. This is the experiment displayed as Figure 6 in the article.
+
+```{r simulation-figure6, fig.cap="External-data pretraining experiment corresponding to Figure 6 in the article. The horizontal line in each panel is the median log(PSE) for Pretrained Lasso.", out.width="100%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(figure6_dir, "figure6_pse_comparison.png"), rel_path = FALSE
+)
+```
+
+```{r simulation-figure6-table, results='asis'}
+figure6_methods <- c(
+  "D2 only", "Pretraining", "D1 group 1 + D2", "D1 all + D2"
+)
+figure6_table <- data.frame(rho = c(0, 0.5, 1), check.names = FALSE)
+for (method_name in figure6_methods) {
+  rows <- figure6_summary[figure6_summary$method == method_name, ]
+  figure6_table[[method_name]] <- round(
+    rows$mean_pse[match(figure6_table$rho, rows$rho)], 2
+  )
+}
+knitr::kable(
+  figure6_table,
+  booktabs = TRUE,
+  caption = "Mean test prediction squared error across 100 repetitions."
+)
+```
+
+\begin{samepage}
+When \(\rho=0\), Pretrained Lasso and the target-only lasso had nearly identical mean PSE (9.46 and 9.36). When \(\rho=0.5\), pretraining reduced mean PSE from 6.01 to 4.90; when \(\rho=1\), it reduced mean PSE from 9.14 to 6.08 and was close to fitting all of \(D_1\) with \(D_2\) (5.83). Directly pooling group 1 from \(D_1\) with \(D_2\) is an informative comparator because it uses labelled observations from the same group. Overall, the simulation supports the article's stated pattern: pretraining remains competitive without a shared component and becomes useful as the shared component increases.
+\end{samepage}
+
+### Experiment 3: sensitivity to dimension, noise, and sparsity
+
+The third experiment examines how performance changes when the number of predictors, the noise level, or the sparsity level changes. It uses the external-pretraining design from Experiment 2 with \(\rho=0.5\), ten source groups of 100 observations, 100 target-training observations, and 100 independent target-test observations. The baseline is \(p=500\), SNR \(=1.8\), and \(s=10\) nonzero coefficients in each shared or group-specific block. One factor is changed at a time: \(p\in\{250,500,1000\}\), SNR \(\in\{0.8,1.8,3.0\}\), and \(s\in\{5,10,20\}\). Individual Lasso, Overall Lasso, and Pretrained Lasso are compared on held-out MSE and MAE. Because the true target coefficient vector is known, we also record true-positive rate, false-discovery proportion, and support-set F1.
+
+```{r simulation-parameter-mse, fig.cap="Prediction error as dimension, SNR, and sparsity change one factor at a time. Points are means across 100 repetitions; error bars are one Monte Carlo standard error.", out.width="100%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(parameter_dir, "parameter_sensitivity_mse.png"), rel_path = FALSE
+)
+```
+
+```{r simulation-parameter-f1, fig.cap="Support-recovery F1 as dimension, SNR, and sparsity change one factor at a time. Higher values indicate a better balance of discovering true signals and avoiding false selections.", out.width="100%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(parameter_dir, "parameter_sensitivity_f1.png"), rel_path = FALSE
+)
+```
+
+```{r simulation-parameter-table}
+scenario_labels <- c(
+  baseline = "Baseline: p=500, SNR=1.8, s=10",
+  p_250 = "p=250",
+  p_1000 = "p=1,000",
+  snr_0.8 = "SNR=0.8",
+  snr_3.0 = "SNR=3.0",
+  s_5 = "s=5",
+  s_20 = "s=20"
+)
+scenario_order <- names(scenario_labels)
+parameter_table <- data.frame(
+  Setting = unname(scenario_labels), check.names = FALSE
+)
+for (method_name in c("Individual", "Overall", "Pretrained")) {
+  rows <- parameter_summary[parameter_summary$method == method_name, ]
+  rows <- rows[match(scenario_order, rows$scenario_id), ]
+  parameter_table[[method_name]] <- sprintf(
+    "%.2f / %.2f", rows$mean_mse, rows$mean_f1
+  )
+}
+knitr::kable(
+  parameter_table,
+  booktabs = TRUE,
+  caption = "Mean test MSE / mean support F1 across 100 repetitions. Lower is better for MSE; higher is better for F1."
+)
+```
+
+Pretrained Lasso had lower mean MSE than Individual Lasso in all seven settings and won between 84% and 94% of the paired repetitions. It had lower mean MSE than Overall Lasso in five settings. The exceptions were the lowest-SNR setting, where their errors were nearly equal (9.392 for Pretrained and 9.295 for Overall), and the least sparse setting \(s=20\) (11.585 and 11.232). At SNR \(=3.0\), Pretrained Lasso had the clearest advantage, with mean MSE 3.164 compared with 4.129 for Individual and 4.415 for Overall. Its mean support F1 was higher than both comparators in every setting. Thus, pretraining improved target-only estimation throughout this experiment, but complete pooling could be slightly better for prediction when noise was high or the target model was less sparse.
+
+### Computational record
+
+The complete outputs contain 2,000 rows for Experiment 1, 1,200 rows for Experiment 2, and 2,100 rows for Experiment 3. Every repetition has the expected number of method-setting rows, no duplicate result keys, and no missing primary outcomes. The runner scripts, raw CSV files, summaries, settings, plots, and `sessionInfo.txt` files are retained in the project directory. These additions improve auditability but do not change the scientific comparisons in the article.
+
+## Real-data application: GDSC gemcitabine response
+
+### Data and prediction task
+
+The completed application uses GDSC2 gemcitabine response together with RNA-sequencing data distributed through Cell Model Passports (Iorio et al., 2016; van der Meer et al., 2019). The target group contains 30 pancreatic-cancer cell lines. The external data contain 199 cell lines: 47 colorectal, 28 gastric, 84 non-small-cell lung, and 40 ovarian cancer models. Four additional non-small-cell lung models were excluded before modelling because their public RNA-sequencing files could not be downloaded or did not pass schema validation; no pancreatic target model was excluded.
+
+The primary outcome is `LN_IC50`, for which a lower value indicates greater gemcitabine sensitivity. Predictors are \(\log_2(\mathrm{TPM}+1)\) gene-expression values. Gene filtering and ranking used the external samples only: genes had to have TPM greater than 1 in at least 20% of external models. The main target-domain comparison retained the 2,000 genes with the largest external-sample variance. Neither pancreatic outcomes nor pancreatic expression measurements were used to define the feature set.
+
+### Evaluation design
+
+The primary analysis used 20 repetitions of five-fold cross-validation defined only among the 30 pancreatic models. In each split, the fitting data contained all 199 external models and only the pancreatic training folds; the pancreatic test fold was used only for final prediction. Inner three-fold cross-validation was assigned within cancer groups. The candidate values for \(\alpha\) were \(0,0.1,\ldots,1\), and `lambda.1se` was used for the first and second lasso stages.
+
+Four predictors were evaluated on identical outer splits. Individual Lasso used only pancreatic training observations, while Overall Lasso used the fitted pooled component from all eligible training observations. The standard Pretrained Lasso selected \(\alpha\) by minimum pancreatic inner-fold error; a conservative alternative used the pancreatic one-standard-error rule. Every split saved its assignments, predictions, exact effective coefficients, selected \(\alpha\), and sample counts. An independent audit reconciled all reported mean squared errors from the prediction files and confirmed complete target coverage and the absence of duplicate predictions.
+
+### Target-domain alpha selection
+
+Because the prediction target is pancreatic cancer, \(\alpha\) is selected using only pancreatic training-fold errors. The standard target-minimum rule chooses the candidate with the smallest pancreatic inner-fold MSE. As a conservative alternative for the very small target sample, the target one-standard-error rule applies the same principle used by `lambda.1se`. Let \(\widehat{E}_{T}(\alpha)\) be pancreatic inner-fold MSE, let \(\widehat{\alpha}_{\min}\) minimize it, and let \(\widehat{\mathrm{SE}}_{T}(\widehat{\alpha}_{\min})\) be its cross-validation standard error. The conservative value is
+
+\[
+\widehat{\alpha}_{1\mathrm{se}}
+=\min\left\{\alpha:
+\widehat{E}_{T}(\alpha)
+\leq
+\widehat{E}_{T}(\widehat{\alpha}_{\min})
++\widehat{\mathrm{SE}}_{T}(\widehat{\alpha}_{\min})
+\right\}.
+\]
+
+Taking the smallest eligible \(\alpha\) favors the pretrained component and limits noisy pancreatic-specific adjustment. The comparison fixed 2,000 externally selected genes and `lambda.1se` in both lasso stages. Both target-domain rules were estimated inside each outer training set and evaluated on identical outer test folds across 20 repeated five-fold splits.
+
+```{r realdata-refined-table}
+refined_methods <- c(
+  "Pretrained target-min", "Pretrained target-1se", "Overall", "Individual"
+)
+refined_table <- refined_summary[
+  refined_summary$method %in% refined_methods,
+  c("method", "mean_mse", "sd_mse", "mean_mae", "mean_correlation", "mean_r_squared")
+]
+refined_table <- refined_table[match(refined_methods, refined_table$method), ]
+refined_table$method <- c(
+  "Pretrained: target minimum", "Pretrained: target one-SE",
+  "Overall", "Individual"
+)
+names(refined_table) <- c("Method", "MSE", "SD of MSE", "MAE", "Correlation", "R-squared")
+refined_table[-1] <- lapply(refined_table[-1], function(x) round(x, 3))
+knitr::kable(
+  refined_table,
+  booktabs = TRUE,
+  row.names = FALSE,
+  caption = "Performance under target-domain alpha selection across 20 repeated five-fold evaluations."
+)
+```
+
+The standard target-minimum rule achieved mean MSE 6.055, a 10.3% reduction relative to Individual Lasso and a 1.3% reduction relative to Overall Lasso. Paired comparisons favored target-minimum Pretrained Lasso over Individual in 18 of 20 repetitions and over Overall in 12 of 20. The conservative target one-standard-error rule had a slightly lower mean MSE of 5.983 and beat target minimum in 12 of 20 paired repetitions. Its mean advantage over target minimum was only 0.073, or about 1.2%; target minimum had a marginally lower median MSE and lower between-repetition standard deviation. Thus, target minimum remains the standard rule, while target one-standard-error is a reasonable conservative sensitivity analysis rather than a decisively superior method.
+
+An exploratory wider grid simultaneously selected feature count and second-stage regularization. With only 24 pancreatic training models per split, that procedure over-selected `lambda.min` and was unstable; Overall Lasso remained best on average. The wider grid was retained as a negative development result and was not used for the refined comparison.
+
+```{r realdata-refined-figure, fig.cap="Paired target-domain errors for the two target-domain alpha rules and the Overall and Individual comparators. Lines connect methods evaluated on the same repeated outer-fold assignment.", out.width="64%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(refined_results, "figures", "conservative_alpha_mse.png"),
+  rel_path = FALSE
+)
+```
+
+### Sensitivity analyses
+
+The analysis was repeated with 500 and 2,000 features, with AUC as the outcome, and with `lambda.min` instead of `lambda.1se`; each sensitivity analysis used ten repeated five-fold evaluations. Both external-data procedures had lower average MSE than Individual Lasso in every setting. Pretrained Lasso beat Individual Lasso in every paired repetition in all four sensitivity analyses. Its incremental advantage over Overall Lasso was not stable: Overall was better on average with 500 features, AUC, and `lambda.min`, whereas Pretrained was slightly better with 2,000 features (MSE 6.090 versus 6.221). With `lambda.min`, Overall reached MSE 4.382 and Pretrained reached 5.114, showing that regularization choice materially affected the comparison.
+
+```{r realdata-sensitivity-table}
+sensitivity_ids <- c(
+  "features_500_ln_ic50_1se",
+  "features_2000_ln_ic50_1se",
+  "auc_1000_1se",
+  "lambda_min_1000_ln_ic50"
+)
+sensitivity_labels <- c(
+  "500 genes; LN_IC50; lambda.1se",
+  "2,000 genes; LN_IC50; lambda.1se",
+  "1,000 genes; AUC; lambda.1se",
+  "1,000 genes; LN_IC50; lambda.min"
+)
+sensitivity_table <- data.frame(Analysis = sensitivity_labels, check.names = FALSE)
+for (method_name in c("Overall", "Pretrained", "Individual")) {
+  values <- realdata_summary[
+    realdata_summary$method == method_name &
+      realdata_summary$scenario %in% sensitivity_ids,
+    c("scenario", "mean_mse")
+  ]
+  sensitivity_table[[method_name]] <- round(
+    values$mean_mse[match(sensitivity_ids, values$scenario)], 4
+  )
+}
+knitr::kable(
+  sensitivity_table,
+  booktabs = TRUE,
+  caption = "Mean target-domain MSE in sensitivity analyses. AUC is on a different numerical scale from LN_IC50."
+)
+```
+
+```{r realdata-sensitivity-figure, fig.cap="Relative MSE reduction from using external cancer groups. Positive values favor the external-data method over Individual Lasso.", out.width="60%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(realdata_results, "figures", "sensitivity_mse_reduction.png"),
+  rel_path = FALSE
+)
+```
+
+### Selected variables and interpretation
+
+The effective Pretrained Lasso coefficient was reconstructed as the scaled overall coefficient plus the pancreatic second-stage adjustment. Across the 100 primary outer fits, `SLFN11` and `WNT10A` were each selected in 85% of fits; `EVA1A` and `TBX18` were selected in 59%, and `SGK2` in 52%. `SLFN11` had a negative coefficient whenever selected. Because lower `LN_IC50` means greater sensitivity, this sign indicates that higher `SLFN11` expression predicts greater gemcitabine sensitivity. This is biologically concordant with an independent pan-cancer analysis in which `SLFN11` was the transcript most strongly negatively correlated with gemcitabine ln(IC50) or AUC across three cell-line resources (Shee et al., 2019). The remaining variables are reported as predictive associations, not as validated biomarkers or causal mechanisms.
+
+```{r realdata-stability-figure, fig.cap="Most stable nonzero effective coefficients from Pretrained Lasso in the primary analysis. Frequency is calculated across 100 outer fits.", out.width="66%", fig.pos="H"}
+knitr::include_graphics(
+  file.path(realdata_results, "figures", "primary_pretrained_gene_stability.png"),
+  rel_path = FALSE
+)
+```
+
+### Limitations
+
+The target sample is small: each outer fit trains its pancreatic-specific component on only 24 cell lines. The target one-standard-error mean \(R^2\) is 0.049, and the predictions remain strongly regularized toward the center of the observed response distribution. The modest differences between target-domain tuning rules require confirmation in an independent dataset even though each reported outer test fold was protected from within-split tuning. Cancer cell lines do not reproduce patient pharmacokinetics, tumour microenvironment, treatment combinations, or clinical endpoints. The experiment therefore evaluates cross-cancer prediction of *in vitro* gemcitabine sensitivity. It does not validate a clinical response model or a treatment biomarker. A stronger biological claim would require independent datasets and experimental or clinical validation.
+
+# Future Steps
+
+The numerical study now varies dimension, SNR, and sparsity; a further extension can vary the target sample size and predictor correlation while retaining MSE and support recovery as the principal evaluation measures.
+
+The paired-method comparison will evaluate Pretrained Lasso against the high-dimensional GLM transfer-learning method of Tian and Feng (2023), implemented in the R package `glmtrans`. It will use the Gaussian source-detection design supplied by `glmtrans::models` (`cov.type = 2`). The target and source models will share the same predictors, but source coefficients will differ from the target coefficients. The fixed settings are listed below; this isolates the effect of source composition instead of repeating the dimension, noise, and sparsity variations already studied above.
+
+```{r future-paired-settings}
+paired_settings <- data.frame(
+  Component = c(
+    "Data generator", "Response and noise", "Target training sample",
+    "Source datasets", "Predictor dimension", "Target coefficients",
+    "Target predictors", "Source predictors", "Transfer level",
+    "Source-composition regimes", "Target test sample", "Monte Carlo repetitions"
+  ),
+  `Fixed setting` = c(
+    "glmtrans::models; cov.type = 2", "Gaussian; error N(0, 1)",
+    "n0 = 100", "K = 4; nk = 100 per source", "p = 500",
+    "s = 10; nonzero values equal 0.5", "Gaussian AR(1); rho = 0.9",
+    "Independent t distribution with 4 df", "h = 5 for informative sources",
+    "Ka = 4, 2, or 0 transferable sources", "n_test = 1,000", "100"
+  ),
+  check.names = FALSE
+)
+knitr::kable(
+  paired_settings,
+  booktabs = TRUE,
+  caption = "Planned settings for the paired-method simulation."
+)
+```
+
+For each Monte Carlo replication, the three values of $K_a$ represent all four sources being transferable, two of four being transferable, and no source being transferable. Transferability is controlled through the \(\ell_1\) distance between each source coefficient vector and the target coefficient vector, with $h$ specifying the deviation level for informative sources. Target-only Lasso, Overall Lasso, Pretrained Lasso with target-minimum tuning, and Trans-GLM with automatic source detection and an \(\ell_1\) penalty (`alpha = 1` in `glmtrans`) will be fit to exactly the same generated training data and evaluated on the same independent target test set. Random seeds and data splits will therefore be paired across methods. The primary metric will be target test MSE; MAE, \(\ell_2\) coefficient error, support F1, and source-detection sensitivity and specificity will provide complementary evidence. This experiment will directly compare prediction efficiency and robustness to negative transfer.
+
+As an extension of the real-data experiment in Section 4.2, we will assess whether the target sample can be expanded using gemcitabine-response data from GDSC1, CTRPv2, and PRISM/DepMap. We will harmonize cell-line identifiers, remove duplicates, retain a common expression-gene set, and standardize responses within study because assay protocols differ. GDSC2 will remain the primary dataset; other studies will first provide external validation and, if they contain sufficient unique pancreatic-cancer models, will then form separate source groups in a multi-study Pretrained Lasso analysis. Independent validation is needed to assess whether the modest advantage of target-domain Pretrained Lasso generalizes beyond the current GDSC2 sample.
+
+\begingroup
+\small
+\setlength{\parskip}{0.35em}
+
+# References {.unnumbered .unlisted}
+
+Craig, E., Pilanci, M., Le Menestrel, T., Narasimhan, B., Rivas, M. A., Gullaksen, S.-E., Dehghannasiri, R., Salzman, J., Taylor, J., and Tibshirani, R. (2025). Pretraining and the lasso. *Journal of the Royal Statistical Society Series B: Statistical Methodology*. <https://doi.org/10.1093/jrsssb/qkaf050>
+
+Friedman, J., Tibshirani, R., and Hastie, T. (2010). Regularization paths for generalized linear models via coordinate descent. *Journal of Statistical Software*, 33(1), 1--22. <https://doi.org/10.18637/jss.v033.i01>
+
+Gross, S. M., and Tibshirani, R. (2016). Data shared lasso: A novel tool to discover uplift. *Computational Statistics & Data Analysis*, 101, 226--235.
+
+Iorio, F., Knijnenburg, T. A., Vis, D. J., et al. (2016). A landscape of pharmacogenomic interactions in cancer. *Cell*, 166(3), 740--754. <https://doi.org/10.1016/j.cell.2016.06.017>
+
+Shee, K., Wells, J. D., Jiang, A., and Miller, T. W. (2019). Integrated pan-cancer gene expression and drug sensitivity analysis reveals SLFN11 mRNA as a solid tumor biomarker predictive of sensitivity to DNA-damaging chemotherapy. *PLOS ONE*, 14(11), e0224267. <https://doi.org/10.1371/journal.pone.0224267>
+
+Tian, Y., and Feng, Y. (2023). Transfer learning under high-dimensional generalized linear models. *Journal of the American Statistical Association*, 118(544), 2684--2697. DOI: [10.1080/01621459.2022.2071278](https://doi.org/10.1080/01621459.2022.2071278).
+
+Tuck, J., and Boyd, S. (2021). Fitting Laplacian regularized stratified Gaussian models. *Optimization and Engineering*, 23, 1--21.
+
+van der Meer, D., Barthorpe, S., Yang, W., Lightfoot, H., Hall, C., Gilbert, J., Francies, H. E., and Garnett, M. J. (2019). Cell Model Passports: a hub for clinical, genetic and functional datasets of preclinical cancer models. *Nucleic Acids Research*, 47(D1), D923--D929. <https://doi.org/10.1093/nar/gky872>
+
+\endgroup

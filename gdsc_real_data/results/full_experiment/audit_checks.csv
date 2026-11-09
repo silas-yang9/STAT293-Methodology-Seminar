@@ -1,0 +1,38 @@
+check,status,detail
+target sample count,PASS,expected 30
+external sample count,PASS,expected 199
+primary_1000_ln_ic50_1se: prediction rows,PASS,"observed 2400, expected 2400"
+primary_1000_ln_ic50_1se: unique predictions,PASS,"one row per repeat, target model, and method"
+primary_1000_ln_ic50_1se: target coverage,PASS,all repeat-method cells contain 30 targets
+primary_1000_ln_ic50_1se: outcome agreement,PASS,all methods share the same observed outcome
+primary_1000_ln_ic50_1se: diagnostic rows,PASS,"observed 100, expected 100"
+primary_1000_ln_ic50_1se: alpha grid,PASS,"all selected alpha values belong to 0.0, 0.1, ..., 1.0"
+primary_1000_ln_ic50_1se: MSE reconciliation,PASS,method_summary mean MSE matches independent recomputation
+features_500_ln_ic50_1se: prediction rows,PASS,"observed 1200, expected 1200"
+features_500_ln_ic50_1se: unique predictions,PASS,"one row per repeat, target model, and method"
+features_500_ln_ic50_1se: target coverage,PASS,all repeat-method cells contain 30 targets
+features_500_ln_ic50_1se: outcome agreement,PASS,all methods share the same observed outcome
+features_500_ln_ic50_1se: diagnostic rows,PASS,"observed 50, expected 50"
+features_500_ln_ic50_1se: alpha grid,PASS,"all selected alpha values belong to 0.0, 0.1, ..., 1.0"
+features_500_ln_ic50_1se: MSE reconciliation,PASS,method_summary mean MSE matches independent recomputation
+features_2000_ln_ic50_1se: prediction rows,PASS,"observed 1200, expected 1200"
+features_2000_ln_ic50_1se: unique predictions,PASS,"one row per repeat, target model, and method"
+features_2000_ln_ic50_1se: target coverage,PASS,all repeat-method cells contain 30 targets
+features_2000_ln_ic50_1se: outcome agreement,PASS,all methods share the same observed outcome
+features_2000_ln_ic50_1se: diagnostic rows,PASS,"observed 50, expected 50"
+features_2000_ln_ic50_1se: alpha grid,PASS,"all selected alpha values belong to 0.0, 0.1, ..., 1.0"
+features_2000_ln_ic50_1se: MSE reconciliation,PASS,method_summary mean MSE matches independent recomputation
+auc_1000_1se: prediction rows,PASS,"observed 1200, expected 1200"
+auc_1000_1se: unique predictions,PASS,"one row per repeat, target model, and method"
+auc_1000_1se: target coverage,PASS,all repeat-method cells contain 30 targets
+auc_1000_1se: outcome agreement,PASS,all methods share the same observed outcome
+auc_1000_1se: diagnostic rows,PASS,"observed 50, expected 50"
+auc_1000_1se: alpha grid,PASS,"all selected alpha values belong to 0.0, 0.1, ..., 1.0"
+auc_1000_1se: MSE reconciliation,PASS,method_summary mean MSE matches independent recomputation
+lambda_min_1000_ln_ic50: prediction rows,PASS,"observed 1200, expected 1200"
+lambda_min_1000_ln_ic50: unique predictions,PASS,"one row per repeat, target model, and method"
+lambda_min_1000_ln_ic50: target coverage,PASS,all repeat-method cells contain 30 targets
+lambda_min_1000_ln_ic50: outcome agreement,PASS,all methods share the same observed outcome
+lambda_min_1000_ln_ic50: diagnostic rows,PASS,"observed 50, expected 50"
+lambda_min_1000_ln_ic50: alpha grid,PASS,"all selected alpha values belong to 0.0, 0.1, ..., 1.0"
+lambda_min_1000_ln_ic50: MSE reconciliation,PASS,method_summary mean MSE matches independent recomputation

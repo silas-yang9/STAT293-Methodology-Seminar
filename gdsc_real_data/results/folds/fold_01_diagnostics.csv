@@ -1,0 +1,2 @@
+"fold","selected_alpha","n_train_total","n_train_target","n_train_external","n_test_target","features","inner_folds","lasso_choice"
+1,0.5,223,24,199,6,1000,3,"lambda.1se"

@@ -1,0 +1,5 @@
+"candidate_id","features","second_stage_lambda","first_stage_lambda"
+"f1000_1se",1000,"lambda.1se","lambda.1se"
+"f2000_1se",2000,"lambda.1se","lambda.1se"
+"f1000_min",1000,"lambda.min","lambda.1se"
+"f2000_min",2000,"lambda.min","lambda.1se"

@@ -1,0 +1,20 @@
+Nested target-domain tuning experiment
+Completed: 2026-11-04 08:56:32
+Repeats: 5
+Base seed: 731293
+Outer folds: 5
+Inner folds: 3
+Alpha grid: 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1
+First-stage lambda fixed at lambda.1se; feature count and second-stage lambda selected within each outer training set.
+Pretrained alpha selected from pancreatic-group inner-CV error.
+
+      method repeats mean_mse    sd_mse median_mse q025_mse q975_mse mean_mae
+     Overall       5 4.587586 0.2655430   4.454710 4.336402 4.959229 1.736084
+  Pretrained       5 5.807241 1.6383783   5.944335 3.638910 7.672758 1.957039
+ Target mean       5 6.802816 0.2934795   6.733832 6.478735 7.122735 2.150528
+  Individual       5 7.054457 0.4756161   7.323392 6.399278 7.443778 2.203613
+ mean_correlation mean_r_squared
+        0.5506380     0.27048123
+        0.3948490     0.07653142
+       -0.3675340    -0.08178509
+       -0.1780709    -0.12180111

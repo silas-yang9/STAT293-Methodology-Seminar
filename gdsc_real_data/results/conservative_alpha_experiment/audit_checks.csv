@@ -1,0 +1,14 @@
+check,status,detail
+target sample count,PASS,expected 30
+external sample count,PASS,expected 199
+prediction row count,PASS,"observed 3600, expected 3600"
+unique prediction keys,PASS,"one row per repeat, target model, and method"
+complete target coverage,PASS,all repeat-method cells contain 30 targets
+outcome agreement,PASS,all methods share each observed outcome
+diagnostic row count,PASS,"observed 100, expected 100"
+alpha-error row count,PASS,"observed 1100, expected 1100"
+alpha grid,PASS,"all alpha rules select from 0.0, 0.1, ..., 1.0"
+fixed feature count,PASS,"all fits use 2,000 external-selected genes"
+fixed lambda rule,PASS,both stages use lambda.1se
+one-SE alpha rule,PASS,saved alpha equals the smallest alpha within one SE of the pancreatic inner-CV minimum
+MSE reconciliation,PASS,method_summary mean MSE matches independent recomputation

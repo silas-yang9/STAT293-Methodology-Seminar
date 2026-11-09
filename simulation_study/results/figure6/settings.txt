@@ -1,0 +1,14 @@
+Figure 6 reproduction settings
+================================
+Requested replications: 100
+Base seed: 293600
+D1: K = 10; n_k = 100; p = 500
+D2: n = 100 from group 1
+Independent group-1 test set: n = 100
+10 shared and 10 disjoint individual coefficients per group
+rho = 0, 0.5, 1
+Gaussian noise scaled to target average SNR = 1.8
+Alpha grid = 0, 0.1, ..., 1
+Three-fold CV; first-stage support/offset uses lambda.1se;
+second-stage and comparison predictions use lambda.min.
+All-data fits include unpenalized group intercepts.

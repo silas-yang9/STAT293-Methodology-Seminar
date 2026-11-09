@@ -1,0 +1,601 @@
+"repeat_id","fold","model_id","observed","method","predicted","selected_candidate","selected_features","selected_second_stage_lambda","selected_target_alpha"
+1,1,"SIDM00130",-3.444133,"Pretrained",0.0358268136458102,"f2000_min",2000,"lambda.min",0
+1,1,"SIDM00411",-1.091093,"Pretrained",-1.59006985495202,"f2000_min",2000,"lambda.min",0
+1,1,"SIDM00582",2.615533,"Pretrained",2.22834812124808,"f2000_min",2000,"lambda.min",0
+1,1,"SIDM00583",-0.632883,"Pretrained",-1.15897411883037,"f2000_min",2000,"lambda.min",0
+1,1,"SIDM00670",0.099097,"Pretrained",0.76174228305932,"f2000_min",2000,"lambda.min",0
+1,1,"SIDM01139",0.347126,"Pretrained",1.80332904160613,"f2000_min",2000,"lambda.min",0
+1,1,"SIDM00130",-3.444133,"Individual",0.301669,"f2000_min",2000,"lambda.min",NA
+1,1,"SIDM00411",-1.091093,"Individual",0.301669,"f2000_min",2000,"lambda.min",NA
+1,1,"SIDM00582",2.615533,"Individual",0.301669,"f2000_min",2000,"lambda.min",NA
+1,1,"SIDM00583",-0.632883,"Individual",0.301669,"f2000_min",2000,"lambda.min",NA
+1,1,"SIDM00670",0.099097,"Individual",0.301669,"f2000_min",2000,"lambda.min",NA
+1,1,"SIDM01139",0.347126,"Individual",0.301669,"f2000_min",2000,"lambda.min",NA
+1,1,"SIDM00130",-3.444133,"Overall",0.326918420452681,"f1000_1se",1000,"lambda.1se",NA
+1,1,"SIDM00411",-1.091093,"Overall",-0.312355285950418,"f1000_1se",1000,"lambda.1se",NA
+1,1,"SIDM00582",2.615533,"Overall",0.798989235553797,"f1000_1se",1000,"lambda.1se",NA
+1,1,"SIDM00583",-0.632883,"Overall",-0.253897884734898,"f1000_1se",1000,"lambda.1se",NA
+1,1,"SIDM00670",0.099097,"Overall",0.330730288604439,"f1000_1se",1000,"lambda.1se",NA
+1,1,"SIDM01139",0.347126,"Overall",0.857285436340098,"f1000_1se",1000,"lambda.1se",NA
+1,1,"SIDM00130",-3.444133,"Target mean",0.301669,"target_mean",NA,NA,NA
+1,1,"SIDM00411",-1.091093,"Target mean",0.301669,"target_mean",NA,NA,NA
+1,1,"SIDM00582",2.615533,"Target mean",0.301669,"target_mean",NA,NA,NA
+1,1,"SIDM00583",-0.632883,"Target mean",0.301669,"target_mean",NA,NA,NA
+1,1,"SIDM00670",0.099097,"Target mean",0.301669,"target_mean",NA,NA,NA
+1,1,"SIDM01139",0.347126,"Target mean",0.301669,"target_mean",NA,NA,NA
+1,2,"SIDM00132",-0.677032,"Pretrained",1.40616168672315,"f1000_min",1000,"lambda.min",0.1
+1,2,"SIDM00455",1.487982,"Pretrained",1.60437789944091,"f1000_min",1000,"lambda.min",0.1
+1,2,"SIDM00531",-3.02061,"Pretrained",-1.27960741616811,"f1000_min",1000,"lambda.min",0.1
+1,2,"SIDM00899",3.809457,"Pretrained",2.79092168847505,"f1000_min",1000,"lambda.min",0.1
+1,2,"SIDM00934",-1.649507,"Pretrained",-1.45354377946837,"f1000_min",1000,"lambda.min",0.1
+1,2,"SIDM01188",2.363157,"Pretrained",-0.410352717507678,"f1000_min",1000,"lambda.min",0.1
+1,2,"SIDM00132",-0.677032,"Individual",0.506112009527041,"f1000_1se",1000,"lambda.1se",NA
+1,2,"SIDM00455",1.487982,"Individual",2.25604325984677,"f1000_1se",1000,"lambda.1se",NA
+1,2,"SIDM00531",-3.02061,"Individual",0.409258862801553,"f1000_1se",1000,"lambda.1se",NA
+1,2,"SIDM00899",3.809457,"Individual",0.539595508345038,"f1000_1se",1000,"lambda.1se",NA
+1,2,"SIDM00934",-1.649507,"Individual",0.813306910345937,"f1000_1se",1000,"lambda.1se",NA
+1,2,"SIDM01188",2.363157,"Individual",-1.29914518212132,"f1000_1se",1000,"lambda.1se",NA
+1,2,"SIDM00132",-0.677032,"Overall",0.343599111397582,"f1000_min",1000,"lambda.min",NA
+1,2,"SIDM00455",1.487982,"Overall",0.867951334213327,"f1000_min",1000,"lambda.min",NA
+1,2,"SIDM00531",-3.02061,"Overall",-1.1062955566622,"f1000_min",1000,"lambda.min",NA
+1,2,"SIDM00899",3.809457,"Overall",1.54852790307851,"f1000_min",1000,"lambda.min",NA
+1,2,"SIDM00934",-1.649507,"Overall",-0.307641484090965,"f1000_min",1000,"lambda.min",NA
+1,2,"SIDM01188",2.363157,"Overall",0.275793713976297,"f1000_min",1000,"lambda.min",NA
+1,2,"SIDM00132",-0.677032,"Target mean",0.117510666666667,"target_mean",NA,NA,NA
+1,2,"SIDM00455",1.487982,"Target mean",0.117510666666667,"target_mean",NA,NA,NA
+1,2,"SIDM00531",-3.02061,"Target mean",0.117510666666667,"target_mean",NA,NA,NA
+1,2,"SIDM00899",3.809457,"Target mean",0.117510666666667,"target_mean",NA,NA,NA
+1,2,"SIDM00934",-1.649507,"Target mean",0.117510666666667,"target_mean",NA,NA,NA
+1,2,"SIDM01188",2.363157,"Target mean",0.117510666666667,"target_mean",NA,NA,NA
+1,3,"SIDM00371",-1.782267,"Pretrained",-2.73107228419592,"f2000_min",2000,"lambda.min",0
+1,3,"SIDM00571",4.491236,"Pretrained",2.02398005994945,"f2000_min",2000,"lambda.min",0
+1,3,"SIDM00943",5.49598,"Pretrained",2.35832363063687,"f2000_min",2000,"lambda.min",0
+1,3,"SIDM00950",-2.543222,"Pretrained",-2.47644494013355,"f2000_min",2000,"lambda.min",0
+1,3,"SIDM01135",-0.271417,"Pretrained",-1.44819493829364,"f2000_min",2000,"lambda.min",0
+1,3,"SIDM01165",1.494867,"Pretrained",-1.62412898827687,"f2000_min",2000,"lambda.min",0
+1,3,"SIDM00371",-1.782267,"Individual",-0.0729780833333333,"f1000_1se",1000,"lambda.1se",NA
+1,3,"SIDM00571",4.491236,"Individual",-0.0729780833333333,"f1000_1se",1000,"lambda.1se",NA
+1,3,"SIDM00943",5.49598,"Individual",-0.0729780833333333,"f1000_1se",1000,"lambda.1se",NA
+1,3,"SIDM00950",-2.543222,"Individual",-0.0729780833333333,"f1000_1se",1000,"lambda.1se",NA
+1,3,"SIDM01135",-0.271417,"Individual",-0.0729780833333333,"f1000_1se",1000,"lambda.1se",NA
+1,3,"SIDM01165",1.494867,"Individual",-0.0729780833333333,"f1000_1se",1000,"lambda.1se",NA
+1,3,"SIDM00371",-1.782267,"Overall",-1.33956462892269,"f1000_min",1000,"lambda.min",NA
+1,3,"SIDM00571",4.491236,"Overall",0.998515125725682,"f1000_min",1000,"lambda.min",NA
+1,3,"SIDM00943",5.49598,"Overall",0.986429241482963,"f1000_min",1000,"lambda.min",NA
+1,3,"SIDM00950",-2.543222,"Overall",-1.00639924426263,"f1000_min",1000,"lambda.min",NA
+1,3,"SIDM01135",-0.271417,"Overall",-0.512066902678267,"f1000_min",1000,"lambda.min",NA
+1,3,"SIDM01165",1.494867,"Overall",-0.459825733175033,"f1000_min",1000,"lambda.min",NA
+1,3,"SIDM00371",-1.782267,"Target mean",-0.0729780833333333,"target_mean",NA,NA,NA
+1,3,"SIDM00571",4.491236,"Target mean",-0.0729780833333333,"target_mean",NA,NA,NA
+1,3,"SIDM00943",5.49598,"Target mean",-0.0729780833333333,"target_mean",NA,NA,NA
+1,3,"SIDM00950",-2.543222,"Target mean",-0.0729780833333333,"target_mean",NA,NA,NA
+1,3,"SIDM01135",-0.271417,"Target mean",-0.0729780833333333,"target_mean",NA,NA,NA
+1,3,"SIDM01165",1.494867,"Target mean",-0.0729780833333333,"target_mean",NA,NA,NA
+1,4,"SIDM00042",-0.517255,"Pretrained",0.270909109730676,"f1000_min",1000,"lambda.min",0.6
+1,4,"SIDM00053",0.454287,"Pretrained",-2.2788330102538,"f1000_min",1000,"lambda.min",0.6
+1,4,"SIDM00301",-3.240813,"Pretrained",-2.83097872936944,"f1000_min",1000,"lambda.min",0.6
+1,4,"SIDM00453",-1.388208,"Pretrained",1.49396872319431,"f1000_min",1000,"lambda.min",0.6
+1,4,"SIDM00664",3.528073,"Pretrained",1.61681528401453,"f1000_min",1000,"lambda.min",0.6
+1,4,"SIDM01137",1.334767,"Pretrained",1.0720522374219,"f1000_min",1000,"lambda.min",0.6
+1,4,"SIDM00042",-0.517255,"Individual",0.2067855,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00053",0.454287,"Individual",0.2067855,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00301",-3.240813,"Individual",0.2067855,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00453",-1.388208,"Individual",0.2067855,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00664",3.528073,"Individual",0.2067855,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM01137",1.334767,"Individual",0.2067855,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00042",-0.517255,"Overall",0.704724592568807,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00053",0.454287,"Overall",-0.42604780935109,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00301",-3.240813,"Overall",-1.79679301112344,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00453",-1.388208,"Overall",-0.035382719066257,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00664",3.528073,"Overall",0.896198024234579,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM01137",1.334767,"Overall",0.618897654797047,"f1000_min",1000,"lambda.min",NA
+1,4,"SIDM00042",-0.517255,"Target mean",0.2067855,"target_mean",NA,NA,NA
+1,4,"SIDM00053",0.454287,"Target mean",0.2067855,"target_mean",NA,NA,NA
+1,4,"SIDM00301",-3.240813,"Target mean",0.2067855,"target_mean",NA,NA,NA
+1,4,"SIDM00453",-1.388208,"Target mean",0.2067855,"target_mean",NA,NA,NA
+1,4,"SIDM00664",3.528073,"Target mean",0.2067855,"target_mean",NA,NA,NA
+1,4,"SIDM01137",1.334767,"Target mean",0.2067855,"target_mean",NA,NA,NA
+1,5,"SIDM00469",-3.830996,"Pretrained",-2.09004837579895,"f2000_min",2000,"lambda.min",0.1
+1,5,"SIDM00505",-1.731407,"Pretrained",0.0245625283242649,"f2000_min",2000,"lambda.min",0.1
+1,5,"SIDM00533",1.084742,"Pretrained",1.81028344617286,"f2000_min",2000,"lambda.min",0.1
+1,5,"SIDM00669",0.976248,"Pretrained",2.93663697049505,"f2000_min",2000,"lambda.min",0.1
+1,5,"SIDM01136",4.170801,"Pretrained",1.4418609491598,"f2000_min",2000,"lambda.min",0.1
+1,5,"SIDM01138",-2.798807,"Pretrained",-0.212848628163166,"f2000_min",2000,"lambda.min",0.1
+1,5,"SIDM00469",-3.830996,"Individual",0.344781246204975,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00505",-1.731407,"Individual",0.267385669950058,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00533",1.084742,"Individual",0.252826621359935,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00669",0.976248,"Individual",0.2904392438977,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM01136",4.170801,"Individual",0.403770384572865,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM01138",-2.798807,"Individual",0.228251055811403,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00469",-3.830996,"Overall",-0.767566777045044,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00505",-1.731407,"Overall",0.802737019262158,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00533",1.084742,"Overall",0.942975191900686,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00669",0.976248,"Overall",2.35907629530216,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM01136",4.170801,"Overall",0.155703611918606,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM01138",-2.798807,"Overall",0.0832060643565305,"f2000_min",2000,"lambda.min",NA
+1,5,"SIDM00469",-3.830996,"Target mean",0.302630083333333,"target_mean",NA,NA,NA
+1,5,"SIDM00505",-1.731407,"Target mean",0.302630083333333,"target_mean",NA,NA,NA
+1,5,"SIDM00533",1.084742,"Target mean",0.302630083333333,"target_mean",NA,NA,NA
+1,5,"SIDM00669",0.976248,"Target mean",0.302630083333333,"target_mean",NA,NA,NA
+1,5,"SIDM01136",4.170801,"Target mean",0.302630083333333,"target_mean",NA,NA,NA
+1,5,"SIDM01138",-2.798807,"Target mean",0.302630083333333,"target_mean",NA,NA,NA
+2,1,"SIDM00042",-0.517255,"Pretrained",-0.864025338086451,"f1000_min",1000,"lambda.min",0.1
+2,1,"SIDM00571",4.491236,"Pretrained",1.87315924730722,"f1000_min",1000,"lambda.min",0.1
+2,1,"SIDM00669",0.976248,"Pretrained",2.30313429987402,"f1000_min",1000,"lambda.min",0.1
+2,1,"SIDM00943",5.49598,"Pretrained",0.884917103323901,"f1000_min",1000,"lambda.min",0.1
+2,1,"SIDM00950",-2.543222,"Pretrained",-1.21253346212697,"f1000_min",1000,"lambda.min",0.1
+2,1,"SIDM01136",4.170801,"Pretrained",-0.855218158642846,"f1000_min",1000,"lambda.min",0.1
+2,1,"SIDM00042",-0.517255,"Individual",-0.289170208333333,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00571",4.491236,"Individual",-0.289170208333333,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00669",0.976248,"Individual",-0.289170208333333,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00943",5.49598,"Individual",-0.289170208333333,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00950",-2.543222,"Individual",-0.289170208333333,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM01136",4.170801,"Individual",-0.289170208333333,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00042",-0.517255,"Overall",0.34582008120525,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00571",4.491236,"Overall",1.23547122197772,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00669",0.976248,"Overall",1.66736781093236,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00943",5.49598,"Overall",1.2461297062564,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00950",-2.543222,"Overall",-1.34019230787083,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM01136",4.170801,"Overall",-0.561572897611826,"f1000_min",1000,"lambda.min",NA
+2,1,"SIDM00042",-0.517255,"Target mean",-0.289170208333333,"target_mean",NA,NA,NA
+2,1,"SIDM00571",4.491236,"Target mean",-0.289170208333333,"target_mean",NA,NA,NA
+2,1,"SIDM00669",0.976248,"Target mean",-0.289170208333333,"target_mean",NA,NA,NA
+2,1,"SIDM00943",5.49598,"Target mean",-0.289170208333333,"target_mean",NA,NA,NA
+2,1,"SIDM00950",-2.543222,"Target mean",-0.289170208333333,"target_mean",NA,NA,NA
+2,1,"SIDM01136",4.170801,"Target mean",-0.289170208333333,"target_mean",NA,NA,NA
+2,2,"SIDM00130",-3.444133,"Pretrained",0.383572066116317,"f1000_1se",1000,"lambda.1se",0.1
+2,2,"SIDM00301",-3.240813,"Pretrained",0.383572066116317,"f1000_1se",1000,"lambda.1se",0.1
+2,2,"SIDM00371",-1.782267,"Pretrained",0.383572066116317,"f1000_1se",1000,"lambda.1se",0.1
+2,2,"SIDM00531",-3.02061,"Pretrained",0.383572066116317,"f1000_1se",1000,"lambda.1se",0.1
+2,2,"SIDM00582",2.615533,"Pretrained",0.383572066116317,"f1000_1se",1000,"lambda.1se",0.1
+2,2,"SIDM00899",3.809457,"Pretrained",0.383572066116317,"f1000_1se",1000,"lambda.1se",0.1
+2,2,"SIDM00130",-3.444133,"Individual",0.424855666666667,"f2000_1se",2000,"lambda.1se",NA
+2,2,"SIDM00301",-3.240813,"Individual",0.424855666666667,"f2000_1se",2000,"lambda.1se",NA
+2,2,"SIDM00371",-1.782267,"Individual",0.424855666666667,"f2000_1se",2000,"lambda.1se",NA
+2,2,"SIDM00531",-3.02061,"Individual",0.424855666666667,"f2000_1se",2000,"lambda.1se",NA
+2,2,"SIDM00582",2.615533,"Individual",0.424855666666667,"f2000_1se",2000,"lambda.1se",NA
+2,2,"SIDM00899",3.809457,"Individual",0.424855666666667,"f2000_1se",2000,"lambda.1se",NA
+2,2,"SIDM00130",-3.444133,"Overall",0.492507610944907,"f1000_min",1000,"lambda.min",NA
+2,2,"SIDM00301",-3.240813,"Overall",-0.634936710562615,"f1000_min",1000,"lambda.min",NA
+2,2,"SIDM00371",-1.782267,"Overall",-0.423760341768113,"f1000_min",1000,"lambda.min",NA
+2,2,"SIDM00531",-3.02061,"Overall",-0.098220413073201,"f1000_min",1000,"lambda.min",NA
+2,2,"SIDM00582",2.615533,"Overall",0.979592519941507,"f1000_min",1000,"lambda.min",NA
+2,2,"SIDM00899",3.809457,"Overall",1.10503787723171,"f1000_min",1000,"lambda.min",NA
+2,2,"SIDM00130",-3.444133,"Target mean",0.424855666666667,"target_mean",NA,NA,NA
+2,2,"SIDM00301",-3.240813,"Target mean",0.424855666666667,"target_mean",NA,NA,NA
+2,2,"SIDM00371",-1.782267,"Target mean",0.424855666666667,"target_mean",NA,NA,NA
+2,2,"SIDM00531",-3.02061,"Target mean",0.424855666666667,"target_mean",NA,NA,NA
+2,2,"SIDM00582",2.615533,"Target mean",0.424855666666667,"target_mean",NA,NA,NA
+2,2,"SIDM00899",3.809457,"Target mean",0.424855666666667,"target_mean",NA,NA,NA
+2,3,"SIDM00411",-1.091093,"Pretrained",-2.00606693564247,"f1000_min",1000,"lambda.min",0.2
+2,3,"SIDM00505",-1.731407,"Pretrained",0.786470710016678,"f1000_min",1000,"lambda.min",0.2
+2,3,"SIDM00670",0.099097,"Pretrained",0.690881768551911,"f1000_min",1000,"lambda.min",0.2
+2,3,"SIDM00934",-1.649507,"Pretrained",-1.19961646134204,"f1000_min",1000,"lambda.min",0.2
+2,3,"SIDM01137",1.334767,"Pretrained",-0.496189217203821,"f1000_min",1000,"lambda.min",0.2
+2,3,"SIDM01165",1.494867,"Pretrained",-1.39798534318262,"f1000_min",1000,"lambda.min",0.2
+2,3,"SIDM00411",-1.091093,"Individual",0.278207458333333,"f2000_1se",2000,"lambda.1se",NA
+2,3,"SIDM00505",-1.731407,"Individual",0.278207458333333,"f2000_1se",2000,"lambda.1se",NA
+2,3,"SIDM00670",0.099097,"Individual",0.278207458333333,"f2000_1se",2000,"lambda.1se",NA
+2,3,"SIDM00934",-1.649507,"Individual",0.278207458333333,"f2000_1se",2000,"lambda.1se",NA
+2,3,"SIDM01137",1.334767,"Individual",0.278207458333333,"f2000_1se",2000,"lambda.1se",NA
+2,3,"SIDM01165",1.494867,"Individual",0.278207458333333,"f2000_1se",2000,"lambda.1se",NA
+2,3,"SIDM00411",-1.091093,"Overall",-0.825997301597114,"f2000_min",2000,"lambda.min",NA
+2,3,"SIDM00505",-1.731407,"Overall",0.632593832651111,"f2000_min",2000,"lambda.min",NA
+2,3,"SIDM00670",0.099097,"Overall",0.334336066467977,"f2000_min",2000,"lambda.min",NA
+2,3,"SIDM00934",-1.649507,"Overall",0.266935197804653,"f2000_min",2000,"lambda.min",NA
+2,3,"SIDM01137",1.334767,"Overall",0.589081031610348,"f2000_min",2000,"lambda.min",NA
+2,3,"SIDM01165",1.494867,"Overall",-0.845844032181221,"f2000_min",2000,"lambda.min",NA
+2,3,"SIDM00411",-1.091093,"Target mean",0.278207458333333,"target_mean",NA,NA,NA
+2,3,"SIDM00505",-1.731407,"Target mean",0.278207458333333,"target_mean",NA,NA,NA
+2,3,"SIDM00670",0.099097,"Target mean",0.278207458333333,"target_mean",NA,NA,NA
+2,3,"SIDM00934",-1.649507,"Target mean",0.278207458333333,"target_mean",NA,NA,NA
+2,3,"SIDM01137",1.334767,"Target mean",0.278207458333333,"target_mean",NA,NA,NA
+2,3,"SIDM01165",1.494867,"Target mean",0.278207458333333,"target_mean",NA,NA,NA
+2,4,"SIDM00533",1.084742,"Pretrained",1.10361402390389,"f2000_min",2000,"lambda.min",0.3
+2,4,"SIDM00583",-0.632883,"Pretrained",-1.61731758569188,"f2000_min",2000,"lambda.min",0.3
+2,4,"SIDM00664",3.528073,"Pretrained",1.54620610662998,"f2000_min",2000,"lambda.min",0.3
+2,4,"SIDM01135",-0.271417,"Pretrained",-1.25717189647575,"f2000_min",2000,"lambda.min",0.3
+2,4,"SIDM01139",0.347126,"Pretrained",1.43439812815946,"f2000_min",2000,"lambda.min",0.3
+2,4,"SIDM01188",2.363157,"Pretrained",-1.03715269008321,"f2000_min",2000,"lambda.min",0.3
+2,4,"SIDM00533",1.084742,"Individual",-0.626911841140146,"f2000_min",2000,"lambda.min",NA
+2,4,"SIDM00583",-0.632883,"Individual",-1.26682004225946,"f2000_min",2000,"lambda.min",NA
+2,4,"SIDM00664",3.528073,"Individual",-0.873271199727295,"f2000_min",2000,"lambda.min",NA
+2,4,"SIDM01135",-0.271417,"Individual",0.00395345520101519,"f2000_min",2000,"lambda.min",NA
+2,4,"SIDM01139",0.347126,"Individual",0.469480924172628,"f2000_min",2000,"lambda.min",NA
+2,4,"SIDM01188",2.363157,"Individual",-0.729859525887128,"f2000_min",2000,"lambda.min",NA
+2,4,"SIDM00533",1.084742,"Overall",0.417703713074931,"f1000_min",1000,"lambda.min",NA
+2,4,"SIDM00583",-0.632883,"Overall",-1.60295846609538,"f1000_min",1000,"lambda.min",NA
+2,4,"SIDM00664",3.528073,"Overall",0.867349236430216,"f1000_min",1000,"lambda.min",NA
+2,4,"SIDM01135",-0.271417,"Overall",-0.578800364829756,"f1000_min",1000,"lambda.min",NA
+2,4,"SIDM01139",0.347126,"Overall",0.818231130607579,"f1000_min",1000,"lambda.min",NA
+2,4,"SIDM01188",2.363157,"Overall",0.0654966207227635,"f1000_min",1000,"lambda.min",NA
+2,4,"SIDM00533",1.084742,"Target mean",-0.053545625,"target_mean",NA,NA,NA
+2,4,"SIDM00583",-0.632883,"Target mean",-0.053545625,"target_mean",NA,NA,NA
+2,4,"SIDM00664",3.528073,"Target mean",-0.053545625,"target_mean",NA,NA,NA
+2,4,"SIDM01135",-0.271417,"Target mean",-0.053545625,"target_mean",NA,NA,NA
+2,4,"SIDM01139",0.347126,"Target mean",-0.053545625,"target_mean",NA,NA,NA
+2,4,"SIDM01188",2.363157,"Target mean",-0.053545625,"target_mean",NA,NA,NA
+2,5,"SIDM00053",0.454287,"Pretrained",-1.00578317233954,"f2000_min",2000,"lambda.min",0.4
+2,5,"SIDM00132",-0.677032,"Pretrained",1.21726044645206,"f2000_min",2000,"lambda.min",0.4
+2,5,"SIDM00453",-1.388208,"Pretrained",0.47233812145335,"f2000_min",2000,"lambda.min",0.4
+2,5,"SIDM00455",1.487982,"Pretrained",1.77332097303371,"f2000_min",2000,"lambda.min",0.4
+2,5,"SIDM00469",-3.830996,"Pretrained",-1.84834791828267,"f2000_min",2000,"lambda.min",0.4
+2,5,"SIDM01138",-2.798807,"Pretrained",0.243951942214994,"f2000_min",2000,"lambda.min",0.4
+2,5,"SIDM00053",0.454287,"Individual",-0.547978928420568,"f1000_1se",1000,"lambda.1se",NA
+2,5,"SIDM00132",-0.677032,"Individual",0.484034707829645,"f1000_1se",1000,"lambda.1se",NA
+2,5,"SIDM00453",-1.388208,"Individual",1.11683972797984,"f1000_1se",1000,"lambda.1se",NA
+2,5,"SIDM00455",1.487982,"Individual",0.698997194829545,"f1000_1se",1000,"lambda.1se",NA
+2,5,"SIDM00469",-3.830996,"Individual",-0.378859134632362,"f1000_1se",1000,"lambda.1se",NA
+2,5,"SIDM01138",-2.798807,"Individual",0.551722976088307,"f1000_1se",1000,"lambda.1se",NA
+2,5,"SIDM00053",0.454287,"Overall",-0.0812675908453646,"f1000_min",1000,"lambda.min",NA
+2,5,"SIDM00132",-0.677032,"Overall",0.560850667798067,"f1000_min",1000,"lambda.min",NA
+2,5,"SIDM00453",-1.388208,"Overall",0.168898738447861,"f1000_min",1000,"lambda.min",NA
+2,5,"SIDM00455",1.487982,"Overall",1.26020640647355,"f1000_min",1000,"lambda.min",NA
+2,5,"SIDM00469",-3.830996,"Overall",-0.721832479954268,"f1000_min",1000,"lambda.min",NA
+2,5,"SIDM01138",-2.798807,"Overall",0.321004008966176,"f1000_min",1000,"lambda.min",NA
+2,5,"SIDM00053",0.454287,"Target mean",0.495269875,"target_mean",NA,NA,NA
+2,5,"SIDM00132",-0.677032,"Target mean",0.495269875,"target_mean",NA,NA,NA
+2,5,"SIDM00453",-1.388208,"Target mean",0.495269875,"target_mean",NA,NA,NA
+2,5,"SIDM00455",1.487982,"Target mean",0.495269875,"target_mean",NA,NA,NA
+2,5,"SIDM00469",-3.830996,"Target mean",0.495269875,"target_mean",NA,NA,NA
+2,5,"SIDM01138",-2.798807,"Target mean",0.495269875,"target_mean",NA,NA,NA
+3,1,"SIDM00132",-0.677032,"Pretrained",0.0602694939755767,"f2000_min",2000,"lambda.min",0.2
+3,1,"SIDM00571",4.491236,"Pretrained",1.93191068107429,"f2000_min",2000,"lambda.min",0.2
+3,1,"SIDM00669",0.976248,"Pretrained",1.9666081527265,"f2000_min",2000,"lambda.min",0.2
+3,1,"SIDM00943",5.49598,"Pretrained",2.08744032252501,"f2000_min",2000,"lambda.min",0.2
+3,1,"SIDM00950",-2.543222,"Pretrained",-1.96226589740959,"f2000_min",2000,"lambda.min",0.2
+3,1,"SIDM01188",2.363157,"Pretrained",-0.997346348888839,"f2000_min",2000,"lambda.min",0.2
+3,1,"SIDM00132",-0.677032,"Individual",-0.207194333333333,"f2000_min",2000,"lambda.min",NA
+3,1,"SIDM00571",4.491236,"Individual",-0.207194333333333,"f2000_min",2000,"lambda.min",NA
+3,1,"SIDM00669",0.976248,"Individual",-0.207194333333333,"f2000_min",2000,"lambda.min",NA
+3,1,"SIDM00943",5.49598,"Individual",-0.207194333333333,"f2000_min",2000,"lambda.min",NA
+3,1,"SIDM00950",-2.543222,"Individual",-0.207194333333333,"f2000_min",2000,"lambda.min",NA
+3,1,"SIDM01188",2.363157,"Individual",-0.207194333333333,"f2000_min",2000,"lambda.min",NA
+3,1,"SIDM00132",-0.677032,"Overall",0.162243576015918,"f1000_min",1000,"lambda.min",NA
+3,1,"SIDM00571",4.491236,"Overall",1.08610723633475,"f1000_min",1000,"lambda.min",NA
+3,1,"SIDM00669",0.976248,"Overall",1.35596749807076,"f1000_min",1000,"lambda.min",NA
+3,1,"SIDM00943",5.49598,"Overall",1.09119658586449,"f1000_min",1000,"lambda.min",NA
+3,1,"SIDM00950",-2.543222,"Overall",-1.04725148319677,"f1000_min",1000,"lambda.min",NA
+3,1,"SIDM01188",2.363157,"Overall",-0.0148110927285687,"f1000_min",1000,"lambda.min",NA
+3,1,"SIDM00132",-0.677032,"Target mean",-0.207194333333333,"target_mean",NA,NA,NA
+3,1,"SIDM00571",4.491236,"Target mean",-0.207194333333333,"target_mean",NA,NA,NA
+3,1,"SIDM00669",0.976248,"Target mean",-0.207194333333333,"target_mean",NA,NA,NA
+3,1,"SIDM00943",5.49598,"Target mean",-0.207194333333333,"target_mean",NA,NA,NA
+3,1,"SIDM00950",-2.543222,"Target mean",-0.207194333333333,"target_mean",NA,NA,NA
+3,1,"SIDM01188",2.363157,"Target mean",-0.207194333333333,"target_mean",NA,NA,NA
+3,2,"SIDM00130",-3.444133,"Pretrained",0.819995999684598,"f1000_min",1000,"lambda.min",0.2
+3,2,"SIDM00301",-3.240813,"Pretrained",-2.77712947324537,"f1000_min",1000,"lambda.min",0.2
+3,2,"SIDM00469",-3.830996,"Pretrained",-1.94371027997299,"f1000_min",1000,"lambda.min",0.2
+3,2,"SIDM00533",1.084742,"Pretrained",1.93539302331797,"f1000_min",1000,"lambda.min",0.2
+3,2,"SIDM00583",-0.632883,"Pretrained",-0.830818675068037,"f1000_min",1000,"lambda.min",0.2
+3,2,"SIDM00664",3.528073,"Pretrained",1.92212761890004,"f1000_min",1000,"lambda.min",0.2
+3,2,"SIDM00130",-3.444133,"Individual",0.486238041666667,"f2000_min",2000,"lambda.min",NA
+3,2,"SIDM00301",-3.240813,"Individual",0.486238041666667,"f2000_min",2000,"lambda.min",NA
+3,2,"SIDM00469",-3.830996,"Individual",0.486238041666667,"f2000_min",2000,"lambda.min",NA
+3,2,"SIDM00533",1.084742,"Individual",0.486238041666667,"f2000_min",2000,"lambda.min",NA
+3,2,"SIDM00583",-0.632883,"Individual",0.486238041666667,"f2000_min",2000,"lambda.min",NA
+3,2,"SIDM00664",3.528073,"Individual",0.486238041666667,"f2000_min",2000,"lambda.min",NA
+3,2,"SIDM00130",-3.444133,"Overall",0.947289742915112,"f1000_min",1000,"lambda.min",NA
+3,2,"SIDM00301",-3.240813,"Overall",-1.77941834370701,"f1000_min",1000,"lambda.min",NA
+3,2,"SIDM00469",-3.830996,"Overall",-0.815570196957792,"f1000_min",1000,"lambda.min",NA
+3,2,"SIDM00533",1.084742,"Overall",0.832025652056392,"f1000_min",1000,"lambda.min",NA
+3,2,"SIDM00583",-0.632883,"Overall",-1.26159726190466,"f1000_min",1000,"lambda.min",NA
+3,2,"SIDM00664",3.528073,"Overall",1.33919187259708,"f1000_min",1000,"lambda.min",NA
+3,2,"SIDM00130",-3.444133,"Target mean",0.486238041666667,"target_mean",NA,NA,NA
+3,2,"SIDM00301",-3.240813,"Target mean",0.486238041666667,"target_mean",NA,NA,NA
+3,2,"SIDM00469",-3.830996,"Target mean",0.486238041666667,"target_mean",NA,NA,NA
+3,2,"SIDM00533",1.084742,"Target mean",0.486238041666667,"target_mean",NA,NA,NA
+3,2,"SIDM00583",-0.632883,"Target mean",0.486238041666667,"target_mean",NA,NA,NA
+3,2,"SIDM00664",3.528073,"Target mean",0.486238041666667,"target_mean",NA,NA,NA
+3,3,"SIDM00411",-1.091093,"Pretrained",-2.08603881896959,"f2000_min",2000,"lambda.min",0.6
+3,3,"SIDM00455",1.487982,"Pretrained",2.04778063155303,"f2000_min",2000,"lambda.min",0.6
+3,3,"SIDM00505",-1.731407,"Pretrained",0.059046892176463,"f2000_min",2000,"lambda.min",0.6
+3,3,"SIDM00531",-3.02061,"Pretrained",1.05119842846595,"f2000_min",2000,"lambda.min",0.6
+3,3,"SIDM00582",2.615533,"Pretrained",1.25707952382238,"f2000_min",2000,"lambda.min",0.6
+3,3,"SIDM00670",0.099097,"Pretrained",1.30154296995155,"f2000_min",2000,"lambda.min",0.6
+3,3,"SIDM00411",-1.091093,"Individual",0.282258375,"f2000_1se",2000,"lambda.1se",NA
+3,3,"SIDM00455",1.487982,"Individual",0.282258375,"f2000_1se",2000,"lambda.1se",NA
+3,3,"SIDM00505",-1.731407,"Individual",0.282258375,"f2000_1se",2000,"lambda.1se",NA
+3,3,"SIDM00531",-3.02061,"Individual",0.282258375,"f2000_1se",2000,"lambda.1se",NA
+3,3,"SIDM00582",2.615533,"Individual",0.282258375,"f2000_1se",2000,"lambda.1se",NA
+3,3,"SIDM00670",0.099097,"Individual",0.282258375,"f2000_1se",2000,"lambda.1se",NA
+3,3,"SIDM00411",-1.091093,"Overall",-0.556113234976295,"f1000_min",1000,"lambda.min",NA
+3,3,"SIDM00455",1.487982,"Overall",1.24087907621014,"f1000_min",1000,"lambda.min",NA
+3,3,"SIDM00505",-1.731407,"Overall",0.1478704986497,"f1000_min",1000,"lambda.min",NA
+3,3,"SIDM00531",-3.02061,"Overall",-1.2609374239353,"f1000_min",1000,"lambda.min",NA
+3,3,"SIDM00582",2.615533,"Overall",1.70952720810239,"f1000_min",1000,"lambda.min",NA
+3,3,"SIDM00670",0.099097,"Overall",0.389005701699741,"f1000_min",1000,"lambda.min",NA
+3,3,"SIDM00411",-1.091093,"Target mean",0.282258375,"target_mean",NA,NA,NA
+3,3,"SIDM00455",1.487982,"Target mean",0.282258375,"target_mean",NA,NA,NA
+3,3,"SIDM00505",-1.731407,"Target mean",0.282258375,"target_mean",NA,NA,NA
+3,3,"SIDM00531",-3.02061,"Target mean",0.282258375,"target_mean",NA,NA,NA
+3,3,"SIDM00582",2.615533,"Target mean",0.282258375,"target_mean",NA,NA,NA
+3,3,"SIDM00670",0.099097,"Target mean",0.282258375,"target_mean",NA,NA,NA
+3,4,"SIDM00371",-1.782267,"Pretrained",0.0540875813089502,"f2000_min",2000,"lambda.min",0.5
+3,4,"SIDM00899",3.809457,"Pretrained",0.164039492673573,"f2000_min",2000,"lambda.min",0.5
+3,4,"SIDM01136",4.170801,"Pretrained",-0.489788062348048,"f2000_min",2000,"lambda.min",0.5
+3,4,"SIDM01137",1.334767,"Pretrained",-0.472188190388596,"f2000_min",2000,"lambda.min",0.5
+3,4,"SIDM01139",0.347126,"Pretrained",-0.441057298210298,"f2000_min",2000,"lambda.min",0.5
+3,4,"SIDM01165",1.494867,"Pretrained",-0.764433344362523,"f2000_min",2000,"lambda.min",0.5
+3,4,"SIDM00371",-1.782267,"Individual",-0.176710333333333,"f1000_1se",1000,"lambda.1se",NA
+3,4,"SIDM00899",3.809457,"Individual",-0.176710333333333,"f1000_1se",1000,"lambda.1se",NA
+3,4,"SIDM01136",4.170801,"Individual",-0.176710333333333,"f1000_1se",1000,"lambda.1se",NA
+3,4,"SIDM01137",1.334767,"Individual",-0.176710333333333,"f1000_1se",1000,"lambda.1se",NA
+3,4,"SIDM01139",0.347126,"Individual",-0.176710333333333,"f1000_1se",1000,"lambda.1se",NA
+3,4,"SIDM01165",1.494867,"Individual",-0.176710333333333,"f1000_1se",1000,"lambda.1se",NA
+3,4,"SIDM00371",-1.782267,"Overall",-1.41292990268501,"f1000_min",1000,"lambda.min",NA
+3,4,"SIDM00899",3.809457,"Overall",1.2202071084153,"f1000_min",1000,"lambda.min",NA
+3,4,"SIDM01136",4.170801,"Overall",-0.378781678437863,"f1000_min",1000,"lambda.min",NA
+3,4,"SIDM01137",1.334767,"Overall",0.375435755534273,"f1000_min",1000,"lambda.min",NA
+3,4,"SIDM01139",0.347126,"Overall",0.522138394707409,"f1000_min",1000,"lambda.min",NA
+3,4,"SIDM01165",1.494867,"Overall",-0.753188634432296,"f1000_min",1000,"lambda.min",NA
+3,4,"SIDM00371",-1.782267,"Target mean",-0.176710333333333,"target_mean",NA,NA,NA
+3,4,"SIDM00899",3.809457,"Target mean",-0.176710333333333,"target_mean",NA,NA,NA
+3,4,"SIDM01136",4.170801,"Target mean",-0.176710333333333,"target_mean",NA,NA,NA
+3,4,"SIDM01137",1.334767,"Target mean",-0.176710333333333,"target_mean",NA,NA,NA
+3,4,"SIDM01139",0.347126,"Target mean",-0.176710333333333,"target_mean",NA,NA,NA
+3,4,"SIDM01165",1.494867,"Target mean",-0.176710333333333,"target_mean",NA,NA,NA
+3,5,"SIDM00042",-0.517255,"Pretrained",3.10892114373507,"f2000_min",2000,"lambda.min",0.2
+3,5,"SIDM00053",0.454287,"Pretrained",0.379281766184053,"f2000_min",2000,"lambda.min",0.2
+3,5,"SIDM00453",-1.388208,"Pretrained",-0.123941078522527,"f2000_min",2000,"lambda.min",0.2
+3,5,"SIDM00934",-1.649507,"Pretrained",-0.454641272029941,"f2000_min",2000,"lambda.min",0.2
+3,5,"SIDM01135",-0.271417,"Pretrained",-0.649989723142348,"f2000_min",2000,"lambda.min",0.2
+3,5,"SIDM01138",-2.798807,"Pretrained",-0.00850206615804056,"f2000_min",2000,"lambda.min",0.2
+3,5,"SIDM00042",-0.517255,"Individual",-0.117848408293422,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00053",0.454287,"Individual",-1.31280627617593,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00453",-1.388208,"Individual",1.60811020575291,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00934",-1.649507,"Individual",-0.0709312128641382,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM01135",-0.271417,"Individual",0.635188318864196,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM01138",-2.798807,"Individual",0.441264906388125,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00042",-0.517255,"Overall",0.879449261692166,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00053",0.454287,"Overall",-0.340309104742255,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00453",-1.388208,"Overall",0.0684917086674601,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00934",-1.649507,"Overall",-0.0242558432558628,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM01135",-0.271417,"Overall",-0.0926728840514866,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM01138",-2.798807,"Overall",0.245980341085737,"f1000_min",1000,"lambda.min",NA
+3,5,"SIDM00042",-0.517255,"Target mean",0.471025416666667,"target_mean",NA,NA,NA
+3,5,"SIDM00053",0.454287,"Target mean",0.471025416666667,"target_mean",NA,NA,NA
+3,5,"SIDM00453",-1.388208,"Target mean",0.471025416666667,"target_mean",NA,NA,NA
+3,5,"SIDM00934",-1.649507,"Target mean",0.471025416666667,"target_mean",NA,NA,NA
+3,5,"SIDM01135",-0.271417,"Target mean",0.471025416666667,"target_mean",NA,NA,NA
+3,5,"SIDM01138",-2.798807,"Target mean",0.471025416666667,"target_mean",NA,NA,NA
+4,1,"SIDM00042",-0.517255,"Pretrained",1.22650439307839,"f2000_min",2000,"lambda.min",0
+4,1,"SIDM00505",-1.731407,"Pretrained",0.44988903885416,"f2000_min",2000,"lambda.min",0
+4,1,"SIDM00582",2.615533,"Pretrained",2.73039467572685,"f2000_min",2000,"lambda.min",0
+4,1,"SIDM00899",3.809457,"Pretrained",1.83990904995668,"f2000_min",2000,"lambda.min",0
+4,1,"SIDM01139",0.347126,"Pretrained",1.3220426392422,"f2000_min",2000,"lambda.min",0
+4,1,"SIDM01188",2.363157,"Pretrained",-0.56299431081035,"f2000_min",2000,"lambda.min",0
+4,1,"SIDM00042",-0.517255,"Individual",-0.361672423849058,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00505",-1.731407,"Individual",0.309702932029922,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00582",2.615533,"Individual",0.62964886412605,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00899",3.809457,"Individual",0.964283621086913,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM01139",0.347126,"Individual",0.704215268674968,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM01188",2.363157,"Individual",-0.860734793396178,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00042",-0.517255,"Overall",0.389402685980217,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00505",-1.731407,"Overall",0.217505392893742,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00582",2.615533,"Overall",1.57242097854766,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00899",3.809457,"Overall",1.54927677377528,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM01139",0.347126,"Overall",0.835921705399068,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM01188",2.363157,"Overall",-0.0448000270782387,"f1000_min",1000,"lambda.min",NA
+4,1,"SIDM00042",-0.517255,"Target mean",-0.0730378333333333,"target_mean",NA,NA,NA
+4,1,"SIDM00505",-1.731407,"Target mean",-0.0730378333333333,"target_mean",NA,NA,NA
+4,1,"SIDM00582",2.615533,"Target mean",-0.0730378333333333,"target_mean",NA,NA,NA
+4,1,"SIDM00899",3.809457,"Target mean",-0.0730378333333333,"target_mean",NA,NA,NA
+4,1,"SIDM01139",0.347126,"Target mean",-0.0730378333333333,"target_mean",NA,NA,NA
+4,1,"SIDM01188",2.363157,"Target mean",-0.0730378333333333,"target_mean",NA,NA,NA
+4,2,"SIDM00130",-3.444133,"Pretrained",3.75282802998173,"f1000_min",1000,"lambda.min",0.8
+4,2,"SIDM00132",-0.677032,"Pretrained",1.93275474974645,"f1000_min",1000,"lambda.min",0.8
+4,2,"SIDM00531",-3.02061,"Pretrained",2.61866428767492,"f1000_min",1000,"lambda.min",0.8
+4,2,"SIDM00669",0.976248,"Pretrained",3.57827182648461,"f1000_min",1000,"lambda.min",0.8
+4,2,"SIDM00670",0.099097,"Pretrained",-0.250303167098132,"f1000_min",1000,"lambda.min",0.8
+4,2,"SIDM01138",-2.798807,"Pretrained",2.97146391994915,"f1000_min",1000,"lambda.min",0.8
+4,2,"SIDM00130",-3.444133,"Individual",1.79216953013958,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00132",-0.677032,"Individual",1.43570537174088,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00531",-3.02061,"Individual",1.17731122007882,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00669",0.976248,"Individual",0.864320728727324,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00670",0.099097,"Individual",0.940080587811771,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM01138",-2.798807,"Individual",1.50533082894213,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00130",-3.444133,"Overall",0.965747430956983,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00132",-0.677032,"Overall",0.779118156054539,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00531",-3.02061,"Overall",-0.532959679153404,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00669",0.976248,"Overall",2.50051818496475,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00670",0.099097,"Overall",0.616134695918442,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM01138",-2.798807,"Overall",0.516893064076714,"f1000_min",1000,"lambda.min",NA
+4,2,"SIDM00130",-3.444133,"Target mean",0.583289166666667,"target_mean",NA,NA,NA
+4,2,"SIDM00132",-0.677032,"Target mean",0.583289166666667,"target_mean",NA,NA,NA
+4,2,"SIDM00531",-3.02061,"Target mean",0.583289166666667,"target_mean",NA,NA,NA
+4,2,"SIDM00669",0.976248,"Target mean",0.583289166666667,"target_mean",NA,NA,NA
+4,2,"SIDM00670",0.099097,"Target mean",0.583289166666667,"target_mean",NA,NA,NA
+4,2,"SIDM01138",-2.798807,"Target mean",0.583289166666667,"target_mean",NA,NA,NA
+4,3,"SIDM00453",-1.388208,"Pretrained",0.0779729805751482,"f2000_min",2000,"lambda.min",0.1
+4,3,"SIDM00455",1.487982,"Pretrained",1.29295669620642,"f2000_min",2000,"lambda.min",0.1
+4,3,"SIDM00571",4.491236,"Pretrained",2.08706815866503,"f2000_min",2000,"lambda.min",0.1
+4,3,"SIDM00583",-0.632883,"Pretrained",-1.63363741175191,"f2000_min",2000,"lambda.min",0.1
+4,3,"SIDM00934",-1.649507,"Pretrained",-1.10761034275663,"f2000_min",2000,"lambda.min",0.1
+4,3,"SIDM01137",1.334767,"Pretrained",-0.470189423168866,"f2000_min",2000,"lambda.min",0.1
+4,3,"SIDM00453",-1.388208,"Individual",0.0620965,"f2000_1se",2000,"lambda.1se",NA
+4,3,"SIDM00455",1.487982,"Individual",0.0620965,"f2000_1se",2000,"lambda.1se",NA
+4,3,"SIDM00571",4.491236,"Individual",0.0620965,"f2000_1se",2000,"lambda.1se",NA
+4,3,"SIDM00583",-0.632883,"Individual",0.0620965,"f2000_1se",2000,"lambda.1se",NA
+4,3,"SIDM00934",-1.649507,"Individual",0.0620965,"f2000_1se",2000,"lambda.1se",NA
+4,3,"SIDM01137",1.334767,"Individual",0.0620965,"f2000_1se",2000,"lambda.1se",NA
+4,3,"SIDM00453",-1.388208,"Overall",-0.181829479638508,"f1000_min",1000,"lambda.min",NA
+4,3,"SIDM00455",1.487982,"Overall",0.87508146893446,"f1000_min",1000,"lambda.min",NA
+4,3,"SIDM00571",4.491236,"Overall",1.57119859512404,"f1000_min",1000,"lambda.min",NA
+4,3,"SIDM00583",-0.632883,"Overall",-1.22435792249108,"f1000_min",1000,"lambda.min",NA
+4,3,"SIDM00934",-1.649507,"Overall",-0.196112614333858,"f1000_min",1000,"lambda.min",NA
+4,3,"SIDM01137",1.334767,"Overall",0.464580016507248,"f1000_min",1000,"lambda.min",NA
+4,3,"SIDM00453",-1.388208,"Target mean",0.0620965,"target_mean",NA,NA,NA
+4,3,"SIDM00455",1.487982,"Target mean",0.0620965,"target_mean",NA,NA,NA
+4,3,"SIDM00571",4.491236,"Target mean",0.0620965,"target_mean",NA,NA,NA
+4,3,"SIDM00583",-0.632883,"Target mean",0.0620965,"target_mean",NA,NA,NA
+4,3,"SIDM00934",-1.649507,"Target mean",0.0620965,"target_mean",NA,NA,NA
+4,3,"SIDM01137",1.334767,"Target mean",0.0620965,"target_mean",NA,NA,NA
+4,4,"SIDM00053",0.454287,"Pretrained",-0.329338699805828,"f1000_1se",1000,"lambda.1se",0
+4,4,"SIDM00301",-3.240813,"Pretrained",-1.81633586575777,"f1000_1se",1000,"lambda.1se",0
+4,4,"SIDM00371",-1.782267,"Pretrained",-1.05918210461946,"f1000_1se",1000,"lambda.1se",0
+4,4,"SIDM00469",-3.830996,"Pretrained",-0.906799489095807,"f1000_1se",1000,"lambda.1se",0
+4,4,"SIDM00664",3.528073,"Pretrained",0.832917427166633,"f1000_1se",1000,"lambda.1se",0
+4,4,"SIDM00943",5.49598,"Pretrained",1.45827956231942,"f1000_1se",1000,"lambda.1se",0
+4,4,"SIDM00053",0.454287,"Individual",0.187893291666667,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00301",-3.240813,"Individual",0.187893291666667,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00371",-1.782267,"Individual",0.187893291666667,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00469",-3.830996,"Individual",0.187893291666667,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00664",3.528073,"Individual",0.187893291666667,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00943",5.49598,"Individual",0.187893291666667,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00053",0.454287,"Overall",-0.354168003517164,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00301",-3.240813,"Overall",-1.84651695725709,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00371",-1.782267,"Overall",-1.03454637446863,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00469",-3.830996,"Overall",-0.949956968920653,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00664",3.528073,"Overall",0.847191021015116,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00943",5.49598,"Overall",1.50610090823642,"f1000_min",1000,"lambda.min",NA
+4,4,"SIDM00053",0.454287,"Target mean",0.187893291666667,"target_mean",NA,NA,NA
+4,4,"SIDM00301",-3.240813,"Target mean",0.187893291666667,"target_mean",NA,NA,NA
+4,4,"SIDM00371",-1.782267,"Target mean",0.187893291666667,"target_mean",NA,NA,NA
+4,4,"SIDM00469",-3.830996,"Target mean",0.187893291666667,"target_mean",NA,NA,NA
+4,4,"SIDM00664",3.528073,"Target mean",0.187893291666667,"target_mean",NA,NA,NA
+4,4,"SIDM00943",5.49598,"Target mean",0.187893291666667,"target_mean",NA,NA,NA
+4,5,"SIDM00411",-1.091093,"Pretrained",-2.06173188114915,"f1000_min",1000,"lambda.min",0.1
+4,5,"SIDM00533",1.084742,"Pretrained",1.59708687588137,"f1000_min",1000,"lambda.min",0.1
+4,5,"SIDM00950",-2.543222,"Pretrained",-2.57373332895225,"f1000_min",1000,"lambda.min",0.1
+4,5,"SIDM01135",-0.271417,"Pretrained",-2.52809703864122,"f1000_min",1000,"lambda.min",0.1
+4,5,"SIDM01136",4.170801,"Pretrained",-0.702158116476595,"f1000_min",1000,"lambda.min",0.1
+4,5,"SIDM01165",1.494867,"Pretrained",-0.39970657983252,"f1000_min",1000,"lambda.min",0.1
+4,5,"SIDM00411",-1.091093,"Individual",0.0953760416666667,"f2000_min",2000,"lambda.min",NA
+4,5,"SIDM00533",1.084742,"Individual",0.0953760416666667,"f2000_min",2000,"lambda.min",NA
+4,5,"SIDM00950",-2.543222,"Individual",0.0953760416666667,"f2000_min",2000,"lambda.min",NA
+4,5,"SIDM01135",-0.271417,"Individual",0.0953760416666667,"f2000_min",2000,"lambda.min",NA
+4,5,"SIDM01136",4.170801,"Individual",0.0953760416666667,"f2000_min",2000,"lambda.min",NA
+4,5,"SIDM01165",1.494867,"Individual",0.0953760416666667,"f2000_min",2000,"lambda.min",NA
+4,5,"SIDM00411",-1.091093,"Overall",-0.941577536094139,"f1000_min",1000,"lambda.min",NA
+4,5,"SIDM00533",1.084742,"Overall",0.461135596910973,"f1000_min",1000,"lambda.min",NA
+4,5,"SIDM00950",-2.543222,"Overall",-1.42742529544482,"f1000_min",1000,"lambda.min",NA
+4,5,"SIDM01135",-0.271417,"Overall",-0.489490174526788,"f1000_min",1000,"lambda.min",NA
+4,5,"SIDM01136",4.170801,"Overall",-0.371909377467999,"f1000_min",1000,"lambda.min",NA
+4,5,"SIDM01165",1.494867,"Overall",-0.733694082570127,"f1000_min",1000,"lambda.min",NA
+4,5,"SIDM00411",-1.091093,"Target mean",0.0953760416666667,"target_mean",NA,NA,NA
+4,5,"SIDM00533",1.084742,"Target mean",0.0953760416666667,"target_mean",NA,NA,NA
+4,5,"SIDM00950",-2.543222,"Target mean",0.0953760416666667,"target_mean",NA,NA,NA
+4,5,"SIDM01135",-0.271417,"Target mean",0.0953760416666667,"target_mean",NA,NA,NA
+4,5,"SIDM01136",4.170801,"Target mean",0.0953760416666667,"target_mean",NA,NA,NA
+4,5,"SIDM01165",1.494867,"Target mean",0.0953760416666667,"target_mean",NA,NA,NA
+5,1,"SIDM00042",-0.517255,"Pretrained",0.241093740924197,"f1000_min",1000,"lambda.min",0.2
+5,1,"SIDM00453",-1.388208,"Pretrained",-0.833326901181172,"f1000_min",1000,"lambda.min",0.2
+5,1,"SIDM00583",-0.632883,"Pretrained",-1.95418207166637,"f1000_min",1000,"lambda.min",0.2
+5,1,"SIDM00943",5.49598,"Pretrained",1.23366852402631,"f1000_min",1000,"lambda.min",0.2
+5,1,"SIDM01136",4.170801,"Pretrained",-1.11446262835784,"f1000_min",1000,"lambda.min",0.2
+5,1,"SIDM01137",1.334767,"Pretrained",0.268522041045729,"f1000_min",1000,"lambda.min",0.2
+5,1,"SIDM00042",-0.517255,"Individual",-1.19480780460847,"f2000_min",2000,"lambda.min",NA
+5,1,"SIDM00453",-1.388208,"Individual",0.585067784641395,"f2000_min",2000,"lambda.min",NA
+5,1,"SIDM00583",-0.632883,"Individual",-1.17780180110027,"f2000_min",2000,"lambda.min",NA
+5,1,"SIDM00943",5.49598,"Individual",0.236852737070604,"f2000_min",2000,"lambda.min",NA
+5,1,"SIDM01136",4.170801,"Individual",0.906664546565027,"f2000_min",2000,"lambda.min",NA
+5,1,"SIDM01137",1.334767,"Individual",-0.241917514401206,"f2000_min",2000,"lambda.min",NA
+5,1,"SIDM00042",-0.517255,"Overall",-0.0372446852399943,"f1000_min",1000,"lambda.min",NA
+5,1,"SIDM00453",-1.388208,"Overall",-0.614384923289058,"f1000_min",1000,"lambda.min",NA
+5,1,"SIDM00583",-0.632883,"Overall",-1.80327868012808,"f1000_min",1000,"lambda.min",NA
+5,1,"SIDM00943",5.49598,"Overall",1.71208404984193,"f1000_min",1000,"lambda.min",NA
+5,1,"SIDM01136",4.170801,"Overall",-1.2162599649899,"f1000_min",1000,"lambda.min",NA
+5,1,"SIDM01137",1.334767,"Overall",0.42765659810986,"f1000_min",1000,"lambda.min",NA
+5,1,"SIDM00042",-0.517255,"Target mean",-0.138729125,"target_mean",NA,NA,NA
+5,1,"SIDM00453",-1.388208,"Target mean",-0.138729125,"target_mean",NA,NA,NA
+5,1,"SIDM00583",-0.632883,"Target mean",-0.138729125,"target_mean",NA,NA,NA
+5,1,"SIDM00943",5.49598,"Target mean",-0.138729125,"target_mean",NA,NA,NA
+5,1,"SIDM01136",4.170801,"Target mean",-0.138729125,"target_mean",NA,NA,NA
+5,1,"SIDM01137",1.334767,"Target mean",-0.138729125,"target_mean",NA,NA,NA
+5,2,"SIDM00455",1.487982,"Pretrained",0.922198362256715,"f1000_min",1000,"lambda.min",0.4
+5,2,"SIDM00531",-3.02061,"Pretrained",-0.272586995506889,"f1000_min",1000,"lambda.min",0.4
+5,2,"SIDM00899",3.809457,"Pretrained",1.79692008081923,"f1000_min",1000,"lambda.min",0.4
+5,2,"SIDM01135",-0.271417,"Pretrained",-0.441279579027683,"f1000_min",1000,"lambda.min",0.4
+5,2,"SIDM01138",-2.798807,"Pretrained",0.21333511247192,"f1000_min",1000,"lambda.min",0.4
+5,2,"SIDM01139",0.347126,"Pretrained",1.09881502044027,"f1000_min",1000,"lambda.min",0.4
+5,2,"SIDM00455",1.487982,"Individual",1.64098806279049,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM00531",-3.02061,"Individual",1.81888653136788,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM00899",3.809457,"Individual",2.04224174684708,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM01135",-0.271417,"Individual",0.902977146631741,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM01138",-2.798807,"Individual",0.0244289731626433,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM01139",0.347126,"Individual",-0.0999201196409411,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM00455",1.487982,"Overall",0.863181198718073,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM00531",-3.02061,"Overall",-0.747977302621829,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM00899",3.809457,"Overall",1.61981679765465,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM01135",-0.271417,"Overall",0.0143425783243894,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM01138",-2.798807,"Overall",0.0901226388827301,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM01139",0.347126,"Overall",0.950118077002221,"f2000_min",2000,"lambda.min",NA
+5,2,"SIDM00455",1.487982,"Target mean",0.232498833333333,"target_mean",NA,NA,NA
+5,2,"SIDM00531",-3.02061,"Target mean",0.232498833333333,"target_mean",NA,NA,NA
+5,2,"SIDM00899",3.809457,"Target mean",0.232498833333333,"target_mean",NA,NA,NA
+5,2,"SIDM01135",-0.271417,"Target mean",0.232498833333333,"target_mean",NA,NA,NA
+5,2,"SIDM01138",-2.798807,"Target mean",0.232498833333333,"target_mean",NA,NA,NA
+5,2,"SIDM01139",0.347126,"Target mean",0.232498833333333,"target_mean",NA,NA,NA
+5,3,"SIDM00053",0.454287,"Pretrained",-0.880431454519908,"f1000_1se",1000,"lambda.1se",0.9
+5,3,"SIDM00132",-0.677032,"Pretrained",0.192386260472387,"f1000_1se",1000,"lambda.1se",0.9
+5,3,"SIDM00301",-3.240813,"Pretrained",-0.109892359079795,"f1000_1se",1000,"lambda.1se",0.9
+5,3,"SIDM00371",-1.782267,"Pretrained",0.239557546674824,"f1000_1se",1000,"lambda.1se",0.9
+5,3,"SIDM00571",4.491236,"Pretrained",0.312099366340899,"f1000_1se",1000,"lambda.1se",0.9
+5,3,"SIDM00582",2.615533,"Pretrained",0.266391857624978,"f1000_1se",1000,"lambda.1se",0.9
+5,3,"SIDM00053",0.454287,"Individual",0.136364958333333,"f1000_1se",1000,"lambda.1se",NA
+5,3,"SIDM00132",-0.677032,"Individual",0.136364958333333,"f1000_1se",1000,"lambda.1se",NA
+5,3,"SIDM00301",-3.240813,"Individual",0.136364958333333,"f1000_1se",1000,"lambda.1se",NA
+5,3,"SIDM00371",-1.782267,"Individual",0.136364958333333,"f1000_1se",1000,"lambda.1se",NA
+5,3,"SIDM00571",4.491236,"Individual",0.136364958333333,"f1000_1se",1000,"lambda.1se",NA
+5,3,"SIDM00582",2.615533,"Individual",0.136364958333333,"f1000_1se",1000,"lambda.1se",NA
+5,3,"SIDM00053",0.454287,"Overall",-0.285460832268869,"f2000_min",2000,"lambda.min",NA
+5,3,"SIDM00132",-0.677032,"Overall",0.329003615446603,"f2000_min",2000,"lambda.min",NA
+5,3,"SIDM00301",-3.240813,"Overall",-1.41627447087958,"f2000_min",2000,"lambda.min",NA
+5,3,"SIDM00371",-1.782267,"Overall",-1.10267651320066,"f2000_min",2000,"lambda.min",NA
+5,3,"SIDM00571",4.491236,"Overall",1.06779388135353,"f2000_min",2000,"lambda.min",NA
+5,3,"SIDM00582",2.615533,"Overall",0.831599311518489,"f2000_min",2000,"lambda.min",NA
+5,3,"SIDM00053",0.454287,"Target mean",0.136364958333333,"target_mean",NA,NA,NA
+5,3,"SIDM00132",-0.677032,"Target mean",0.136364958333333,"target_mean",NA,NA,NA
+5,3,"SIDM00301",-3.240813,"Target mean",0.136364958333333,"target_mean",NA,NA,NA
+5,3,"SIDM00371",-1.782267,"Target mean",0.136364958333333,"target_mean",NA,NA,NA
+5,3,"SIDM00571",4.491236,"Target mean",0.136364958333333,"target_mean",NA,NA,NA
+5,3,"SIDM00582",2.615533,"Target mean",0.136364958333333,"target_mean",NA,NA,NA
+5,4,"SIDM00130",-3.444133,"Pretrained",-1.36758791518764,"f2000_min",2000,"lambda.min",0.7
+5,4,"SIDM00469",-3.830996,"Pretrained",-1.1070299044628,"f2000_min",2000,"lambda.min",0.7
+5,4,"SIDM00505",-1.731407,"Pretrained",0.702361801161346,"f2000_min",2000,"lambda.min",0.7
+5,4,"SIDM00533",1.084742,"Pretrained",0.422264992788834,"f2000_min",2000,"lambda.min",0.7
+5,4,"SIDM00670",0.099097,"Pretrained",2.37663397827843,"f2000_min",2000,"lambda.min",0.7
+5,4,"SIDM01188",2.363157,"Pretrained",8.18365344671369,"f2000_min",2000,"lambda.min",0.7
+5,4,"SIDM00130",-3.444133,"Individual",0.441385125,"f2000_1se",2000,"lambda.1se",NA
+5,4,"SIDM00469",-3.830996,"Individual",0.441385125,"f2000_1se",2000,"lambda.1se",NA
+5,4,"SIDM00505",-1.731407,"Individual",0.441385125,"f2000_1se",2000,"lambda.1se",NA
+5,4,"SIDM00533",1.084742,"Individual",0.441385125,"f2000_1se",2000,"lambda.1se",NA
+5,4,"SIDM00670",0.099097,"Individual",0.441385125,"f2000_1se",2000,"lambda.1se",NA
+5,4,"SIDM01188",2.363157,"Individual",0.441385125,"f2000_1se",2000,"lambda.1se",NA
+5,4,"SIDM00130",-3.444133,"Overall",1.01090603347156,"f1000_min",1000,"lambda.min",NA
+5,4,"SIDM00469",-3.830996,"Overall",-0.605022158767867,"f1000_min",1000,"lambda.min",NA
+5,4,"SIDM00505",-1.731407,"Overall",0.520111242612357,"f1000_min",1000,"lambda.min",NA
+5,4,"SIDM00533",1.084742,"Overall",0.782197785008336,"f1000_min",1000,"lambda.min",NA
+5,4,"SIDM00670",0.099097,"Overall",0.762678408089418,"f1000_min",1000,"lambda.min",NA
+5,4,"SIDM01188",2.363157,"Overall",0.523592970228484,"f1000_min",1000,"lambda.min",NA
+5,4,"SIDM00130",-3.444133,"Target mean",0.441385125,"target_mean",NA,NA,NA
+5,4,"SIDM00469",-3.830996,"Target mean",0.441385125,"target_mean",NA,NA,NA
+5,4,"SIDM00505",-1.731407,"Target mean",0.441385125,"target_mean",NA,NA,NA
+5,4,"SIDM00533",1.084742,"Target mean",0.441385125,"target_mean",NA,NA,NA
+5,4,"SIDM00670",0.099097,"Target mean",0.441385125,"target_mean",NA,NA,NA
+5,4,"SIDM01188",2.363157,"Target mean",0.441385125,"target_mean",NA,NA,NA
+5,5,"SIDM00411",-1.091093,"Pretrained",-2.77293035654997,"f2000_min",2000,"lambda.min",0
+5,5,"SIDM00664",3.528073,"Pretrained",1.04609716838703,"f2000_min",2000,"lambda.min",0
+5,5,"SIDM00669",0.976248,"Pretrained",4.24343196979216,"f2000_min",2000,"lambda.min",0
+5,5,"SIDM00934",-1.649507,"Pretrained",0.576208179323389,"f2000_min",2000,"lambda.min",0
+5,5,"SIDM00950",-2.543222,"Pretrained",-2.59662915080324,"f2000_min",2000,"lambda.min",0
+5,5,"SIDM01165",1.494867,"Pretrained",-1.67192741418782,"f2000_min",2000,"lambda.min",0
+5,5,"SIDM00411",-1.091093,"Individual",0.184097375,"f2000_1se",2000,"lambda.1se",NA
+5,5,"SIDM00664",3.528073,"Individual",0.184097375,"f2000_1se",2000,"lambda.1se",NA
+5,5,"SIDM00669",0.976248,"Individual",0.184097375,"f2000_1se",2000,"lambda.1se",NA
+5,5,"SIDM00934",-1.649507,"Individual",0.184097375,"f2000_1se",2000,"lambda.1se",NA
+5,5,"SIDM00950",-2.543222,"Individual",0.184097375,"f2000_1se",2000,"lambda.1se",NA
+5,5,"SIDM01165",1.494867,"Individual",0.184097375,"f2000_1se",2000,"lambda.1se",NA
+5,5,"SIDM00411",-1.091093,"Overall",-0.874774548861672,"f1000_min",1000,"lambda.min",NA
+5,5,"SIDM00664",3.528073,"Overall",1.04698457407746,"f1000_min",1000,"lambda.min",NA
+5,5,"SIDM00669",0.976248,"Overall",2.55780032027261,"f1000_min",1000,"lambda.min",NA
+5,5,"SIDM00934",-1.649507,"Overall",-0.444722717067588,"f1000_min",1000,"lambda.min",NA
+5,5,"SIDM00950",-2.543222,"Overall",-1.52342733572458,"f1000_min",1000,"lambda.min",NA
+5,5,"SIDM01165",1.494867,"Overall",-0.841755292047645,"f1000_min",1000,"lambda.min",NA
+5,5,"SIDM00411",-1.091093,"Target mean",0.184097375,"target_mean",NA,NA,NA
+5,5,"SIDM00664",3.528073,"Target mean",0.184097375,"target_mean",NA,NA,NA
+5,5,"SIDM00669",0.976248,"Target mean",0.184097375,"target_mean",NA,NA,NA
+5,5,"SIDM00934",-1.649507,"Target mean",0.184097375,"target_mean",NA,NA,NA
+5,5,"SIDM00950",-2.543222,"Target mean",0.184097375,"target_mean",NA,NA,NA
+5,5,"SIDM01165",1.494867,"Target mean",0.184097375,"target_mean",NA,NA,NA

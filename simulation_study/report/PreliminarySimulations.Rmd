@@ -1,0 +1,222 @@
+---
+title: "Pretrained Lasso: Preliminary Simulation Experiments"
+author: "[Student Name]"
+date: "November 2, 2026"
+output:
+  pdf_document:
+    number_sections: true
+    fig_caption: true
+    latex_engine: xelatex
+geometry: margin=1in
+fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  out.width = "95%"
+)
+
+report_file <- normalizePath(
+  knitr::current_input(dir = TRUE), winslash = "/", mustWork = TRUE
+)
+study_root <- normalizePath(
+  file.path(dirname(report_file), ".."), winslash = "/", mustWork = TRUE
+)
+project_root <- normalizePath(
+  file.path(study_root, ".."), winslash = "/", mustWork = TRUE
+)
+figure4_dir <- file.path(study_root, "results", "figure4")
+figure6_dir <- file.path(study_root, "results", "figure6")
+
+required_files <- c(
+  file.path(figure4_dir, "figure4_raw.csv"),
+  file.path(figure4_dir, "figure4_summary.csv"),
+  file.path(figure4_dir, "figure4_cv_bias.png"),
+  file.path(figure6_dir, "figure6_raw.csv"),
+  file.path(figure6_dir, "figure6_summary.csv"),
+  file.path(figure6_dir, "figure6_pse_comparison.png")
+)
+
+if (!all(file.exists(required_files))) {
+  stop(
+    "Simulation outputs are incomplete. Run the Figure 4 and Figure 6 ",
+    "scripts in simulation_study/scripts before knitting this document."
+  )
+}
+
+figure4_raw <- read.csv(file.path(figure4_dir, "figure4_raw.csv"))
+figure4_summary <- read.csv(file.path(figure4_dir, "figure4_summary.csv"))
+figure6_raw <- read.csv(file.path(figure6_dir, "figure6_raw.csv"))
+figure6_summary <- read.csv(file.path(figure6_dir, "figure6_summary.csv"))
+figure6_alpha <- read.csv(file.path(figure6_dir, "figure6_alpha_selection.csv"))
+```
+
+# Purpose
+
+This document records two preliminary simulation experiments based on Figures 4
+and 6 in Craig et al. (2025), *Pretraining and the lasso*. The simulations retain
+the data-generating structures, model comparisons, and primary performance
+measures stated in the article. Reproducibility additions include fixed random
+seeds, checkpointed Monte Carlo results, explicit software versions, and saved
+raw results for every replication.
+
+# Figure 4: cross-validation error
+
+## Design
+
+The simulation has nine groups with 55 observations per group, giving
+\(n=495\), and \(p=1000\) independent standard-normal predictors. The first ten
+coefficients are common to every group and equal 2.5. Each group has ten
+additional nonzero coefficients equal to 2.5 on a group-specific, nonoverlapping
+block of variables. Gaussian errors have standard deviation 10. An independent
+test set contains 4,950 observations.
+
+The fitted models are Overall Lasso, Pretrained Lasso at
+\(\alpha\in\{0,0.5,0.95\}\), and Individual Lasso. We compare three-fold and
+ten-fold cross-validation and the `lambda.1se` and `lambda.min` rules. Following
+Figure 4, the reported quantity is
+
+\[
+100\frac{\mathrm{test\ error}-\mathrm{CV\ error}}
+         {\mathrm{test\ error}}.
+\]
+
+```{r figure4-counts, echo=FALSE, results='asis'}
+cat(sprintf(
+  "The current output contains **%d complete Monte Carlo replications** and %d model-setting observations.\n\n",
+  length(unique(figure4_raw$replication)), nrow(figure4_raw)
+))
+```
+
+## Results
+
+```{r figure4-plot, echo=FALSE, fig.cap="Cross-validation bias experiment corresponding to Figure 4."}
+knitr::include_graphics(file.path(figure4_dir, "figure4_cv_bias.png"))
+```
+
+```{r figure4-table, echo=FALSE, results='asis'}
+figure4_display <- figure4_summary[, c(
+  "nfolds", "lambda_rule", "model", "mean_relative_bias",
+  "median_relative_bias", "q025_relative_bias", "q975_relative_bias"
+)]
+names(figure4_display) <- c(
+  "Folds", "Lambda rule", "Model", "Mean bias (%)", "Median bias (%)",
+  "2.5%", "97.5%"
+)
+numeric_columns <- vapply(figure4_display, is.numeric, logical(1))
+numeric_columns[1L] <- FALSE
+figure4_display[numeric_columns] <- lapply(
+  figure4_display[numeric_columns], round, digits = 2
+)
+print(knitr::kable(figure4_display, booktabs = TRUE, longtable = TRUE))
+```
+
+With three folds and `lambda.1se`, the absolute mean relative bias is no more
+than 4.63% for any of the five models. With ten folds and `lambda.min`, the
+mean optimistic bias reaches 11.09% for \(\alpha=0\) and 15.46% for
+\(\alpha=0.5\). The observed simulation pattern therefore supports the article's
+recommendation to use conservative first-stage regularization and a small
+number of folds.
+
+The conventional signal-to-noise ratio calculated as
+\(\operatorname{Var}(X\beta)/\operatorname{Var}(\varepsilon)\) is approximately
+`r round(mean(figure4_raw$empirical_snr), 2)` in our generated samples. The
+explicit coefficient and noise settings in the article imply a theoretical
+value of `r unique(figure4_raw$theoretical_snr)[1]` under this definition. This
+quantity is saved because the Figure 4 caption reports a mean SNR of 1.8 while
+the stated coefficients and noise standard deviation imply a different value
+under the conventional variance ratio.
+
+# Figure 6: external pretraining data
+
+## Design
+
+The external dataset \(D_1\) contains ten groups, 100 observations per group,
+and 500 predictors. Dataset \(D_2\) contains 100 additional observations from
+the distribution of group 1, and the independent group-1 test set also contains
+100 observations. Coefficients are generated from
+
+\[
+\beta_g=\rho\beta_{\mathrm{shared}}+
+(1-\rho)\beta_{g,\mathrm{individual}},
+\qquad \rho\in\{0,0.5,1\}.
+\]
+
+The shared component and every group-specific component have ten nonzero
+entries. Group-specific supports do not overlap. Gaussian noise is scaled to a
+target average SNR of 1.8. We compare: Lasso on \(D_2\) only; Pretrained Lasso
+using \(D_1\) followed by \(D_2\); Lasso using group 1 from \(D_1\) combined
+with \(D_2\); and Lasso using all of \(D_1\) combined with \(D_2\).
+
+```{r figure6-counts, echo=FALSE, results='asis'}
+cat(sprintf(
+  "The current output contains **%d complete Monte Carlo replications** and %d method-scenario observations.\n\n",
+  length(unique(figure6_raw$replication)), nrow(figure6_raw)
+))
+```
+
+## Results
+
+```{r figure6-plot, echo=FALSE, fig.cap="Prediction-squared-error experiment corresponding to Figure 6."}
+knitr::include_graphics(file.path(figure6_dir, "figure6_pse_comparison.png"))
+```
+
+```{r figure6-table, echo=FALSE, results='asis'}
+figure6_display <- figure6_summary[, c(
+  "rho", "method", "mean_pse", "median_pse", "q025_pse", "q975_pse"
+)]
+names(figure6_display) <- c(
+  "rho", "Method", "Mean PSE", "Median PSE", "2.5%", "97.5%"
+)
+numeric_columns <- vapply(figure6_display, is.numeric, logical(1))
+figure6_display[numeric_columns] <- lapply(
+  figure6_display[numeric_columns], round, digits = 3
+)
+print(knitr::kable(figure6_display, booktabs = TRUE))
+```
+
+```{r alpha-table, echo=FALSE, results='asis'}
+alpha_counts <- as.data.frame(with(
+  figure6_alpha,
+  table(rho = rho, selected_alpha = selected_alpha)
+))
+alpha_counts <- alpha_counts[alpha_counts$Freq > 0, ]
+names(alpha_counts) <- c("rho", "Selected alpha", "Frequency")
+print(knitr::kable(alpha_counts, booktabs = TRUE))
+```
+
+At \(\rho=0\), the mean PSEs for Pretraining and (D_2)-only are 9.46 and
+9.36, respectively. At \(\rho=0.5\), the corresponding values are 4.90 and
+6.01; at \(\rho=1\), they are 6.08 and 9.14. Pretraining is therefore
+comparable to the target-only fit when no coefficient component is shared and
+improves as shared structure becomes available, matching the article's
+qualitative conclusion.
+
+# Reproducibility
+
+The raw CSV files contain every Monte Carlo result rather than only the
+summaries plotted above. The runner scripts checkpoint after each replication,
+so rerunning them resumes rather than discards completed work. The exact
+software versions are recorded in `sessionInfo.txt` within each result
+directory.
+
+To reproduce the analysis from the project root, run:
+
+```{r run-instructions, eval=FALSE}
+source(file.path(study_root, "scripts", "00_requirements.R"))
+system2(file.path(R.home("bin"), "Rscript"),
+        c(file.path(study_root, "scripts", "11_run_Figure4.R"), "--reps=100"))
+system2(file.path(R.home("bin"), "Rscript"),
+        c(file.path(study_root, "scripts", "12_run_Figure6.R"), "--reps=100"))
+```
+
+# Reference {-}
+
+Craig, E., Pilanci, M., Le Menestrel, T., Narasimhan, B., Rivas, M. A.,
+Gullaksen, S.-E., Dehghannasiri, R., Salzman, J., Taylor, J., and Tibshirani,
+R. (2025). Pretraining and the lasso. *Journal of the Royal Statistical
+Society Series B: Statistical Methodology*.

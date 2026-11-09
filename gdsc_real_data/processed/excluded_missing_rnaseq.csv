@@ -1,0 +1,5 @@
+model_id,model_name,gdsc_cell_line_name,cancer_group,cancer_type_detail,role,DRUG_ID,DRUG_NAME,LN_IC50,AUC,Z_SCORE,rnaseq_url,status,message
+SIDM00114,NCI-H513,NCI-H513,Non-Small Cell Lung Carcinoma,Adenosquamous Lung Carcinoma,external,1190,Gemcitabine,1.561017,0.85188,0.773183,https://cog.sanger.ac.uk/cmp/download/SIDM00114_rnaseq.csv.zip,failed,attempt 4: downloaded file failed ZIP/content validation
+SIDM00361,PC-3_[JPC-3],PC-3_[JPC-3],Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,-1.26029,0.673235,-0.16431,https://cog.sanger.ac.uk/cmp/download/SIDM00361_rnaseq.csv.zip,failed,attempt 4: HTTP Error 403: Forbidden
+SIDM01108,SK-LU-1,SK-LU-1,Non-Small Cell Lung Carcinoma,Lung Adenocarcinoma,external,1190,Gemcitabine,1.786704,0.852457,0.848176,https://cog.sanger.ac.uk/cmp/download/SIDM01108_rnaseq.csv.zip,failed,attempt 4: downloaded file failed ZIP/content validation
+SIDM01219,LU-99A,LU-99A,Non-Small Cell Lung Carcinoma,Giant Cell Lung Carcinoma,external,1190,Gemcitabine,-1.718871,0.632418,-0.316692,https://cog.sanger.ac.uk/cmp/download/SIDM01219_rnaseq.csv.zip,failed,attempt 4: HTTP Error 403: Forbidden

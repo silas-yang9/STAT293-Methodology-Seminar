@@ -1,0 +1,1201 @@
+"scenario","repeat_id","fold","model_id","observed","method","predicted"
+"lambda_min_1000_ln_ic50",1,1,"SIDM00505",-1.731407,"Individual",0.430114622207242
+"lambda_min_1000_ln_ic50",1,1,"SIDM00531",-3.02061,"Individual",0.213570963229672
+"lambda_min_1000_ln_ic50",1,1,"SIDM00664",3.528073,"Individual",-0.13067459936464
+"lambda_min_1000_ln_ic50",1,1,"SIDM00899",3.809457,"Individual",0.434984868607234
+"lambda_min_1000_ln_ic50",1,1,"SIDM00950",-2.543222,"Individual",0.419909376842329
+"lambda_min_1000_ln_ic50",1,1,"SIDM01139",0.347126,"Individual",0.428335408204149
+"lambda_min_1000_ln_ic50",1,1,"SIDM00505",-1.731407,"Overall",0.317244098863941
+"lambda_min_1000_ln_ic50",1,1,"SIDM00531",-3.02061,"Overall",-1.05774594927127
+"lambda_min_1000_ln_ic50",1,1,"SIDM00664",3.528073,"Overall",1.01452872561135
+"lambda_min_1000_ln_ic50",1,1,"SIDM00899",3.809457,"Overall",1.43316342363763
+"lambda_min_1000_ln_ic50",1,1,"SIDM00950",-2.543222,"Overall",-1.00063535343563
+"lambda_min_1000_ln_ic50",1,1,"SIDM01139",0.347126,"Overall",0.89232946336971
+"lambda_min_1000_ln_ic50",1,1,"SIDM00505",-1.731407,"Pretrained",0.283623072556292
+"lambda_min_1000_ln_ic50",1,1,"SIDM00531",-3.02061,"Pretrained",-0.796595039790991
+"lambda_min_1000_ln_ic50",1,1,"SIDM00664",3.528073,"Pretrained",1.20290575230526
+"lambda_min_1000_ln_ic50",1,1,"SIDM00899",3.809457,"Pretrained",1.18524550707822
+"lambda_min_1000_ln_ic50",1,1,"SIDM00950",-2.543222,"Pretrained",-0.626553823512629
+"lambda_min_1000_ln_ic50",1,1,"SIDM01139",0.347126,"Pretrained",0.868100665208087
+"lambda_min_1000_ln_ic50",1,1,"SIDM00505",-1.731407,"Target mean",0.197678583333333
+"lambda_min_1000_ln_ic50",1,1,"SIDM00531",-3.02061,"Target mean",0.197678583333333
+"lambda_min_1000_ln_ic50",1,1,"SIDM00664",3.528073,"Target mean",0.197678583333333
+"lambda_min_1000_ln_ic50",1,1,"SIDM00899",3.809457,"Target mean",0.197678583333333
+"lambda_min_1000_ln_ic50",1,1,"SIDM00950",-2.543222,"Target mean",0.197678583333333
+"lambda_min_1000_ln_ic50",1,1,"SIDM01139",0.347126,"Target mean",0.197678583333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00411",-1.091093,"Individual",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00469",-3.830996,"Individual",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00533",1.084742,"Individual",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00583",-0.632883,"Individual",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00934",-1.649507,"Individual",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM01136",4.170801,"Individual",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00411",-1.091093,"Overall",-0.814605464662283
+"lambda_min_1000_ln_ic50",1,2,"SIDM00469",-3.830996,"Overall",-1.14427717915455
+"lambda_min_1000_ln_ic50",1,2,"SIDM00533",1.084742,"Overall",0.639087407770365
+"lambda_min_1000_ln_ic50",1,2,"SIDM00583",-0.632883,"Overall",-1.30378187360122
+"lambda_min_1000_ln_ic50",1,2,"SIDM00934",-1.649507,"Overall",-0.431934259802565
+"lambda_min_1000_ln_ic50",1,2,"SIDM01136",4.170801,"Overall",-0.325178847926174
+"lambda_min_1000_ln_ic50",1,2,"SIDM00411",-1.091093,"Pretrained",-0.540335626721737
+"lambda_min_1000_ln_ic50",1,2,"SIDM00469",-3.830996,"Pretrained",-1.11999070544695
+"lambda_min_1000_ln_ic50",1,2,"SIDM00533",1.084742,"Pretrained",-0.315745748507616
+"lambda_min_1000_ln_ic50",1,2,"SIDM00583",-0.632883,"Pretrained",-1.20976970335922
+"lambda_min_1000_ln_ic50",1,2,"SIDM00934",-1.649507,"Pretrained",0.18069578608786
+"lambda_min_1000_ln_ic50",1,2,"SIDM01136",4.170801,"Pretrained",-0.168554274197486
+"lambda_min_1000_ln_ic50",1,2,"SIDM00411",-1.091093,"Target mean",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00469",-3.830996,"Target mean",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00533",1.084742,"Target mean",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00583",-0.632883,"Target mean",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM00934",-1.649507,"Target mean",0.295109958333333
+"lambda_min_1000_ln_ic50",1,2,"SIDM01136",4.170801,"Target mean",0.295109958333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00130",-3.444133,"Individual",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00371",-1.782267,"Individual",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00669",0.976248,"Individual",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00670",0.099097,"Individual",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM01135",-0.271417,"Individual",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM01188",2.363157,"Individual",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00130",-3.444133,"Overall",0.929407635717175
+"lambda_min_1000_ln_ic50",1,3,"SIDM00371",-1.782267,"Overall",-0.786558075017026
+"lambda_min_1000_ln_ic50",1,3,"SIDM00669",0.976248,"Overall",2.53389266404754
+"lambda_min_1000_ln_ic50",1,3,"SIDM00670",0.099097,"Overall",0.609861332875069
+"lambda_min_1000_ln_ic50",1,3,"SIDM01135",-0.271417,"Overall",-0.0769484914229852
+"lambda_min_1000_ln_ic50",1,3,"SIDM01188",2.363157,"Overall",0.504204987491242
+"lambda_min_1000_ln_ic50",1,3,"SIDM00130",-3.444133,"Pretrained",1.07547452014336
+"lambda_min_1000_ln_ic50",1,3,"SIDM00371",-1.782267,"Pretrained",-0.943301386967469
+"lambda_min_1000_ln_ic50",1,3,"SIDM00669",0.976248,"Pretrained",3.43795372716748
+"lambda_min_1000_ln_ic50",1,3,"SIDM00670",0.099097,"Pretrained",-0.686922821795722
+"lambda_min_1000_ln_ic50",1,3,"SIDM01135",-0.271417,"Pretrained",-0.226039144222878
+"lambda_min_1000_ln_ic50",1,3,"SIDM01188",2.363157,"Pretrained",0.28171639206527
+"lambda_min_1000_ln_ic50",1,3,"SIDM00130",-3.444133,"Target mean",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00371",-1.782267,"Target mean",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00669",0.976248,"Target mean",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM00670",0.099097,"Target mean",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM01135",-0.271417,"Target mean",0.299709083333333
+"lambda_min_1000_ln_ic50",1,3,"SIDM01188",2.363157,"Target mean",0.299709083333333
+"lambda_min_1000_ln_ic50",1,4,"SIDM00042",-0.517255,"Individual",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00053",0.454287,"Individual",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00301",-3.240813,"Individual",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00453",-1.388208,"Individual",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00455",1.487982,"Individual",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00582",2.615533,"Individual",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00042",-0.517255,"Overall",0.66385235969793
+"lambda_min_1000_ln_ic50",1,4,"SIDM00053",0.454287,"Overall",-0.32817883175179
+"lambda_min_1000_ln_ic50",1,4,"SIDM00301",-3.240813,"Overall",-1.6979653253801
+"lambda_min_1000_ln_ic50",1,4,"SIDM00453",-1.388208,"Overall",-0.101799582367213
+"lambda_min_1000_ln_ic50",1,4,"SIDM00455",1.487982,"Overall",0.79074481188234
+"lambda_min_1000_ln_ic50",1,4,"SIDM00582",2.615533,"Overall",1.05575718956557
+"lambda_min_1000_ln_ic50",1,4,"SIDM00042",-0.517255,"Pretrained",0.687557135800578
+"lambda_min_1000_ln_ic50",1,4,"SIDM00053",0.454287,"Pretrained",-0.20527093650417
+"lambda_min_1000_ln_ic50",1,4,"SIDM00301",-3.240813,"Pretrained",-1.43807878076965
+"lambda_min_1000_ln_ic50",1,4,"SIDM00453",-1.388208,"Pretrained",-0.00152961205805076
+"lambda_min_1000_ln_ic50",1,4,"SIDM00455",1.487982,"Pretrained",0.801760342766546
+"lambda_min_1000_ln_ic50",1,4,"SIDM00582",2.615533,"Pretrained",1.04027148268145
+"lambda_min_1000_ln_ic50",1,4,"SIDM00042",-0.517255,"Target mean",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00053",0.454287,"Target mean",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00301",-3.240813,"Target mean",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00453",-1.388208,"Target mean",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00455",1.487982,"Target mean",0.238424041666667
+"lambda_min_1000_ln_ic50",1,4,"SIDM00582",2.615533,"Target mean",0.238424041666667
+"lambda_min_1000_ln_ic50",1,5,"SIDM00132",-0.677032,"Individual",0.936817297936961
+"lambda_min_1000_ln_ic50",1,5,"SIDM00571",4.491236,"Individual",0.583408291460369
+"lambda_min_1000_ln_ic50",1,5,"SIDM00943",5.49598,"Individual",0.624889928606282
+"lambda_min_1000_ln_ic50",1,5,"SIDM01137",1.334767,"Individual",0.184466105020085
+"lambda_min_1000_ln_ic50",1,5,"SIDM01138",-2.798807,"Individual",-0.577478711805216
+"lambda_min_1000_ln_ic50",1,5,"SIDM01165",1.494867,"Individual",-0.629471771188736
+"lambda_min_1000_ln_ic50",1,5,"SIDM00132",-0.677032,"Overall",0.212608712448385
+"lambda_min_1000_ln_ic50",1,5,"SIDM00571",4.491236,"Overall",1.37316051690018
+"lambda_min_1000_ln_ic50",1,5,"SIDM00943",5.49598,"Overall",1.36273225515048
+"lambda_min_1000_ln_ic50",1,5,"SIDM01137",1.334767,"Overall",0.247531172477271
+"lambda_min_1000_ln_ic50",1,5,"SIDM01138",-2.798807,"Overall",-0.170081520748437
+"lambda_min_1000_ln_ic50",1,5,"SIDM01165",1.494867,"Overall",-0.550800689554067
+"lambda_min_1000_ln_ic50",1,5,"SIDM00132",-0.677032,"Pretrained",-0.0651397767260396
+"lambda_min_1000_ln_ic50",1,5,"SIDM00571",4.491236,"Pretrained",0.399080945054678
+"lambda_min_1000_ln_ic50",1,5,"SIDM00943",5.49598,"Pretrained",0.3949096403548
+"lambda_min_1000_ln_ic50",1,5,"SIDM01137",1.334767,"Pretrained",-0.051170792714485
+"lambda_min_1000_ln_ic50",1,5,"SIDM01138",-2.798807,"Pretrained",-0.218215870004768
+"lambda_min_1000_ln_ic50",1,5,"SIDM01165",1.494867,"Pretrained",-0.37050353752702
+"lambda_min_1000_ln_ic50",1,5,"SIDM00132",-0.677032,"Target mean",-0.1753045
+"lambda_min_1000_ln_ic50",1,5,"SIDM00571",4.491236,"Target mean",-0.1753045
+"lambda_min_1000_ln_ic50",1,5,"SIDM00943",5.49598,"Target mean",-0.1753045
+"lambda_min_1000_ln_ic50",1,5,"SIDM01137",1.334767,"Target mean",-0.1753045
+"lambda_min_1000_ln_ic50",1,5,"SIDM01138",-2.798807,"Target mean",-0.1753045
+"lambda_min_1000_ln_ic50",1,5,"SIDM01165",1.494867,"Target mean",-0.1753045
+"lambda_min_1000_ln_ic50",2,1,"SIDM00042",-0.517255,"Individual",0.459141448493574
+"lambda_min_1000_ln_ic50",2,1,"SIDM00132",-0.677032,"Individual",0.222284310196438
+"lambda_min_1000_ln_ic50",2,1,"SIDM00453",-1.388208,"Individual",0.442819054573478
+"lambda_min_1000_ln_ic50",2,1,"SIDM00505",-1.731407,"Individual",0.465907872372058
+"lambda_min_1000_ln_ic50",2,1,"SIDM00533",1.084742,"Individual",0.388516235298819
+"lambda_min_1000_ln_ic50",2,1,"SIDM01137",1.334767,"Individual",0.211717964908714
+"lambda_min_1000_ln_ic50",2,1,"SIDM00042",-0.517255,"Overall",0.905166471789109
+"lambda_min_1000_ln_ic50",2,1,"SIDM00132",-0.677032,"Overall",0.521503690839355
+"lambda_min_1000_ln_ic50",2,1,"SIDM00453",-1.388208,"Overall",0.116943192710524
+"lambda_min_1000_ln_ic50",2,1,"SIDM00505",-1.731407,"Overall",0.342513803928053
+"lambda_min_1000_ln_ic50",2,1,"SIDM00533",1.084742,"Overall",0.901846393716099
+"lambda_min_1000_ln_ic50",2,1,"SIDM01137",1.334767,"Overall",0.610520978643121
+"lambda_min_1000_ln_ic50",2,1,"SIDM00042",-0.517255,"Pretrained",2.77606140508443
+"lambda_min_1000_ln_ic50",2,1,"SIDM00132",-0.677032,"Pretrained",0.655294707044815
+"lambda_min_1000_ln_ic50",2,1,"SIDM00453",-1.388208,"Pretrained",0.521575848443337
+"lambda_min_1000_ln_ic50",2,1,"SIDM00505",-1.731407,"Pretrained",0.881750819644803
+"lambda_min_1000_ln_ic50",2,1,"SIDM00533",1.084742,"Pretrained",2.04759544760548
+"lambda_min_1000_ln_ic50",2,1,"SIDM01137",1.334767,"Pretrained",0.0477059317745743
+"lambda_min_1000_ln_ic50",2,1,"SIDM00042",-0.517255,"Target mean",0.292837333333333
+"lambda_min_1000_ln_ic50",2,1,"SIDM00132",-0.677032,"Target mean",0.292837333333333
+"lambda_min_1000_ln_ic50",2,1,"SIDM00453",-1.388208,"Target mean",0.292837333333333
+"lambda_min_1000_ln_ic50",2,1,"SIDM00505",-1.731407,"Target mean",0.292837333333333
+"lambda_min_1000_ln_ic50",2,1,"SIDM00533",1.084742,"Target mean",0.292837333333333
+"lambda_min_1000_ln_ic50",2,1,"SIDM01137",1.334767,"Target mean",0.292837333333333
+"lambda_min_1000_ln_ic50",2,2,"SIDM00371",-1.782267,"Individual",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00455",1.487982,"Individual",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00469",-3.830996,"Individual",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00583",-0.632883,"Individual",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00950",-2.543222,"Individual",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM01139",0.347126,"Individual",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00371",-1.782267,"Overall",-0.585763416200087
+"lambda_min_1000_ln_ic50",2,2,"SIDM00455",1.487982,"Overall",0.861742270578733
+"lambda_min_1000_ln_ic50",2,2,"SIDM00469",-3.830996,"Overall",-0.371657679557217
+"lambda_min_1000_ln_ic50",2,2,"SIDM00583",-0.632883,"Overall",-0.194434735524049
+"lambda_min_1000_ln_ic50",2,2,"SIDM00950",-2.543222,"Overall",-0.468842620383687
+"lambda_min_1000_ln_ic50",2,2,"SIDM01139",0.347126,"Overall",1.04808903162107
+"lambda_min_1000_ln_ic50",2,2,"SIDM00371",-1.782267,"Pretrained",-0.763901875237823
+"lambda_min_1000_ln_ic50",2,2,"SIDM00455",1.487982,"Pretrained",1.09512163831146
+"lambda_min_1000_ln_ic50",2,2,"SIDM00469",-3.830996,"Pretrained",-0.417221113075287
+"lambda_min_1000_ln_ic50",2,2,"SIDM00583",-0.632883,"Pretrained",-0.457695560850715
+"lambda_min_1000_ln_ic50",2,2,"SIDM00950",-2.543222,"Pretrained",-0.592734255439896
+"lambda_min_1000_ln_ic50",2,2,"SIDM01139",0.347126,"Pretrained",1.19417088845578
+"lambda_min_1000_ln_ic50",2,2,"SIDM00371",-1.782267,"Target mean",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00455",1.487982,"Target mean",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00469",-3.830996,"Target mean",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00583",-0.632883,"Target mean",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM00950",-2.543222,"Target mean",0.503665125
+"lambda_min_1000_ln_ic50",2,2,"SIDM01139",0.347126,"Target mean",0.503665125
+"lambda_min_1000_ln_ic50",2,3,"SIDM00053",0.454287,"Individual",-0.971003445061475
+"lambda_min_1000_ln_ic50",2,3,"SIDM00411",-1.091093,"Individual",-0.531458628368674
+"lambda_min_1000_ln_ic50",2,3,"SIDM00531",-3.02061,"Individual",0.0948517748190233
+"lambda_min_1000_ln_ic50",2,3,"SIDM00582",2.615533,"Individual",0.0945950598340453
+"lambda_min_1000_ln_ic50",2,3,"SIDM00664",3.528073,"Individual",-0.181101042643788
+"lambda_min_1000_ln_ic50",2,3,"SIDM01136",4.170801,"Individual",-0.0357359646787379
+"lambda_min_1000_ln_ic50",2,3,"SIDM00053",0.454287,"Overall",-0.917868535637409
+"lambda_min_1000_ln_ic50",2,3,"SIDM00411",-1.091093,"Overall",-1.03343415521912
+"lambda_min_1000_ln_ic50",2,3,"SIDM00531",-3.02061,"Overall",-1.47303410604806
+"lambda_min_1000_ln_ic50",2,3,"SIDM00582",2.615533,"Overall",0.970121337149665
+"lambda_min_1000_ln_ic50",2,3,"SIDM00664",3.528073,"Overall",0.709301670775947
+"lambda_min_1000_ln_ic50",2,3,"SIDM01136",4.170801,"Overall",-0.45216358583037
+"lambda_min_1000_ln_ic50",2,3,"SIDM00053",0.454287,"Pretrained",-1.53960184363451
+"lambda_min_1000_ln_ic50",2,3,"SIDM00411",-1.091093,"Pretrained",-0.70692208888648
+"lambda_min_1000_ln_ic50",2,3,"SIDM00531",-3.02061,"Pretrained",-2.09638185335948
+"lambda_min_1000_ln_ic50",2,3,"SIDM00582",2.615533,"Pretrained",2.22876293749448
+"lambda_min_1000_ln_ic50",2,3,"SIDM00664",3.528073,"Pretrained",0.691265260206513
+"lambda_min_1000_ln_ic50",2,3,"SIDM01136",4.170801,"Pretrained",-1.32068821327302
+"lambda_min_1000_ln_ic50",2,3,"SIDM00053",0.454287,"Target mean",-0.0634703333333333
+"lambda_min_1000_ln_ic50",2,3,"SIDM00411",-1.091093,"Target mean",-0.0634703333333333
+"lambda_min_1000_ln_ic50",2,3,"SIDM00531",-3.02061,"Target mean",-0.0634703333333333
+"lambda_min_1000_ln_ic50",2,3,"SIDM00582",2.615533,"Target mean",-0.0634703333333333
+"lambda_min_1000_ln_ic50",2,3,"SIDM00664",3.528073,"Target mean",-0.0634703333333333
+"lambda_min_1000_ln_ic50",2,3,"SIDM01136",4.170801,"Target mean",-0.0634703333333333
+"lambda_min_1000_ln_ic50",2,4,"SIDM00669",0.976248,"Individual",0.512794128962811
+"lambda_min_1000_ln_ic50",2,4,"SIDM00899",3.809457,"Individual",0.448683904036129
+"lambda_min_1000_ln_ic50",2,4,"SIDM00934",-1.649507,"Individual",-0.422558116704773
+"lambda_min_1000_ln_ic50",2,4,"SIDM00943",5.49598,"Individual",-0.420029676911214
+"lambda_min_1000_ln_ic50",2,4,"SIDM01135",-0.271417,"Individual",0.525252019339084
+"lambda_min_1000_ln_ic50",2,4,"SIDM01165",1.494867,"Individual",-0.354898005550861
+"lambda_min_1000_ln_ic50",2,4,"SIDM00669",0.976248,"Overall",1.71270471422522
+"lambda_min_1000_ln_ic50",2,4,"SIDM00899",3.809457,"Overall",1.27088186230968
+"lambda_min_1000_ln_ic50",2,4,"SIDM00934",-1.649507,"Overall",-0.529786599342793
+"lambda_min_1000_ln_ic50",2,4,"SIDM00943",5.49598,"Overall",1.41731643700446
+"lambda_min_1000_ln_ic50",2,4,"SIDM01135",-0.271417,"Overall",-0.690853439360856
+"lambda_min_1000_ln_ic50",2,4,"SIDM01165",1.494867,"Overall",-0.72700012784111
+"lambda_min_1000_ln_ic50",2,4,"SIDM00669",0.976248,"Pretrained",1.56488228648296
+"lambda_min_1000_ln_ic50",2,4,"SIDM00899",3.809457,"Pretrained",1.16724171975898
+"lambda_min_1000_ln_ic50",2,4,"SIDM00934",-1.649507,"Pretrained",-0.453359895728249
+"lambda_min_1000_ln_ic50",2,4,"SIDM00943",5.49598,"Pretrained",1.29903283698428
+"lambda_min_1000_ln_ic50",2,4,"SIDM01135",-0.271417,"Pretrained",-0.598320051744506
+"lambda_min_1000_ln_ic50",2,4,"SIDM01165",1.494867,"Pretrained",-0.630852071376735
+"lambda_min_1000_ln_ic50",2,4,"SIDM00669",0.976248,"Target mean",-0.196746875
+"lambda_min_1000_ln_ic50",2,4,"SIDM00899",3.809457,"Target mean",-0.196746875
+"lambda_min_1000_ln_ic50",2,4,"SIDM00934",-1.649507,"Target mean",-0.196746875
+"lambda_min_1000_ln_ic50",2,4,"SIDM00943",5.49598,"Target mean",-0.196746875
+"lambda_min_1000_ln_ic50",2,4,"SIDM01135",-0.271417,"Target mean",-0.196746875
+"lambda_min_1000_ln_ic50",2,4,"SIDM01165",1.494867,"Target mean",-0.196746875
+"lambda_min_1000_ln_ic50",2,5,"SIDM00130",-3.444133,"Individual",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00301",-3.240813,"Individual",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00571",4.491236,"Individual",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00670",0.099097,"Individual",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM01138",-2.798807,"Individual",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM01188",2.363157,"Individual",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00130",-3.444133,"Overall",0.710285143736436
+"lambda_min_1000_ln_ic50",2,5,"SIDM00301",-3.240813,"Overall",-1.68814205213572
+"lambda_min_1000_ln_ic50",2,5,"SIDM00571",4.491236,"Overall",2.25454578890363
+"lambda_min_1000_ln_ic50",2,5,"SIDM00670",0.099097,"Overall",0.391076002507244
+"lambda_min_1000_ln_ic50",2,5,"SIDM01138",-2.798807,"Overall",0.0503544644679218
+"lambda_min_1000_ln_ic50",2,5,"SIDM01188",2.363157,"Overall",0.325007340893709
+"lambda_min_1000_ln_ic50",2,5,"SIDM00130",-3.444133,"Pretrained",0.95032109045229
+"lambda_min_1000_ln_ic50",2,5,"SIDM00301",-3.240813,"Pretrained",-1.15113405910213
+"lambda_min_1000_ln_ic50",2,5,"SIDM00571",4.491236,"Pretrained",1.6712550796232
+"lambda_min_1000_ln_ic50",2,5,"SIDM00670",0.099097,"Pretrained",0.286114190735684
+"lambda_min_1000_ln_ic50",2,5,"SIDM01138",-2.798807,"Pretrained",0.407527035583579
+"lambda_min_1000_ln_ic50",2,5,"SIDM01188",2.363157,"Pretrained",0.536766135120177
+"lambda_min_1000_ln_ic50",2,5,"SIDM00130",-3.444133,"Target mean",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00301",-3.240813,"Target mean",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00571",4.491236,"Target mean",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM00670",0.099097,"Target mean",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM01138",-2.798807,"Target mean",0.319331916666667
+"lambda_min_1000_ln_ic50",2,5,"SIDM01188",2.363157,"Target mean",0.319331916666667
+"lambda_min_1000_ln_ic50",3,1,"SIDM00042",-0.517255,"Individual",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00132",-0.677032,"Individual",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00453",-1.388208,"Individual",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00950",-2.543222,"Individual",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM01135",-0.271417,"Individual",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM01138",-2.798807,"Individual",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00042",-0.517255,"Overall",0.969020664840318
+"lambda_min_1000_ln_ic50",3,1,"SIDM00132",-0.677032,"Overall",0.711853138295202
+"lambda_min_1000_ln_ic50",3,1,"SIDM00453",-1.388208,"Overall",0.158499790748567
+"lambda_min_1000_ln_ic50",3,1,"SIDM00950",-2.543222,"Overall",-0.841415395337563
+"lambda_min_1000_ln_ic50",3,1,"SIDM01135",-0.271417,"Overall",-0.0416530001926151
+"lambda_min_1000_ln_ic50",3,1,"SIDM01138",-2.798807,"Overall",0.386074373307729
+"lambda_min_1000_ln_ic50",3,1,"SIDM00042",-0.517255,"Pretrained",0.833107209987449
+"lambda_min_1000_ln_ic50",3,1,"SIDM00132",-0.677032,"Pretrained",0.678806694060379
+"lambda_min_1000_ln_ic50",3,1,"SIDM00453",-1.388208,"Pretrained",0.346794685532398
+"lambda_min_1000_ln_ic50",3,1,"SIDM00950",-2.543222,"Pretrained",-0.25315442611928
+"lambda_min_1000_ln_ic50",3,1,"SIDM01135",-0.271417,"Pretrained",0.226703010967689
+"lambda_min_1000_ln_ic50",3,1,"SIDM01138",-2.798807,"Pretrained",0.483339435067895
+"lambda_min_1000_ln_ic50",3,1,"SIDM00042",-0.517255,"Target mean",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00132",-0.677032,"Target mean",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00453",-1.388208,"Target mean",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM00950",-2.543222,"Target mean",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM01135",-0.271417,"Target mean",0.555401833333333
+"lambda_min_1000_ln_ic50",3,1,"SIDM01138",-2.798807,"Target mean",0.555401833333333
+"lambda_min_1000_ln_ic50",3,2,"SIDM00053",0.454287,"Individual",-0.0401515760156557
+"lambda_min_1000_ln_ic50",3,2,"SIDM00130",-3.444133,"Individual",0.337414739710806
+"lambda_min_1000_ln_ic50",3,2,"SIDM00469",-3.830996,"Individual",-0.0243632330171031
+"lambda_min_1000_ln_ic50",3,2,"SIDM00664",3.528073,"Individual",-0.0401515760156557
+"lambda_min_1000_ln_ic50",3,2,"SIDM00669",0.976248,"Individual",0.205620681539537
+"lambda_min_1000_ln_ic50",3,2,"SIDM01136",4.170801,"Individual",-0.0214118157591805
+"lambda_min_1000_ln_ic50",3,2,"SIDM00053",0.454287,"Overall",-1.0294066985469
+"lambda_min_1000_ln_ic50",3,2,"SIDM00130",-3.444133,"Overall",0.877993864835563
+"lambda_min_1000_ln_ic50",3,2,"SIDM00469",-3.830996,"Overall",-1.12401399538995
+"lambda_min_1000_ln_ic50",3,2,"SIDM00664",3.528073,"Overall",1.18812758378648
+"lambda_min_1000_ln_ic50",3,2,"SIDM00669",0.976248,"Overall",2.41108253334872
+"lambda_min_1000_ln_ic50",3,2,"SIDM01136",4.170801,"Overall",-0.416544696369624
+"lambda_min_1000_ln_ic50",3,2,"SIDM00053",0.454287,"Pretrained",-2.65619382884468
+"lambda_min_1000_ln_ic50",3,2,"SIDM00130",-3.444133,"Pretrained",0.7962373158729
+"lambda_min_1000_ln_ic50",3,2,"SIDM00469",-3.830996,"Pretrained",-3.82471238148299
+"lambda_min_1000_ln_ic50",3,2,"SIDM00664",3.528073,"Pretrained",0.283610317954707
+"lambda_min_1000_ln_ic50",3,2,"SIDM00669",0.976248,"Pretrained",1.69098778461674
+"lambda_min_1000_ln_ic50",3,2,"SIDM01136",4.170801,"Pretrained",-2.40631907278445
+"lambda_min_1000_ln_ic50",3,2,"SIDM00053",0.454287,"Target mean",0.136642625
+"lambda_min_1000_ln_ic50",3,2,"SIDM00130",-3.444133,"Target mean",0.136642625
+"lambda_min_1000_ln_ic50",3,2,"SIDM00469",-3.830996,"Target mean",0.136642625
+"lambda_min_1000_ln_ic50",3,2,"SIDM00664",3.528073,"Target mean",0.136642625
+"lambda_min_1000_ln_ic50",3,2,"SIDM00669",0.976248,"Target mean",0.136642625
+"lambda_min_1000_ln_ic50",3,2,"SIDM01136",4.170801,"Target mean",0.136642625
+"lambda_min_1000_ln_ic50",3,3,"SIDM00371",-1.782267,"Individual",0.610241747059184
+"lambda_min_1000_ln_ic50",3,3,"SIDM00531",-3.02061,"Individual",0.526540576249229
+"lambda_min_1000_ln_ic50",3,3,"SIDM00583",-0.632883,"Individual",-1.23176157809091
+"lambda_min_1000_ln_ic50",3,3,"SIDM00670",0.099097,"Individual",1.32973723991952
+"lambda_min_1000_ln_ic50",3,3,"SIDM00899",3.809457,"Individual",1.14925319580508
+"lambda_min_1000_ln_ic50",3,3,"SIDM01139",0.347126,"Individual",0.293946843011843
+"lambda_min_1000_ln_ic50",3,3,"SIDM00371",-1.782267,"Overall",-1.05156538049523
+"lambda_min_1000_ln_ic50",3,3,"SIDM00531",-3.02061,"Overall",-0.862810237627251
+"lambda_min_1000_ln_ic50",3,3,"SIDM00583",-0.632883,"Overall",-0.769484163884301
+"lambda_min_1000_ln_ic50",3,3,"SIDM00670",0.099097,"Overall",0.315940227609598
+"lambda_min_1000_ln_ic50",3,3,"SIDM00899",3.809457,"Overall",1.49548201184392
+"lambda_min_1000_ln_ic50",3,3,"SIDM01139",0.347126,"Overall",0.899668276040878
+"lambda_min_1000_ln_ic50",3,3,"SIDM00371",-1.782267,"Pretrained",-1.48931917791548
+"lambda_min_1000_ln_ic50",3,3,"SIDM00531",-3.02061,"Pretrained",-1.21207249255614
+"lambda_min_1000_ln_ic50",3,3,"SIDM00583",-0.632883,"Pretrained",-1.19073115198369
+"lambda_min_1000_ln_ic50",3,3,"SIDM00670",0.099097,"Pretrained",0.166927359808247
+"lambda_min_1000_ln_ic50",3,3,"SIDM00899",3.809457,"Pretrained",0.587097509745073
+"lambda_min_1000_ln_ic50",3,3,"SIDM01139",0.347126,"Pretrained",0.355326031249463
+"lambda_min_1000_ln_ic50",3,3,"SIDM00371",-1.782267,"Target mean",0.263074291666667
+"lambda_min_1000_ln_ic50",3,3,"SIDM00531",-3.02061,"Target mean",0.263074291666667
+"lambda_min_1000_ln_ic50",3,3,"SIDM00583",-0.632883,"Target mean",0.263074291666667
+"lambda_min_1000_ln_ic50",3,3,"SIDM00670",0.099097,"Target mean",0.263074291666667
+"lambda_min_1000_ln_ic50",3,3,"SIDM00899",3.809457,"Target mean",0.263074291666667
+"lambda_min_1000_ln_ic50",3,3,"SIDM01139",0.347126,"Target mean",0.263074291666667
+"lambda_min_1000_ln_ic50",3,4,"SIDM00411",-1.091093,"Individual",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00455",1.487982,"Individual",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00505",-1.731407,"Individual",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00571",4.491236,"Individual",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00934",-1.649507,"Individual",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM01188",2.363157,"Individual",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00411",-1.091093,"Overall",-0.806813786815537
+"lambda_min_1000_ln_ic50",3,4,"SIDM00455",1.487982,"Overall",0.955738789919936
+"lambda_min_1000_ln_ic50",3,4,"SIDM00505",-1.731407,"Overall",0.178132135072547
+"lambda_min_1000_ln_ic50",3,4,"SIDM00571",4.491236,"Overall",1.4943402337315
+"lambda_min_1000_ln_ic50",3,4,"SIDM00934",-1.649507,"Overall",-0.292143729755289
+"lambda_min_1000_ln_ic50",3,4,"SIDM01188",2.363157,"Overall",0.160502754661381
+"lambda_min_1000_ln_ic50",3,4,"SIDM00411",-1.091093,"Pretrained",-0.548479052217036
+"lambda_min_1000_ln_ic50",3,4,"SIDM00455",1.487982,"Pretrained",2.95897037780877
+"lambda_min_1000_ln_ic50",3,4,"SIDM00505",-1.731407,"Pretrained",0.668113259584439
+"lambda_min_1000_ln_ic50",3,4,"SIDM00571",4.491236,"Pretrained",-0.128539404295999
+"lambda_min_1000_ln_ic50",3,4,"SIDM00934",-1.649507,"Pretrained",-0.482384164726279
+"lambda_min_1000_ln_ic50",3,4,"SIDM01188",2.363157,"Pretrained",-0.777645192189508
+"lambda_min_1000_ln_ic50",3,4,"SIDM00411",-1.091093,"Target mean",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00455",1.487982,"Target mean",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00505",-1.731407,"Target mean",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00571",4.491236,"Target mean",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM00934",-1.649507,"Target mean",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,4,"SIDM01188",2.363157,"Target mean",0.0526389583333333
+"lambda_min_1000_ln_ic50",3,5,"SIDM00301",-3.240813,"Individual",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00533",1.084742,"Individual",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00582",2.615533,"Individual",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00943",5.49598,"Individual",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM01137",1.334767,"Individual",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM01165",1.494867,"Individual",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00301",-3.240813,"Overall",-2.10402017298404
+"lambda_min_1000_ln_ic50",3,5,"SIDM00533",1.084742,"Overall",0.422856434145532
+"lambda_min_1000_ln_ic50",3,5,"SIDM00582",2.615533,"Overall",0.856796102583032
+"lambda_min_1000_ln_ic50",3,5,"SIDM00943",5.49598,"Overall",1.22428684211191
+"lambda_min_1000_ln_ic50",3,5,"SIDM01137",1.334767,"Overall",0.151633532091244
+"lambda_min_1000_ln_ic50",3,5,"SIDM01165",1.494867,"Overall",-0.670866489839417
+"lambda_min_1000_ln_ic50",3,5,"SIDM00301",-3.240813,"Pretrained",-1.84301685271378
+"lambda_min_1000_ln_ic50",3,5,"SIDM00533",1.084742,"Pretrained",0.0339214744911846
+"lambda_min_1000_ln_ic50",3,5,"SIDM00582",2.615533,"Pretrained",1.66998203426716
+"lambda_min_1000_ln_ic50",3,5,"SIDM00943",5.49598,"Pretrained",1.88289533621313
+"lambda_min_1000_ln_ic50",3,5,"SIDM01137",1.334767,"Pretrained",-0.194010467917684
+"lambda_min_1000_ln_ic50",3,5,"SIDM01165",1.494867,"Pretrained",-1.17746879736143
+"lambda_min_1000_ln_ic50",3,5,"SIDM00301",-3.240813,"Target mean",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00533",1.084742,"Target mean",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00582",2.615533,"Target mean",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM00943",5.49598,"Target mean",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM01137",1.334767,"Target mean",-0.152140541666667
+"lambda_min_1000_ln_ic50",3,5,"SIDM01165",1.494867,"Target mean",-0.152140541666667
+"lambda_min_1000_ln_ic50",4,1,"SIDM00453",-1.388208,"Individual",0.0870391250000001
+"lambda_min_1000_ln_ic50",4,1,"SIDM00531",-3.02061,"Individual",0.0870391250000001
+"lambda_min_1000_ln_ic50",4,1,"SIDM00571",4.491236,"Individual",0.0870391250000001
+"lambda_min_1000_ln_ic50",4,1,"SIDM00950",-2.543222,"Individual",0.0870391250000001
+"lambda_min_1000_ln_ic50",4,1,"SIDM01136",4.170801,"Individual",0.0870391250000001
+"lambda_min_1000_ln_ic50",4,1,"SIDM01137",1.334767,"Individual",0.0870391250000001
+"lambda_min_1000_ln_ic50",4,1,"SIDM00453",-1.388208,"Overall",-0.154840537838253
+"lambda_min_1000_ln_ic50",4,1,"SIDM00531",-3.02061,"Overall",-1.34006897576459
+"lambda_min_1000_ln_ic50",4,1,"SIDM00571",4.491236,"Overall",1.45552712836275
+"lambda_min_1000_ln_ic50",4,1,"SIDM00950",-2.543222,"Overall",-1.20175357157244
+"lambda_min_1000_ln_ic50",4,1,"SIDM01136",4.170801,"Overall",-0.324037273067328
+"lambda_min_1000_ln_ic50",4,1,"SIDM01137",1.334767,"Overall",0.44468935709949
+"lambda_min_1000_ln_ic50",4,1,"SIDM00453",-1.388208,"Pretrained",0.265265763830084
+"lambda_min_1000_ln_ic50",4,1,"SIDM00531",-3.02061,"Pretrained",-0.720299128710881
+"lambda_min_1000_ln_ic50",4,1,"SIDM00571",4.491236,"Pretrained",0.912705107909982
+"lambda_min_1000_ln_ic50",4,1,"SIDM00950",-2.543222,"Pretrained",-0.593850592537213
+"lambda_min_1000_ln_ic50",4,1,"SIDM01136",4.170801,"Pretrained",0.066089074725518
+"lambda_min_1000_ln_ic50",4,1,"SIDM01137",1.334767,"Pretrained",0.10893065528461
+"lambda_min_1000_ln_ic50",4,1,"SIDM00453",-1.388208,"Target mean",0.087039125
+"lambda_min_1000_ln_ic50",4,1,"SIDM00531",-3.02061,"Target mean",0.087039125
+"lambda_min_1000_ln_ic50",4,1,"SIDM00571",4.491236,"Target mean",0.087039125
+"lambda_min_1000_ln_ic50",4,1,"SIDM00950",-2.543222,"Target mean",0.087039125
+"lambda_min_1000_ln_ic50",4,1,"SIDM01136",4.170801,"Target mean",0.087039125
+"lambda_min_1000_ln_ic50",4,1,"SIDM01137",1.334767,"Target mean",0.087039125
+"lambda_min_1000_ln_ic50",4,2,"SIDM00582",2.615533,"Individual",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00583",-0.632883,"Individual",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00664",3.528073,"Individual",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00899",3.809457,"Individual",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00943",5.49598,"Individual",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM01138",-2.798807,"Individual",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00582",2.615533,"Overall",0.618742299758336
+"lambda_min_1000_ln_ic50",4,2,"SIDM00583",-0.632883,"Overall",-0.83721468342191
+"lambda_min_1000_ln_ic50",4,2,"SIDM00664",3.528073,"Overall",0.47027831834921
+"lambda_min_1000_ln_ic50",4,2,"SIDM00899",3.809457,"Overall",0.844357434767429
+"lambda_min_1000_ln_ic50",4,2,"SIDM00943",5.49598,"Overall",0.963122918138154
+"lambda_min_1000_ln_ic50",4,2,"SIDM01138",-2.798807,"Overall",-0.209936620693893
+"lambda_min_1000_ln_ic50",4,2,"SIDM00582",2.615533,"Pretrained",0.422195485057464
+"lambda_min_1000_ln_ic50",4,2,"SIDM00583",-0.632883,"Pretrained",-0.888165799804758
+"lambda_min_1000_ln_ic50",4,2,"SIDM00664",3.528073,"Pretrained",0.288577901789251
+"lambda_min_1000_ln_ic50",4,2,"SIDM00899",3.809457,"Pretrained",0.625249106565648
+"lambda_min_1000_ln_ic50",4,2,"SIDM00943",5.49598,"Pretrained",0.7321380415993
+"lambda_min_1000_ln_ic50",4,2,"SIDM01138",-2.798807,"Pretrained",-0.323615543349542
+"lambda_min_1000_ln_ic50",4,2,"SIDM00582",2.615533,"Target mean",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00583",-0.632883,"Target mean",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00664",3.528073,"Target mean",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00899",3.809457,"Target mean",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM00943",5.49598,"Target mean",-0.28681875
+"lambda_min_1000_ln_ic50",4,2,"SIDM01138",-2.798807,"Target mean",-0.28681875
+"lambda_min_1000_ln_ic50",4,3,"SIDM00042",-0.517255,"Individual",-0.283955065696061
+"lambda_min_1000_ln_ic50",4,3,"SIDM00371",-1.782267,"Individual",1.40168605661832
+"lambda_min_1000_ln_ic50",4,3,"SIDM00505",-1.731407,"Individual",1.17889021408979
+"lambda_min_1000_ln_ic50",4,3,"SIDM00934",-1.649507,"Individual",0.434296430495159
+"lambda_min_1000_ln_ic50",4,3,"SIDM01139",0.347126,"Individual",1.7001791856916
+"lambda_min_1000_ln_ic50",4,3,"SIDM01165",1.494867,"Individual",-1.10535440084164
+"lambda_min_1000_ln_ic50",4,3,"SIDM00042",-0.517255,"Overall",0.66723180890632
+"lambda_min_1000_ln_ic50",4,3,"SIDM00371",-1.782267,"Overall",-0.652269192110708
+"lambda_min_1000_ln_ic50",4,3,"SIDM00505",-1.731407,"Overall",0.106345031006308
+"lambda_min_1000_ln_ic50",4,3,"SIDM00934",-1.649507,"Overall",-0.22306321681977
+"lambda_min_1000_ln_ic50",4,3,"SIDM01139",0.347126,"Overall",1.08030006175165
+"lambda_min_1000_ln_ic50",4,3,"SIDM01165",1.494867,"Overall",-0.565879520950651
+"lambda_min_1000_ln_ic50",4,3,"SIDM00042",-0.517255,"Pretrained",1.43914154350671
+"lambda_min_1000_ln_ic50",4,3,"SIDM00371",-1.782267,"Pretrained",-1.07734102993734
+"lambda_min_1000_ln_ic50",4,3,"SIDM00505",-1.731407,"Pretrained",0.651862985406768
+"lambda_min_1000_ln_ic50",4,3,"SIDM00934",-1.649507,"Pretrained",-0.50798112271442
+"lambda_min_1000_ln_ic50",4,3,"SIDM01139",0.347126,"Pretrained",1.47016421311323
+"lambda_min_1000_ln_ic50",4,3,"SIDM01165",1.494867,"Pretrained",-0.745798939915057
+"lambda_min_1000_ln_ic50",4,3,"SIDM00042",-0.517255,"Target mean",0.373839416666667
+"lambda_min_1000_ln_ic50",4,3,"SIDM00371",-1.782267,"Target mean",0.373839416666667
+"lambda_min_1000_ln_ic50",4,3,"SIDM00505",-1.731407,"Target mean",0.373839416666667
+"lambda_min_1000_ln_ic50",4,3,"SIDM00934",-1.649507,"Target mean",0.373839416666667
+"lambda_min_1000_ln_ic50",4,3,"SIDM01139",0.347126,"Target mean",0.373839416666667
+"lambda_min_1000_ln_ic50",4,3,"SIDM01165",1.494867,"Target mean",0.373839416666667
+"lambda_min_1000_ln_ic50",4,4,"SIDM00301",-3.240813,"Individual",0.389585110173493
+"lambda_min_1000_ln_ic50",4,4,"SIDM00455",1.487982,"Individual",0.529747498889589
+"lambda_min_1000_ln_ic50",4,4,"SIDM00469",-3.830996,"Individual",0.432402639311516
+"lambda_min_1000_ln_ic50",4,4,"SIDM00533",1.084742,"Individual",0.146810176031666
+"lambda_min_1000_ln_ic50",4,4,"SIDM01135",-0.271417,"Individual",0.387717092821361
+"lambda_min_1000_ln_ic50",4,4,"SIDM01188",2.363157,"Individual",0.0775146783775533
+"lambda_min_1000_ln_ic50",4,4,"SIDM00301",-3.240813,"Overall",-1.94465690493405
+"lambda_min_1000_ln_ic50",4,4,"SIDM00455",1.487982,"Overall",1.35987171046628
+"lambda_min_1000_ln_ic50",4,4,"SIDM00469",-3.830996,"Overall",-1.00457615570856
+"lambda_min_1000_ln_ic50",4,4,"SIDM00533",1.084742,"Overall",0.62164082065184
+"lambda_min_1000_ln_ic50",4,4,"SIDM01135",-0.271417,"Overall",-0.538729385910033
+"lambda_min_1000_ln_ic50",4,4,"SIDM01188",2.363157,"Overall",0.190896127947057
+"lambda_min_1000_ln_ic50",4,4,"SIDM00301",-3.240813,"Pretrained",-1.33411585355972
+"lambda_min_1000_ln_ic50",4,4,"SIDM00455",1.487982,"Pretrained",0.979054177220512
+"lambda_min_1000_ln_ic50",4,4,"SIDM00469",-3.830996,"Pretrained",-0.676059329101876
+"lambda_min_1000_ln_ic50",4,4,"SIDM00533",1.084742,"Pretrained",0.462292554350406
+"lambda_min_1000_ln_ic50",4,4,"SIDM01135",-0.271417,"Pretrained",-0.349966590242905
+"lambda_min_1000_ln_ic50",4,4,"SIDM01188",2.363157,"Pretrained",0.160771269457059
+"lambda_min_1000_ln_ic50",4,4,"SIDM00301",-3.240813,"Target mean",0.314210333333333
+"lambda_min_1000_ln_ic50",4,4,"SIDM00455",1.487982,"Target mean",0.314210333333333
+"lambda_min_1000_ln_ic50",4,4,"SIDM00469",-3.830996,"Target mean",0.314210333333333
+"lambda_min_1000_ln_ic50",4,4,"SIDM00533",1.084742,"Target mean",0.314210333333333
+"lambda_min_1000_ln_ic50",4,4,"SIDM01135",-0.271417,"Target mean",0.314210333333333
+"lambda_min_1000_ln_ic50",4,4,"SIDM01188",2.363157,"Target mean",0.314210333333333
+"lambda_min_1000_ln_ic50",4,5,"SIDM00053",0.454287,"Individual",-1.1438441753491
+"lambda_min_1000_ln_ic50",4,5,"SIDM00130",-3.444133,"Individual",0.972516028168454
+"lambda_min_1000_ln_ic50",4,5,"SIDM00132",-0.677032,"Individual",1.17626559816938
+"lambda_min_1000_ln_ic50",4,5,"SIDM00411",-1.091093,"Individual",-0.476272524323388
+"lambda_min_1000_ln_ic50",4,5,"SIDM00669",0.976248,"Individual",0.935619156368276
+"lambda_min_1000_ln_ic50",4,5,"SIDM00670",0.099097,"Individual",0.743224884853211
+"lambda_min_1000_ln_ic50",4,5,"SIDM00053",0.454287,"Overall",-0.500114374472396
+"lambda_min_1000_ln_ic50",4,5,"SIDM00130",-3.444133,"Overall",1.04380379554798
+"lambda_min_1000_ln_ic50",4,5,"SIDM00132",-0.677032,"Overall",0.561944873618329
+"lambda_min_1000_ln_ic50",4,5,"SIDM00411",-1.091093,"Overall",-0.39837952349996
+"lambda_min_1000_ln_ic50",4,5,"SIDM00669",0.976248,"Overall",2.83311490746318
+"lambda_min_1000_ln_ic50",4,5,"SIDM00670",0.099097,"Overall",0.615514360874797
+"lambda_min_1000_ln_ic50",4,5,"SIDM00053",0.454287,"Pretrained",-0.684741953305733
+"lambda_min_1000_ln_ic50",4,5,"SIDM00130",-3.444133,"Pretrained",0.95588366039667
+"lambda_min_1000_ln_ic50",4,5,"SIDM00132",-0.677032,"Pretrained",0.668565605482718
+"lambda_min_1000_ln_ic50",4,5,"SIDM00411",-1.091093,"Pretrained",-0.0572905425115725
+"lambda_min_1000_ln_ic50",4,5,"SIDM00669",0.976248,"Pretrained",2.30829751741384
+"lambda_min_1000_ln_ic50",4,5,"SIDM00670",0.099097,"Pretrained",0.275425998705554
+"lambda_min_1000_ln_ic50",4,5,"SIDM00053",0.454287,"Target mean",0.367347041666667
+"lambda_min_1000_ln_ic50",4,5,"SIDM00130",-3.444133,"Target mean",0.367347041666667
+"lambda_min_1000_ln_ic50",4,5,"SIDM00132",-0.677032,"Target mean",0.367347041666667
+"lambda_min_1000_ln_ic50",4,5,"SIDM00411",-1.091093,"Target mean",0.367347041666667
+"lambda_min_1000_ln_ic50",4,5,"SIDM00669",0.976248,"Target mean",0.367347041666667
+"lambda_min_1000_ln_ic50",4,5,"SIDM00670",0.099097,"Target mean",0.367347041666667
+"lambda_min_1000_ln_ic50",5,1,"SIDM00130",-3.444133,"Individual",1.52868573063734
+"lambda_min_1000_ln_ic50",5,1,"SIDM00571",4.491236,"Individual",0.310601361341219
+"lambda_min_1000_ln_ic50",5,1,"SIDM00583",-0.632883,"Individual",-0.24393846463257
+"lambda_min_1000_ln_ic50",5,1,"SIDM00664",3.528073,"Individual",1.18527008706523
+"lambda_min_1000_ln_ic50",5,1,"SIDM01138",-2.798807,"Individual",0.682374458027091
+"lambda_min_1000_ln_ic50",5,1,"SIDM01139",0.347126,"Individual",0.692836779846388
+"lambda_min_1000_ln_ic50",5,1,"SIDM00130",-3.444133,"Overall",0.641430457773611
+"lambda_min_1000_ln_ic50",5,1,"SIDM00571",4.491236,"Overall",1.86108011487132
+"lambda_min_1000_ln_ic50",5,1,"SIDM00583",-0.632883,"Overall",-1.10324387182249
+"lambda_min_1000_ln_ic50",5,1,"SIDM00664",3.528073,"Overall",1.0975683904753
+"lambda_min_1000_ln_ic50",5,1,"SIDM01138",-2.798807,"Overall",0.185130961863518
+"lambda_min_1000_ln_ic50",5,1,"SIDM01139",0.347126,"Overall",1.15214362569396
+"lambda_min_1000_ln_ic50",5,1,"SIDM00130",-3.444133,"Pretrained",0.220077647954546
+"lambda_min_1000_ln_ic50",5,1,"SIDM00571",4.491236,"Pretrained",1.75474993003511
+"lambda_min_1000_ln_ic50",5,1,"SIDM00583",-0.632883,"Pretrained",-1.15107982929924
+"lambda_min_1000_ln_ic50",5,1,"SIDM00664",3.528073,"Pretrained",1.09632204936008
+"lambda_min_1000_ln_ic50",5,1,"SIDM01138",-2.798807,"Pretrained",0.693660904239643
+"lambda_min_1000_ln_ic50",5,1,"SIDM01139",0.347126,"Pretrained",1.96636293128467
+"lambda_min_1000_ln_ic50",5,1,"SIDM00130",-3.444133,"Target mean",0.151795458333333
+"lambda_min_1000_ln_ic50",5,1,"SIDM00571",4.491236,"Target mean",0.151795458333333
+"lambda_min_1000_ln_ic50",5,1,"SIDM00583",-0.632883,"Target mean",0.151795458333333
+"lambda_min_1000_ln_ic50",5,1,"SIDM00664",3.528073,"Target mean",0.151795458333333
+"lambda_min_1000_ln_ic50",5,1,"SIDM01138",-2.798807,"Target mean",0.151795458333333
+"lambda_min_1000_ln_ic50",5,1,"SIDM01139",0.347126,"Target mean",0.151795458333333
+"lambda_min_1000_ln_ic50",5,2,"SIDM00132",-0.677032,"Individual",0.00985300843913453
+"lambda_min_1000_ln_ic50",5,2,"SIDM00411",-1.091093,"Individual",-0.70681200976173
+"lambda_min_1000_ln_ic50",5,2,"SIDM00455",1.487982,"Individual",0.893750710672506
+"lambda_min_1000_ln_ic50",5,2,"SIDM00505",-1.731407,"Individual",0.501865430522813
+"lambda_min_1000_ln_ic50",5,2,"SIDM01136",4.170801,"Individual",0.252783629292714
+"lambda_min_1000_ln_ic50",5,2,"SIDM01165",1.494867,"Individual",-0.242574444558508
+"lambda_min_1000_ln_ic50",5,2,"SIDM00132",-0.677032,"Overall",0.00992934316763112
+"lambda_min_1000_ln_ic50",5,2,"SIDM00411",-1.091093,"Overall",-0.966328980184882
+"lambda_min_1000_ln_ic50",5,2,"SIDM00455",1.487982,"Overall",0.87031723352167
+"lambda_min_1000_ln_ic50",5,2,"SIDM00505",-1.731407,"Overall",0.013354162012149
+"lambda_min_1000_ln_ic50",5,2,"SIDM01136",4.170801,"Overall",-0.510824107397335
+"lambda_min_1000_ln_ic50",5,2,"SIDM01165",1.494867,"Overall",-0.738947979733001
+"lambda_min_1000_ln_ic50",5,2,"SIDM00132",-0.677032,"Pretrained",0.00893475169938127
+"lambda_min_1000_ln_ic50",5,2,"SIDM00411",-1.091093,"Pretrained",-0.575118879820889
+"lambda_min_1000_ln_ic50",5,2,"SIDM00455",1.487982,"Pretrained",0.648646922466833
+"lambda_min_1000_ln_ic50",5,2,"SIDM00505",-1.731407,"Pretrained",0.19207355896122
+"lambda_min_1000_ln_ic50",5,2,"SIDM01136",4.170801,"Pretrained",-0.14433739731245
+"lambda_min_1000_ln_ic50",5,2,"SIDM01165",1.494867,"Pretrained",-0.420427746363848
+"lambda_min_1000_ln_ic50",5,2,"SIDM00132",-0.677032,"Target mean",0.061649375
+"lambda_min_1000_ln_ic50",5,2,"SIDM00411",-1.091093,"Target mean",0.061649375
+"lambda_min_1000_ln_ic50",5,2,"SIDM00455",1.487982,"Target mean",0.061649375
+"lambda_min_1000_ln_ic50",5,2,"SIDM00505",-1.731407,"Target mean",0.061649375
+"lambda_min_1000_ln_ic50",5,2,"SIDM01136",4.170801,"Target mean",0.061649375
+"lambda_min_1000_ln_ic50",5,2,"SIDM01165",1.494867,"Target mean",0.061649375
+"lambda_min_1000_ln_ic50",5,3,"SIDM00053",0.454287,"Individual",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00531",-3.02061,"Individual",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00533",1.084742,"Individual",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00582",2.615533,"Individual",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00950",-2.543222,"Individual",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM01137",1.334767,"Individual",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00053",0.454287,"Overall",-0.451313795092792
+"lambda_min_1000_ln_ic50",5,3,"SIDM00531",-3.02061,"Overall",-1.34806790857998
+"lambda_min_1000_ln_ic50",5,3,"SIDM00533",1.084742,"Overall",0.67887713281606
+"lambda_min_1000_ln_ic50",5,3,"SIDM00582",2.615533,"Overall",1.57386823401092
+"lambda_min_1000_ln_ic50",5,3,"SIDM00950",-2.543222,"Overall",-1.07956632770934
+"lambda_min_1000_ln_ic50",5,3,"SIDM01137",1.334767,"Overall",0.6675975003949
+"lambda_min_1000_ln_ic50",5,3,"SIDM00053",0.454287,"Pretrained",-0.21558890412037
+"lambda_min_1000_ln_ic50",5,3,"SIDM00531",-3.02061,"Pretrained",-0.753641372212681
+"lambda_min_1000_ln_ic50",5,3,"SIDM00533",1.084742,"Pretrained",0.462525652624942
+"lambda_min_1000_ln_ic50",5,3,"SIDM00582",2.615533,"Pretrained",0.999520313341859
+"lambda_min_1000_ln_ic50",5,3,"SIDM00950",-2.543222,"Pretrained",-0.592540423690298
+"lambda_min_1000_ln_ic50",5,3,"SIDM01137",1.334767,"Pretrained",0.455757873172245
+"lambda_min_1000_ln_ic50",5,3,"SIDM00053",0.454287,"Target mean",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00531",-3.02061,"Target mean",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00533",1.084742,"Target mean",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00582",2.615533,"Target mean",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM00950",-2.543222,"Target mean",0.217008583333333
+"lambda_min_1000_ln_ic50",5,3,"SIDM01137",1.334767,"Target mean",0.217008583333333
+"lambda_min_1000_ln_ic50",5,4,"SIDM00301",-3.240813,"Individual",-0.615620681361345
+"lambda_min_1000_ln_ic50",5,4,"SIDM00371",-1.782267,"Individual",0.75204600714953
+"lambda_min_1000_ln_ic50",5,4,"SIDM00453",-1.388208,"Individual",2.51339581211045
+"lambda_min_1000_ln_ic50",5,4,"SIDM00669",0.976248,"Individual",1.37882940843389
+"lambda_min_1000_ln_ic50",5,4,"SIDM00670",0.099097,"Individual",1.18539961372416
+"lambda_min_1000_ln_ic50",5,4,"SIDM00899",3.809457,"Individual",1.45846201615564
+"lambda_min_1000_ln_ic50",5,4,"SIDM00301",-3.240813,"Overall",-1.78749022499663
+"lambda_min_1000_ln_ic50",5,4,"SIDM00371",-1.782267,"Overall",-0.984160907790177
+"lambda_min_1000_ln_ic50",5,4,"SIDM00453",-1.388208,"Overall",0.0492054199381474
+"lambda_min_1000_ln_ic50",5,4,"SIDM00669",0.976248,"Overall",2.29027235442054
+"lambda_min_1000_ln_ic50",5,4,"SIDM00670",0.099097,"Overall",0.401641117641494
+"lambda_min_1000_ln_ic50",5,4,"SIDM00899",3.809457,"Overall",1.72658006981161
+"lambda_min_1000_ln_ic50",5,4,"SIDM00301",-3.240813,"Pretrained",-0.837013481463699
+"lambda_min_1000_ln_ic50",5,4,"SIDM00371",-1.782267,"Pretrained",-0.0537435692855834
+"lambda_min_1000_ln_ic50",5,4,"SIDM00453",-1.388208,"Pretrained",1.09754463049336
+"lambda_min_1000_ln_ic50",5,4,"SIDM00669",0.976248,"Pretrained",1.88688369562262
+"lambda_min_1000_ln_ic50",5,4,"SIDM00670",0.099097,"Pretrained",0.457694598346373
+"lambda_min_1000_ln_ic50",5,4,"SIDM00899",3.809457,"Pretrained",1.58930603254759
+"lambda_min_1000_ln_ic50",5,4,"SIDM00301",-3.240813,"Target mean",0.277507875
+"lambda_min_1000_ln_ic50",5,4,"SIDM00371",-1.782267,"Target mean",0.277507875
+"lambda_min_1000_ln_ic50",5,4,"SIDM00453",-1.388208,"Target mean",0.277507875
+"lambda_min_1000_ln_ic50",5,4,"SIDM00669",0.976248,"Target mean",0.277507875
+"lambda_min_1000_ln_ic50",5,4,"SIDM00670",0.099097,"Target mean",0.277507875
+"lambda_min_1000_ln_ic50",5,4,"SIDM00899",3.809457,"Target mean",0.277507875
+"lambda_min_1000_ln_ic50",5,5,"SIDM00042",-0.517255,"Individual",0.0456529607707084
+"lambda_min_1000_ln_ic50",5,5,"SIDM00469",-3.830996,"Individual",0.0809578902591322
+"lambda_min_1000_ln_ic50",5,5,"SIDM00934",-1.649507,"Individual",0.0559491826054245
+"lambda_min_1000_ln_ic50",5,5,"SIDM00943",5.49598,"Individual",0.0688835507482015
+"lambda_min_1000_ln_ic50",5,5,"SIDM01135",-0.271417,"Individual",0.270642832872463
+"lambda_min_1000_ln_ic50",5,5,"SIDM01188",2.363157,"Individual",0.0558532560916029
+"lambda_min_1000_ln_ic50",5,5,"SIDM00042",-0.517255,"Overall",0.601456879804652
+"lambda_min_1000_ln_ic50",5,5,"SIDM00469",-3.830996,"Overall",-0.826027643959017
+"lambda_min_1000_ln_ic50",5,5,"SIDM00934",-1.649507,"Overall",-0.291436902746886
+"lambda_min_1000_ln_ic50",5,5,"SIDM00943",5.49598,"Overall",1.3567941075793
+"lambda_min_1000_ln_ic50",5,5,"SIDM01135",-0.271417,"Overall",-0.288223118621419
+"lambda_min_1000_ln_ic50",5,5,"SIDM01188",2.363157,"Overall",0.178011258547691
+"lambda_min_1000_ln_ic50",5,5,"SIDM00042",-0.517255,"Pretrained",0.632313333887849
+"lambda_min_1000_ln_ic50",5,5,"SIDM00469",-3.830996,"Pretrained",-0.436390117549305
+"lambda_min_1000_ln_ic50",5,5,"SIDM00934",-1.649507,"Pretrained",-0.35204079231286
+"lambda_min_1000_ln_ic50",5,5,"SIDM00943",5.49598,"Pretrained",1.03693748586176
+"lambda_min_1000_ln_ic50",5,5,"SIDM01135",-0.271417,"Pretrained",-0.351121014913369
+"lambda_min_1000_ln_ic50",5,5,"SIDM01188",2.363157,"Pretrained",-0.0891682459516829
+"lambda_min_1000_ln_ic50",5,5,"SIDM00042",-0.517255,"Target mean",0.147655875
+"lambda_min_1000_ln_ic50",5,5,"SIDM00469",-3.830996,"Target mean",0.147655875
+"lambda_min_1000_ln_ic50",5,5,"SIDM00934",-1.649507,"Target mean",0.147655875
+"lambda_min_1000_ln_ic50",5,5,"SIDM00943",5.49598,"Target mean",0.147655875
+"lambda_min_1000_ln_ic50",5,5,"SIDM01135",-0.271417,"Target mean",0.147655875
+"lambda_min_1000_ln_ic50",5,5,"SIDM01188",2.363157,"Target mean",0.147655875
+"lambda_min_1000_ln_ic50",6,1,"SIDM00042",-0.517255,"Individual",-0.278794268786228
+"lambda_min_1000_ln_ic50",6,1,"SIDM00453",-1.388208,"Individual",0.720278776333033
+"lambda_min_1000_ln_ic50",6,1,"SIDM00505",-1.731407,"Individual",-0.770943161597405
+"lambda_min_1000_ln_ic50",6,1,"SIDM00571",4.491236,"Individual",1.35030208347675
+"lambda_min_1000_ln_ic50",6,1,"SIDM00943",5.49598,"Individual",0.406710538446842
+"lambda_min_1000_ln_ic50",6,1,"SIDM01135",-0.271417,"Individual",0.262609835694025
+"lambda_min_1000_ln_ic50",6,1,"SIDM00042",-0.517255,"Overall",0.581543267121245
+"lambda_min_1000_ln_ic50",6,1,"SIDM00453",-1.388208,"Overall",-0.125972305407356
+"lambda_min_1000_ln_ic50",6,1,"SIDM00505",-1.731407,"Overall",0.179912999403709
+"lambda_min_1000_ln_ic50",6,1,"SIDM00571",4.491236,"Overall",1.28026632967609
+"lambda_min_1000_ln_ic50",6,1,"SIDM00943",5.49598,"Overall",1.41016430406806
+"lambda_min_1000_ln_ic50",6,1,"SIDM01135",-0.271417,"Overall",-0.488403431747422
+"lambda_min_1000_ln_ic50",6,1,"SIDM00042",-0.517255,"Pretrained",0.492680234537932
+"lambda_min_1000_ln_ic50",6,1,"SIDM00453",-1.388208,"Pretrained",0.817714899834107
+"lambda_min_1000_ln_ic50",6,1,"SIDM00505",-1.731407,"Pretrained",-0.053098778065541
+"lambda_min_1000_ln_ic50",6,1,"SIDM00571",4.491236,"Pretrained",1.27260528139273
+"lambda_min_1000_ln_ic50",6,1,"SIDM00943",5.49598,"Pretrained",1.27151518421661
+"lambda_min_1000_ln_ic50",6,1,"SIDM01135",-0.271417,"Pretrained",-0.624038511411879
+"lambda_min_1000_ln_ic50",6,1,"SIDM00042",-0.517255,"Target mean",-0.0393844166666667
+"lambda_min_1000_ln_ic50",6,1,"SIDM00453",-1.388208,"Target mean",-0.0393844166666667
+"lambda_min_1000_ln_ic50",6,1,"SIDM00505",-1.731407,"Target mean",-0.0393844166666667
+"lambda_min_1000_ln_ic50",6,1,"SIDM00571",4.491236,"Target mean",-0.0393844166666667
+"lambda_min_1000_ln_ic50",6,1,"SIDM00943",5.49598,"Target mean",-0.0393844166666667
+"lambda_min_1000_ln_ic50",6,1,"SIDM01135",-0.271417,"Target mean",-0.0393844166666667
+"lambda_min_1000_ln_ic50",6,2,"SIDM00371",-1.782267,"Individual",-0.510119639691044
+"lambda_min_1000_ln_ic50",6,2,"SIDM00582",2.615533,"Individual",-0.480456739856046
+"lambda_min_1000_ln_ic50",6,2,"SIDM00664",3.528073,"Individual",-0.410888320560544
+"lambda_min_1000_ln_ic50",6,2,"SIDM00899",3.809457,"Individual",-0.073942303336657
+"lambda_min_1000_ln_ic50",6,2,"SIDM01136",4.170801,"Individual",-0.300365020700302
+"lambda_min_1000_ln_ic50",6,2,"SIDM01139",0.347126,"Individual",-0.269570374960436
+"lambda_min_1000_ln_ic50",6,2,"SIDM00371",-1.782267,"Overall",-1.00971914259943
+"lambda_min_1000_ln_ic50",6,2,"SIDM00582",2.615533,"Overall",1.57611274181379
+"lambda_min_1000_ln_ic50",6,2,"SIDM00664",3.528073,"Overall",0.612977039362996
+"lambda_min_1000_ln_ic50",6,2,"SIDM00899",3.809457,"Overall",1.57729348032636
+"lambda_min_1000_ln_ic50",6,2,"SIDM01136",4.170801,"Overall",-0.750030180916178
+"lambda_min_1000_ln_ic50",6,2,"SIDM01139",0.347126,"Overall",0.487337332358309
+"lambda_min_1000_ln_ic50",6,2,"SIDM00371",-1.782267,"Pretrained",-0.870127657512888
+"lambda_min_1000_ln_ic50",6,2,"SIDM00582",2.615533,"Pretrained",1.70424399831694
+"lambda_min_1000_ln_ic50",6,2,"SIDM00664",3.528073,"Pretrained",0.655308088289967
+"lambda_min_1000_ln_ic50",6,2,"SIDM00899",3.809457,"Pretrained",1.60912786426566
+"lambda_min_1000_ln_ic50",6,2,"SIDM01136",4.170801,"Pretrained",-0.722638462950252
+"lambda_min_1000_ln_ic50",6,2,"SIDM01139",0.347126,"Pretrained",0.586583477427566
+"lambda_min_1000_ln_ic50",6,2,"SIDM00371",-1.782267,"Target mean",-0.3147925
+"lambda_min_1000_ln_ic50",6,2,"SIDM00582",2.615533,"Target mean",-0.3147925
+"lambda_min_1000_ln_ic50",6,2,"SIDM00664",3.528073,"Target mean",-0.3147925
+"lambda_min_1000_ln_ic50",6,2,"SIDM00899",3.809457,"Target mean",-0.3147925
+"lambda_min_1000_ln_ic50",6,2,"SIDM01136",4.170801,"Target mean",-0.3147925
+"lambda_min_1000_ln_ic50",6,2,"SIDM01139",0.347126,"Target mean",-0.3147925
+"lambda_min_1000_ln_ic50",6,3,"SIDM00053",0.454287,"Individual",0.667301704102866
+"lambda_min_1000_ln_ic50",6,3,"SIDM00301",-3.240813,"Individual",0.56289783967621
+"lambda_min_1000_ln_ic50",6,3,"SIDM00531",-3.02061,"Individual",0.60673674462663
+"lambda_min_1000_ln_ic50",6,3,"SIDM00583",-0.632883,"Individual",0.442992962326903
+"lambda_min_1000_ln_ic50",6,3,"SIDM00934",-1.649507,"Individual",0.657896155988079
+"lambda_min_1000_ln_ic50",6,3,"SIDM01188",2.363157,"Individual",-0.0240081618706485
+"lambda_min_1000_ln_ic50",6,3,"SIDM00053",0.454287,"Overall",-0.326571888442223
+"lambda_min_1000_ln_ic50",6,3,"SIDM00301",-3.240813,"Overall",-1.61202122330035
+"lambda_min_1000_ln_ic50",6,3,"SIDM00531",-3.02061,"Overall",-0.883081366978818
+"lambda_min_1000_ln_ic50",6,3,"SIDM00583",-0.632883,"Overall",-0.72564512043351
+"lambda_min_1000_ln_ic50",6,3,"SIDM00934",-1.649507,"Overall",-0.159972717722416
+"lambda_min_1000_ln_ic50",6,3,"SIDM01188",2.363157,"Overall",0.318913225288396
+"lambda_min_1000_ln_ic50",6,3,"SIDM00053",0.454287,"Pretrained",0.344114928860748
+"lambda_min_1000_ln_ic50",6,3,"SIDM00301",-3.240813,"Pretrained",-2.04243136784608
+"lambda_min_1000_ln_ic50",6,3,"SIDM00531",-3.02061,"Pretrained",-1.49938673852904
+"lambda_min_1000_ln_ic50",6,3,"SIDM00583",-0.632883,"Pretrained",-1.49623055828421
+"lambda_min_1000_ln_ic50",6,3,"SIDM00934",-1.649507,"Pretrained",-1.04448351199648
+"lambda_min_1000_ln_ic50",6,3,"SIDM01188",2.363157,"Pretrained",-0.330013579722115
+"lambda_min_1000_ln_ic50",6,3,"SIDM00053",0.454287,"Target mean",0.452503
+"lambda_min_1000_ln_ic50",6,3,"SIDM00301",-3.240813,"Target mean",0.452503
+"lambda_min_1000_ln_ic50",6,3,"SIDM00531",-3.02061,"Target mean",0.452503
+"lambda_min_1000_ln_ic50",6,3,"SIDM00583",-0.632883,"Target mean",0.452503
+"lambda_min_1000_ln_ic50",6,3,"SIDM00934",-1.649507,"Target mean",0.452503
+"lambda_min_1000_ln_ic50",6,3,"SIDM01188",2.363157,"Target mean",0.452503
+"lambda_min_1000_ln_ic50",6,4,"SIDM00130",-3.444133,"Individual",1.13391223180165
+"lambda_min_1000_ln_ic50",6,4,"SIDM00455",1.487982,"Individual",1.52920592191534
+"lambda_min_1000_ln_ic50",6,4,"SIDM00669",0.976248,"Individual",1.68749528314114
+"lambda_min_1000_ln_ic50",6,4,"SIDM00950",-2.543222,"Individual",1.0197156742356
+"lambda_min_1000_ln_ic50",6,4,"SIDM01138",-2.798807,"Individual",0.880552913744748
+"lambda_min_1000_ln_ic50",6,4,"SIDM01165",1.494867,"Individual",0.484575020909978
+"lambda_min_1000_ln_ic50",6,4,"SIDM00130",-3.444133,"Overall",1.11978755700652
+"lambda_min_1000_ln_ic50",6,4,"SIDM00455",1.487982,"Overall",1.5920584268589
+"lambda_min_1000_ln_ic50",6,4,"SIDM00669",0.976248,"Overall",3.00010152445295
+"lambda_min_1000_ln_ic50",6,4,"SIDM00950",-2.543222,"Overall",-1.14787488511755
+"lambda_min_1000_ln_ic50",6,4,"SIDM01138",-2.798807,"Overall",0.221030680846139
+"lambda_min_1000_ln_ic50",6,4,"SIDM01165",1.494867,"Overall",-0.605933644956839
+"lambda_min_1000_ln_ic50",6,4,"SIDM00130",-3.444133,"Pretrained",0.929530831444457
+"lambda_min_1000_ln_ic50",6,4,"SIDM00455",1.487982,"Pretrained",1.30734752732636
+"lambda_min_1000_ln_ic50",6,4,"SIDM00669",0.976248,"Pretrained",2.4337820054016
+"lambda_min_1000_ln_ic50",6,4,"SIDM00950",-2.543222,"Pretrained",-0.884599122254796
+"lambda_min_1000_ln_ic50",6,4,"SIDM01138",-2.798807,"Pretrained",0.210525330516153
+"lambda_min_1000_ln_ic50",6,4,"SIDM01165",1.494867,"Pretrained",-0.45104613012623
+"lambda_min_1000_ln_ic50",6,4,"SIDM00130",-3.444133,"Target mean",0.415032
+"lambda_min_1000_ln_ic50",6,4,"SIDM00455",1.487982,"Target mean",0.415032
+"lambda_min_1000_ln_ic50",6,4,"SIDM00669",0.976248,"Target mean",0.415032
+"lambda_min_1000_ln_ic50",6,4,"SIDM00950",-2.543222,"Target mean",0.415032
+"lambda_min_1000_ln_ic50",6,4,"SIDM01138",-2.798807,"Target mean",0.415032
+"lambda_min_1000_ln_ic50",6,4,"SIDM01165",1.494867,"Target mean",0.415032
+"lambda_min_1000_ln_ic50",6,5,"SIDM00132",-0.677032,"Individual",0.301932401589927
+"lambda_min_1000_ln_ic50",6,5,"SIDM00411",-1.091093,"Individual",0.24668291599598
+"lambda_min_1000_ln_ic50",6,5,"SIDM00469",-3.830996,"Individual",0.3108087284746
+"lambda_min_1000_ln_ic50",6,5,"SIDM00533",1.084742,"Individual",0.373233210094383
+"lambda_min_1000_ln_ic50",6,5,"SIDM00670",0.099097,"Individual",0.407432010620762
+"lambda_min_1000_ln_ic50",6,5,"SIDM01137",1.334767,"Individual",0.297400245919541
+"lambda_min_1000_ln_ic50",6,5,"SIDM00132",-0.677032,"Overall",0.412375210094763
+"lambda_min_1000_ln_ic50",6,5,"SIDM00411",-1.091093,"Overall",-0.515136443422421
+"lambda_min_1000_ln_ic50",6,5,"SIDM00469",-3.830996,"Overall",-0.807748377470042
+"lambda_min_1000_ln_ic50",6,5,"SIDM00533",1.084742,"Overall",0.753807040018447
+"lambda_min_1000_ln_ic50",6,5,"SIDM00670",0.099097,"Overall",0.492262888225622
+"lambda_min_1000_ln_ic50",6,5,"SIDM01137",1.334767,"Overall",0.756354773130936
+"lambda_min_1000_ln_ic50",6,5,"SIDM00132",-0.677032,"Pretrained",0.349307079847896
+"lambda_min_1000_ln_ic50",6,5,"SIDM00411",-1.091093,"Pretrained",0.137433199351227
+"lambda_min_1000_ln_ic50",6,5,"SIDM00469",-3.830996,"Pretrained",-0.562564177664494
+"lambda_min_1000_ln_ic50",6,5,"SIDM00533",1.084742,"Pretrained",0.503699417063264
+"lambda_min_1000_ln_ic50",6,5,"SIDM00670",0.099097,"Pretrained",0.790632436556496
+"lambda_min_1000_ln_ic50",6,5,"SIDM01137",1.334767,"Pretrained",0.749727402326477
+"lambda_min_1000_ln_ic50",6,5,"SIDM00132",-0.677032,"Target mean",0.342259083333333
+"lambda_min_1000_ln_ic50",6,5,"SIDM00411",-1.091093,"Target mean",0.342259083333333
+"lambda_min_1000_ln_ic50",6,5,"SIDM00469",-3.830996,"Target mean",0.342259083333333
+"lambda_min_1000_ln_ic50",6,5,"SIDM00533",1.084742,"Target mean",0.342259083333333
+"lambda_min_1000_ln_ic50",6,5,"SIDM00670",0.099097,"Target mean",0.342259083333333
+"lambda_min_1000_ln_ic50",6,5,"SIDM01137",1.334767,"Target mean",0.342259083333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00132",-0.677032,"Individual",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00411",-1.091093,"Individual",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00505",-1.731407,"Individual",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00533",1.084742,"Individual",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00664",3.528073,"Individual",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM01137",1.334767,"Individual",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00132",-0.677032,"Overall",0.313638169173499
+"lambda_min_1000_ln_ic50",7,1,"SIDM00411",-1.091093,"Overall",-0.768981377876894
+"lambda_min_1000_ln_ic50",7,1,"SIDM00505",-1.731407,"Overall",0.0351764110618818
+"lambda_min_1000_ln_ic50",7,1,"SIDM00533",1.084742,"Overall",0.565067902865038
+"lambda_min_1000_ln_ic50",7,1,"SIDM00664",3.528073,"Overall",1.12818051145265
+"lambda_min_1000_ln_ic50",7,1,"SIDM01137",1.334767,"Overall",0.897710440936415
+"lambda_min_1000_ln_ic50",7,1,"SIDM00132",-0.677032,"Pretrained",0.136620585207217
+"lambda_min_1000_ln_ic50",7,1,"SIDM00411",-1.091093,"Pretrained",-0.621213097728058
+"lambda_min_1000_ln_ic50",7,1,"SIDM00505",-1.731407,"Pretrained",-0.058302645470915
+"lambda_min_1000_ln_ic50",7,1,"SIDM00533",1.084742,"Pretrained",0.312621398791294
+"lambda_min_1000_ln_ic50",7,1,"SIDM00664",3.528073,"Pretrained",0.706800224802623
+"lambda_min_1000_ln_ic50",7,1,"SIDM01137",1.334767,"Pretrained",0.545471175441258
+"lambda_min_1000_ln_ic50",7,1,"SIDM00132",-0.677032,"Target mean",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00411",-1.091093,"Target mean",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00505",-1.731407,"Target mean",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00533",1.084742,"Target mean",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM00664",3.528073,"Target mean",0.111902208333333
+"lambda_min_1000_ln_ic50",7,1,"SIDM01137",1.334767,"Target mean",0.111902208333333
+"lambda_min_1000_ln_ic50",7,2,"SIDM00469",-3.830996,"Individual",1.69054981612378
+"lambda_min_1000_ln_ic50",7,2,"SIDM00531",-3.02061,"Individual",1.22637551604818
+"lambda_min_1000_ln_ic50",7,2,"SIDM01135",-0.271417,"Individual",0.860275872508624
+"lambda_min_1000_ln_ic50",7,2,"SIDM01138",-2.798807,"Individual",0.963696581010176
+"lambda_min_1000_ln_ic50",7,2,"SIDM01139",0.347126,"Individual",0.526472769122061
+"lambda_min_1000_ln_ic50",7,2,"SIDM01165",1.494867,"Individual",1.22249364754163
+"lambda_min_1000_ln_ic50",7,2,"SIDM00469",-3.830996,"Overall",-0.962328226980382
+"lambda_min_1000_ln_ic50",7,2,"SIDM00531",-3.02061,"Overall",-1.2362374117637
+"lambda_min_1000_ln_ic50",7,2,"SIDM01135",-0.271417,"Overall",-0.264620841188322
+"lambda_min_1000_ln_ic50",7,2,"SIDM01138",-2.798807,"Overall",0.152935776242779
+"lambda_min_1000_ln_ic50",7,2,"SIDM01139",0.347126,"Overall",1.17083069586845
+"lambda_min_1000_ln_ic50",7,2,"SIDM01165",1.494867,"Overall",-0.32122551343611
+"lambda_min_1000_ln_ic50",7,2,"SIDM00469",-3.830996,"Pretrained",-1.33660218999432
+"lambda_min_1000_ln_ic50",7,2,"SIDM00531",-3.02061,"Pretrained",-0.673418852794141
+"lambda_min_1000_ln_ic50",7,2,"SIDM01135",-0.271417,"Pretrained",-0.138690322336297
+"lambda_min_1000_ln_ic50",7,2,"SIDM01138",-2.798807,"Pretrained",-0.133266128251145
+"lambda_min_1000_ln_ic50",7,2,"SIDM01139",0.347126,"Pretrained",1.14431676232301
+"lambda_min_1000_ln_ic50",7,2,"SIDM01165",1.494867,"Pretrained",-0.410852295361094
+"lambda_min_1000_ln_ic50",7,2,"SIDM00469",-3.830996,"Target mean",0.550564166666667
+"lambda_min_1000_ln_ic50",7,2,"SIDM00531",-3.02061,"Target mean",0.550564166666667
+"lambda_min_1000_ln_ic50",7,2,"SIDM01135",-0.271417,"Target mean",0.550564166666667
+"lambda_min_1000_ln_ic50",7,2,"SIDM01138",-2.798807,"Target mean",0.550564166666667
+"lambda_min_1000_ln_ic50",7,2,"SIDM01139",0.347126,"Target mean",0.550564166666667
+"lambda_min_1000_ln_ic50",7,2,"SIDM01165",1.494867,"Target mean",0.550564166666667
+"lambda_min_1000_ln_ic50",7,3,"SIDM00042",-0.517255,"Individual",-1.01397085544602
+"lambda_min_1000_ln_ic50",7,3,"SIDM00455",1.487982,"Individual",3.2781281843838
+"lambda_min_1000_ln_ic50",7,3,"SIDM00582",2.615533,"Individual",-0.147666522555968
+"lambda_min_1000_ln_ic50",7,3,"SIDM00669",0.976248,"Individual",1.68591032440844
+"lambda_min_1000_ln_ic50",7,3,"SIDM00950",-2.543222,"Individual",0.123843538719616
+"lambda_min_1000_ln_ic50",7,3,"SIDM01188",2.363157,"Individual",-0.893395969788658
+"lambda_min_1000_ln_ic50",7,3,"SIDM00042",-0.517255,"Overall",0.668254289129293
+"lambda_min_1000_ln_ic50",7,3,"SIDM00455",1.487982,"Overall",0.604565508372088
+"lambda_min_1000_ln_ic50",7,3,"SIDM00582",2.615533,"Overall",0.799000605744272
+"lambda_min_1000_ln_ic50",7,3,"SIDM00669",0.976248,"Overall",1.64501516230691
+"lambda_min_1000_ln_ic50",7,3,"SIDM00950",-2.543222,"Overall",-0.923387857419171
+"lambda_min_1000_ln_ic50",7,3,"SIDM01188",2.363157,"Overall",0.0711992011179844
+"lambda_min_1000_ln_ic50",7,3,"SIDM00042",-0.517255,"Pretrained",1.43558314143664
+"lambda_min_1000_ln_ic50",7,3,"SIDM00455",1.487982,"Pretrained",1.0446291843947
+"lambda_min_1000_ln_ic50",7,3,"SIDM00582",2.615533,"Pretrained",1.14642474944461
+"lambda_min_1000_ln_ic50",7,3,"SIDM00669",0.976248,"Pretrained",2.10238093428216
+"lambda_min_1000_ln_ic50",7,3,"SIDM00950",-2.543222,"Pretrained",-1.42323953358227
+"lambda_min_1000_ln_ic50",7,3,"SIDM01188",2.363157,"Pretrained",-0.313454511031957
+"lambda_min_1000_ln_ic50",7,3,"SIDM00042",-0.517255,"Target mean",0.0313025
+"lambda_min_1000_ln_ic50",7,3,"SIDM00455",1.487982,"Target mean",0.0313025
+"lambda_min_1000_ln_ic50",7,3,"SIDM00582",2.615533,"Target mean",0.0313025
+"lambda_min_1000_ln_ic50",7,3,"SIDM00669",0.976248,"Target mean",0.0313025
+"lambda_min_1000_ln_ic50",7,3,"SIDM00950",-2.543222,"Target mean",0.0313025
+"lambda_min_1000_ln_ic50",7,3,"SIDM01188",2.363157,"Target mean",0.0313025
+"lambda_min_1000_ln_ic50",7,4,"SIDM00053",0.454287,"Individual",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00371",-1.782267,"Individual",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00453",-1.388208,"Individual",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00571",4.491236,"Individual",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00934",-1.649507,"Individual",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM01136",4.170801,"Individual",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00053",0.454287,"Overall",-1.12646295746733
+"lambda_min_1000_ln_ic50",7,4,"SIDM00371",-1.782267,"Overall",-1.11127982107169
+"lambda_min_1000_ln_ic50",7,4,"SIDM00453",-1.388208,"Overall",-0.208074233437565
+"lambda_min_1000_ln_ic50",7,4,"SIDM00571",4.491236,"Overall",1.48800103967442
+"lambda_min_1000_ln_ic50",7,4,"SIDM00934",-1.649507,"Overall",-0.335395693115746
+"lambda_min_1000_ln_ic50",7,4,"SIDM01136",4.170801,"Overall",-0.562470427861524
+"lambda_min_1000_ln_ic50",7,4,"SIDM00053",0.454287,"Pretrained",-0.633674328368205
+"lambda_min_1000_ln_ic50",7,4,"SIDM00371",-1.782267,"Pretrained",-0.398557086927883
+"lambda_min_1000_ln_ic50",7,4,"SIDM00453",-1.388208,"Pretrained",0.196268198975127
+"lambda_min_1000_ln_ic50",7,4,"SIDM00571",4.491236,"Pretrained",1.29196434205153
+"lambda_min_1000_ln_ic50",7,4,"SIDM00934",-1.649507,"Pretrained",-0.0768808793765725
+"lambda_min_1000_ln_ic50",7,4,"SIDM01136",4.170801,"Pretrained",-0.23887955764414
+"lambda_min_1000_ln_ic50",7,4,"SIDM00053",0.454287,"Target mean",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00371",-1.782267,"Target mean",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00453",-1.388208,"Target mean",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00571",4.491236,"Target mean",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM00934",-1.649507,"Target mean",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,4,"SIDM01136",4.170801,"Target mean",0.0348900416666667
+"lambda_min_1000_ln_ic50",7,5,"SIDM00130",-3.444133,"Individual",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00301",-3.240813,"Individual",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00583",-0.632883,"Individual",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00670",0.099097,"Individual",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00899",3.809457,"Individual",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00943",5.49598,"Individual",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00130",-3.444133,"Overall",0.741317388633936
+"lambda_min_1000_ln_ic50",7,5,"SIDM00301",-3.240813,"Overall",-1.75727482361347
+"lambda_min_1000_ln_ic50",7,5,"SIDM00583",-0.632883,"Overall",-1.36131071109304
+"lambda_min_1000_ln_ic50",7,5,"SIDM00670",0.099097,"Overall",0.387894925083621
+"lambda_min_1000_ln_ic50",7,5,"SIDM00899",3.809457,"Overall",1.34144683718675
+"lambda_min_1000_ln_ic50",7,5,"SIDM00943",5.49598,"Overall",1.57258926336765
+"lambda_min_1000_ln_ic50",7,5,"SIDM00130",-3.444133,"Pretrained",0.504548289065505
+"lambda_min_1000_ln_ic50",7,5,"SIDM00301",-3.240813,"Pretrained",-1.24446625950768
+"lambda_min_1000_ln_ic50",7,5,"SIDM00583",-0.632883,"Pretrained",-0.967291380743379
+"lambda_min_1000_ln_ic50",7,5,"SIDM00670",0.099097,"Pretrained",0.257152564580284
+"lambda_min_1000_ln_ic50",7,5,"SIDM00899",3.809457,"Pretrained",0.924638903052474
+"lambda_min_1000_ln_ic50",7,5,"SIDM00943",5.49598,"Pretrained",1.08643860137911
+"lambda_min_1000_ln_ic50",7,5,"SIDM00130",-3.444133,"Target mean",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00301",-3.240813,"Target mean",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00583",-0.632883,"Target mean",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00670",0.099097,"Target mean",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00899",3.809457,"Target mean",0.12695825
+"lambda_min_1000_ln_ic50",7,5,"SIDM00943",5.49598,"Target mean",0.12695825
+"lambda_min_1000_ln_ic50",8,1,"SIDM00130",-3.444133,"Individual",2.4556225039607
+"lambda_min_1000_ln_ic50",8,1,"SIDM00453",-1.388208,"Individual",2.02374412478111
+"lambda_min_1000_ln_ic50",8,1,"SIDM00505",-1.731407,"Individual",0.76287679465131
+"lambda_min_1000_ln_ic50",8,1,"SIDM00583",-0.632883,"Individual",1.18534098899756
+"lambda_min_1000_ln_ic50",8,1,"SIDM01138",-2.798807,"Individual",1.52279679173373
+"lambda_min_1000_ln_ic50",8,1,"SIDM01188",2.363157,"Individual",2.57297571592604
+"lambda_min_1000_ln_ic50",8,1,"SIDM00130",-3.444133,"Overall",1.03487845381183
+"lambda_min_1000_ln_ic50",8,1,"SIDM00453",-1.388208,"Overall",0.234612478182203
+"lambda_min_1000_ln_ic50",8,1,"SIDM00505",-1.731407,"Overall",0.731711261627945
+"lambda_min_1000_ln_ic50",8,1,"SIDM00583",-0.632883,"Overall",-0.834224335141371
+"lambda_min_1000_ln_ic50",8,1,"SIDM01138",-2.798807,"Overall",0.433055240234626
+"lambda_min_1000_ln_ic50",8,1,"SIDM01188",2.363157,"Overall",0.604453969330515
+"lambda_min_1000_ln_ic50",8,1,"SIDM00130",-3.444133,"Pretrained",1.24330597026353
+"lambda_min_1000_ln_ic50",8,1,"SIDM00453",-1.388208,"Pretrained",0.208183060623894
+"lambda_min_1000_ln_ic50",8,1,"SIDM00505",-1.731407,"Pretrained",-0.310109931606161
+"lambda_min_1000_ln_ic50",8,1,"SIDM00583",-0.632883,"Pretrained",-1.72129272665833
+"lambda_min_1000_ln_ic50",8,1,"SIDM01138",-2.798807,"Pretrained",0.650019509648446
+"lambda_min_1000_ln_ic50",8,1,"SIDM01188",2.363157,"Pretrained",0.553652894566724
+"lambda_min_1000_ln_ic50",8,1,"SIDM00130",-3.444133,"Target mean",0.531916
+"lambda_min_1000_ln_ic50",8,1,"SIDM00453",-1.388208,"Target mean",0.531916
+"lambda_min_1000_ln_ic50",8,1,"SIDM00505",-1.731407,"Target mean",0.531916
+"lambda_min_1000_ln_ic50",8,1,"SIDM00583",-0.632883,"Target mean",0.531916
+"lambda_min_1000_ln_ic50",8,1,"SIDM01138",-2.798807,"Target mean",0.531916
+"lambda_min_1000_ln_ic50",8,1,"SIDM01188",2.363157,"Target mean",0.531916
+"lambda_min_1000_ln_ic50",8,2,"SIDM00301",-3.240813,"Individual",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00371",-1.782267,"Individual",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00411",-1.091093,"Individual",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00571",4.491236,"Individual",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00943",5.49598,"Individual",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM01139",0.347126,"Individual",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00301",-3.240813,"Overall",-2.0765844455094
+"lambda_min_1000_ln_ic50",8,2,"SIDM00371",-1.782267,"Overall",-1.06194627575109
+"lambda_min_1000_ln_ic50",8,2,"SIDM00411",-1.091093,"Overall",-0.735179605874363
+"lambda_min_1000_ln_ic50",8,2,"SIDM00571",4.491236,"Overall",1.46672566258856
+"lambda_min_1000_ln_ic50",8,2,"SIDM00943",5.49598,"Overall",1.47864340175624
+"lambda_min_1000_ln_ic50",8,2,"SIDM01139",0.347126,"Overall",0.777371074002576
+"lambda_min_1000_ln_ic50",8,2,"SIDM00301",-3.240813,"Pretrained",-0.699511732663225
+"lambda_min_1000_ln_ic50",8,2,"SIDM00371",-1.782267,"Pretrained",-0.293656464759899
+"lambda_min_1000_ln_ic50",8,2,"SIDM00411",-1.091093,"Pretrained",-0.16294979680921
+"lambda_min_1000_ln_ic50",8,2,"SIDM00571",4.491236,"Pretrained",0.717812310575958
+"lambda_min_1000_ln_ic50",8,2,"SIDM00943",5.49598,"Pretrained",0.722579406243032
+"lambda_min_1000_ln_ic50",8,2,"SIDM01139",0.347126,"Pretrained",0.442070475141565
+"lambda_min_1000_ln_ic50",8,2,"SIDM00301",-3.240813,"Target mean",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00371",-1.782267,"Target mean",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00411",-1.091093,"Target mean",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00571",4.491236,"Target mean",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM00943",5.49598,"Target mean",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,2,"SIDM01139",0.347126,"Target mean",0.0380639166666667
+"lambda_min_1000_ln_ic50",8,3,"SIDM00042",-0.517255,"Individual",-0.970715085681396
+"lambda_min_1000_ln_ic50",8,3,"SIDM00053",0.454287,"Individual",-2.73174992240219
+"lambda_min_1000_ln_ic50",8,3,"SIDM00533",1.084742,"Individual",0.366404299361693
+"lambda_min_1000_ln_ic50",8,3,"SIDM00664",3.528073,"Individual",0.55675241022956
+"lambda_min_1000_ln_ic50",8,3,"SIDM00669",0.976248,"Individual",1.02576181696958
+"lambda_min_1000_ln_ic50",8,3,"SIDM00899",3.809457,"Individual",0.708483030667566
+"lambda_min_1000_ln_ic50",8,3,"SIDM00042",-0.517255,"Overall",0.496640826411328
+"lambda_min_1000_ln_ic50",8,3,"SIDM00053",0.454287,"Overall",-0.640746475481469
+"lambda_min_1000_ln_ic50",8,3,"SIDM00533",1.084742,"Overall",0.495658972197201
+"lambda_min_1000_ln_ic50",8,3,"SIDM00664",3.528073,"Overall",0.845210798794625
+"lambda_min_1000_ln_ic50",8,3,"SIDM00669",0.976248,"Overall",2.0418194667655
+"lambda_min_1000_ln_ic50",8,3,"SIDM00899",3.809457,"Overall",1.44539521985218
+"lambda_min_1000_ln_ic50",8,3,"SIDM00042",-0.517255,"Pretrained",1.18964431422938
+"lambda_min_1000_ln_ic50",8,3,"SIDM00053",0.454287,"Pretrained",-1.88867095287006
+"lambda_min_1000_ln_ic50",8,3,"SIDM00533",1.084742,"Pretrained",0.203734183261649
+"lambda_min_1000_ln_ic50",8,3,"SIDM00664",3.528073,"Pretrained",1.56640932651333
+"lambda_min_1000_ln_ic50",8,3,"SIDM00669",0.976248,"Pretrained",2.56035061884659
+"lambda_min_1000_ln_ic50",8,3,"SIDM00899",3.809457,"Pretrained",0.94084172027889
+"lambda_min_1000_ln_ic50",8,3,"SIDM00042",-0.517255,"Target mean",-0.175077041666667
+"lambda_min_1000_ln_ic50",8,3,"SIDM00053",0.454287,"Target mean",-0.175077041666667
+"lambda_min_1000_ln_ic50",8,3,"SIDM00533",1.084742,"Target mean",-0.175077041666667
+"lambda_min_1000_ln_ic50",8,3,"SIDM00664",3.528073,"Target mean",-0.175077041666667
+"lambda_min_1000_ln_ic50",8,3,"SIDM00669",0.976248,"Target mean",-0.175077041666667
+"lambda_min_1000_ln_ic50",8,3,"SIDM00899",3.809457,"Target mean",-0.175077041666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00132",-0.677032,"Individual",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00469",-3.830996,"Individual",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00531",-3.02061,"Individual",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00670",0.099097,"Individual",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00950",-2.543222,"Individual",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM01137",1.334767,"Individual",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00132",-0.677032,"Overall",0.691239847705419
+"lambda_min_1000_ln_ic50",8,4,"SIDM00469",-3.830996,"Overall",-0.856436520738263
+"lambda_min_1000_ln_ic50",8,4,"SIDM00531",-3.02061,"Overall",-1.02951739244718
+"lambda_min_1000_ln_ic50",8,4,"SIDM00670",0.099097,"Overall",0.560949140800588
+"lambda_min_1000_ln_ic50",8,4,"SIDM00950",-2.543222,"Overall",-0.736241187326882
+"lambda_min_1000_ln_ic50",8,4,"SIDM01137",1.334767,"Overall",0.913457101180952
+"lambda_min_1000_ln_ic50",8,4,"SIDM00132",-0.677032,"Pretrained",0.578500902404051
+"lambda_min_1000_ln_ic50",8,4,"SIDM00469",-3.830996,"Pretrained",-0.504872555506526
+"lambda_min_1000_ln_ic50",8,4,"SIDM00531",-3.02061,"Pretrained",-0.626029165702771
+"lambda_min_1000_ln_ic50",8,4,"SIDM00670",0.099097,"Pretrained",0.487297407570669
+"lambda_min_1000_ln_ic50",8,4,"SIDM00950",-2.543222,"Pretrained",-0.42073582211856
+"lambda_min_1000_ln_ic50",8,4,"SIDM01137",1.334767,"Pretrained",0.734052979836924
+"lambda_min_1000_ln_ic50",8,4,"SIDM00132",-0.677032,"Target mean",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00469",-3.830996,"Target mean",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00531",-3.02061,"Target mean",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00670",0.099097,"Target mean",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM00950",-2.543222,"Target mean",0.573820791666667
+"lambda_min_1000_ln_ic50",8,4,"SIDM01137",1.334767,"Target mean",0.573820791666667
+"lambda_min_1000_ln_ic50",8,5,"SIDM00455",1.487982,"Individual",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM00582",2.615533,"Individual",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM00934",-1.649507,"Individual",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM01135",-0.271417,"Individual",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM01136",4.170801,"Individual",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM01165",1.494867,"Individual",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM00455",1.487982,"Overall",0.481241939809026
+"lambda_min_1000_ln_ic50",8,5,"SIDM00582",2.615533,"Overall",1.02967414794927
+"lambda_min_1000_ln_ic50",8,5,"SIDM00934",-1.649507,"Overall",-0.496905109194826
+"lambda_min_1000_ln_ic50",8,5,"SIDM01135",-0.271417,"Overall",-0.416822853663309
+"lambda_min_1000_ln_ic50",8,5,"SIDM01136",4.170801,"Overall",-0.455411037641876
+"lambda_min_1000_ln_ic50",8,5,"SIDM01165",1.494867,"Overall",-0.747037308761004
+"lambda_min_1000_ln_ic50",8,5,"SIDM00455",1.487982,"Pretrained",0.210222322671482
+"lambda_min_1000_ln_ic50",8,5,"SIDM00582",2.615533,"Pretrained",0.484438426741606
+"lambda_min_1000_ln_ic50",8,5,"SIDM00934",-1.649507,"Pretrained",-0.278851201830444
+"lambda_min_1000_ln_ic50",8,5,"SIDM01135",-0.271417,"Pretrained",-0.238810074064686
+"lambda_min_1000_ln_ic50",8,5,"SIDM01136",4.170801,"Pretrained",-0.258104166053969
+"lambda_min_1000_ln_ic50",8,5,"SIDM01165",1.494867,"Pretrained",-0.403917301613533
+"lambda_min_1000_ln_ic50",8,5,"SIDM00455",1.487982,"Target mean",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM00582",2.615533,"Target mean",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM00934",-1.649507,"Target mean",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM01135",-0.271417,"Target mean",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM01136",4.170801,"Target mean",-0.1131065
+"lambda_min_1000_ln_ic50",8,5,"SIDM01165",1.494867,"Target mean",-0.1131065
+"lambda_min_1000_ln_ic50",9,1,"SIDM00371",-1.782267,"Individual",0.0268951249999999
+"lambda_min_1000_ln_ic50",9,1,"SIDM00533",1.084742,"Individual",0.0268951249999999
+"lambda_min_1000_ln_ic50",9,1,"SIDM00582",2.615533,"Individual",0.0268951249999999
+"lambda_min_1000_ln_ic50",9,1,"SIDM00669",0.976248,"Individual",0.0268951249999999
+"lambda_min_1000_ln_ic50",9,1,"SIDM00670",0.099097,"Individual",0.0268951249999999
+"lambda_min_1000_ln_ic50",9,1,"SIDM01165",1.494867,"Individual",0.0268951249999999
+"lambda_min_1000_ln_ic50",9,1,"SIDM00371",-1.782267,"Overall",-1.18712419716016
+"lambda_min_1000_ln_ic50",9,1,"SIDM00533",1.084742,"Overall",0.602498535305818
+"lambda_min_1000_ln_ic50",9,1,"SIDM00582",2.615533,"Overall",1.21382673811384
+"lambda_min_1000_ln_ic50",9,1,"SIDM00669",0.976248,"Overall",2.24118448099653
+"lambda_min_1000_ln_ic50",9,1,"SIDM00670",0.099097,"Overall",0.224120838144374
+"lambda_min_1000_ln_ic50",9,1,"SIDM01165",1.494867,"Overall",-0.624625142080517
+"lambda_min_1000_ln_ic50",9,1,"SIDM00371",-1.782267,"Pretrained",-1.41570824464685
+"lambda_min_1000_ln_ic50",9,1,"SIDM00533",1.084742,"Pretrained",0.57509088569779
+"lambda_min_1000_ln_ic50",9,1,"SIDM00582",2.615533,"Pretrained",1.23633752704824
+"lambda_min_1000_ln_ic50",9,1,"SIDM00669",0.976248,"Pretrained",2.43041574122813
+"lambda_min_1000_ln_ic50",9,1,"SIDM00670",0.099097,"Pretrained",0.577720919798866
+"lambda_min_1000_ln_ic50",9,1,"SIDM01165",1.494867,"Pretrained",-0.941804129295456
+"lambda_min_1000_ln_ic50",9,1,"SIDM00371",-1.782267,"Target mean",0.026895125
+"lambda_min_1000_ln_ic50",9,1,"SIDM00533",1.084742,"Target mean",0.026895125
+"lambda_min_1000_ln_ic50",9,1,"SIDM00582",2.615533,"Target mean",0.026895125
+"lambda_min_1000_ln_ic50",9,1,"SIDM00669",0.976248,"Target mean",0.026895125
+"lambda_min_1000_ln_ic50",9,1,"SIDM00670",0.099097,"Target mean",0.026895125
+"lambda_min_1000_ln_ic50",9,1,"SIDM01165",1.494867,"Target mean",0.026895125
+"lambda_min_1000_ln_ic50",9,2,"SIDM00130",-3.444133,"Individual",1.14346326661752
+"lambda_min_1000_ln_ic50",9,2,"SIDM00132",-0.677032,"Individual",1.04629022238991
+"lambda_min_1000_ln_ic50",9,2,"SIDM00301",-3.240813,"Individual",0.229651451846513
+"lambda_min_1000_ln_ic50",9,2,"SIDM00664",3.528073,"Individual",0.66965931395695
+"lambda_min_1000_ln_ic50",9,2,"SIDM01139",0.347126,"Individual",1.02130310722213
+"lambda_min_1000_ln_ic50",9,2,"SIDM01188",2.363157,"Individual",0.705571874230147
+"lambda_min_1000_ln_ic50",9,2,"SIDM00130",-3.444133,"Overall",0.583771810791502
+"lambda_min_1000_ln_ic50",9,2,"SIDM00132",-0.677032,"Overall",0.32707694940569
+"lambda_min_1000_ln_ic50",9,2,"SIDM00301",-3.240813,"Overall",-1.6366626760886
+"lambda_min_1000_ln_ic50",9,2,"SIDM00664",3.528073,"Overall",1.13317102767933
+"lambda_min_1000_ln_ic50",9,2,"SIDM01139",0.347126,"Overall",1.0139312942168
+"lambda_min_1000_ln_ic50",9,2,"SIDM01188",2.363157,"Overall",0.30938258893843
+"lambda_min_1000_ln_ic50",9,2,"SIDM00130",-3.444133,"Pretrained",1.14936943711456
+"lambda_min_1000_ln_ic50",9,2,"SIDM00132",-0.677032,"Pretrained",-0.148110484215178
+"lambda_min_1000_ln_ic50",9,2,"SIDM00301",-3.240813,"Pretrained",-1.97085635377588
+"lambda_min_1000_ln_ic50",9,2,"SIDM00664",3.528073,"Pretrained",2.11141572430784
+"lambda_min_1000_ln_ic50",9,2,"SIDM01139",0.347126,"Pretrained",0.88763989218132
+"lambda_min_1000_ln_ic50",9,2,"SIDM01188",2.363157,"Pretrained",0.496984431376531
+"lambda_min_1000_ln_ic50",9,2,"SIDM00130",-3.444133,"Target mean",0.260721875
+"lambda_min_1000_ln_ic50",9,2,"SIDM00132",-0.677032,"Target mean",0.260721875
+"lambda_min_1000_ln_ic50",9,2,"SIDM00301",-3.240813,"Target mean",0.260721875
+"lambda_min_1000_ln_ic50",9,2,"SIDM00664",3.528073,"Target mean",0.260721875
+"lambda_min_1000_ln_ic50",9,2,"SIDM01139",0.347126,"Target mean",0.260721875
+"lambda_min_1000_ln_ic50",9,2,"SIDM01188",2.363157,"Target mean",0.260721875
+"lambda_min_1000_ln_ic50",9,3,"SIDM00505",-1.731407,"Individual",-1.20124340072819
+"lambda_min_1000_ln_ic50",9,3,"SIDM00531",-3.02061,"Individual",1.19326341665322
+"lambda_min_1000_ln_ic50",9,3,"SIDM00934",-1.649507,"Individual",0.0884998094943287
+"lambda_min_1000_ln_ic50",9,3,"SIDM00943",5.49598,"Individual",0.826297198158411
+"lambda_min_1000_ln_ic50",9,3,"SIDM00950",-2.543222,"Individual",-1.57695709841884
+"lambda_min_1000_ln_ic50",9,3,"SIDM01138",-2.798807,"Individual",-0.0736537181764876
+"lambda_min_1000_ln_ic50",9,3,"SIDM00505",-1.731407,"Overall",0.36838116798075
+"lambda_min_1000_ln_ic50",9,3,"SIDM00531",-3.02061,"Overall",-0.793038062009617
+"lambda_min_1000_ln_ic50",9,3,"SIDM00934",-1.649507,"Overall",0.0130651972895684
+"lambda_min_1000_ln_ic50",9,3,"SIDM00943",5.49598,"Overall",1.71276134435107
+"lambda_min_1000_ln_ic50",9,3,"SIDM00950",-2.543222,"Overall",-0.577809838803234
+"lambda_min_1000_ln_ic50",9,3,"SIDM01138",-2.798807,"Overall",0.382274828515128
+"lambda_min_1000_ln_ic50",9,3,"SIDM00505",-1.731407,"Pretrained",0.305944380645892
+"lambda_min_1000_ln_ic50",9,3,"SIDM00531",-3.02061,"Pretrained",-0.739332926345438
+"lambda_min_1000_ln_ic50",9,3,"SIDM00934",-1.649507,"Pretrained",-0.0138399929761713
+"lambda_min_1000_ln_ic50",9,3,"SIDM00943",5.49598,"Pretrained",1.51588653937918
+"lambda_min_1000_ln_ic50",9,3,"SIDM00950",-2.543222,"Pretrained",-0.545627525459694
+"lambda_min_1000_ln_ic50",9,3,"SIDM01138",-2.798807,"Pretrained",0.318448675126832
+"lambda_min_1000_ln_ic50",9,3,"SIDM00505",-1.731407,"Target mean",0.474219833333333
+"lambda_min_1000_ln_ic50",9,3,"SIDM00531",-3.02061,"Target mean",0.474219833333333
+"lambda_min_1000_ln_ic50",9,3,"SIDM00934",-1.649507,"Target mean",0.474219833333333
+"lambda_min_1000_ln_ic50",9,3,"SIDM00943",5.49598,"Target mean",0.474219833333333
+"lambda_min_1000_ln_ic50",9,3,"SIDM00950",-2.543222,"Target mean",0.474219833333333
+"lambda_min_1000_ln_ic50",9,3,"SIDM01138",-2.798807,"Target mean",0.474219833333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00042",-0.517255,"Individual",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00411",-1.091093,"Individual",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00455",1.487982,"Individual",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00571",4.491236,"Individual",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM01136",4.170801,"Individual",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM01137",1.334767,"Individual",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00042",-0.517255,"Overall",0.41780043268617
+"lambda_min_1000_ln_ic50",9,4,"SIDM00411",-1.091093,"Overall",-0.945201115359234
+"lambda_min_1000_ln_ic50",9,4,"SIDM00455",1.487982,"Overall",0.487257041544287
+"lambda_min_1000_ln_ic50",9,4,"SIDM00571",4.491236,"Overall",1.29077274836542
+"lambda_min_1000_ln_ic50",9,4,"SIDM01136",4.170801,"Overall",-0.417068341302534
+"lambda_min_1000_ln_ic50",9,4,"SIDM01137",1.334767,"Overall",0.235809527345109
+"lambda_min_1000_ln_ic50",9,4,"SIDM00042",-0.517255,"Pretrained",1.22733616860426
+"lambda_min_1000_ln_ic50",9,4,"SIDM00411",-1.091093,"Pretrained",-1.20510044970871
+"lambda_min_1000_ln_ic50",9,4,"SIDM00455",1.487982,"Pretrained",0.868057692430619
+"lambda_min_1000_ln_ic50",9,4,"SIDM00571",4.491236,"Pretrained",1.47931429327658
+"lambda_min_1000_ln_ic50",9,4,"SIDM01136",4.170801,"Pretrained",-0.102183264458005
+"lambda_min_1000_ln_ic50",9,4,"SIDM01137",1.334767,"Pretrained",-0.194386547614813
+"lambda_min_1000_ln_ic50",9,4,"SIDM00042",-0.517255,"Target mean",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00411",-1.091093,"Target mean",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00455",1.487982,"Target mean",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM00571",4.491236,"Target mean",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM01136",4.170801,"Target mean",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,4,"SIDM01137",1.334767,"Target mean",-0.197613958333333
+"lambda_min_1000_ln_ic50",9,5,"SIDM00053",0.454287,"Individual",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00453",-1.388208,"Individual",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00469",-3.830996,"Individual",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00583",-0.632883,"Individual",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00899",3.809457,"Individual",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM01135",-0.271417,"Individual",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00053",0.454287,"Overall",-0.268560904816838
+"lambda_min_1000_ln_ic50",9,5,"SIDM00453",-1.388208,"Overall",-0.0578483024461143
+"lambda_min_1000_ln_ic50",9,5,"SIDM00469",-3.830996,"Overall",-0.811734109566113
+"lambda_min_1000_ln_ic50",9,5,"SIDM00583",-0.632883,"Overall",-0.859257506205645
+"lambda_min_1000_ln_ic50",9,5,"SIDM00899",3.809457,"Overall",1.48885982345504
+"lambda_min_1000_ln_ic50",9,5,"SIDM01135",-0.271417,"Overall",-0.185451530173238
+"lambda_min_1000_ln_ic50",9,5,"SIDM00053",0.454287,"Pretrained",-0.102305336543909
+"lambda_min_1000_ln_ic50",9,5,"SIDM00453",-1.388208,"Pretrained",0.0451934851155978
+"lambda_min_1000_ln_ic50",9,5,"SIDM00469",-3.830996,"Pretrained",-0.482526579868402
+"lambda_min_1000_ln_ic50",9,5,"SIDM00583",-0.632883,"Pretrained",-0.515792957516074
+"lambda_min_1000_ln_ic50",9,5,"SIDM00899",3.809457,"Pretrained",1.12788917324641
+"lambda_min_1000_ln_ic50",9,5,"SIDM01135",-0.271417,"Pretrained",-0.0441287742933885
+"lambda_min_1000_ln_ic50",9,5,"SIDM00053",0.454287,"Target mean",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00453",-1.388208,"Target mean",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00469",-3.830996,"Target mean",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00583",-0.632883,"Target mean",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM00899",3.809457,"Target mean",0.291394291666667
+"lambda_min_1000_ln_ic50",9,5,"SIDM01135",-0.271417,"Target mean",0.291394291666667
+"lambda_min_1000_ln_ic50",10,1,"SIDM00042",-0.517255,"Individual",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM00455",1.487982,"Individual",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM00531",-3.02061,"Individual",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM01135",-0.271417,"Individual",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM01137",1.334767,"Individual",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM01188",2.363157,"Individual",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM00042",-0.517255,"Overall",0.772606129551038
+"lambda_min_1000_ln_ic50",10,1,"SIDM00455",1.487982,"Overall",0.635576097978841
+"lambda_min_1000_ln_ic50",10,1,"SIDM00531",-3.02061,"Overall",-0.749946864909531
+"lambda_min_1000_ln_ic50",10,1,"SIDM01135",-0.271417,"Overall",-0.221010835626329
+"lambda_min_1000_ln_ic50",10,1,"SIDM01137",1.334767,"Overall",0.471895209526266
+"lambda_min_1000_ln_ic50",10,1,"SIDM01188",2.363157,"Overall",0.15681635399603
+"lambda_min_1000_ln_ic50",10,1,"SIDM00042",-0.517255,"Pretrained",1.85018899076298
+"lambda_min_1000_ln_ic50",10,1,"SIDM00455",1.487982,"Pretrained",1.38254295446611
+"lambda_min_1000_ln_ic50",10,1,"SIDM00531",-3.02061,"Pretrained",-1.54552240866066
+"lambda_min_1000_ln_ic50",10,1,"SIDM01135",-0.271417,"Pretrained",-0.903155763407463
+"lambda_min_1000_ln_ic50",10,1,"SIDM01137",1.334767,"Pretrained",-0.0954052187876345
+"lambda_min_1000_ln_ic50",10,1,"SIDM01188",2.363157,"Pretrained",-0.529877127427677
+"lambda_min_1000_ln_ic50",10,1,"SIDM00042",-0.517255,"Target mean",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM00455",1.487982,"Target mean",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM00531",-3.02061,"Target mean",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM01135",-0.271417,"Target mean",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM01137",1.334767,"Target mean",0.156544958333333
+"lambda_min_1000_ln_ic50",10,1,"SIDM01188",2.363157,"Target mean",0.156544958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00053",0.454287,"Individual",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00132",-0.677032,"Individual",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00411",-1.091093,"Individual",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00533",1.084742,"Individual",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00583",-0.632883,"Individual",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM01165",1.494867,"Individual",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00053",0.454287,"Overall",-0.552832777893674
+"lambda_min_1000_ln_ic50",10,2,"SIDM00132",-0.677032,"Overall",0.130937806352528
+"lambda_min_1000_ln_ic50",10,2,"SIDM00411",-1.091093,"Overall",-0.81371385064696
+"lambda_min_1000_ln_ic50",10,2,"SIDM00533",1.084742,"Overall",0.621943333548043
+"lambda_min_1000_ln_ic50",10,2,"SIDM00583",-0.632883,"Overall",-1.09038314333604
+"lambda_min_1000_ln_ic50",10,2,"SIDM01165",1.494867,"Overall",-0.552235027258886
+"lambda_min_1000_ln_ic50",10,2,"SIDM00053",0.454287,"Pretrained",-0.433501480192189
+"lambda_min_1000_ln_ic50",10,2,"SIDM00132",-0.677032,"Pretrained",-0.0637180910762348
+"lambda_min_1000_ln_ic50",10,2,"SIDM00411",-1.091093,"Pretrained",-0.592055724837705
+"lambda_min_1000_ln_ic50",10,2,"SIDM00533",1.084742,"Pretrained",0.351964100536184
+"lambda_min_1000_ln_ic50",10,2,"SIDM00583",-0.632883,"Pretrained",-1.33739372889602
+"lambda_min_1000_ln_ic50",10,2,"SIDM01165",1.494867,"Pretrained",-0.862617105520431
+"lambda_min_1000_ln_ic50",10,2,"SIDM00053",0.454287,"Target mean",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00132",-0.677032,"Target mean",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00411",-1.091093,"Target mean",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00533",1.084742,"Target mean",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM00583",-0.632883,"Target mean",0.187533958333333
+"lambda_min_1000_ln_ic50",10,2,"SIDM01165",1.494867,"Target mean",0.187533958333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00130",-3.444133,"Individual",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00301",-3.240813,"Individual",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00371",-1.782267,"Individual",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00469",-3.830996,"Individual",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00571",4.491236,"Individual",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM01136",4.170801,"Individual",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00130",-3.444133,"Overall",0.77523092476219
+"lambda_min_1000_ln_ic50",10,3,"SIDM00301",-3.240813,"Overall",-1.51939106723659
+"lambda_min_1000_ln_ic50",10,3,"SIDM00371",-1.782267,"Overall",-0.838054364829315
+"lambda_min_1000_ln_ic50",10,3,"SIDM00469",-3.830996,"Overall",-0.716857977871803
+"lambda_min_1000_ln_ic50",10,3,"SIDM00571",4.491236,"Overall",1.81757697023799
+"lambda_min_1000_ln_ic50",10,3,"SIDM01136",4.170801,"Overall",-0.0834697849643565
+"lambda_min_1000_ln_ic50",10,3,"SIDM00130",-3.444133,"Pretrained",1.03723152092071
+"lambda_min_1000_ln_ic50",10,3,"SIDM00301",-3.240813,"Pretrained",-1.12919191476749
+"lambda_min_1000_ln_ic50",10,3,"SIDM00371",-1.782267,"Pretrained",-0.45263725020027
+"lambda_min_1000_ln_ic50",10,3,"SIDM00469",-3.830996,"Pretrained",-0.107586612156677
+"lambda_min_1000_ln_ic50",10,3,"SIDM00571",4.491236,"Pretrained",1.73317032332173
+"lambda_min_1000_ln_ic50",10,3,"SIDM01136",4.170801,"Pretrained",-0.193911302291938
+"lambda_min_1000_ln_ic50",10,3,"SIDM00130",-3.444133,"Target mean",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00301",-3.240813,"Target mean",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00371",-1.782267,"Target mean",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00469",-3.830996,"Target mean",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM00571",4.491236,"Target mean",0.365411458333333
+"lambda_min_1000_ln_ic50",10,3,"SIDM01136",4.170801,"Target mean",0.365411458333333
+"lambda_min_1000_ln_ic50",10,4,"SIDM00505",-1.731407,"Individual",0.0477171680401261
+"lambda_min_1000_ln_ic50",10,4,"SIDM00669",0.976248,"Individual",1.79729546978715
+"lambda_min_1000_ln_ic50",10,4,"SIDM00670",0.099097,"Individual",0.380873986580948
+"lambda_min_1000_ln_ic50",10,4,"SIDM00934",-1.649507,"Individual",-0.0333495054923714
+"lambda_min_1000_ln_ic50",10,4,"SIDM00943",5.49598,"Individual",1.11514710397351
+"lambda_min_1000_ln_ic50",10,4,"SIDM00950",-2.543222,"Individual",-0.706441640417597
+"lambda_min_1000_ln_ic50",10,4,"SIDM00505",-1.731407,"Overall",0.0946812674560511
+"lambda_min_1000_ln_ic50",10,4,"SIDM00669",0.976248,"Overall",2.29926838115231
+"lambda_min_1000_ln_ic50",10,4,"SIDM00670",0.099097,"Overall",0.403605871118435
+"lambda_min_1000_ln_ic50",10,4,"SIDM00934",-1.649507,"Overall",-0.303046918472508
+"lambda_min_1000_ln_ic50",10,4,"SIDM00943",5.49598,"Overall",2.01281251414146
+"lambda_min_1000_ln_ic50",10,4,"SIDM00950",-2.543222,"Overall",-0.930884591093254
+"lambda_min_1000_ln_ic50",10,4,"SIDM00505",-1.731407,"Pretrained",-0.0801384786124272
+"lambda_min_1000_ln_ic50",10,4,"SIDM00669",0.976248,"Pretrained",1.46307250097495
+"lambda_min_1000_ln_ic50",10,4,"SIDM00670",0.099097,"Pretrained",0.136108743951241
+"lambda_min_1000_ln_ic50",10,4,"SIDM00934",-1.649507,"Pretrained",-0.358548208762418
+"lambda_min_1000_ln_ic50",10,4,"SIDM00943",5.49598,"Pretrained",1.26255339406736
+"lambda_min_1000_ln_ic50",10,4,"SIDM00950",-2.543222,"Pretrained",-0.798034579596941
+"lambda_min_1000_ln_ic50",10,4,"SIDM00505",-1.731407,"Target mean",0.186938083333333
+"lambda_min_1000_ln_ic50",10,4,"SIDM00669",0.976248,"Target mean",0.186938083333333
+"lambda_min_1000_ln_ic50",10,4,"SIDM00670",0.099097,"Target mean",0.186938083333333
+"lambda_min_1000_ln_ic50",10,4,"SIDM00934",-1.649507,"Target mean",0.186938083333333
+"lambda_min_1000_ln_ic50",10,4,"SIDM00943",5.49598,"Target mean",0.186938083333333
+"lambda_min_1000_ln_ic50",10,4,"SIDM00950",-2.543222,"Target mean",0.186938083333333
+"lambda_min_1000_ln_ic50",10,5,"SIDM00453",-1.388208,"Individual",0.0884207221594108
+"lambda_min_1000_ln_ic50",10,5,"SIDM00582",2.615533,"Individual",-0.026136924612399
+"lambda_min_1000_ln_ic50",10,5,"SIDM00664",3.528073,"Individual",0.127023061461856
+"lambda_min_1000_ln_ic50",10,5,"SIDM00899",3.809457,"Individual",0.430398040004146
+"lambda_min_1000_ln_ic50",10,5,"SIDM01138",-2.798807,"Individual",-0.133300896884481
+"lambda_min_1000_ln_ic50",10,5,"SIDM01139",0.347126,"Individual",0.000693398401436765
+"lambda_min_1000_ln_ic50",10,5,"SIDM00453",-1.388208,"Overall",-0.161632948201726
+"lambda_min_1000_ln_ic50",10,5,"SIDM00582",2.615533,"Overall",1.24561629236151
+"lambda_min_1000_ln_ic50",10,5,"SIDM00664",3.528073,"Overall",0.864274420863142
+"lambda_min_1000_ln_ic50",10,5,"SIDM00899",3.809457,"Overall",1.44177553499048
+"lambda_min_1000_ln_ic50",10,5,"SIDM01138",-2.798807,"Overall",0.110885299699
+"lambda_min_1000_ln_ic50",10,5,"SIDM01139",0.347126,"Overall",0.864893887936689
+"lambda_min_1000_ln_ic50",10,5,"SIDM00453",-1.388208,"Pretrained",-0.110854742122817
+"lambda_min_1000_ln_ic50",10,5,"SIDM00582",2.615533,"Pretrained",0.874219726271448
+"lambda_min_1000_ln_ic50",10,5,"SIDM00664",3.528073,"Pretrained",0.607280416222591
+"lambda_min_1000_ln_ic50",10,5,"SIDM00899",3.809457,"Pretrained",1.01153119611173
+"lambda_min_1000_ln_ic50",10,5,"SIDM01138",-2.798807,"Pretrained",0.0799080314076908
+"lambda_min_1000_ln_ic50",10,5,"SIDM01139",0.347126,"Pretrained",0.607714043174073
+"lambda_min_1000_ln_ic50",10,5,"SIDM00453",-1.388208,"Target mean",-0.0408112916666667
+"lambda_min_1000_ln_ic50",10,5,"SIDM00582",2.615533,"Target mean",-0.0408112916666667
+"lambda_min_1000_ln_ic50",10,5,"SIDM00664",3.528073,"Target mean",-0.0408112916666667
+"lambda_min_1000_ln_ic50",10,5,"SIDM00899",3.809457,"Target mean",-0.0408112916666667
+"lambda_min_1000_ln_ic50",10,5,"SIDM01138",-2.798807,"Target mean",-0.0408112916666667
+"lambda_min_1000_ln_ic50",10,5,"SIDM01139",0.347126,"Target mean",-0.0408112916666667

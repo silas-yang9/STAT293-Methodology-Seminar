@@ -1,0 +1,1201 @@
+"scenario","repeat_id","fold","model_id","observed","method","predicted"
+"features_500_ln_ic50_1se",1,1,"SIDM00505",-1.731407,"Individual",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00531",-3.02061,"Individual",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00664",3.528073,"Individual",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00899",3.809457,"Individual",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00950",-2.543222,"Individual",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM01139",0.347126,"Individual",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00505",-1.731407,"Overall",0.461871930573019
+"features_500_ln_ic50_1se",1,1,"SIDM00531",-3.02061,"Overall",0.00293311208272101
+"features_500_ln_ic50_1se",1,1,"SIDM00664",3.528073,"Overall",0.399180142112036
+"features_500_ln_ic50_1se",1,1,"SIDM00899",3.809457,"Overall",0.398969700840245
+"features_500_ln_ic50_1se",1,1,"SIDM00950",-2.543222,"Overall",0.0202623999913989
+"features_500_ln_ic50_1se",1,1,"SIDM01139",0.347126,"Overall",0.405944392916097
+"features_500_ln_ic50_1se",1,1,"SIDM00505",-1.731407,"Pretrained",0.444173934048752
+"features_500_ln_ic50_1se",1,1,"SIDM00531",-3.02061,"Pretrained",0.0770228792565139
+"features_500_ln_ic50_1se",1,1,"SIDM00664",3.528073,"Pretrained",0.394020503279966
+"features_500_ln_ic50_1se",1,1,"SIDM00899",3.809457,"Pretrained",0.393852150262533
+"features_500_ln_ic50_1se",1,1,"SIDM00950",-2.543222,"Pretrained",0.0908863095834562
+"features_500_ln_ic50_1se",1,1,"SIDM01139",0.347126,"Pretrained",0.399431903923215
+"features_500_ln_ic50_1se",1,1,"SIDM00505",-1.731407,"Target mean",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00531",-3.02061,"Target mean",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00664",3.528073,"Target mean",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00899",3.809457,"Target mean",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM00950",-2.543222,"Target mean",0.197678583333333
+"features_500_ln_ic50_1se",1,1,"SIDM01139",0.347126,"Target mean",0.197678583333333
+"features_500_ln_ic50_1se",1,2,"SIDM00411",-1.091093,"Individual",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00469",-3.830996,"Individual",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00533",1.084742,"Individual",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00583",-0.632883,"Individual",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00934",-1.649507,"Individual",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM01136",4.170801,"Individual",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00411",-1.091093,"Overall",-0.0954498921618636
+"features_500_ln_ic50_1se",1,2,"SIDM00469",-3.830996,"Overall",-0.39413338600831
+"features_500_ln_ic50_1se",1,2,"SIDM00533",1.084742,"Overall",0.552858297329184
+"features_500_ln_ic50_1se",1,2,"SIDM00583",-0.632883,"Overall",-0.729804470358134
+"features_500_ln_ic50_1se",1,2,"SIDM00934",-1.649507,"Overall",-0.513026521834585
+"features_500_ln_ic50_1se",1,2,"SIDM01136",4.170801,"Overall",-0.131477220679359
+"features_500_ln_ic50_1se",1,2,"SIDM00411",-1.091093,"Pretrained",-0.96805060212067
+"features_500_ln_ic50_1se",1,2,"SIDM00469",-3.830996,"Pretrained",-0.691749347138089
+"features_500_ln_ic50_1se",1,2,"SIDM00533",1.084742,"Pretrained",0.820734138244523
+"features_500_ln_ic50_1se",1,2,"SIDM00583",-0.632883,"Pretrained",-1.47314772426218
+"features_500_ln_ic50_1se",1,2,"SIDM00934",-1.649507,"Pretrained",-1.67081634785768
+"features_500_ln_ic50_1se",1,2,"SIDM01136",4.170801,"Pretrained",-0.472665785051309
+"features_500_ln_ic50_1se",1,2,"SIDM00411",-1.091093,"Target mean",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00469",-3.830996,"Target mean",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00533",1.084742,"Target mean",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00583",-0.632883,"Target mean",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM00934",-1.649507,"Target mean",0.295109958333333
+"features_500_ln_ic50_1se",1,2,"SIDM01136",4.170801,"Target mean",0.295109958333333
+"features_500_ln_ic50_1se",1,3,"SIDM00130",-3.444133,"Individual",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00371",-1.782267,"Individual",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00669",0.976248,"Individual",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00670",0.099097,"Individual",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01135",-0.271417,"Individual",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01188",2.363157,"Individual",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00130",-3.444133,"Overall",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00371",-1.782267,"Overall",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00669",0.976248,"Overall",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00670",0.099097,"Overall",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01135",-0.271417,"Overall",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01188",2.363157,"Overall",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00130",-3.444133,"Pretrained",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00371",-1.782267,"Pretrained",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00669",0.976248,"Pretrained",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00670",0.099097,"Pretrained",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01135",-0.271417,"Pretrained",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01188",2.363157,"Pretrained",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00130",-3.444133,"Target mean",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00371",-1.782267,"Target mean",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00669",0.976248,"Target mean",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM00670",0.099097,"Target mean",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01135",-0.271417,"Target mean",0.299709083333333
+"features_500_ln_ic50_1se",1,3,"SIDM01188",2.363157,"Target mean",0.299709083333333
+"features_500_ln_ic50_1se",1,4,"SIDM00042",-0.517255,"Individual",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00053",0.454287,"Individual",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00301",-3.240813,"Individual",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00453",-1.388208,"Individual",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00455",1.487982,"Individual",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00582",2.615533,"Individual",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00042",-0.517255,"Overall",0.514236109649328
+"features_500_ln_ic50_1se",1,4,"SIDM00053",0.454287,"Overall",0.577230902194971
+"features_500_ln_ic50_1se",1,4,"SIDM00301",-3.240813,"Overall",-0.0199846835751182
+"features_500_ln_ic50_1se",1,4,"SIDM00453",-1.388208,"Overall",0.483463083695455
+"features_500_ln_ic50_1se",1,4,"SIDM00455",1.487982,"Overall",0.586075284764256
+"features_500_ln_ic50_1se",1,4,"SIDM00582",2.615533,"Overall",0.564306976440923
+"features_500_ln_ic50_1se",1,4,"SIDM00042",-0.517255,"Pretrained",0.38151994775802
+"features_500_ln_ic50_1se",1,4,"SIDM00053",0.454287,"Pretrained",0.413017344030841
+"features_500_ln_ic50_1se",1,4,"SIDM00301",-3.240813,"Pretrained",0.114409551145797
+"features_500_ln_ic50_1se",1,4,"SIDM00453",-1.388208,"Pretrained",0.366133434781084
+"features_500_ln_ic50_1se",1,4,"SIDM00455",1.487982,"Pretrained",0.417439535315484
+"features_500_ln_ic50_1se",1,4,"SIDM00582",2.615533,"Pretrained",0.406555381153818
+"features_500_ln_ic50_1se",1,4,"SIDM00042",-0.517255,"Target mean",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00053",0.454287,"Target mean",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00301",-3.240813,"Target mean",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00453",-1.388208,"Target mean",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00455",1.487982,"Target mean",0.238424041666667
+"features_500_ln_ic50_1se",1,4,"SIDM00582",2.615533,"Target mean",0.238424041666667
+"features_500_ln_ic50_1se",1,5,"SIDM00132",-0.677032,"Individual",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM00571",4.491236,"Individual",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM00943",5.49598,"Individual",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM01137",1.334767,"Individual",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM01138",-2.798807,"Individual",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM01165",1.494867,"Individual",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM00132",-0.677032,"Overall",-0.362542469115461
+"features_500_ln_ic50_1se",1,5,"SIDM00571",4.491236,"Overall",0.376593703307569
+"features_500_ln_ic50_1se",1,5,"SIDM00943",5.49598,"Overall",0.354279097437205
+"features_500_ln_ic50_1se",1,5,"SIDM01137",1.334767,"Overall",-0.0846005001325349
+"features_500_ln_ic50_1se",1,5,"SIDM01138",-2.798807,"Overall",-0.397615209022841
+"features_500_ln_ic50_1se",1,5,"SIDM01165",1.494867,"Overall",-0.505813569943837
+"features_500_ln_ic50_1se",1,5,"SIDM00132",-0.677032,"Pretrained",-0.384484774124403
+"features_500_ln_ic50_1se",1,5,"SIDM00571",4.491236,"Pretrained",0.280737781056324
+"features_500_ln_ic50_1se",1,5,"SIDM00943",5.49598,"Pretrained",0.260654635772996
+"features_500_ln_ic50_1se",1,5,"SIDM01137",1.334767,"Pretrained",-0.13433700203977
+"features_500_ln_ic50_1se",1,5,"SIDM01138",-2.798807,"Pretrained",-0.416050240041045
+"features_500_ln_ic50_1se",1,5,"SIDM01165",1.494867,"Pretrained",-0.513428764869942
+"features_500_ln_ic50_1se",1,5,"SIDM00132",-0.677032,"Target mean",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM00571",4.491236,"Target mean",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM00943",5.49598,"Target mean",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM01137",1.334767,"Target mean",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM01138",-2.798807,"Target mean",-0.1753045
+"features_500_ln_ic50_1se",1,5,"SIDM01165",1.494867,"Target mean",-0.1753045
+"features_500_ln_ic50_1se",2,1,"SIDM00042",-0.517255,"Individual",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00132",-0.677032,"Individual",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00453",-1.388208,"Individual",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00505",-1.731407,"Individual",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00533",1.084742,"Individual",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM01137",1.334767,"Individual",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00042",-0.517255,"Overall",0.611427485652739
+"features_500_ln_ic50_1se",2,1,"SIDM00132",-0.677032,"Overall",0.131140132704652
+"features_500_ln_ic50_1se",2,1,"SIDM00453",-1.388208,"Overall",0.500474379357698
+"features_500_ln_ic50_1se",2,1,"SIDM00505",-1.731407,"Overall",0.724106326478023
+"features_500_ln_ic50_1se",2,1,"SIDM00533",1.084742,"Overall",0.501203619507296
+"features_500_ln_ic50_1se",2,1,"SIDM01137",1.334767,"Overall",0.380111744379807
+"features_500_ln_ic50_1se",2,1,"SIDM00042",-0.517255,"Pretrained",0.779912548088846
+"features_500_ln_ic50_1se",2,1,"SIDM00132",-0.677032,"Pretrained",0.0909386943808675
+"features_500_ln_ic50_1se",2,1,"SIDM00453",-1.388208,"Pretrained",0.724648170910973
+"features_500_ln_ic50_1se",2,1,"SIDM00505",-1.731407,"Pretrained",0.80949065235392
+"features_500_ln_ic50_1se",2,1,"SIDM00533",1.084742,"Pretrained",0.577775441607676
+"features_500_ln_ic50_1se",2,1,"SIDM01137",1.334767,"Pretrained",0.0872428923794245
+"features_500_ln_ic50_1se",2,1,"SIDM00042",-0.517255,"Target mean",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00132",-0.677032,"Target mean",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00453",-1.388208,"Target mean",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00505",-1.731407,"Target mean",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM00533",1.084742,"Target mean",0.292837333333333
+"features_500_ln_ic50_1se",2,1,"SIDM01137",1.334767,"Target mean",0.292837333333333
+"features_500_ln_ic50_1se",2,2,"SIDM00371",-1.782267,"Individual",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00455",1.487982,"Individual",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00469",-3.830996,"Individual",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00583",-0.632883,"Individual",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00950",-2.543222,"Individual",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM01139",0.347126,"Individual",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00371",-1.782267,"Overall",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00455",1.487982,"Overall",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00469",-3.830996,"Overall",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00583",-0.632883,"Overall",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00950",-2.543222,"Overall",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM01139",0.347126,"Overall",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00371",-1.782267,"Pretrained",0.500450902348409
+"features_500_ln_ic50_1se",2,2,"SIDM00455",1.487982,"Pretrained",0.500450902348409
+"features_500_ln_ic50_1se",2,2,"SIDM00469",-3.830996,"Pretrained",0.500450902348409
+"features_500_ln_ic50_1se",2,2,"SIDM00583",-0.632883,"Pretrained",0.500450902348409
+"features_500_ln_ic50_1se",2,2,"SIDM00950",-2.543222,"Pretrained",0.500450902348409
+"features_500_ln_ic50_1se",2,2,"SIDM01139",0.347126,"Pretrained",0.500450902348409
+"features_500_ln_ic50_1se",2,2,"SIDM00371",-1.782267,"Target mean",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00455",1.487982,"Target mean",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00469",-3.830996,"Target mean",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00583",-0.632883,"Target mean",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM00950",-2.543222,"Target mean",0.503665125
+"features_500_ln_ic50_1se",2,2,"SIDM01139",0.347126,"Target mean",0.503665125
+"features_500_ln_ic50_1se",2,3,"SIDM00053",0.454287,"Individual",-0.0634703333333334
+"features_500_ln_ic50_1se",2,3,"SIDM00411",-1.091093,"Individual",-0.0634703333333334
+"features_500_ln_ic50_1se",2,3,"SIDM00531",-3.02061,"Individual",-0.0634703333333334
+"features_500_ln_ic50_1se",2,3,"SIDM00582",2.615533,"Individual",-0.0634703333333334
+"features_500_ln_ic50_1se",2,3,"SIDM00664",3.528073,"Individual",-0.0634703333333334
+"features_500_ln_ic50_1se",2,3,"SIDM01136",4.170801,"Individual",-0.0634703333333334
+"features_500_ln_ic50_1se",2,3,"SIDM00053",0.454287,"Overall",0.0746611508114437
+"features_500_ln_ic50_1se",2,3,"SIDM00411",-1.091093,"Overall",-0.304248483040842
+"features_500_ln_ic50_1se",2,3,"SIDM00531",-3.02061,"Overall",-0.196461905909166
+"features_500_ln_ic50_1se",2,3,"SIDM00582",2.615533,"Overall",0.764378362357245
+"features_500_ln_ic50_1se",2,3,"SIDM00664",3.528073,"Overall",0.372122402329067
+"features_500_ln_ic50_1se",2,3,"SIDM01136",4.170801,"Overall",-0.110790662255375
+"features_500_ln_ic50_1se",2,3,"SIDM00053",0.454287,"Pretrained",0.0774550032234237
+"features_500_ln_ic50_1se",2,3,"SIDM00411",-1.091093,"Pretrained",-0.225672703858405
+"features_500_ln_ic50_1se",2,3,"SIDM00531",-3.02061,"Pretrained",-0.139443442153064
+"features_500_ln_ic50_1se",2,3,"SIDM00582",2.615533,"Pretrained",0.629228772460065
+"features_500_ln_ic50_1se",2,3,"SIDM00664",3.528073,"Pretrained",0.315424004437522
+"features_500_ln_ic50_1se",2,3,"SIDM01136",4.170801,"Pretrained",-0.0709064472300316
+"features_500_ln_ic50_1se",2,3,"SIDM00053",0.454287,"Target mean",-0.0634703333333333
+"features_500_ln_ic50_1se",2,3,"SIDM00411",-1.091093,"Target mean",-0.0634703333333333
+"features_500_ln_ic50_1se",2,3,"SIDM00531",-3.02061,"Target mean",-0.0634703333333333
+"features_500_ln_ic50_1se",2,3,"SIDM00582",2.615533,"Target mean",-0.0634703333333333
+"features_500_ln_ic50_1se",2,3,"SIDM00664",3.528073,"Target mean",-0.0634703333333333
+"features_500_ln_ic50_1se",2,3,"SIDM01136",4.170801,"Target mean",-0.0634703333333333
+"features_500_ln_ic50_1se",2,4,"SIDM00669",0.976248,"Individual",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00899",3.809457,"Individual",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00934",-1.649507,"Individual",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00943",5.49598,"Individual",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM01135",-0.271417,"Individual",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM01165",1.494867,"Individual",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00669",0.976248,"Overall",0.831276739086773
+"features_500_ln_ic50_1se",2,4,"SIDM00899",3.809457,"Overall",0.302873349449501
+"features_500_ln_ic50_1se",2,4,"SIDM00934",-1.649507,"Overall",-0.82992098132943
+"features_500_ln_ic50_1se",2,4,"SIDM00943",5.49598,"Overall",0.585861722505652
+"features_500_ln_ic50_1se",2,4,"SIDM01135",-0.271417,"Overall",-0.521539587447311
+"features_500_ln_ic50_1se",2,4,"SIDM01165",1.494867,"Overall",-0.653164301357281
+"features_500_ln_ic50_1se",2,4,"SIDM00669",0.976248,"Pretrained",0.206758350180489
+"features_500_ln_ic50_1se",2,4,"SIDM00899",3.809457,"Pretrained",-0.00460300567441946
+"features_500_ln_ic50_1se",2,4,"SIDM00934",-1.649507,"Pretrained",-0.457720737985992
+"features_500_ln_ic50_1se",2,4,"SIDM00943",5.49598,"Pretrained",0.108592343548041
+"features_500_ln_ic50_1se",2,4,"SIDM01135",-0.271417,"Pretrained",-0.334368180433144
+"features_500_ln_ic50_1se",2,4,"SIDM01165",1.494867,"Pretrained",-0.387018065997132
+"features_500_ln_ic50_1se",2,4,"SIDM00669",0.976248,"Target mean",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00899",3.809457,"Target mean",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00934",-1.649507,"Target mean",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM00943",5.49598,"Target mean",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM01135",-0.271417,"Target mean",-0.196746875
+"features_500_ln_ic50_1se",2,4,"SIDM01165",1.494867,"Target mean",-0.196746875
+"features_500_ln_ic50_1se",2,5,"SIDM00130",-3.444133,"Individual",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00301",-3.240813,"Individual",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00571",4.491236,"Individual",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00670",0.099097,"Individual",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM01138",-2.798807,"Individual",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM01188",2.363157,"Individual",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00130",-3.444133,"Overall",0.635706823747283
+"features_500_ln_ic50_1se",2,5,"SIDM00301",-3.240813,"Overall",-0.719975610572954
+"features_500_ln_ic50_1se",2,5,"SIDM00571",4.491236,"Overall",1.13434140479088
+"features_500_ln_ic50_1se",2,5,"SIDM00670",0.099097,"Overall",0.970604544533268
+"features_500_ln_ic50_1se",2,5,"SIDM01138",-2.798807,"Overall",0.346144407787231
+"features_500_ln_ic50_1se",2,5,"SIDM01188",2.363157,"Overall",-0.0372551969259219
+"features_500_ln_ic50_1se",2,5,"SIDM00130",-3.444133,"Pretrained",0.643277570046024
+"features_500_ln_ic50_1se",2,5,"SIDM00301",-3.240813,"Pretrained",-0.305700133978142
+"features_500_ln_ic50_1se",2,5,"SIDM00571",4.491236,"Pretrained",0.992321776776542
+"features_500_ln_ic50_1se",2,5,"SIDM00670",0.099097,"Pretrained",0.877705974596213
+"features_500_ln_ic50_1se",2,5,"SIDM01138",-2.798807,"Pretrained",0.440583878873987
+"features_500_ln_ic50_1se",2,5,"SIDM01188",2.363157,"Pretrained",0.17220415557478
+"features_500_ln_ic50_1se",2,5,"SIDM00130",-3.444133,"Target mean",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00301",-3.240813,"Target mean",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00571",4.491236,"Target mean",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM00670",0.099097,"Target mean",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM01138",-2.798807,"Target mean",0.319331916666667
+"features_500_ln_ic50_1se",2,5,"SIDM01188",2.363157,"Target mean",0.319331916666667
+"features_500_ln_ic50_1se",3,1,"SIDM00042",-0.517255,"Individual",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00132",-0.677032,"Individual",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00453",-1.388208,"Individual",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00950",-2.543222,"Individual",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM01135",-0.271417,"Individual",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM01138",-2.798807,"Individual",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00042",-0.517255,"Overall",0.862502632178376
+"features_500_ln_ic50_1se",3,1,"SIDM00132",-0.677032,"Overall",0.298715973389645
+"features_500_ln_ic50_1se",3,1,"SIDM00453",-1.388208,"Overall",0.438334523922888
+"features_500_ln_ic50_1se",3,1,"SIDM00950",-2.543222,"Overall",-0.184360294908376
+"features_500_ln_ic50_1se",3,1,"SIDM01135",-0.271417,"Overall",0.259981829196468
+"features_500_ln_ic50_1se",3,1,"SIDM01138",-2.798807,"Overall",0.490781450572712
+"features_500_ln_ic50_1se",3,1,"SIDM00042",-0.517255,"Pretrained",0.765550707057022
+"features_500_ln_ic50_1se",3,1,"SIDM00132",-0.677032,"Pretrained",0.314521380026037
+"features_500_ln_ic50_1se",3,1,"SIDM00453",-1.388208,"Pretrained",0.426216220452631
+"features_500_ln_ic50_1se",3,1,"SIDM00950",-2.543222,"Pretrained",-0.0719396346123801
+"features_500_ln_ic50_1se",3,1,"SIDM01135",-0.271417,"Pretrained",0.283534064671495
+"features_500_ln_ic50_1se",3,1,"SIDM01138",-2.798807,"Pretrained",0.46817376177249
+"features_500_ln_ic50_1se",3,1,"SIDM00042",-0.517255,"Target mean",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00132",-0.677032,"Target mean",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00453",-1.388208,"Target mean",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM00950",-2.543222,"Target mean",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM01135",-0.271417,"Target mean",0.555401833333333
+"features_500_ln_ic50_1se",3,1,"SIDM01138",-2.798807,"Target mean",0.555401833333333
+"features_500_ln_ic50_1se",3,2,"SIDM00053",0.454287,"Individual",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00130",-3.444133,"Individual",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00469",-3.830996,"Individual",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00664",3.528073,"Individual",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00669",0.976248,"Individual",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM01136",4.170801,"Individual",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00053",0.454287,"Overall",-0.90487964577297
+"features_500_ln_ic50_1se",3,2,"SIDM00130",-3.444133,"Overall",0.997507552716483
+"features_500_ln_ic50_1se",3,2,"SIDM00469",-3.830996,"Overall",-0.809259310219369
+"features_500_ln_ic50_1se",3,2,"SIDM00664",3.528073,"Overall",1.20699273272918
+"features_500_ln_ic50_1se",3,2,"SIDM00669",0.976248,"Overall",2.33764950782022
+"features_500_ln_ic50_1se",3,2,"SIDM01136",4.170801,"Overall",-0.765933792874353
+"features_500_ln_ic50_1se",3,2,"SIDM00053",0.454287,"Pretrained",-0.818998944328949
+"features_500_ln_ic50_1se",3,2,"SIDM00130",-3.444133,"Pretrained",1.0833882541605
+"features_500_ln_ic50_1se",3,2,"SIDM00469",-3.830996,"Pretrained",-0.723378608775348
+"features_500_ln_ic50_1se",3,2,"SIDM00664",3.528073,"Pretrained",1.2928734341732
+"features_500_ln_ic50_1se",3,2,"SIDM00669",0.976248,"Pretrained",2.42353020926424
+"features_500_ln_ic50_1se",3,2,"SIDM01136",4.170801,"Pretrained",-0.680053091430332
+"features_500_ln_ic50_1se",3,2,"SIDM00053",0.454287,"Target mean",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00130",-3.444133,"Target mean",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00469",-3.830996,"Target mean",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00664",3.528073,"Target mean",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM00669",0.976248,"Target mean",0.136642625
+"features_500_ln_ic50_1se",3,2,"SIDM01136",4.170801,"Target mean",0.136642625
+"features_500_ln_ic50_1se",3,3,"SIDM00371",-1.782267,"Individual",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00531",-3.02061,"Individual",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00583",-0.632883,"Individual",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00670",0.099097,"Individual",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00899",3.809457,"Individual",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM01139",0.347126,"Individual",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00371",-1.782267,"Overall",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00531",-3.02061,"Overall",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00583",-0.632883,"Overall",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00670",0.099097,"Overall",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00899",3.809457,"Overall",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM01139",0.347126,"Overall",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00371",-1.782267,"Pretrained",0.25797852163661
+"features_500_ln_ic50_1se",3,3,"SIDM00531",-3.02061,"Pretrained",0.25797852163661
+"features_500_ln_ic50_1se",3,3,"SIDM00583",-0.632883,"Pretrained",0.25797852163661
+"features_500_ln_ic50_1se",3,3,"SIDM00670",0.099097,"Pretrained",0.25797852163661
+"features_500_ln_ic50_1se",3,3,"SIDM00899",3.809457,"Pretrained",0.25797852163661
+"features_500_ln_ic50_1se",3,3,"SIDM01139",0.347126,"Pretrained",0.25797852163661
+"features_500_ln_ic50_1se",3,3,"SIDM00371",-1.782267,"Target mean",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00531",-3.02061,"Target mean",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00583",-0.632883,"Target mean",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00670",0.099097,"Target mean",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM00899",3.809457,"Target mean",0.263074291666667
+"features_500_ln_ic50_1se",3,3,"SIDM01139",0.347126,"Target mean",0.263074291666667
+"features_500_ln_ic50_1se",3,4,"SIDM00411",-1.091093,"Individual",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00455",1.487982,"Individual",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00505",-1.731407,"Individual",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00571",4.491236,"Individual",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00934",-1.649507,"Individual",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM01188",2.363157,"Individual",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00411",-1.091093,"Overall",-0.167877550744587
+"features_500_ln_ic50_1se",3,4,"SIDM00455",1.487982,"Overall",0.610364508775272
+"features_500_ln_ic50_1se",3,4,"SIDM00505",-1.731407,"Overall",0.402330674489591
+"features_500_ln_ic50_1se",3,4,"SIDM00571",4.491236,"Overall",0.786385506790788
+"features_500_ln_ic50_1se",3,4,"SIDM00934",-1.649507,"Overall",-0.593269538436622
+"features_500_ln_ic50_1se",3,4,"SIDM01188",2.363157,"Overall",-0.33758447251755
+"features_500_ln_ic50_1se",3,4,"SIDM00411",-1.091093,"Pretrained",-0.217828329802362
+"features_500_ln_ic50_1se",3,4,"SIDM00455",1.487982,"Pretrained",0.482589523765512
+"features_500_ln_ic50_1se",3,4,"SIDM00505",-1.731407,"Pretrained",0.295359072908399
+"features_500_ln_ic50_1se",3,4,"SIDM00571",4.491236,"Pretrained",0.641008421979476
+"features_500_ln_ic50_1se",3,4,"SIDM00934",-1.649507,"Pretrained",-0.600681118725193
+"features_500_ln_ic50_1se",3,4,"SIDM01188",2.363157,"Pretrained",-0.370564559398028
+"features_500_ln_ic50_1se",3,4,"SIDM00411",-1.091093,"Target mean",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00455",1.487982,"Target mean",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00505",-1.731407,"Target mean",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00571",4.491236,"Target mean",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM00934",-1.649507,"Target mean",0.0526389583333333
+"features_500_ln_ic50_1se",3,4,"SIDM01188",2.363157,"Target mean",0.0526389583333333
+"features_500_ln_ic50_1se",3,5,"SIDM00301",-3.240813,"Individual",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00533",1.084742,"Individual",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00582",2.615533,"Individual",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00943",5.49598,"Individual",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM01137",1.334767,"Individual",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM01165",1.494867,"Individual",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00301",-3.240813,"Overall",-0.515552654193502
+"features_500_ln_ic50_1se",3,5,"SIDM00533",1.084742,"Overall",-0.00405331838945175
+"features_500_ln_ic50_1se",3,5,"SIDM00582",2.615533,"Overall",0.240030598849805
+"features_500_ln_ic50_1se",3,5,"SIDM00943",5.49598,"Overall",0.156960074691542
+"features_500_ln_ic50_1se",3,5,"SIDM01137",1.334767,"Overall",-0.232384785138149
+"features_500_ln_ic50_1se",3,5,"SIDM01165",1.494867,"Overall",-0.403956903576272
+"features_500_ln_ic50_1se",3,5,"SIDM00301",-3.240813,"Pretrained",-0.280302270770529
+"features_500_ln_ic50_1se",3,5,"SIDM00533",1.084742,"Pretrained",-0.126852470029314
+"features_500_ln_ic50_1se",3,5,"SIDM00582",2.615533,"Pretrained",-0.0536272948575372
+"features_500_ln_ic50_1se",3,5,"SIDM00943",5.49598,"Pretrained",-0.0785484521050158
+"features_500_ln_ic50_1se",3,5,"SIDM01137",1.334767,"Pretrained",-0.195351910053923
+"features_500_ln_ic50_1se",3,5,"SIDM01165",1.494867,"Pretrained",-0.24682354558536
+"features_500_ln_ic50_1se",3,5,"SIDM00301",-3.240813,"Target mean",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00533",1.084742,"Target mean",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00582",2.615533,"Target mean",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM00943",5.49598,"Target mean",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM01137",1.334767,"Target mean",-0.152140541666667
+"features_500_ln_ic50_1se",3,5,"SIDM01165",1.494867,"Target mean",-0.152140541666667
+"features_500_ln_ic50_1se",4,1,"SIDM00453",-1.388208,"Individual",0.0870391250000001
+"features_500_ln_ic50_1se",4,1,"SIDM00531",-3.02061,"Individual",0.0870391250000001
+"features_500_ln_ic50_1se",4,1,"SIDM00571",4.491236,"Individual",0.0870391250000001
+"features_500_ln_ic50_1se",4,1,"SIDM00950",-2.543222,"Individual",0.0870391250000001
+"features_500_ln_ic50_1se",4,1,"SIDM01136",4.170801,"Individual",0.0870391250000001
+"features_500_ln_ic50_1se",4,1,"SIDM01137",1.334767,"Individual",0.0870391250000001
+"features_500_ln_ic50_1se",4,1,"SIDM00453",-1.388208,"Overall",0.129055050190997
+"features_500_ln_ic50_1se",4,1,"SIDM00531",-3.02061,"Overall",-0.0707564688285581
+"features_500_ln_ic50_1se",4,1,"SIDM00571",4.491236,"Overall",0.634029098328541
+"features_500_ln_ic50_1se",4,1,"SIDM00950",-2.543222,"Overall",-0.378727657414179
+"features_500_ln_ic50_1se",4,1,"SIDM01136",4.170801,"Overall",-0.0299902146786747
+"features_500_ln_ic50_1se",4,1,"SIDM01137",1.334767,"Overall",0.0907401383915619
+"features_500_ln_ic50_1se",4,1,"SIDM00453",-1.388208,"Pretrained",0.195433768503035
+"features_500_ln_ic50_1se",4,1,"SIDM00531",-3.02061,"Pretrained",0.0156034013854357
+"features_500_ln_ic50_1se",4,1,"SIDM00571",4.491236,"Pretrained",0.649910411826825
+"features_500_ln_ic50_1se",4,1,"SIDM00950",-2.543222,"Pretrained",-0.261570668341623
+"features_500_ln_ic50_1se",4,1,"SIDM01136",4.170801,"Pretrained",0.0522930301203308
+"features_500_ln_ic50_1se",4,1,"SIDM01137",1.334767,"Pretrained",0.160950347883544
+"features_500_ln_ic50_1se",4,1,"SIDM00453",-1.388208,"Target mean",0.087039125
+"features_500_ln_ic50_1se",4,1,"SIDM00531",-3.02061,"Target mean",0.087039125
+"features_500_ln_ic50_1se",4,1,"SIDM00571",4.491236,"Target mean",0.087039125
+"features_500_ln_ic50_1se",4,1,"SIDM00950",-2.543222,"Target mean",0.087039125
+"features_500_ln_ic50_1se",4,1,"SIDM01136",4.170801,"Target mean",0.087039125
+"features_500_ln_ic50_1se",4,1,"SIDM01137",1.334767,"Target mean",0.087039125
+"features_500_ln_ic50_1se",4,2,"SIDM00582",2.615533,"Individual",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00583",-0.632883,"Individual",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00664",3.528073,"Individual",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00899",3.809457,"Individual",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00943",5.49598,"Individual",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM01138",-2.798807,"Individual",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00582",2.615533,"Overall",1.15942896952685
+"features_500_ln_ic50_1se",4,2,"SIDM00583",-0.632883,"Overall",-1.20986432349771
+"features_500_ln_ic50_1se",4,2,"SIDM00664",3.528073,"Overall",0.257725251451529
+"features_500_ln_ic50_1se",4,2,"SIDM00899",3.809457,"Overall",0.204687521392909
+"features_500_ln_ic50_1se",4,2,"SIDM00943",5.49598,"Overall",0.602805513728127
+"features_500_ln_ic50_1se",4,2,"SIDM01138",-2.798807,"Overall",-0.227441596417459
+"features_500_ln_ic50_1se",4,2,"SIDM00582",2.615533,"Pretrained",0.387757738389991
+"features_500_ln_ic50_1se",4,2,"SIDM00583",-0.632883,"Pretrained",-0.796888908122289
+"features_500_ln_ic50_1se",4,2,"SIDM00664",3.528073,"Pretrained",-0.0630941206476694
+"features_500_ln_ic50_1se",4,2,"SIDM00899",3.809457,"Pretrained",-0.0896129856769795
+"features_500_ln_ic50_1se",4,2,"SIDM00943",5.49598,"Pretrained",0.10944601049063
+"features_500_ln_ic50_1se",4,2,"SIDM01138",-2.798807,"Pretrained",-0.305677544582163
+"features_500_ln_ic50_1se",4,2,"SIDM00582",2.615533,"Target mean",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00583",-0.632883,"Target mean",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00664",3.528073,"Target mean",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00899",3.809457,"Target mean",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM00943",5.49598,"Target mean",-0.28681875
+"features_500_ln_ic50_1se",4,2,"SIDM01138",-2.798807,"Target mean",-0.28681875
+"features_500_ln_ic50_1se",4,3,"SIDM00042",-0.517255,"Individual",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00371",-1.782267,"Individual",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00505",-1.731407,"Individual",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00934",-1.649507,"Individual",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM01139",0.347126,"Individual",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM01165",1.494867,"Individual",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00042",-0.517255,"Overall",0.606003699815966
+"features_500_ln_ic50_1se",4,3,"SIDM00371",-1.782267,"Overall",0.089804061306101
+"features_500_ln_ic50_1se",4,3,"SIDM00505",-1.731407,"Overall",0.643659871287976
+"features_500_ln_ic50_1se",4,3,"SIDM00934",-1.649507,"Overall",0.0752837805216264
+"features_500_ln_ic50_1se",4,3,"SIDM01139",0.347126,"Overall",0.610514789251911
+"features_500_ln_ic50_1se",4,3,"SIDM01165",1.494867,"Overall",0.100589872051511
+"features_500_ln_ic50_1se",4,3,"SIDM00042",-0.517255,"Pretrained",1.69078717880887
+"features_500_ln_ic50_1se",4,3,"SIDM00371",-1.782267,"Pretrained",-1.11210114648107
+"features_500_ln_ic50_1se",4,3,"SIDM00505",-1.731407,"Pretrained",1.85387592520485
+"features_500_ln_ic50_1se",4,3,"SIDM00934",-1.649507,"Pretrained",-1.19793516446748
+"features_500_ln_ic50_1se",4,3,"SIDM01139",0.347126,"Pretrained",1.70826448890315
+"features_500_ln_ic50_1se",4,3,"SIDM01165",1.494867,"Pretrained",-1.05678067429842
+"features_500_ln_ic50_1se",4,3,"SIDM00042",-0.517255,"Target mean",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00371",-1.782267,"Target mean",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00505",-1.731407,"Target mean",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM00934",-1.649507,"Target mean",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM01139",0.347126,"Target mean",0.373839416666667
+"features_500_ln_ic50_1se",4,3,"SIDM01165",1.494867,"Target mean",0.373839416666667
+"features_500_ln_ic50_1se",4,4,"SIDM00301",-3.240813,"Individual",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00455",1.487982,"Individual",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00469",-3.830996,"Individual",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00533",1.084742,"Individual",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM01135",-0.271417,"Individual",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM01188",2.363157,"Individual",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00301",-3.240813,"Overall",-0.752988289660688
+"features_500_ln_ic50_1se",4,4,"SIDM00455",1.487982,"Overall",0.943555134830394
+"features_500_ln_ic50_1se",4,4,"SIDM00469",-3.830996,"Overall",-0.428235292518362
+"features_500_ln_ic50_1se",4,4,"SIDM00533",1.084742,"Overall",0.468147535815425
+"features_500_ln_ic50_1se",4,4,"SIDM01135",-0.271417,"Overall",-0.193615056407856
+"features_500_ln_ic50_1se",4,4,"SIDM01188",2.363157,"Overall",-0.280854230479933
+"features_500_ln_ic50_1se",4,4,"SIDM00301",-3.240813,"Pretrained",-0.793787707728106
+"features_500_ln_ic50_1se",4,4,"SIDM00455",1.487982,"Pretrained",0.902755716762976
+"features_500_ln_ic50_1se",4,4,"SIDM00469",-3.830996,"Pretrained",-0.46903471058578
+"features_500_ln_ic50_1se",4,4,"SIDM00533",1.084742,"Pretrained",0.427348117748008
+"features_500_ln_ic50_1se",4,4,"SIDM01135",-0.271417,"Pretrained",-0.234414474475274
+"features_500_ln_ic50_1se",4,4,"SIDM01188",2.363157,"Pretrained",-0.32165364854735
+"features_500_ln_ic50_1se",4,4,"SIDM00301",-3.240813,"Target mean",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00455",1.487982,"Target mean",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00469",-3.830996,"Target mean",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM00533",1.084742,"Target mean",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM01135",-0.271417,"Target mean",0.314210333333333
+"features_500_ln_ic50_1se",4,4,"SIDM01188",2.363157,"Target mean",0.314210333333333
+"features_500_ln_ic50_1se",4,5,"SIDM00053",0.454287,"Individual",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00130",-3.444133,"Individual",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00132",-0.677032,"Individual",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00411",-1.091093,"Individual",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00669",0.976248,"Individual",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00670",0.099097,"Individual",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00053",0.454287,"Overall",0.0919709769678954
+"features_500_ln_ic50_1se",4,5,"SIDM00130",-3.444133,"Overall",0.741746483632747
+"features_500_ln_ic50_1se",4,5,"SIDM00132",-0.677032,"Overall",0.296055415591693
+"features_500_ln_ic50_1se",4,5,"SIDM00411",-1.091093,"Overall",0.0716949675378831
+"features_500_ln_ic50_1se",4,5,"SIDM00669",0.976248,"Overall",1.68248482027074
+"features_500_ln_ic50_1se",4,5,"SIDM00670",0.099097,"Overall",1.07847487348105
+"features_500_ln_ic50_1se",4,5,"SIDM00053",0.454287,"Pretrained",-0.270779738204539
+"features_500_ln_ic50_1se",4,5,"SIDM00130",-3.444133,"Pretrained",0.826214111041187
+"features_500_ln_ic50_1se",4,5,"SIDM00132",-0.677032,"Pretrained",0.837359733423742
+"features_500_ln_ic50_1se",4,5,"SIDM00411",-1.091093,"Pretrained",-0.817332609864132
+"features_500_ln_ic50_1se",4,5,"SIDM00669",0.976248,"Pretrained",1.40858312911072
+"features_500_ln_ic50_1se",4,5,"SIDM00670",0.099097,"Pretrained",0.981961822836772
+"features_500_ln_ic50_1se",4,5,"SIDM00053",0.454287,"Target mean",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00130",-3.444133,"Target mean",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00132",-0.677032,"Target mean",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00411",-1.091093,"Target mean",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00669",0.976248,"Target mean",0.367347041666667
+"features_500_ln_ic50_1se",4,5,"SIDM00670",0.099097,"Target mean",0.367347041666667
+"features_500_ln_ic50_1se",5,1,"SIDM00130",-3.444133,"Individual",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00571",4.491236,"Individual",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00583",-0.632883,"Individual",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00664",3.528073,"Individual",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM01138",-2.798807,"Individual",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM01139",0.347126,"Individual",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00130",-3.444133,"Overall",0.0994041307854575
+"features_500_ln_ic50_1se",5,1,"SIDM00571",4.491236,"Overall",0.510961288187586
+"features_500_ln_ic50_1se",5,1,"SIDM00583",-0.632883,"Overall",-0.311151145736143
+"features_500_ln_ic50_1se",5,1,"SIDM00664",3.528073,"Overall",0.342967289971998
+"features_500_ln_ic50_1se",5,1,"SIDM01138",-2.798807,"Overall",0.141712186885649
+"features_500_ln_ic50_1se",5,1,"SIDM01139",0.347126,"Overall",0.413604276446537
+"features_500_ln_ic50_1se",5,1,"SIDM00130",-3.444133,"Pretrained",0.124978419224984
+"features_500_ln_ic50_1se",5,1,"SIDM00571",4.491236,"Pretrained",0.454224145146687
+"features_500_ln_ic50_1se",5,1,"SIDM00583",-0.632883,"Pretrained",-0.203465801992297
+"features_500_ln_ic50_1se",5,1,"SIDM00664",3.528073,"Pretrained",0.319828946574216
+"features_500_ln_ic50_1se",5,1,"SIDM01138",-2.798807,"Pretrained",0.158824864105137
+"features_500_ln_ic50_1se",5,1,"SIDM01139",0.347126,"Pretrained",0.376338535753848
+"features_500_ln_ic50_1se",5,1,"SIDM00130",-3.444133,"Target mean",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00571",4.491236,"Target mean",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00583",-0.632883,"Target mean",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM00664",3.528073,"Target mean",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM01138",-2.798807,"Target mean",0.151795458333333
+"features_500_ln_ic50_1se",5,1,"SIDM01139",0.347126,"Target mean",0.151795458333333
+"features_500_ln_ic50_1se",5,2,"SIDM00132",-0.677032,"Individual",-0.114248843675774
+"features_500_ln_ic50_1se",5,2,"SIDM00411",-1.091093,"Individual",-0.701338301412756
+"features_500_ln_ic50_1se",5,2,"SIDM00455",1.487982,"Individual",0.730569513871361
+"features_500_ln_ic50_1se",5,2,"SIDM00505",-1.731407,"Individual",0.382745575857881
+"features_500_ln_ic50_1se",5,2,"SIDM01136",4.170801,"Individual",0.136173249094716
+"features_500_ln_ic50_1se",5,2,"SIDM01165",1.494867,"Individual",-0.336840683169404
+"features_500_ln_ic50_1se",5,2,"SIDM00132",-0.677032,"Overall",-0.132371510047761
+"features_500_ln_ic50_1se",5,2,"SIDM00411",-1.091093,"Overall",-0.335452011190697
+"features_500_ln_ic50_1se",5,2,"SIDM00455",1.487982,"Overall",0.492060640946956
+"features_500_ln_ic50_1se",5,2,"SIDM00505",-1.731407,"Overall",0.334871785327314
+"features_500_ln_ic50_1se",5,2,"SIDM01136",4.170801,"Overall",-0.328805950411847
+"features_500_ln_ic50_1se",5,2,"SIDM01165",1.494867,"Overall",-0.49991617992091
+"features_500_ln_ic50_1se",5,2,"SIDM00132",-0.677032,"Pretrained",-0.0345668719651224
+"features_500_ln_ic50_1se",5,2,"SIDM00411",-1.091093,"Pretrained",-0.13610712253659
+"features_500_ln_ic50_1se",5,2,"SIDM00455",1.487982,"Pretrained",0.277649203532236
+"features_500_ln_ic50_1se",5,2,"SIDM00505",-1.731407,"Pretrained",0.199054775722415
+"features_500_ln_ic50_1se",5,2,"SIDM01136",4.170801,"Pretrained",-0.132784092147165
+"features_500_ln_ic50_1se",5,2,"SIDM01165",1.494867,"Pretrained",-0.218339206901697
+"features_500_ln_ic50_1se",5,2,"SIDM00132",-0.677032,"Target mean",0.061649375
+"features_500_ln_ic50_1se",5,2,"SIDM00411",-1.091093,"Target mean",0.061649375
+"features_500_ln_ic50_1se",5,2,"SIDM00455",1.487982,"Target mean",0.061649375
+"features_500_ln_ic50_1se",5,2,"SIDM00505",-1.731407,"Target mean",0.061649375
+"features_500_ln_ic50_1se",5,2,"SIDM01136",4.170801,"Target mean",0.061649375
+"features_500_ln_ic50_1se",5,2,"SIDM01165",1.494867,"Target mean",0.061649375
+"features_500_ln_ic50_1se",5,3,"SIDM00053",0.454287,"Individual",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00531",-3.02061,"Individual",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00533",1.084742,"Individual",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00582",2.615533,"Individual",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00950",-2.543222,"Individual",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM01137",1.334767,"Individual",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00053",0.454287,"Overall",0.031486466318131
+"features_500_ln_ic50_1se",5,3,"SIDM00531",-3.02061,"Overall",-0.0738960158788461
+"features_500_ln_ic50_1se",5,3,"SIDM00533",1.084742,"Overall",0.440659606530724
+"features_500_ln_ic50_1se",5,3,"SIDM00582",2.615533,"Overall",1.56097666432086
+"features_500_ln_ic50_1se",5,3,"SIDM00950",-2.543222,"Overall",-0.676865055026354
+"features_500_ln_ic50_1se",5,3,"SIDM01137",1.334767,"Overall",0.501012791841407
+"features_500_ln_ic50_1se",5,3,"SIDM00053",0.454287,"Pretrained",0.0916340577965987
+"features_500_ln_ic50_1se",5,3,"SIDM00531",-3.02061,"Pretrained",0.00732807203901695
+"features_500_ln_ic50_1se",5,3,"SIDM00533",1.084742,"Pretrained",0.418972569966673
+"features_500_ln_ic50_1se",5,3,"SIDM00582",2.615533,"Pretrained",1.31522621619878
+"features_500_ln_ic50_1se",5,3,"SIDM00950",-2.543222,"Pretrained",-0.47504715927899
+"features_500_ln_ic50_1se",5,3,"SIDM01137",1.334767,"Pretrained",0.467255118215219
+"features_500_ln_ic50_1se",5,3,"SIDM00053",0.454287,"Target mean",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00531",-3.02061,"Target mean",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00533",1.084742,"Target mean",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00582",2.615533,"Target mean",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM00950",-2.543222,"Target mean",0.217008583333333
+"features_500_ln_ic50_1se",5,3,"SIDM01137",1.334767,"Target mean",0.217008583333333
+"features_500_ln_ic50_1se",5,4,"SIDM00301",-3.240813,"Individual",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00371",-1.782267,"Individual",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00453",-1.388208,"Individual",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00669",0.976248,"Individual",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00670",0.099097,"Individual",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00899",3.809457,"Individual",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00301",-3.240813,"Overall",-0.414819650452739
+"features_500_ln_ic50_1se",5,4,"SIDM00371",-1.782267,"Overall",-0.412914424049129
+"features_500_ln_ic50_1se",5,4,"SIDM00453",-1.388208,"Overall",0.331007170020174
+"features_500_ln_ic50_1se",5,4,"SIDM00669",0.976248,"Overall",0.944076131021127
+"features_500_ln_ic50_1se",5,4,"SIDM00670",0.099097,"Overall",0.649928579833635
+"features_500_ln_ic50_1se",5,4,"SIDM00899",3.809457,"Overall",0.601188818537758
+"features_500_ln_ic50_1se",5,4,"SIDM00301",-3.240813,"Pretrained",-0.223874092064488
+"features_500_ln_ic50_1se",5,4,"SIDM00371",-1.782267,"Pretrained",-0.222730956222322
+"features_500_ln_ic50_1se",5,4,"SIDM00453",-1.388208,"Pretrained",0.22362200021926
+"features_500_ln_ic50_1se",5,4,"SIDM00669",0.976248,"Pretrained",0.591463376819832
+"features_500_ln_ic50_1se",5,4,"SIDM00670",0.099097,"Pretrained",0.414974846107337
+"features_500_ln_ic50_1se",5,4,"SIDM00899",3.809457,"Pretrained",0.38573098932981
+"features_500_ln_ic50_1se",5,4,"SIDM00301",-3.240813,"Target mean",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00371",-1.782267,"Target mean",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00453",-1.388208,"Target mean",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00669",0.976248,"Target mean",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00670",0.099097,"Target mean",0.277507875
+"features_500_ln_ic50_1se",5,4,"SIDM00899",3.809457,"Target mean",0.277507875
+"features_500_ln_ic50_1se",5,5,"SIDM00042",-0.517255,"Individual",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00469",-3.830996,"Individual",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00934",-1.649507,"Individual",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00943",5.49598,"Individual",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM01135",-0.271417,"Individual",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM01188",2.363157,"Individual",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00042",-0.517255,"Overall",0.226447811262029
+"features_500_ln_ic50_1se",5,5,"SIDM00469",-3.830996,"Overall",0.105847042163634
+"features_500_ln_ic50_1se",5,5,"SIDM00934",-1.649507,"Overall",0.0436897291268867
+"features_500_ln_ic50_1se",5,5,"SIDM00943",5.49598,"Overall",0.235606160738985
+"features_500_ln_ic50_1se",5,5,"SIDM01135",-0.271417,"Overall",0.0434562766839598
+"features_500_ln_ic50_1se",5,5,"SIDM01188",2.363157,"Overall",0.053253384855806
+"features_500_ln_ic50_1se",5,5,"SIDM00042",-0.517255,"Pretrained",0.702877319224058
+"features_500_ln_ic50_1se",5,5,"SIDM00469",-3.830996,"Pretrained",-0.142699057034406
+"features_500_ln_ic50_1se",5,5,"SIDM00934",-1.649507,"Pretrained",-0.57850685418613
+"features_500_ln_ic50_1se",5,5,"SIDM00943",5.49598,"Pretrained",0.767089877909439
+"features_500_ln_ic50_1se",5,5,"SIDM01135",-0.271417,"Pretrained",-0.580143675179848
+"features_500_ln_ic50_1se",5,5,"SIDM01188",2.363157,"Pretrained",-0.51145254420536
+"features_500_ln_ic50_1se",5,5,"SIDM00042",-0.517255,"Target mean",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00469",-3.830996,"Target mean",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00934",-1.649507,"Target mean",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM00943",5.49598,"Target mean",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM01135",-0.271417,"Target mean",0.147655875
+"features_500_ln_ic50_1se",5,5,"SIDM01188",2.363157,"Target mean",0.147655875
+"features_500_ln_ic50_1se",6,1,"SIDM00042",-0.517255,"Individual",-0.0393844166666666
+"features_500_ln_ic50_1se",6,1,"SIDM00453",-1.388208,"Individual",-0.0393844166666666
+"features_500_ln_ic50_1se",6,1,"SIDM00505",-1.731407,"Individual",-0.0393844166666666
+"features_500_ln_ic50_1se",6,1,"SIDM00571",4.491236,"Individual",-0.0393844166666666
+"features_500_ln_ic50_1se",6,1,"SIDM00943",5.49598,"Individual",-0.0393844166666666
+"features_500_ln_ic50_1se",6,1,"SIDM01135",-0.271417,"Individual",-0.0393844166666666
+"features_500_ln_ic50_1se",6,1,"SIDM00042",-0.517255,"Overall",0.374825413386564
+"features_500_ln_ic50_1se",6,1,"SIDM00453",-1.388208,"Overall",0.0978776918292742
+"features_500_ln_ic50_1se",6,1,"SIDM00505",-1.731407,"Overall",0.267584910132948
+"features_500_ln_ic50_1se",6,1,"SIDM00571",4.491236,"Overall",0.606609643854413
+"features_500_ln_ic50_1se",6,1,"SIDM00943",5.49598,"Overall",0.512953491454081
+"features_500_ln_ic50_1se",6,1,"SIDM01135",-0.271417,"Overall",-0.362838278794123
+"features_500_ln_ic50_1se",6,1,"SIDM00042",-0.517255,"Pretrained",0.313868617733004
+"features_500_ln_ic50_1se",6,1,"SIDM00453",-1.388208,"Pretrained",0.0369208961757134
+"features_500_ln_ic50_1se",6,1,"SIDM00505",-1.731407,"Pretrained",0.206628114479388
+"features_500_ln_ic50_1se",6,1,"SIDM00571",4.491236,"Pretrained",0.545652848200852
+"features_500_ln_ic50_1se",6,1,"SIDM00943",5.49598,"Pretrained",0.45199669580052
+"features_500_ln_ic50_1se",6,1,"SIDM01135",-0.271417,"Pretrained",-0.423795074447684
+"features_500_ln_ic50_1se",6,1,"SIDM00042",-0.517255,"Target mean",-0.0393844166666667
+"features_500_ln_ic50_1se",6,1,"SIDM00453",-1.388208,"Target mean",-0.0393844166666667
+"features_500_ln_ic50_1se",6,1,"SIDM00505",-1.731407,"Target mean",-0.0393844166666667
+"features_500_ln_ic50_1se",6,1,"SIDM00571",4.491236,"Target mean",-0.0393844166666667
+"features_500_ln_ic50_1se",6,1,"SIDM00943",5.49598,"Target mean",-0.0393844166666667
+"features_500_ln_ic50_1se",6,1,"SIDM01135",-0.271417,"Target mean",-0.0393844166666667
+"features_500_ln_ic50_1se",6,2,"SIDM00371",-1.782267,"Individual",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00582",2.615533,"Individual",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00664",3.528073,"Individual",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00899",3.809457,"Individual",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM01136",4.170801,"Individual",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM01139",0.347126,"Individual",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00371",-1.782267,"Overall",-0.353058652045949
+"features_500_ln_ic50_1se",6,2,"SIDM00582",2.615533,"Overall",-0.261676251785404
+"features_500_ln_ic50_1se",6,2,"SIDM00664",3.528073,"Overall",-0.262378397190142
+"features_500_ln_ic50_1se",6,2,"SIDM00899",3.809457,"Overall",-0.265679748283043
+"features_500_ln_ic50_1se",6,2,"SIDM01136",4.170801,"Overall",-0.292703222745915
+"features_500_ln_ic50_1se",6,2,"SIDM01139",0.347126,"Overall",-0.267511916016119
+"features_500_ln_ic50_1se",6,2,"SIDM00371",-1.782267,"Pretrained",-0.693524762310417
+"features_500_ln_ic50_1se",6,2,"SIDM00582",2.615533,"Pretrained",0.185778707539215
+"features_500_ln_ic50_1se",6,2,"SIDM00664",3.528073,"Pretrained",0.179022495303984
+"features_500_ln_ic50_1se",6,2,"SIDM00899",3.809457,"Pretrained",0.147256099773741
+"features_500_ln_ic50_1se",6,2,"SIDM01136",4.170801,"Pretrained",-0.112770281617509
+"features_500_ln_ic50_1se",6,2,"SIDM01139",0.347126,"Pretrained",0.129626540466398
+"features_500_ln_ic50_1se",6,2,"SIDM00371",-1.782267,"Target mean",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00582",2.615533,"Target mean",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00664",3.528073,"Target mean",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM00899",3.809457,"Target mean",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM01136",4.170801,"Target mean",-0.3147925
+"features_500_ln_ic50_1se",6,2,"SIDM01139",0.347126,"Target mean",-0.3147925
+"features_500_ln_ic50_1se",6,3,"SIDM00053",0.454287,"Individual",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00301",-3.240813,"Individual",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00531",-3.02061,"Individual",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00583",-0.632883,"Individual",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00934",-1.649507,"Individual",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM01188",2.363157,"Individual",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00053",0.454287,"Overall",0.553479851777011
+"features_500_ln_ic50_1se",6,3,"SIDM00301",-3.240813,"Overall",-0.277037672068369
+"features_500_ln_ic50_1se",6,3,"SIDM00531",-3.02061,"Overall",0.11912753557797
+"features_500_ln_ic50_1se",6,3,"SIDM00583",-0.632883,"Overall",-0.20449396126866
+"features_500_ln_ic50_1se",6,3,"SIDM00934",-1.649507,"Overall",-0.221072242408561
+"features_500_ln_ic50_1se",6,3,"SIDM01188",2.363157,"Overall",0.0672962932924052
+"features_500_ln_ic50_1se",6,3,"SIDM00053",0.454287,"Pretrained",0.992656992531286
+"features_500_ln_ic50_1se",6,3,"SIDM00301",-3.240813,"Pretrained",-0.911708938497217
+"features_500_ln_ic50_1se",6,3,"SIDM00531",-3.02061,"Pretrained",-0.441747123640062
+"features_500_ln_ic50_1se",6,3,"SIDM00583",-0.632883,"Pretrained",-0.851764815330041
+"features_500_ln_ic50_1se",6,3,"SIDM00934",-1.649507,"Pretrained",-0.81778128351362
+"features_500_ln_ic50_1se",6,3,"SIDM01188",2.363157,"Pretrained",-0.481687045687803
+"features_500_ln_ic50_1se",6,3,"SIDM00053",0.454287,"Target mean",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00301",-3.240813,"Target mean",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00531",-3.02061,"Target mean",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00583",-0.632883,"Target mean",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM00934",-1.649507,"Target mean",0.452503
+"features_500_ln_ic50_1se",6,3,"SIDM01188",2.363157,"Target mean",0.452503
+"features_500_ln_ic50_1se",6,4,"SIDM00130",-3.444133,"Individual",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00455",1.487982,"Individual",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00669",0.976248,"Individual",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00950",-2.543222,"Individual",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM01138",-2.798807,"Individual",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM01165",1.494867,"Individual",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00130",-3.444133,"Overall",1.02246888874179
+"features_500_ln_ic50_1se",6,4,"SIDM00455",1.487982,"Overall",0.959147977725948
+"features_500_ln_ic50_1se",6,4,"SIDM00669",0.976248,"Overall",2.23337551953923
+"features_500_ln_ic50_1se",6,4,"SIDM00950",-2.543222,"Overall",-0.808456506754845
+"features_500_ln_ic50_1se",6,4,"SIDM01138",-2.798807,"Overall",0.420419622682226
+"features_500_ln_ic50_1se",6,4,"SIDM01165",1.494867,"Overall",-0.336298491250981
+"features_500_ln_ic50_1se",6,4,"SIDM00130",-3.444133,"Pretrained",1.07035306479628
+"features_500_ln_ic50_1se",6,4,"SIDM00455",1.487982,"Pretrained",1.01336424488202
+"features_500_ln_ic50_1se",6,4,"SIDM00669",0.976248,"Pretrained",2.16016903251398
+"features_500_ln_ic50_1se",6,4,"SIDM00950",-2.543222,"Pretrained",-0.57747979115069
+"features_500_ln_ic50_1se",6,4,"SIDM01138",-2.798807,"Pretrained",0.528508725342674
+"features_500_ln_ic50_1se",6,4,"SIDM01165",1.494867,"Pretrained",-0.152537577197212
+"features_500_ln_ic50_1se",6,4,"SIDM00130",-3.444133,"Target mean",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00455",1.487982,"Target mean",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00669",0.976248,"Target mean",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM00950",-2.543222,"Target mean",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM01138",-2.798807,"Target mean",0.415032
+"features_500_ln_ic50_1se",6,4,"SIDM01165",1.494867,"Target mean",0.415032
+"features_500_ln_ic50_1se",6,5,"SIDM00132",-0.677032,"Individual",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00411",-1.091093,"Individual",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00469",-3.830996,"Individual",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00533",1.084742,"Individual",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00670",0.099097,"Individual",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM01137",1.334767,"Individual",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00132",-0.677032,"Overall",0.156148817463331
+"features_500_ln_ic50_1se",6,5,"SIDM00411",-1.091093,"Overall",-0.0154764157797816
+"features_500_ln_ic50_1se",6,5,"SIDM00469",-3.830996,"Overall",-0.0523986994596749
+"features_500_ln_ic50_1se",6,5,"SIDM00533",1.084742,"Overall",0.596762820323286
+"features_500_ln_ic50_1se",6,5,"SIDM00670",0.099097,"Overall",0.728052195024768
+"features_500_ln_ic50_1se",6,5,"SIDM01137",1.334767,"Overall",0.40607779539123
+"features_500_ln_ic50_1se",6,5,"SIDM00132",-0.677032,"Pretrained",0.231995777970696
+"features_500_ln_ic50_1se",6,5,"SIDM00411",-1.091093,"Pretrained",0.129020638024829
+"features_500_ln_ic50_1se",6,5,"SIDM00469",-3.830996,"Pretrained",0.106867267816893
+"features_500_ln_ic50_1se",6,5,"SIDM00533",1.084742,"Pretrained",0.496364179686669
+"features_500_ln_ic50_1se",6,5,"SIDM00670",0.099097,"Pretrained",0.575137804507558
+"features_500_ln_ic50_1se",6,5,"SIDM01137",1.334767,"Pretrained",0.381953164727435
+"features_500_ln_ic50_1se",6,5,"SIDM00132",-0.677032,"Target mean",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00411",-1.091093,"Target mean",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00469",-3.830996,"Target mean",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00533",1.084742,"Target mean",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM00670",0.099097,"Target mean",0.342259083333333
+"features_500_ln_ic50_1se",6,5,"SIDM01137",1.334767,"Target mean",0.342259083333333
+"features_500_ln_ic50_1se",7,1,"SIDM00132",-0.677032,"Individual",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00411",-1.091093,"Individual",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00505",-1.731407,"Individual",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00533",1.084742,"Individual",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00664",3.528073,"Individual",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM01137",1.334767,"Individual",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00132",-0.677032,"Overall",-0.0400234293402413
+"features_500_ln_ic50_1se",7,1,"SIDM00411",-1.091093,"Overall",-0.248749754409968
+"features_500_ln_ic50_1se",7,1,"SIDM00505",-1.731407,"Overall",0.408760210156524
+"features_500_ln_ic50_1se",7,1,"SIDM00533",1.084742,"Overall",0.205024418251819
+"features_500_ln_ic50_1se",7,1,"SIDM00664",3.528073,"Overall",0.342348600019935
+"features_500_ln_ic50_1se",7,1,"SIDM01137",1.334767,"Overall",0.0711902867141532
+"features_500_ln_ic50_1se",7,1,"SIDM00132",-0.677032,"Pretrained",0.0717698310092459
+"features_500_ln_ic50_1se",7,1,"SIDM00411",-1.091093,"Pretrained",0.0300245659953006
+"features_500_ln_ic50_1se",7,1,"SIDM00505",-1.731407,"Pretrained",0.161526558908599
+"features_500_ln_ic50_1se",7,1,"SIDM00533",1.084742,"Pretrained",0.120779400527658
+"features_500_ln_ic50_1se",7,1,"SIDM00664",3.528073,"Pretrained",0.148244236881281
+"features_500_ln_ic50_1se",7,1,"SIDM01137",1.334767,"Pretrained",0.0940125742201248
+"features_500_ln_ic50_1se",7,1,"SIDM00132",-0.677032,"Target mean",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00411",-1.091093,"Target mean",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00505",-1.731407,"Target mean",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00533",1.084742,"Target mean",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM00664",3.528073,"Target mean",0.111902208333333
+"features_500_ln_ic50_1se",7,1,"SIDM01137",1.334767,"Target mean",0.111902208333333
+"features_500_ln_ic50_1se",7,2,"SIDM00469",-3.830996,"Individual",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM00531",-3.02061,"Individual",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01135",-0.271417,"Individual",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01138",-2.798807,"Individual",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01139",0.347126,"Individual",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01165",1.494867,"Individual",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM00469",-3.830996,"Overall",0.404830701739167
+"features_500_ln_ic50_1se",7,2,"SIDM00531",-3.02061,"Overall",0.308777918082316
+"features_500_ln_ic50_1se",7,2,"SIDM01135",-0.271417,"Overall",0.35284124954778
+"features_500_ln_ic50_1se",7,2,"SIDM01138",-2.798807,"Overall",0.375765709860681
+"features_500_ln_ic50_1se",7,2,"SIDM01139",0.347126,"Overall",0.71540078914089
+"features_500_ln_ic50_1se",7,2,"SIDM01165",1.494867,"Overall",0.285161962358488
+"features_500_ln_ic50_1se",7,2,"SIDM00469",-3.830996,"Pretrained",0.395143080231511
+"features_500_ln_ic50_1se",7,2,"SIDM00531",-3.02061,"Pretrained",0.308695574940345
+"features_500_ln_ic50_1se",7,2,"SIDM01135",-0.271417,"Pretrained",0.348352573259262
+"features_500_ln_ic50_1se",7,2,"SIDM01138",-2.798807,"Pretrained",0.368984587540873
+"features_500_ln_ic50_1se",7,2,"SIDM01139",0.347126,"Pretrained",0.674656158893061
+"features_500_ln_ic50_1se",7,2,"SIDM01165",1.494867,"Pretrained",0.287441214788899
+"features_500_ln_ic50_1se",7,2,"SIDM00469",-3.830996,"Target mean",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM00531",-3.02061,"Target mean",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01135",-0.271417,"Target mean",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01138",-2.798807,"Target mean",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01139",0.347126,"Target mean",0.550564166666667
+"features_500_ln_ic50_1se",7,2,"SIDM01165",1.494867,"Target mean",0.550564166666667
+"features_500_ln_ic50_1se",7,3,"SIDM00042",-0.517255,"Individual",-0.0907496957037935
+"features_500_ln_ic50_1se",7,3,"SIDM00455",1.487982,"Individual",3.4573453392096
+"features_500_ln_ic50_1se",7,3,"SIDM00582",2.615533,"Individual",-0.874365342931421
+"features_500_ln_ic50_1se",7,3,"SIDM00669",0.976248,"Individual",3.93902513081358
+"features_500_ln_ic50_1se",7,3,"SIDM00950",-2.543222,"Individual",2.33165924926306
+"features_500_ln_ic50_1se",7,3,"SIDM01188",2.363157,"Individual",-3.06909132553822
+"features_500_ln_ic50_1se",7,3,"SIDM00042",-0.517255,"Overall",0.317100459618031
+"features_500_ln_ic50_1se",7,3,"SIDM00455",1.487982,"Overall",0.413425207755881
+"features_500_ln_ic50_1se",7,3,"SIDM00582",2.615533,"Overall",0.447075220524194
+"features_500_ln_ic50_1se",7,3,"SIDM00669",0.976248,"Overall",0.416961164053222
+"features_500_ln_ic50_1se",7,3,"SIDM00950",-2.543222,"Overall",-0.197730464207541
+"features_500_ln_ic50_1se",7,3,"SIDM01188",2.363157,"Overall",-0.258208961029123
+"features_500_ln_ic50_1se",7,3,"SIDM00042",-0.517255,"Pretrained",0.929421199587589
+"features_500_ln_ic50_1se",7,3,"SIDM00455",1.487982,"Pretrained",1.99951541076717
+"features_500_ln_ic50_1se",7,3,"SIDM00582",2.615533,"Pretrained",2.83038833923576
+"features_500_ln_ic50_1se",7,3,"SIDM00669",0.976248,"Pretrained",2.25091066571503
+"features_500_ln_ic50_1se",7,3,"SIDM00950",-2.543222,"Pretrained",-1.09473667598937
+"features_500_ln_ic50_1se",7,3,"SIDM01188",2.363157,"Pretrained",-0.977405711605166
+"features_500_ln_ic50_1se",7,3,"SIDM00042",-0.517255,"Target mean",0.0313025
+"features_500_ln_ic50_1se",7,3,"SIDM00455",1.487982,"Target mean",0.0313025
+"features_500_ln_ic50_1se",7,3,"SIDM00582",2.615533,"Target mean",0.0313025
+"features_500_ln_ic50_1se",7,3,"SIDM00669",0.976248,"Target mean",0.0313025
+"features_500_ln_ic50_1se",7,3,"SIDM00950",-2.543222,"Target mean",0.0313025
+"features_500_ln_ic50_1se",7,3,"SIDM01188",2.363157,"Target mean",0.0313025
+"features_500_ln_ic50_1se",7,4,"SIDM00053",0.454287,"Individual",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00371",-1.782267,"Individual",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00453",-1.388208,"Individual",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00571",4.491236,"Individual",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00934",-1.649507,"Individual",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM01136",4.170801,"Individual",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00053",0.454287,"Overall",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00371",-1.782267,"Overall",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00453",-1.388208,"Overall",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00571",4.491236,"Overall",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00934",-1.649507,"Overall",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM01136",4.170801,"Overall",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00053",0.454287,"Pretrained",0.0384797100870086
+"features_500_ln_ic50_1se",7,4,"SIDM00371",-1.782267,"Pretrained",0.0384797100870086
+"features_500_ln_ic50_1se",7,4,"SIDM00453",-1.388208,"Pretrained",0.0384797100870086
+"features_500_ln_ic50_1se",7,4,"SIDM00571",4.491236,"Pretrained",0.0384797100870086
+"features_500_ln_ic50_1se",7,4,"SIDM00934",-1.649507,"Pretrained",0.0384797100870086
+"features_500_ln_ic50_1se",7,4,"SIDM01136",4.170801,"Pretrained",0.0384797100870086
+"features_500_ln_ic50_1se",7,4,"SIDM00053",0.454287,"Target mean",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00371",-1.782267,"Target mean",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00453",-1.388208,"Target mean",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00571",4.491236,"Target mean",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM00934",-1.649507,"Target mean",0.0348900416666667
+"features_500_ln_ic50_1se",7,4,"SIDM01136",4.170801,"Target mean",0.0348900416666667
+"features_500_ln_ic50_1se",7,5,"SIDM00130",-3.444133,"Individual",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00301",-3.240813,"Individual",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00583",-0.632883,"Individual",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00670",0.099097,"Individual",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00899",3.809457,"Individual",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00943",5.49598,"Individual",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00130",-3.444133,"Overall",-0.0212238621323708
+"features_500_ln_ic50_1se",7,5,"SIDM00301",-3.240813,"Overall",-0.229964055252161
+"features_500_ln_ic50_1se",7,5,"SIDM00583",-0.632883,"Overall",-0.197259664761501
+"features_500_ln_ic50_1se",7,5,"SIDM00670",0.099097,"Overall",0.352263894164308
+"features_500_ln_ic50_1se",7,5,"SIDM00899",3.809457,"Overall",0.341460112102457
+"features_500_ln_ic50_1se",7,5,"SIDM00943",5.49598,"Overall",0.386383410376548
+"features_500_ln_ic50_1se",7,5,"SIDM00130",-3.444133,"Pretrained",0.0968211874456623
+"features_500_ln_ic50_1se",7,5,"SIDM00301",-3.240813,"Pretrained",0.0550731488217042
+"features_500_ln_ic50_1se",7,5,"SIDM00583",-0.632883,"Pretrained",0.0616140269198362
+"features_500_ln_ic50_1se",7,5,"SIDM00670",0.099097,"Pretrained",0.171518738704998
+"features_500_ln_ic50_1se",7,5,"SIDM00899",3.809457,"Pretrained",0.169357982292628
+"features_500_ln_ic50_1se",7,5,"SIDM00943",5.49598,"Pretrained",0.178342641947446
+"features_500_ln_ic50_1se",7,5,"SIDM00130",-3.444133,"Target mean",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00301",-3.240813,"Target mean",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00583",-0.632883,"Target mean",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00670",0.099097,"Target mean",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00899",3.809457,"Target mean",0.12695825
+"features_500_ln_ic50_1se",7,5,"SIDM00943",5.49598,"Target mean",0.12695825
+"features_500_ln_ic50_1se",8,1,"SIDM00130",-3.444133,"Individual",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00453",-1.388208,"Individual",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00505",-1.731407,"Individual",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00583",-0.632883,"Individual",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM01138",-2.798807,"Individual",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM01188",2.363157,"Individual",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00130",-3.444133,"Overall",0.326245664876881
+"features_500_ln_ic50_1se",8,1,"SIDM00453",-1.388208,"Overall",0.661591953281582
+"features_500_ln_ic50_1se",8,1,"SIDM00505",-1.731407,"Overall",0.903417120024471
+"features_500_ln_ic50_1se",8,1,"SIDM00583",-0.632883,"Overall",0.0706422001216914
+"features_500_ln_ic50_1se",8,1,"SIDM01138",-2.798807,"Overall",0.395680799509963
+"features_500_ln_ic50_1se",8,1,"SIDM01188",2.363157,"Overall",0.135904682527666
+"features_500_ln_ic50_1se",8,1,"SIDM00130",-3.444133,"Pretrained",-0.0850290571196307
+"features_500_ln_ic50_1se",8,1,"SIDM00453",-1.388208,"Pretrained",1.08687326157607
+"features_500_ln_ic50_1se",8,1,"SIDM00505",-1.731407,"Pretrained",1.33467754648693
+"features_500_ln_ic50_1se",8,1,"SIDM00583",-0.632883,"Pretrained",-0.447139114449865
+"features_500_ln_ic50_1se",8,1,"SIDM01138",-2.798807,"Pretrained",-0.126878197904407
+"features_500_ln_ic50_1se",8,1,"SIDM01188",2.363157,"Pretrained",-0.281390452162299
+"features_500_ln_ic50_1se",8,1,"SIDM00130",-3.444133,"Target mean",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00453",-1.388208,"Target mean",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00505",-1.731407,"Target mean",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM00583",-0.632883,"Target mean",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM01138",-2.798807,"Target mean",0.531916
+"features_500_ln_ic50_1se",8,1,"SIDM01188",2.363157,"Target mean",0.531916
+"features_500_ln_ic50_1se",8,2,"SIDM00301",-3.240813,"Individual",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00371",-1.782267,"Individual",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00411",-1.091093,"Individual",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00571",4.491236,"Individual",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00943",5.49598,"Individual",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM01139",0.347126,"Individual",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00301",-3.240813,"Overall",-0.765232506990062
+"features_500_ln_ic50_1se",8,2,"SIDM00371",-1.782267,"Overall",-0.70470177816745
+"features_500_ln_ic50_1se",8,2,"SIDM00411",-1.091093,"Overall",0.110843533326376
+"features_500_ln_ic50_1se",8,2,"SIDM00571",4.491236,"Overall",0.566280831344351
+"features_500_ln_ic50_1se",8,2,"SIDM00943",5.49598,"Overall",0.699340946869787
+"features_500_ln_ic50_1se",8,2,"SIDM01139",0.347126,"Overall",0.392991662804672
+"features_500_ln_ic50_1se",8,2,"SIDM00301",-3.240813,"Pretrained",-0.100196065478455
+"features_500_ln_ic50_1se",8,2,"SIDM00371",-1.782267,"Pretrained",-0.0880899197139323
+"features_500_ln_ic50_1se",8,2,"SIDM00411",-1.091093,"Pretrained",0.0750191425848329
+"features_500_ln_ic50_1se",8,2,"SIDM00571",4.491236,"Pretrained",0.166106602188428
+"features_500_ln_ic50_1se",8,2,"SIDM00943",5.49598,"Pretrained",0.192718625293515
+"features_500_ln_ic50_1se",8,2,"SIDM01139",0.347126,"Pretrained",0.131448768480492
+"features_500_ln_ic50_1se",8,2,"SIDM00301",-3.240813,"Target mean",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00371",-1.782267,"Target mean",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00411",-1.091093,"Target mean",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00571",4.491236,"Target mean",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM00943",5.49598,"Target mean",0.0380639166666667
+"features_500_ln_ic50_1se",8,2,"SIDM01139",0.347126,"Target mean",0.0380639166666667
+"features_500_ln_ic50_1se",8,3,"SIDM00042",-0.517255,"Individual",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00053",0.454287,"Individual",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00533",1.084742,"Individual",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00664",3.528073,"Individual",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00669",0.976248,"Individual",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00899",3.809457,"Individual",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00042",-0.517255,"Overall",0.327206801453483
+"features_500_ln_ic50_1se",8,3,"SIDM00053",0.454287,"Overall",-0.346820306326247
+"features_500_ln_ic50_1se",8,3,"SIDM00533",1.084742,"Overall",0.297023198286593
+"features_500_ln_ic50_1se",8,3,"SIDM00664",3.528073,"Overall",0.429897240535787
+"features_500_ln_ic50_1se",8,3,"SIDM00669",0.976248,"Overall",1.24800369651416
+"features_500_ln_ic50_1se",8,3,"SIDM00899",3.809457,"Overall",0.496313239374018
+"features_500_ln_ic50_1se",8,3,"SIDM00042",-0.517255,"Pretrained",0.284042413523719
+"features_500_ln_ic50_1se",8,3,"SIDM00053",0.454287,"Pretrained",-0.187776561922092
+"features_500_ln_ic50_1se",8,3,"SIDM00533",1.084742,"Pretrained",0.262913891306896
+"features_500_ln_ic50_1se",8,3,"SIDM00664",3.528073,"Pretrained",0.355925720881332
+"features_500_ln_ic50_1se",8,3,"SIDM00669",0.976248,"Pretrained",0.928600240066196
+"features_500_ln_ic50_1se",8,3,"SIDM00899",3.809457,"Pretrained",0.402416920068093
+"features_500_ln_ic50_1se",8,3,"SIDM00042",-0.517255,"Target mean",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00053",0.454287,"Target mean",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00533",1.084742,"Target mean",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00664",3.528073,"Target mean",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00669",0.976248,"Target mean",-0.175077041666667
+"features_500_ln_ic50_1se",8,3,"SIDM00899",3.809457,"Target mean",-0.175077041666667
+"features_500_ln_ic50_1se",8,4,"SIDM00132",-0.677032,"Individual",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00469",-3.830996,"Individual",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00531",-3.02061,"Individual",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00670",0.099097,"Individual",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00950",-2.543222,"Individual",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM01137",1.334767,"Individual",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00132",-0.677032,"Overall",0.414873892137904
+"features_500_ln_ic50_1se",8,4,"SIDM00469",-3.830996,"Overall",0.129617050360685
+"features_500_ln_ic50_1se",8,4,"SIDM00531",-3.02061,"Overall",0.338511914006094
+"features_500_ln_ic50_1se",8,4,"SIDM00670",0.099097,"Overall",0.923482722350077
+"features_500_ln_ic50_1se",8,4,"SIDM00950",-2.543222,"Overall",0.0941632585540489
+"features_500_ln_ic50_1se",8,4,"SIDM01137",1.334767,"Overall",0.587530333437654
+"features_500_ln_ic50_1se",8,4,"SIDM00132",-0.677032,"Pretrained",0.355026181142086
+"features_500_ln_ic50_1se",8,4,"SIDM00469",-3.830996,"Pretrained",-0.488874259066903
+"features_500_ln_ic50_1se",8,4,"SIDM00531",-3.02061,"Pretrained",-0.249302780359006
+"features_500_ln_ic50_1se",8,4,"SIDM00670",0.099097,"Pretrained",1.63665578528254
+"features_500_ln_ic50_1se",8,4,"SIDM00950",-2.543222,"Pretrained",-0.48984410124238
+"features_500_ln_ic50_1se",8,4,"SIDM01137",1.334767,"Pretrained",0.52649522423146
+"features_500_ln_ic50_1se",8,4,"SIDM00132",-0.677032,"Target mean",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00469",-3.830996,"Target mean",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00531",-3.02061,"Target mean",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00670",0.099097,"Target mean",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM00950",-2.543222,"Target mean",0.573820791666667
+"features_500_ln_ic50_1se",8,4,"SIDM01137",1.334767,"Target mean",0.573820791666667
+"features_500_ln_ic50_1se",8,5,"SIDM00455",1.487982,"Individual",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM00582",2.615533,"Individual",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM00934",-1.649507,"Individual",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM01135",-0.271417,"Individual",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM01136",4.170801,"Individual",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM01165",1.494867,"Individual",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM00455",1.487982,"Overall",0.298984376935468
+"features_500_ln_ic50_1se",8,5,"SIDM00582",2.615533,"Overall",0.930462178538733
+"features_500_ln_ic50_1se",8,5,"SIDM00934",-1.649507,"Overall",-0.727600562536857
+"features_500_ln_ic50_1se",8,5,"SIDM01135",-0.271417,"Overall",-0.376101618394811
+"features_500_ln_ic50_1se",8,5,"SIDM01136",4.170801,"Overall",-0.283125185520374
+"features_500_ln_ic50_1se",8,5,"SIDM01165",1.494867,"Overall",-0.585389684995779
+"features_500_ln_ic50_1se",8,5,"SIDM00455",1.487982,"Pretrained",0.726933964712357
+"features_500_ln_ic50_1se",8,5,"SIDM00582",2.615533,"Pretrained",1.28671971572467
+"features_500_ln_ic50_1se",8,5,"SIDM00934",-1.649507,"Pretrained",-1.23188563751931
+"features_500_ln_ic50_1se",8,5,"SIDM01135",-0.271417,"Pretrained",-0.876029139322228
+"features_500_ln_ic50_1se",8,5,"SIDM01136",4.170801,"Pretrained",-0.207999708908279
+"features_500_ln_ic50_1se",8,5,"SIDM01165",1.494867,"Pretrained",-0.865792029876068
+"features_500_ln_ic50_1se",8,5,"SIDM00455",1.487982,"Target mean",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM00582",2.615533,"Target mean",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM00934",-1.649507,"Target mean",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM01135",-0.271417,"Target mean",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM01136",4.170801,"Target mean",-0.1131065
+"features_500_ln_ic50_1se",8,5,"SIDM01165",1.494867,"Target mean",-0.1131065
+"features_500_ln_ic50_1se",9,1,"SIDM00371",-1.782267,"Individual",0.0268951249999999
+"features_500_ln_ic50_1se",9,1,"SIDM00533",1.084742,"Individual",0.0268951249999999
+"features_500_ln_ic50_1se",9,1,"SIDM00582",2.615533,"Individual",0.0268951249999999
+"features_500_ln_ic50_1se",9,1,"SIDM00669",0.976248,"Individual",0.0268951249999999
+"features_500_ln_ic50_1se",9,1,"SIDM00670",0.099097,"Individual",0.0268951249999999
+"features_500_ln_ic50_1se",9,1,"SIDM01165",1.494867,"Individual",0.0268951249999999
+"features_500_ln_ic50_1se",9,1,"SIDM00371",-1.782267,"Overall",-0.429549107980643
+"features_500_ln_ic50_1se",9,1,"SIDM00533",1.084742,"Overall",0.312637499820884
+"features_500_ln_ic50_1se",9,1,"SIDM00582",2.615533,"Overall",1.27567252524079
+"features_500_ln_ic50_1se",9,1,"SIDM00669",0.976248,"Overall",1.3361305345256
+"features_500_ln_ic50_1se",9,1,"SIDM00670",0.099097,"Overall",0.75240499834362
+"features_500_ln_ic50_1se",9,1,"SIDM01165",1.494867,"Overall",-0.616873406350367
+"features_500_ln_ic50_1se",9,1,"SIDM00371",-1.782267,"Pretrained",-0.302221861499994
+"features_500_ln_ic50_1se",9,1,"SIDM00533",1.084742,"Pretrained",0.195954012702709
+"features_500_ln_ic50_1se",9,1,"SIDM00582",2.615533,"Pretrained",0.656808589916072
+"features_500_ln_ic50_1se",9,1,"SIDM00669",0.976248,"Pretrained",0.674729176862991
+"features_500_ln_ic50_1se",9,1,"SIDM00670",0.099097,"Pretrained",0.437288889401528
+"features_500_ln_ic50_1se",9,1,"SIDM01165",1.494867,"Pretrained",-0.372782187863914
+"features_500_ln_ic50_1se",9,1,"SIDM00371",-1.782267,"Target mean",0.026895125
+"features_500_ln_ic50_1se",9,1,"SIDM00533",1.084742,"Target mean",0.026895125
+"features_500_ln_ic50_1se",9,1,"SIDM00582",2.615533,"Target mean",0.026895125
+"features_500_ln_ic50_1se",9,1,"SIDM00669",0.976248,"Target mean",0.026895125
+"features_500_ln_ic50_1se",9,1,"SIDM00670",0.099097,"Target mean",0.026895125
+"features_500_ln_ic50_1se",9,1,"SIDM01165",1.494867,"Target mean",0.026895125
+"features_500_ln_ic50_1se",9,2,"SIDM00130",-3.444133,"Individual",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00132",-0.677032,"Individual",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00301",-3.240813,"Individual",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00664",3.528073,"Individual",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM01139",0.347126,"Individual",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM01188",2.363157,"Individual",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00130",-3.444133,"Overall",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00132",-0.677032,"Overall",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00301",-3.240813,"Overall",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00664",3.528073,"Overall",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM01139",0.347126,"Overall",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM01188",2.363157,"Overall",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00130",-3.444133,"Pretrained",0.261950011906511
+"features_500_ln_ic50_1se",9,2,"SIDM00132",-0.677032,"Pretrained",0.261950011906511
+"features_500_ln_ic50_1se",9,2,"SIDM00301",-3.240813,"Pretrained",0.261950011906511
+"features_500_ln_ic50_1se",9,2,"SIDM00664",3.528073,"Pretrained",0.261950011906511
+"features_500_ln_ic50_1se",9,2,"SIDM01139",0.347126,"Pretrained",0.261950011906511
+"features_500_ln_ic50_1se",9,2,"SIDM01188",2.363157,"Pretrained",0.261950011906511
+"features_500_ln_ic50_1se",9,2,"SIDM00130",-3.444133,"Target mean",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00132",-0.677032,"Target mean",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00301",-3.240813,"Target mean",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM00664",3.528073,"Target mean",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM01139",0.347126,"Target mean",0.260721875
+"features_500_ln_ic50_1se",9,2,"SIDM01188",2.363157,"Target mean",0.260721875
+"features_500_ln_ic50_1se",9,3,"SIDM00505",-1.731407,"Individual",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00531",-3.02061,"Individual",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00934",-1.649507,"Individual",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00943",5.49598,"Individual",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00950",-2.543222,"Individual",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM01138",-2.798807,"Individual",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00505",-1.731407,"Overall",0.694519701432334
+"features_500_ln_ic50_1se",9,3,"SIDM00531",-3.02061,"Overall",0.228404036471888
+"features_500_ln_ic50_1se",9,3,"SIDM00934",-1.649507,"Overall",-0.180836643359171
+"features_500_ln_ic50_1se",9,3,"SIDM00943",5.49598,"Overall",0.908932058555409
+"features_500_ln_ic50_1se",9,3,"SIDM00950",-2.543222,"Overall",0.00883120524756935
+"features_500_ln_ic50_1se",9,3,"SIDM01138",-2.798807,"Overall",0.228348638733364
+"features_500_ln_ic50_1se",9,3,"SIDM00505",-1.731407,"Pretrained",0.507461948985678
+"features_500_ln_ic50_1se",9,3,"SIDM00531",-3.02061,"Pretrained",0.3210156830015
+"features_500_ln_ic50_1se",9,3,"SIDM00934",-1.649507,"Pretrained",0.157319411069076
+"features_500_ln_ic50_1se",9,3,"SIDM00943",5.49598,"Pretrained",0.593226891834908
+"features_500_ln_ic50_1se",9,3,"SIDM00950",-2.543222,"Pretrained",0.233186550511772
+"features_500_ln_ic50_1se",9,3,"SIDM01138",-2.798807,"Pretrained",0.32099352390609
+"features_500_ln_ic50_1se",9,3,"SIDM00505",-1.731407,"Target mean",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00531",-3.02061,"Target mean",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00934",-1.649507,"Target mean",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00943",5.49598,"Target mean",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM00950",-2.543222,"Target mean",0.474219833333333
+"features_500_ln_ic50_1se",9,3,"SIDM01138",-2.798807,"Target mean",0.474219833333333
+"features_500_ln_ic50_1se",9,4,"SIDM00042",-0.517255,"Individual",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00411",-1.091093,"Individual",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00455",1.487982,"Individual",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00571",4.491236,"Individual",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM01136",4.170801,"Individual",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM01137",1.334767,"Individual",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00042",-0.517255,"Overall",0.0153526013013048
+"features_500_ln_ic50_1se",9,4,"SIDM00411",-1.091093,"Overall",-0.455701365519465
+"features_500_ln_ic50_1se",9,4,"SIDM00455",1.487982,"Overall",0.0673868606704555
+"features_500_ln_ic50_1se",9,4,"SIDM00571",4.491236,"Overall",-0.00813977945103144
+"features_500_ln_ic50_1se",9,4,"SIDM01136",4.170801,"Overall",-0.109343180383299
+"features_500_ln_ic50_1se",9,4,"SIDM01137",1.334767,"Overall",-0.310149006578299
+"features_500_ln_ic50_1se",9,4,"SIDM00042",-0.517255,"Pretrained",0.0118919887813633
+"features_500_ln_ic50_1se",9,4,"SIDM00411",-1.091093,"Pretrained",-0.41205658135733
+"features_500_ln_ic50_1se",9,4,"SIDM00455",1.487982,"Pretrained",0.0587228222135989
+"features_500_ln_ic50_1se",9,4,"SIDM00571",4.491236,"Pretrained",-0.00925115389573931
+"features_500_ln_ic50_1se",9,4,"SIDM01136",4.170801,"Pretrained",-0.10033421473478
+"features_500_ln_ic50_1se",9,4,"SIDM01137",1.334767,"Pretrained",-0.28105945831028
+"features_500_ln_ic50_1se",9,4,"SIDM00042",-0.517255,"Target mean",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00411",-1.091093,"Target mean",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00455",1.487982,"Target mean",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM00571",4.491236,"Target mean",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM01136",4.170801,"Target mean",-0.197613958333333
+"features_500_ln_ic50_1se",9,4,"SIDM01137",1.334767,"Target mean",-0.197613958333333
+"features_500_ln_ic50_1se",9,5,"SIDM00053",0.454287,"Individual",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00453",-1.388208,"Individual",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00469",-3.830996,"Individual",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00583",-0.632883,"Individual",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00899",3.809457,"Individual",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM01135",-0.271417,"Individual",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00053",0.454287,"Overall",0.468344770770893
+"features_500_ln_ic50_1se",9,5,"SIDM00453",-1.388208,"Overall",0.374670784312148
+"features_500_ln_ic50_1se",9,5,"SIDM00469",-3.830996,"Overall",-0.0653386914673739
+"features_500_ln_ic50_1se",9,5,"SIDM00583",-0.632883,"Overall",-0.306569806826686
+"features_500_ln_ic50_1se",9,5,"SIDM00899",3.809457,"Overall",0.590786975676545
+"features_500_ln_ic50_1se",9,5,"SIDM01135",-0.271417,"Overall",-0.0263379027797767
+"features_500_ln_ic50_1se",9,5,"SIDM00053",0.454287,"Pretrained",0.970345888148129
+"features_500_ln_ic50_1se",9,5,"SIDM00453",-1.388208,"Pretrained",0.731196980525258
+"features_500_ln_ic50_1se",9,5,"SIDM00469",-3.830996,"Pretrained",-0.14722632466699
+"features_500_ln_ic50_1se",9,5,"SIDM00583",-0.632883,"Pretrained",-0.685928008728902
+"features_500_ln_ic50_1se",9,5,"SIDM00899",3.809457,"Pretrained",0.948382163864691
+"features_500_ln_ic50_1se",9,5,"SIDM01135",-0.271417,"Pretrained",-0.439123737966467
+"features_500_ln_ic50_1se",9,5,"SIDM00053",0.454287,"Target mean",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00453",-1.388208,"Target mean",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00469",-3.830996,"Target mean",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00583",-0.632883,"Target mean",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM00899",3.809457,"Target mean",0.291394291666667
+"features_500_ln_ic50_1se",9,5,"SIDM01135",-0.271417,"Target mean",0.291394291666667
+"features_500_ln_ic50_1se",10,1,"SIDM00042",-0.517255,"Individual",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM00455",1.487982,"Individual",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM00531",-3.02061,"Individual",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM01135",-0.271417,"Individual",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM01137",1.334767,"Individual",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM01188",2.363157,"Individual",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM00042",-0.517255,"Overall",0.597772057653174
+"features_500_ln_ic50_1se",10,1,"SIDM00455",1.487982,"Overall",0.623181819042437
+"features_500_ln_ic50_1se",10,1,"SIDM00531",-3.02061,"Overall",-0.0968870360320714
+"features_500_ln_ic50_1se",10,1,"SIDM01135",-0.271417,"Overall",-0.232817304926244
+"features_500_ln_ic50_1se",10,1,"SIDM01137",1.334767,"Overall",0.372042112835646
+"features_500_ln_ic50_1se",10,1,"SIDM01188",2.363157,"Overall",-0.125564483981295
+"features_500_ln_ic50_1se",10,1,"SIDM00042",-0.517255,"Pretrained",0.360285741560087
+"features_500_ln_ic50_1se",10,1,"SIDM00455",1.487982,"Pretrained",0.37807257453257
+"features_500_ln_ic50_1se",10,1,"SIDM00531",-3.02061,"Pretrained",-0.125975624019585
+"features_500_ln_ic50_1se",10,1,"SIDM01135",-0.271417,"Pretrained",-0.221126812245506
+"features_500_ln_ic50_1se",10,1,"SIDM01137",1.334767,"Pretrained",0.202274780187817
+"features_500_ln_ic50_1se",10,1,"SIDM01188",2.363157,"Pretrained",-0.146049837584042
+"features_500_ln_ic50_1se",10,1,"SIDM00042",-0.517255,"Target mean",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM00455",1.487982,"Target mean",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM00531",-3.02061,"Target mean",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM01135",-0.271417,"Target mean",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM01137",1.334767,"Target mean",0.156544958333333
+"features_500_ln_ic50_1se",10,1,"SIDM01188",2.363157,"Target mean",0.156544958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00053",0.454287,"Individual",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00132",-0.677032,"Individual",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00411",-1.091093,"Individual",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00533",1.084742,"Individual",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00583",-0.632883,"Individual",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM01165",1.494867,"Individual",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00053",0.454287,"Overall",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00132",-0.677032,"Overall",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00411",-1.091093,"Overall",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00533",1.084742,"Overall",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00583",-0.632883,"Overall",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM01165",1.494867,"Overall",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00053",0.454287,"Pretrained",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00132",-0.677032,"Pretrained",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00411",-1.091093,"Pretrained",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00533",1.084742,"Pretrained",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00583",-0.632883,"Pretrained",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM01165",1.494867,"Pretrained",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00053",0.454287,"Target mean",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00132",-0.677032,"Target mean",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00411",-1.091093,"Target mean",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00533",1.084742,"Target mean",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM00583",-0.632883,"Target mean",0.187533958333333
+"features_500_ln_ic50_1se",10,2,"SIDM01165",1.494867,"Target mean",0.187533958333333
+"features_500_ln_ic50_1se",10,3,"SIDM00130",-3.444133,"Individual",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00301",-3.240813,"Individual",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00371",-1.782267,"Individual",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00469",-3.830996,"Individual",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00571",4.491236,"Individual",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM01136",4.170801,"Individual",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00130",-3.444133,"Overall",0.267343638023575
+"features_500_ln_ic50_1se",10,3,"SIDM00301",-3.240813,"Overall",-0.28204651537013
+"features_500_ln_ic50_1se",10,3,"SIDM00371",-1.782267,"Overall",-0.278469570773746
+"features_500_ln_ic50_1se",10,3,"SIDM00469",-3.830996,"Overall",-0.0207237974233712
+"features_500_ln_ic50_1se",10,3,"SIDM00571",4.491236,"Overall",0.750981734239849
+"features_500_ln_ic50_1se",10,3,"SIDM01136",4.170801,"Overall",0.228988485920649
+"features_500_ln_ic50_1se",10,3,"SIDM00130",-3.444133,"Pretrained",0.352506605572418
+"features_500_ln_ic50_1se",10,3,"SIDM00301",-3.240813,"Pretrained",0.0228725135361953
+"features_500_ln_ic50_1se",10,3,"SIDM00371",-1.782267,"Pretrained",0.025018680294026
+"features_500_ln_ic50_1se",10,3,"SIDM00469",-3.830996,"Pretrained",0.179666144304251
+"features_500_ln_ic50_1se",10,3,"SIDM00571",4.491236,"Pretrained",0.642689463302183
+"features_500_ln_ic50_1se",10,3,"SIDM01136",4.170801,"Pretrained",0.329493514310663
+"features_500_ln_ic50_1se",10,3,"SIDM00130",-3.444133,"Target mean",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00301",-3.240813,"Target mean",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00371",-1.782267,"Target mean",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00469",-3.830996,"Target mean",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM00571",4.491236,"Target mean",0.365411458333333
+"features_500_ln_ic50_1se",10,3,"SIDM01136",4.170801,"Target mean",0.365411458333333
+"features_500_ln_ic50_1se",10,4,"SIDM00505",-1.731407,"Individual",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00669",0.976248,"Individual",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00670",0.099097,"Individual",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00934",-1.649507,"Individual",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00943",5.49598,"Individual",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00950",-2.543222,"Individual",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00505",-1.731407,"Overall",0.411430466496506
+"features_500_ln_ic50_1se",10,4,"SIDM00669",0.976248,"Overall",0.42068943613236
+"features_500_ln_ic50_1se",10,4,"SIDM00670",0.099097,"Overall",0.414459162666334
+"features_500_ln_ic50_1se",10,4,"SIDM00934",-1.649507,"Overall",-0.021303295279903
+"features_500_ln_ic50_1se",10,4,"SIDM00943",5.49598,"Overall",0.423918934619722
+"features_500_ln_ic50_1se",10,4,"SIDM00950",-2.543222,"Overall",0.0490566357798529
+"features_500_ln_ic50_1se",10,4,"SIDM00505",-1.731407,"Pretrained",0.444650975083031
+"features_500_ln_ic50_1se",10,4,"SIDM00669",0.976248,"Pretrained",0.456560039388618
+"features_500_ln_ic50_1se",10,4,"SIDM00670",0.099097,"Pretrained",0.448546542178197
+"features_500_ln_ic50_1se",10,4,"SIDM00934",-1.649507,"Pretrained",-0.111939487881449
+"features_500_ln_ic50_1se",10,4,"SIDM00943",5.49598,"Pretrained",0.460713882275398
+"features_500_ln_ic50_1se",10,4,"SIDM00950",-2.543222,"Pretrained",-0.0214411952547393
+"features_500_ln_ic50_1se",10,4,"SIDM00505",-1.731407,"Target mean",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00669",0.976248,"Target mean",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00670",0.099097,"Target mean",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00934",-1.649507,"Target mean",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00943",5.49598,"Target mean",0.186938083333333
+"features_500_ln_ic50_1se",10,4,"SIDM00950",-2.543222,"Target mean",0.186938083333333
+"features_500_ln_ic50_1se",10,5,"SIDM00453",-1.388208,"Individual",-0.0408112916666666
+"features_500_ln_ic50_1se",10,5,"SIDM00582",2.615533,"Individual",-0.0408112916666666
+"features_500_ln_ic50_1se",10,5,"SIDM00664",3.528073,"Individual",-0.0408112916666666
+"features_500_ln_ic50_1se",10,5,"SIDM00899",3.809457,"Individual",-0.0408112916666666
+"features_500_ln_ic50_1se",10,5,"SIDM01138",-2.798807,"Individual",-0.0408112916666666
+"features_500_ln_ic50_1se",10,5,"SIDM01139",0.347126,"Individual",-0.0408112916666666
+"features_500_ln_ic50_1se",10,5,"SIDM00453",-1.388208,"Overall",0.0939585928761519
+"features_500_ln_ic50_1se",10,5,"SIDM00582",2.615533,"Overall",0.644809368862906
+"features_500_ln_ic50_1se",10,5,"SIDM00664",3.528073,"Overall",0.271878863589731
+"features_500_ln_ic50_1se",10,5,"SIDM00899",3.809457,"Overall",0.243460436432755
+"features_500_ln_ic50_1se",10,5,"SIDM01138",-2.798807,"Overall",-0.0166221579974428
+"features_500_ln_ic50_1se",10,5,"SIDM01139",0.347126,"Overall",0.273504446699768
+"features_500_ln_ic50_1se",10,5,"SIDM00453",-1.388208,"Pretrained",0.019055879570081
+"features_500_ln_ic50_1se",10,5,"SIDM00582",2.615533,"Pretrained",0.459736500359484
+"features_500_ln_ic50_1se",10,5,"SIDM00664",3.528073,"Pretrained",0.161392096140944
+"features_500_ln_ic50_1se",10,5,"SIDM00899",3.809457,"Pretrained",0.138657354415364
+"features_500_ln_ic50_1se",10,5,"SIDM01138",-2.798807,"Pretrained",-0.0694087211287948
+"features_500_ln_ic50_1se",10,5,"SIDM01139",0.347126,"Pretrained",0.162692562628974
+"features_500_ln_ic50_1se",10,5,"SIDM00453",-1.388208,"Target mean",-0.0408112916666667
+"features_500_ln_ic50_1se",10,5,"SIDM00582",2.615533,"Target mean",-0.0408112916666667
+"features_500_ln_ic50_1se",10,5,"SIDM00664",3.528073,"Target mean",-0.0408112916666667
+"features_500_ln_ic50_1se",10,5,"SIDM00899",3.809457,"Target mean",-0.0408112916666667
+"features_500_ln_ic50_1se",10,5,"SIDM01138",-2.798807,"Target mean",-0.0408112916666667
+"features_500_ln_ic50_1se",10,5,"SIDM01139",0.347126,"Target mean",-0.0408112916666667

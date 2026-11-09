@@ -1,0 +1,6 @@
+"scenario","outcome","features","lambda_choice","repeats"
+"primary_1000_ln_ic50_1se","LN_IC50",1000,"lambda.1se",20
+"features_500_ln_ic50_1se","LN_IC50",500,"lambda.1se",10
+"features_2000_ln_ic50_1se","LN_IC50",2000,"lambda.1se",10
+"auc_1000_1se","AUC",1000,"lambda.1se",10
+"lambda_min_1000_ln_ic50","LN_IC50",1000,"lambda.min",10

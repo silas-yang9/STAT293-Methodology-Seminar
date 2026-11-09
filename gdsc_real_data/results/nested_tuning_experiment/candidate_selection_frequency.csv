@@ -1,0 +1,11 @@
+"method","candidate_id","selected_fits","selection_frequency"
+"Individual","f1000_1se",5,0.2
+"Overall","f1000_1se",1,0.04
+"Pretrained","f1000_1se",3,0.12
+"Individual","f1000_min",6,0.24
+"Overall","f1000_min",20,0.8
+"Pretrained","f1000_min",9,0.36
+"Individual","f2000_1se",6,0.24
+"Individual","f2000_min",8,0.32
+"Overall","f2000_min",4,0.16
+"Pretrained","f2000_min",13,0.52

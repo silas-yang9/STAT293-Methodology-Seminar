@@ -1,0 +1,6 @@
+role,cancer_group,n
+external,Colorectal Carcinoma,47
+external,Gastric Carcinoma,28
+external,Non-Small Cell Lung Carcinoma,88
+external,Ovarian Carcinoma,40
+target,Pancreatic Carcinoma,30

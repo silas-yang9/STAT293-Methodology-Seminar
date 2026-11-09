@@ -1,0 +1,8 @@
+"scenario_id","factor","level","mean_pretrained_minus_individual","pretrained_win_rate_vs_individual","mean_pretrained_minus_overall","pretrained_win_rate_vs_overall"
+"baseline","baseline","baseline",-1.04820192041425,0.92,-0.613373932769008,0.67
+"p_1000","dimension","1000",-1.20836875384349,0.91,-0.390562219188275,0.62
+"p_250","dimension","250",-0.661622422765564,0.84,-0.514102367276439,0.65
+"s_20","sparsity","20",-2.76163253163914,0.94,0.35291985909479,0.31
+"s_5","sparsity","5",-0.404811978903631,0.87,-0.6633965579107,0.85
+"snr_0.8","noise","0.8",-1.32592285586886,0.89,0.0964553116584631,0.44
+"snr_3.0","noise","3.0",-0.965156944292952,0.92,-1.25188001664774,0.92

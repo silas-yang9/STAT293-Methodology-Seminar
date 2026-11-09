@@ -1,0 +1,12 @@
+"alpha","fold_count","scenario","proportion"
+"0",4,"features_500_ln_ic50_1se",0.08
+"0.1",8,"features_500_ln_ic50_1se",0.16
+"0.2",9,"features_500_ln_ic50_1se",0.18
+"0.3",7,"features_500_ln_ic50_1se",0.14
+"0.4",4,"features_500_ln_ic50_1se",0.08
+"0.5",4,"features_500_ln_ic50_1se",0.08
+"0.6",3,"features_500_ln_ic50_1se",0.06
+"0.7",3,"features_500_ln_ic50_1se",0.06
+"0.8",4,"features_500_ln_ic50_1se",0.08
+"0.9",2,"features_500_ln_ic50_1se",0.04
+"1",2,"features_500_ln_ic50_1se",0.04

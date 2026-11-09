@@ -1,0 +1,8 @@
+"scenario_id","factor","level","p","active_size","target_snr"
+"baseline","baseline","baseline",500,10,1.8
+"p_250","dimension","250",250,10,1.8
+"p_1000","dimension","1000",1000,10,1.8
+"snr_0.8","noise","0.8",500,10,0.8
+"snr_3.0","noise","3.0",500,10,3
+"s_5","sparsity","5",500,5,1.8
+"s_20","sparsity","20",500,20,1.8
